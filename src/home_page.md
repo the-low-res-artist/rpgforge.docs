@@ -1,3 +1,3 @@
 # Documentation Website
 
-coucou automatisé 13! it works !
+Hello and welcome to this documentation website !
