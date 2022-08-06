@@ -1,3 +1,3 @@
 # Documentation Website
 
-coucou automatisé 5 !
+coucou automatisé 6 !
