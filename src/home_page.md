@@ -11,10 +11,31 @@ Markdown langage :
 ##### title 5
 ###### title 6
 
-[ ] todo list
-[x] todo list
-[ ] todo list
-
+php
+```php
+<?php
+    phpinfo();
+?>
+```
+c++
+```cpp
+int main(int arg_c, char** arg_v)
+{
+    return 0;
+}
+```
+bash
+```bash
+echo toto
+git clone
+```
+html
+```html
+<html>
+  <head>
+  </head>
+</html>
+```
 ---
 separator
 
@@ -40,6 +61,11 @@ ordered list
 
 array :
 
-| title1 | title 2 |
-| --- | --- |
-element 1 | element 2
+|cell 1|cell 2|
+|--------|--------|
+|    A    |    B    |
+|    C    |    D    |
+
+
+![Sample image](https://c.tenor.com/WESW8x1CdXcAAAAM/pug-shocked.gif)
+![Sample image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
