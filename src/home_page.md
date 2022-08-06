@@ -1,3 +1,3 @@
 # Documentation Website
 
-coucou
+coucou autoatisé !
