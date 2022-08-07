@@ -1,5 +1,16 @@
 [book]
-authors = []
+title = PRODUCT_NAME
+authors = [Gif]
+description = "An engine design to build rpg games"
 language = "en"
 multilingual = false
 src = "src"
+
+[output.html]
+theme = "my-theme"
+default-theme = "navy"
+preferred-dark-theme = "navy"
+
+[output.html.print]
+enable = true    # include support for printable output
+page-break = true # insert page-break after each chapter

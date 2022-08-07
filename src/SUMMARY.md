@@ -1,8 +1,43 @@
 # Summary
 
-[Home Page](home_page.md)
+[Welcome !](./welcome.md)
 
-# Chapters
-- [Chapter 1](./chapter_1.md)
-- [Chapter 2](./chapter_2.md)
-- [Chapter 3](./chapter_3.md)
+# Introduction
+- [What is PRODUCT_NAME]()
+- [Where to get PRODUCT_NAME]()
+
+# Installation
+- [Unity version supported]()
+- [Installation process]()
+
+# First build
+- [Press play !]()
+- [Chapter 2]()
+- [Chapter 3]()
+
+# Basic mode
+- [Chapter 1]()
+- [Chapter 2]()
+- [Chapter 3]()
+
+# Advanced mode
+- [Chapter 1]()
+- [Chapter 2]()
+- [Chapter 3]()
+
+# Pro mode
+- [Chapter 1]()
+- [Chapter 2]()
+- [Chapter 3]()
+
+# Available templates
+- [Template 1]()
+- [Template 2]()
+- [Template 3]()
+- [Template 4]()
+
+----
+
+[Support]()
+
+[Socials]()

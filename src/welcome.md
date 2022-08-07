@@ -1,4 +1,4 @@
-# Documentation Website
+# RPG Studio Pro
 
 Hello and welcome to this documentation website !
 
@@ -15,6 +15,13 @@ php
 ```php
 <?php
     phpinfo();
+?>
+```
+diff
+```diff
+<?php
+-    phpinf();
++    phpinfo();
 ?>
 ```
 c++
@@ -53,6 +60,11 @@ unordered list
 * 1
 * 2
 * 3
+
+checkbox list
+- [ ] 1
+- [x] 2
+- [ ] 3
 
 ordered list
 1. 1
