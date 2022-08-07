@@ -1,13 +1,12 @@
 [book]
-title = PRODUCT_NAME
-authors = [Gif]
+title = "PRODUCT_NAME"
+authors = ["Gif"]
 description = "An engine design to build rpg games"
 language = "en"
 multilingual = false
 src = "src"
 
 [output.html]
-theme = "my-theme"
 default-theme = "navy"
 preferred-dark-theme = "navy"
 
