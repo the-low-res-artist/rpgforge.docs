@@ -1,8 +1,12 @@
 # Introduction
 
-**PRODUCT_NAME** is an engine to build 2D top down RPG games.
+**PRODUCT_NAME** is an engine to build topdown RPG games. It is powered by Unity to allow game developper to maker their game without touch a single line of code !
 
-Markdown langage :
+
+|Basic Mode | Advanced Mode| Pro Mode |
+|:--------:|:--------:|:--------:|
+|![basic_mode.gif](./basic_mode.gif)|![advanced_mode.gif](./advanced_mode.gif)|![pro_mode.gif](./pro_mode.gif)|
+
 
 # title 1
 ## title 2
@@ -20,8 +24,10 @@ php
 diff
 ```diff
 <?php
+     echo "hello !"
 -    phpinf();
 +    phpinfo();
+     echo "bye !"
 ?>
 ```
 c++
