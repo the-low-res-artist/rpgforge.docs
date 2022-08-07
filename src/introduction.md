@@ -1,6 +1,6 @@
-# PRODUCT_NAME
+# Introduction
 
-Hello and welcome to this documentation website !
+**PRODUCT_NAME** is an engine to build 2D top down RPG games.
 
 Markdown langage :
 
@@ -34,7 +34,7 @@ int main(int arg_c, char** arg_v)
 bash
 ```bash
 echo toto
-git clone
+git clone http://xxx
 ```
 html
 ```html
