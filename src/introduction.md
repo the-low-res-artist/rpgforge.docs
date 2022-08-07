@@ -1,4 +1,4 @@
-# RPG Studio Pro
+# PRODUCT_NAME
 
 Hello and welcome to this documentation website !
 
