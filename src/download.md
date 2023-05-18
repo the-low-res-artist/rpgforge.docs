@@ -5,10 +5,12 @@ This section covers the elements to download :
 1. **Unity** latest version 2021.3
 1. **RPG Power Forge** is the Unity package to install with Unity.
 
+---
 ## Download Unity Hub
 
 Go to https://unity.com/download. This page will ask you to download the **Unity Hub**. Once installed on your computer, launch it.
 
+---
 ## Download Unity
 
 **Unity** has many versions. To easily download and switch versions, the **Unity Hub** comes in handy. With the **Unity Hub** installed and opened, select [Installs].
@@ -23,13 +25,14 @@ Choose the last **Unity** 2021.3 version (recommended). In this example, this is
 
 ![install_unity_version.png](./../media/download/install_unity_version.png)
 
-Before runnig the download + installation, select the additionnal WebGL Build Support (to be able to export your projects in WebGL, usefull for itch.io for example). If not, it is always possible to download it later.
+Before runnig the download + installation, select the additionnal [WebGL Build Support] (to be able to build and export your projects in WebGL, mandatory for itch.io for example). If not, it is always possible to download it later.
 
 ![install_webgl.png](./../media/download/install_webgl.png)
 
 Once you have clicked [Install] you can see the download and installation progress in the **Unity Hub**.
 ![install_progress.png](./../media/download/install_progress.png)
 
+---
 ## Download RPG Power Forge
 
 If you have access to the early-access of this package, then we have gave you the download link already. By now you should have downloaded a .unitypackage.
