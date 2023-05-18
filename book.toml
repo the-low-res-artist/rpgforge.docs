@@ -1,7 +1,7 @@
 [book]
-title = "PRODUCT_NAME"
-authors = ["Gif"]
-description = "An engine design to build rpg games"
+title = "RPG Power Forge documentation"
+authors = ["Gif", "Chiw", "Noiracide"]
+description = "The Unity package to create RPG with ease"
 language = "en"
 multilingual = false
 src = "src"
