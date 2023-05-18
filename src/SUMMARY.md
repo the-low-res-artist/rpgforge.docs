@@ -4,4 +4,4 @@
 
 ----
 
-[Socials]()
+[Socials](https://twitter.com/RPGPowerForge)
