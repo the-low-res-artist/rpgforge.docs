@@ -32,4 +32,6 @@ Once you have clicked [Install] you can see the download and installation progre
 
 ## Download RPG Power Forge
 
-If you have access to the early-access of this package, then we have gave you the download link already.
+If you have access to the early-access of this package, then we have gave you the download link already. By now you should have downloaded a .unitypackage.
+
+![rpf_unitypackage.png](./../media/download/rpf_unitypackage.png)
