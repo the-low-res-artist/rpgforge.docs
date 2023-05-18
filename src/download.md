@@ -23,11 +23,11 @@ Choose the last Unity 2021.3 version (recommended). In this example, this is the
 
 ![install_unity_version.png](./../media/download/install_unity_version.png)
 
-Before installation, select the additionnal WebGL Build Support (to be able to export your projects in WebGL, usefull for itch.io for example)
+Before runnig the download + installation, select the additionnal WebGL Build Support (to be able to export your projects in WebGL, usefull for itch.io for example). If not, it is always possible to download it later.
 
 ![install_webgl.png](./../media/download/install_webgl.png)
 
-You can see the download and installation progress in the Unity Hub.
+Once you have clicked [Install] you can see the download and installation progress in the Unity Hub.
 ![install_progress.png](./../media/download/install_progress.png)
 
 ## Download RPG Power Forge
