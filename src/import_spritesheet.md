@@ -110,7 +110,7 @@ Once created, the animation can be selected, renamed, edited and run with the [P
 
 ![import_animation_created.png](./../media/import/import_animation_created.PNG)
 
-### Perform actions on sprites
+### Perform actions on individual sprites
 
 
 
