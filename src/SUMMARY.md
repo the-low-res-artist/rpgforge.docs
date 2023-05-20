@@ -12,9 +12,9 @@
         - [Place tiles]()
         - [Place props]()
     - [Test your game]()
-        - [Play mode](./play_mode.md)
+        - [Play mode]()
 - [Export your game]()
-    - [To itch.io](./export_to_itchio.md)
+    - [To itch.io]()
 ----
 
 [Road map](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
