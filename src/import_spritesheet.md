@@ -11,10 +11,7 @@ To import tiles, you need to access the **Import Assets** User Interface (UI). I
 
 The UI let you choose what kind of assets you want to import.
 
-![import_ui2.png](./../media/import/import_ui2.PNG)
-xx
 ![import_ui.png](./../media/import/import_ui.png)
-cc
 
 ---
 ## Import Animations
