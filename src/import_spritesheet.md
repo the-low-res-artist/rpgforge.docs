@@ -100,17 +100,28 @@ Property|Type|Function|Example
 Animation Name|String|Name of the animation you are creating|animation_01
 Frame Rate|Integer|How fast the animation will run|8
 
+To manually create the desired animation, you can :
+* drag-drop sprites to align them accordingly
+* FlipX
+* FlipY
+* Delete a sprite you don't need
+
 ### Create an animation
 
 Select at least 2 neightboor sprites thanks to the SHIFT key and right-click.
 
 ![import_animation_create.png](./../media/import/import_animation_create.PNG)
 
-Once created, the animation can be selected, renamed, edited and run with the [Play] button.
+Once created, the animation can be selected, renamed, edited and preview-run with the [Play] button.
 
 ![import_animation_created.png](./../media/import/import_animation_created.PNG)
 
-### Perform actions on individual sprites
+### Actions on animation
+To manually create the desired animation, you can :
+* drag-drop sprites to align them accordingly
+* FlipX
+* FlipY
+* Delete the sprite
 
 
 
