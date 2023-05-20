@@ -7,11 +7,11 @@ This section covers the import of a spritesheet into **RPG Power Forge** as well
 
 To import tiles, you need to access the **Import Assets** User Interface (UI). It is located under the **RPG Power Forge** menu.
 
-![import_button.png](media/import/import_button.png)
+![import_button.png](./../media/import/import_button.png)
 
 The UI let you choose what kind of assets you want to import.
 
-![import_ui.png](media/import/import_ui.png)
+![import_ui.png](./../media/import/import_ui.PNG)
 
 ---
 ## Import Animations
