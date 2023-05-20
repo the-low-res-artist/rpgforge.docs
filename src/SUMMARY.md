@@ -1,4 +1,5 @@
 # User Guide
+[Index](./index.md)
 - [Download](./download.md)
 - [Create a new project](./new_project.md)
 - [Map creation](./new_map.md)
