@@ -4,7 +4,7 @@
     - [Create a new project](./new_project.md)
 - [Getting started]()
     - [Import assets]()
-        - [Import animations](./import_spritesheet.md)
+        - [Import animations]()
         - [Import sprites]()
         - [Import tiles]()
     - [Create maps]()
