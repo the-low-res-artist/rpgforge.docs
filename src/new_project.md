@@ -1,6 +1,6 @@
 # Create a new project
 
-This section covers the creation of a new Unity project with RPG Power Forge:
+This section covers the creation of a **RPG Power Forge** project :
 1. You will create a new **Unity** project from the **Unity Hub**
 1. You will import **RPG Power Forge** in your new **Unity** porject.
 
@@ -61,28 +61,8 @@ The Import **Unity** package window displays all the items in the package alread
 
 ![import_loading_2.png](./../media/new_project/import_loading_2.png)
 
-Once restarted, **Unity** now has **RPG Power Forge** installed. 
+Once restarted, **Unity** now has **RPG Power Forge** installed. You will find a new drop-down menu in th top bar, named "**RPG Power Forge**".
 
 ![import_completed.png](./../media/new_project/import_completed.png)
 
-Congratulations !
-
----
-## Unity UI overview
-If you are not familiar with Unity, here is a quick overview.
-
-The [Scene] window is where you place your objects to create a map.
-
-![unity_layout_scene.png](./../media/new_project/unity_layout_scene.png)
-
-The [Project] window is where you can browse all of your objects.
-
-![unity_layout_project.png](./../media/new_project/unity_layout_project.png)
-
-The [Hierarchy] window is where you can organize all of your objects in the current scene.
-
-![unity_layout_hierarchy.png](./../media/new_project/unity_layout_hierarchy.png)
-
-The [Inspector] window is where you can edit the properties of the current selected object.
-
-![unity_layout_inspector.png](./../media/new_project/unity_layout_inspector.png)
+Congratulations ! With **RPG Power Forge** installed, you can now head to creation !

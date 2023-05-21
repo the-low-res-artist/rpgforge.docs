@@ -17,7 +17,7 @@ Map creation has a few properties :
 
 Property|Type|Function|Example
 --------|--------|--------|--------
-File Name|String|Name of the map. Will serve as a filename for the .scene file| new_map
+File Name|String|Name of the map. Will serve as a filename for the .scene file| "new_map" or "my map 001"
 Camera|Enum|    Type of camera to use to render the map    |DefaultTopDownCamera
 Avatar|Enum|    Type of the playable character to instanciate on the map    |DefaultTopDownAvatarParameters
 
@@ -27,8 +27,8 @@ Select [Create] to create a new map.
 
  Once the map is created, you will see a bunch of default object added :
 * [Root] object: every layers are attached to it
-    * [Bottom Layer] object : a layer to draw floor tiles
+    * [Bottom Layer] object : a layer to draw tiles
     * [Middle Layer] object : a layer to draw tiles
-    * [Upper Layer] object : a layer to draw uppers tiles
+    * [Upper Layer] object : a layer to draw tiles
     * [Start] object : where the player is instanciate in Play Mode.
 
