@@ -7,7 +7,7 @@ To export your game to itch.io, you will need an itch.io project first.
 ---
 ## Create a project on itchio
 
-Go to https://itch.io. In the top-right corner of the webpage, select [Register]
+Go to https://itch.io/. In the top-right corner of the webpage, select [Register]
 
 ![register.png](./../media/export_itchio/register.png)
 
@@ -23,7 +23,7 @@ Once logged in, go to your profile settings and ask for a verification.
 
 ### Create a new project
 
-Go to your dashboard (https://itch.io/dashboard) and select [Create new project].
+Go to your dashboard (https://itch.io/dashboard/) and select [Create new project].
 
 ![create_new_project.png](./../media/export_itchio/create_new_project.png)
 
@@ -59,7 +59,7 @@ Property|Type|Function|Example
 --------|--------|--------|--------
 Version|Integers|The version (Major.Minor.Patch) of your game | 0.0.1
 Product Name|String|Name of your game (no space)| My_awesome_game
-Company Name|String|Name of your company (no space)| My_awesome_company
+Company Name|String|Name of your company| My awesome company
 Directory|Selector|Path of the output folder where the game is built (no space)| C:/output
 
 > 🐲 **Product Name** and **Directory** must not have spaces !
@@ -92,4 +92,4 @@ Itch.io webpage also notifies you.
 
 ![itchio_notification.png](./../media/export_itchio/itchio_notification.PNG)
 
-Congratulation, your game is now online ! Test my sample map here : https://gif-superretroworld.itch.io/rpg-power-forge-export?secret=d2TMyzQ8Ero5Kblk8OEx9WgMp0
+Congratulation, your game is now online ! Test my sample map here : https://gif-superretroworld.itch.io/rpg-power-forge-export?secret=d2TMyzQ8Ero5Kblk8OEx9WgMp0/
