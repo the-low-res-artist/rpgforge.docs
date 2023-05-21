@@ -1,6 +1,6 @@
 # Import a spritesheet
 
-This section covers the import of a spritesheet into **RPG Power Forge** as well as the creation of animations.
+This section covers the import of a tileset into **RPG Power Forge**.
 
 ---
 ## Import Assets UI
