@@ -14,7 +14,7 @@
     - [Test your game]()
         - [Play mode]()
 - [Export your game]()
-    - [To itch.io]()
+    - [To itch.io](./export_to_itchio.md)
 ----
 [Road map](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 [Socials](https://twitter.com/RPGPowerForge?s=20)
