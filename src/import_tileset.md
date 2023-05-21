@@ -14,47 +14,44 @@ The UI let you choose what kind of assets you want to import.
 ![import_ui.png](./../media/import/import_ui.PNG)
 
 ---
-## Import Animations
+## Import Tiles
 
-You can import a spritesheet to convert it into a **Unity** animation file directly. For instance, let's say I want to import this spritesheet (a set of 8 characters walking in 4 directions, RPG Maker MZ convention):
+You can import a set of tiles in **RPG Power Forge**. Let's try with the following sample.
 
-![spitesheet.png](./../media/import/spritesheet.png)
+![tileset.png](./../media/import/tileset.png)
 
-To do so, select [Animations]
+To import this tileset, select [Tiles]
 
-![import_select_animations.png](./../media/import/import_select_animations.PNG)
+![import_select_tiles.png](./../media/import/import_select_tiles.png)
 
-Then [Sprite Sheet]
+Then [Tileset]
 
-![import_select_spritesheet.png](./../media/import/import_select_spritesheet.PNG)
+![import_select_tileset.png](./../media/import/import_select_tileset.PNG)
 
-The explorer opens, asking you to select the file itself. Here we will select the spritesheet.png shown above. Once selected, the spritesheet is loaded in the UI.
+The explorer opens, asking you to select the file itself. Here we will select the tileset.png shown above. Once selected, the tileset is loaded in the UI.
 
-![import_properties_spritesheet.png](./../media/import/import_properties_spritesheet.PNG)
+![import_properties_tileset.png](./../media/import/import_properties_tileset.PNG)
 
 The following properties do not need to be edited and will be automatically updated after the slice.
 
 Property|Type|Function|Example
 --------|--------|--------|--------
-Name|String|Name of the selected sprite| sprite_001
-Position|Integer|X and Y positions (in pixel) of the sprite(s) on the spritesheet|[0;0]
-Size|Integer|X and Y sizes (in pixel) of the sprite(s) on the spritesheet|[16;20]
-Pivot|Selector|Pivot position on the sprite(s) (fast selection)|bottom-center
-Pivot Offset|Integer|Pivot offset on the sprite(s) (pixel selection)|[0;0]
+Name|String|Name of the selected tile| sprite_001
+Position|Integer|X and Y positions (in pixel) of the selected tile on the tileset|[0;0]
+Size|Integer|X and Y sizes (in pixel) of the selected tile on the tileset|[16;20]
 
 ---
 ## Slice
 
-![import_slice_spritesheet.png](./../media/import/import_slice_spritesheet.PNG)
+![import_slice_tileset.png](./../media/import/import_slice_tileset.PNG)
 
-Select [Slice] to be able to slice your spritesheet according to the following properties.
+Select [Slice] to be able to slice your tileset into tiles according to the following properties.
 
 Property|Type|Function|Example
 --------|--------|--------|--------
 Method|Enum|Slice method (Pixel Size or Column & Rows numbers)| Pixel Size
-Pixel Size|Integer|X and Y sizes (in pixel) of the sprite(s) on the spritesheet|[16;20]
-Pivot|Selector|Pivot position on the sprite(s) (fast selection)|bottom-center
-Pivot Offset|Integer|Pivot offset on the sprite(s) (pixel selection)|[0;0]
+Pixel Size|Integer|X and Y sizes (in pixel) of a tile on the tileset|[16;20]
+Row & Column |Integer|number of rows and columns of tiles on the tileset|[16;16]
 
 ---
 ## Set Transparent Colors
@@ -64,97 +61,35 @@ Pivot Offset|Integer|Pivot offset on the sprite(s) (pixel selection)|[0;0]
 ---
 ## Remove Empty Sprites
 
-This action detects empty sprites (with only transparent pixels) and removes them before the sprites are loaded in **RPG Power Forge**.
+This action detects empty tiles (with only transparent pixels) and removes them before the tiles are loaded in **RPG Power Forge**.
 
 ---
-## Other actions
+## Template
 
-At any time you can always select an individual sprite, or hold SHIFT key for multiple selection. Then right-click to access the sub-menu : Merge or Delete.
+Apply a template to your tileset (if it's an RM autotile). For example :
 
-![import_delete_spritesheet.png](./../media/import/import_delete_spritesheet.PNG)
+![import_template.png](./../media/import/import_template.png)
 
-### Merge
-
-Merge 2 (or more) sprites together to make 1 sprite.
-
-### Delete
-
-Delete the selected sprite(s). The deleted sprites are not loaded in **RPG Power Forge**.
+Property|Function
+--------|--------|
+RM MV-MZ-VX A1|Template for animated autotiles
+RM MV-MZ-VX A2|Template for floor autotiles
+RM MV-MZ-VX A3|Template for roof and wall autotiles
+RM MV-MZ-VX A4|Template for floor and wall autotiles
 
 ---
 ## Apply the slice
 
-Once you are OK, press [Apply] to validate your setup. Your spritesheet will be located in *Assets/Project/Sprites* folder.
-
-![import_apply_spritesheet.png](./../media/import/import_apply_spritesheet.PNG)
+Once you are OK, press [Apply] to validate your setup. Your tileset will be located in *Assets/Project/Sprites* folder.
 
 ---
-## Create animations
+## Edit tiles
 
-The next UI allows you to create animations from all of the sprites you have previously sliced.
+The next UI allows you to edit each tile and define if they need a collision.
 
-![import_animation.png](./../media/import/import_animation.PNG)
+![import_edit_tiles.png](./../media/import/import_edit_tiles.png)
 
-You can move sprites freely (like cards) to rearange them as you like. WIth right-click on a sprite you can also :
-* FlipX
-* FlipY
-* Delete
 
-### Create an animation with a template
-If you are importing a spritesheet that respects an RPG Maker convention. You can use one of our templates to generate all of the animations at once.
+Once you are OK, press [Apply]. Your tiles will be located in *Assets/Project/Tiles* folder.
 
-![import_select_template.png](./../media/import/import_select_template.png)
-
-*Tadaaa !* The template have been applied. All of the animations have been created correctly.
-
-![import_result_template.png](./../media/import/import_result_template.png)
-
-Below the available templates :
-
-RM|Convention|Details
---------|--------|--------
-2000-2003|Character| 4 x 2 characters spritesheet
-2000-2003|Vertical| 4 x 2 item spritesheet (4 vertical frames)
-2000-2003|Horizontal| 4 x 2 item spritesheet (3 horizontal frames)
-XP|Character| 1 character spritesheet
-XP|Vertical| 1 item spritesheet (4 vertical frames)
-XP|Horizontal| 1 item spritesheet (3 horizontal frames)
-VX/MV/MZ|Character| 4 x 2 characters spritesheet
-VX/MV/MZ|Vertical| 4 x 2 item spritesheet (4 vertical frames)
-VX/MV/MZ|Horizontal| 4 x 2 item spritesheet (3 horizontal frames)
-### Create your own template
-
-*In developpement*
-
-### Create an animation manually
-
-Select at least 2 neightboor sprites thanks to the SHIFT key and right-click.
-
-![import_animation_create.png](./../media/import/import_animation_create.PNG)
-
-Once created, the animation can be selected, renamed, edited and preview-run with the [Play] button.
-
-![import_animation_created.png](./../media/import/import_animation_created.PNG)
-
-Property|Type|Function|Example
---------|--------|--------|--------
-Animation Name|String|Name of the animation you are creating|animation_01
-Frame Rate|Integer|How fast the animation will run|8
-
----
-## Apply the animations
-
-Once you are OK, press [Apply] to generate all of the animation you have created.
-
-You can rename the animations if you are using a template.
-
-![import_save_result.png](./../media/import/import_save_result.png)
-
-Your animations will be located in *Assets/Project/Animations* folder, grouped under an **Animation Collection**.
-
-![import_animation_collection_location.png](./../media/import/import_animation_collection_location.png)
-
----
-## Edit animations
-
-You can always edit your animations by double-clicking on the **Animation Collection**.
+![import_tile_collection_location.png](./../media/import/import_tile_collection_location.png)

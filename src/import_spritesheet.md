@@ -37,10 +37,10 @@ The following properties do not need to be edited and will be automatically upda
 Property|Type|Function|Example
 --------|--------|--------|--------
 Name|String|Name of the selected sprite| sprite_001
-Position|Integer|X and Y positions (in pixel) of the sprite(s) on the spritesheet|[0;0]
-Size|Integer|X and Y sizes (in pixel) of the sprite(s) on the spritesheet|[16;20]
-Pivot|Selector|Pivot position on the sprite(s) (fast selection)|bottom-center
-Pivot Offset|Integer|Pivot offset on the sprite(s) (pixel selection)|[0;0]
+Position|Integer|X and Y positions (in pixel) of the selected sprite on the spritesheet|[0;0]
+Size|Integer|X and Y sizes (in pixel) of the selected sprite on the spritesheet|[16;20]
+Pivot|Selector|Pivot position on the selected sprite (fast selection)|bottom-center
+Pivot Offset|Integer|Pivot offset on the selected sprite (pixel selection)|[0;0]
 
 ---
 ## Slice
@@ -52,7 +52,8 @@ Select [Slice] to be able to slice your spritesheet according to the following p
 Property|Type|Function|Example
 --------|--------|--------|--------
 Method|Enum|Slice method (Pixel Size or Column & Rows numbers)| Pixel Size
-Pixel Size|Integer|X and Y sizes (in pixel) of the sprite(s) on the spritesheet|[16;20]
+Pixel Size|Integer|X and Y sizes (in pixel) of a single sprite on the spritesheet|[16;20]
+Row & Column |Integer|number of rows and columns of sprites on the spritesheet|[12;8]
 Pivot|Selector|Pivot position on the sprite(s) (fast selection)|bottom-center
 Pivot Offset|Integer|Pivot offset on the sprite(s) (pixel selection)|[0;0]
 
