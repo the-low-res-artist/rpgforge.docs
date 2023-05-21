@@ -1,4 +1,4 @@
-# Import a spritesheet
+# Import a tileset
 
 This section covers the import of a tileset into **RPG Power Forge**.
 
