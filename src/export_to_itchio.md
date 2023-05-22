@@ -78,7 +78,9 @@ Project Name|String|Name of your itch.io project. If your project page is [gif-s
 Channel Name|String|A tag for your itch.io project (no space)| web
 
 
-> 🐲 **Account Name** and **Project Name** fields are mandatory to perform the upload correctly ! On the first export you will be asked to link **RPG Power Forge** with **itch.io**. Click [Create] to do so (the web browser opens : connect to your [itch.io](https://itch.io) account and authorise "butler", the [itch.io](https://itch.io) game uploader).
+> 🐲 **Account Name** and **Project Name** fields are mandatory to perform the upload correctly !
+
+> 🐲 On the first export you will be asked to link **RPG Power Forge** with **itch.io**. Click [Create] to do so (the web browser opens : connect to your [itch.io](https://itch.io) account and authorise "butler", the [itch.io](https://itch.io) game uploader).
 
 ![export_web_authorize.png](./../media/export_itchio/export_web_authorize.png)
 
