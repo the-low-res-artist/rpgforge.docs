@@ -38,6 +38,11 @@ Now select a prop you want to place on the map. The prop is now snap to the mous
 
 ![place_prop_tree.gif](./../media/place_props/place_prop_tree.gif)
 
+Have fun creating maps !
+
+![result.png](./../media/place_props/result.PNG)
+
+
 ---
 ## Default props
 
