@@ -10,7 +10,7 @@
     - [Create maps]()
         - [Create a map](./new_map.md)
         - [Place tiles](./place_tiles.md)
-        - [Place props]()
+        - [Place props](./place_props.md)
     - [Test your game]()
         - [Play mode]()
 - [Export your game]()

@@ -5,6 +5,19 @@ This section covers the import of a tileset into **RPG Power Forge**.
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ---
+## Requirement
+
+First, you should check if the default resolution property match the tileset you want to import. Project properties are located under the **RPG Power Forge** top-menu.
+
+![project_location.png](./../media/place_tiles/project_location.png)
+
+The property **Pixel per Unit** should match the resolution of the tiles you are importing (16 is default for a 16x16 resolution tileset).
+
+![ppu.png](./../media/place_tiles/ppu.png)
+
+> 🐲 Weird results if not match accordingly !
+
+---
 ## Import Assets UI
 
 To import tiles, you need to access the **Import Assets** User Interface (UI). It is located under the **RPG Power Forge** menu.
@@ -18,7 +31,7 @@ The UI let you choose what kind of assets you want to import.
 ---
 ## Import Tiles
 
-You can import a set of tiles in **RPG Power Forge**. Let's try with the following sample.
+You can import a set of tiles in **RPG Power Forge**. Let's try with the following sample (a 16x16 resolution tileset).
 
 ![tileset.png](./../media/import/tileset.png)
 
