@@ -2,6 +2,7 @@
 
 This section covers the creation of a new map (as known as *Scene* in **Unity**) :
 
+> 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ---
 ## Create a new map
@@ -31,4 +32,3 @@ Select [Create] to create a new map.
     * [Middle Layer] object : a layer to draw tiles
     * [Upper Layer] object : a layer to draw tiles
     * [Start] object : where the player is instanciate in Play Mode.
-

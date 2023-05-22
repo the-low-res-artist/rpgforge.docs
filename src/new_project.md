@@ -4,6 +4,8 @@ This section covers the creation of a **RPG Power Forge** project :
 1. You will create a new **Unity** project from the **Unity Hub**
 1. You will import **RPG Power Forge** in your new **Unity** porject.
 
+> 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
+
 ---
 ## Create a new Unity project
 

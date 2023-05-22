@@ -4,6 +4,8 @@ This section covers the export of a game made with **RPG Power Forge** to [itch.
 
 To export your game to [itch.io](https://itch.io), you will need an [itch.io](https://itch.io) project first.
 
+> 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
+
 ---
 ## Create a project on itchio
 
@@ -83,6 +85,8 @@ Channel Name|String|A tag for your itch.io project (no space)| web
 When everything is set, you can click [Build].
 
 ![export_web_build.png](./../media/export_itchio/export_web_build.png)
+
+> 🐲 First export can be a bit long (a few minutes) ! Next iterations are much faster.
 
 When the export is done, you can see logs in the Console Window, telling your game has been uploaded.
 

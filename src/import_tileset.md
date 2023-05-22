@@ -2,6 +2,8 @@
 
 This section covers the import of a tileset into **RPG Power Forge**.
 
+> 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
+
 ---
 ## Import Assets UI
 
@@ -77,6 +79,8 @@ RM MV-MZ-VX A2|Template for floor autotiles
 RM MV-MZ-VX A3|Template for roof and wall autotiles
 RM MV-MZ-VX A4|Template for floor and wall autotiles
 
+> 🐲 Templates are super useful !
+
 ---
 ## Apply the slice
 
@@ -93,3 +97,5 @@ The next UI allows you to edit each tile and define if they need a collision.
 Once you are OK, press [Apply]. Your tiles will be located in *Assets/Project/Tiles* folder.
 
 ![import_tile_collection_location.png](./../media/import/import_tile_collection_location.png)
+
+> 🐲 This is a **Tile Collection**. Double-click this object in your Project window to edit your tiles if necessary !

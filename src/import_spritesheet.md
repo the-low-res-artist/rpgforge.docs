@@ -2,6 +2,8 @@
 
 This section covers the import of a spritesheet into **RPG Power Forge** as well as the creation of animations.
 
+> 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
+
 ---
 ## Import Assets UI
 
@@ -123,10 +125,15 @@ XP|Horizontal| 1 item spritesheet (3 horizontal frames)
 VX/MV/MZ|Character| 4 x 2 characters spritesheet
 VX/MV/MZ|Vertical| 4 x 2 item spritesheet (4 vertical frames)
 VX/MV/MZ|Horizontal| 4 x 2 item spritesheet (3 horizontal frames)
+
+> 🐲 Templates are super useful !
+
+---
 ### Create your own template
 
 *In developpement*
 
+---
 ### Create an animation manually
 
 Select at least 2 neightboor sprites thanks to the SHIFT key and right-click.
@@ -155,7 +162,4 @@ Your animations will be located in *Assets/Project/Animations* folder, grouped u
 
 ![import_animation_collection_location.png](./../media/import/import_animation_collection_location.png)
 
----
-## Edit animations
-
-You can always edit your animations by double-clicking on the **Animation Collection**.
+> 🐲 This is an **Animation Collection**. Double-click this object in your Project window to edit your animations if necessary !

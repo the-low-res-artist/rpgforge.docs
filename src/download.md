@@ -5,10 +5,12 @@ This section covers the elements to download :
 1. **Unity** latest version 2021.3
 1. **RPG Power Forge** is the Unity package to install with Unity.
 
+> 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
+
 ---
 ## Download Unity Hub
 
-Go to https://unity.com/download. This page will ask you to download the **Unity Hub**. Once installed on your computer, launch it.
+Go to [unity.com/download](https://unity.com/download). This page will ask you to download the **Unity Hub**. Once installed on your computer, launch it.
 
 ---
 ## Download Unity
