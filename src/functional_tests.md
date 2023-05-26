@@ -22,14 +22,15 @@ Time| 16:44
 
 ## Summary
 
-Total Tests|Passed ✔️|Failed ❌
--------|--------|---
-3|2|1
+Total Tests|Passed ✔️|Failed ❌|Skipped ❌|Inconclusive ❔
+-------|--------|---|---|---
+4|3|1|0|0
 
 ## Details
 
 Test Name|Result
 -------|--------
-ThisTestWillFail|❌
-ThisTestWillPass|✔️
-ImportAssetWindow_testNavigation|✔️
+ImportAssetWindow_testNavigation| ✔️
+ShowMySpec| ✔️
+ThisTestWillFail| ❌
+ThisTestWillPass| ✔️
