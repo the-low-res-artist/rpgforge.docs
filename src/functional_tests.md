@@ -1,6 +1,6 @@
-# PFunctional tests
+# Functional tests
 
-This section covers the **Functional tests** results of RPG Power Forge.
+This section covers the **Functional tests** results of **RPG Power Forge**.
 
 *In development, the following numbers are not real*
 
