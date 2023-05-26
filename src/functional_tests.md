@@ -18,19 +18,18 @@ PC OS version| 10.0.19045.0
 PC host RAM| 31Go RAM
 PC host CPU| Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 cores)
 Date| May 26 2023
-Time| 16:44
+Time| 16:59
 
 ## Summary
 
 Total Tests|Passed ✔️|Failed ❌|Skipped ⏭️|Inconclusive ❔
 -------|--------|---|---|---
-4|3|1|0|0
+3|2|1|0|0
 
 ## Details
 
 Test Name|Result
 -------|--------
 ImportAssetWindow_testNavigation| ✔️
-ShowMySpec| ✔️
 ThisTestWillFail| ❌
 ThisTestWillPass| ✔️
