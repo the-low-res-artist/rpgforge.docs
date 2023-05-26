@@ -2,7 +2,7 @@
 
 This section covers the **Performance tests** results of **RPG Power Forge**.
 
-These tests run several times to get an average result (in ms). With a given threshold, we can determine if a UI is fast enough ⚡ or too slow 🐌.
+These tests run several times to get an average result (in ms). With a given threshold, we can determine if a test is fast enough ⚡ or too slow 🐌.
 
 *In development, the following numbers are not real*
 
@@ -18,7 +18,7 @@ Time|12:52
 
 ## Summary
 
-Total Tests|Pass (fast)|Failed (slow)
+Total Tests|Fast ⚡|Slow 🐌
 -------|--------|---
 1|1|0
 

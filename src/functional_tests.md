@@ -2,6 +2,9 @@
 
 This section covers the **Functional tests** results of **RPG Power Forge**.
 
+These tests make sure each functionnality run properly. With our specification for each feature, we can determine is a test is passed ✔️ or failed ❌.
+
+
 *In development, the following numbers are not real*
 
 ## Context
@@ -16,7 +19,7 @@ Time|12:52
 
 ## Summary
 
-Total Tests|Passed|Failed
+Total Tests|Passed ✔️|Failed ❌
 -------|--------|---
 3|2|1
 
