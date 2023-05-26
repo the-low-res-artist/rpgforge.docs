@@ -24,12 +24,12 @@ We are primarily developping features for 2D topdown RPG with an Action-RPG batt
 Yes, these 3 collections at least :
 
 Super Retro World
-https://gif-superretroworld.itch.io
+[https://gif-superretroworld.itch.io](https://gif-superretroworld.itch.io)
 
 Desire Fantasy
-https://noiracide.itch.io/df-grasslands
+[https://noiracide.itch.io/df-grasslands](https://noiracide.itch.io/df-grasslands)
 
 Nostalgia Legends
-https://noiracide.itch.io/plainstileset-nostalgialegends
+[https://noiracide.itch.io/plainstileset-nostalgialegends](https://noiracide.itch.io/plainstileset-nostalgialegends)
 
 ![nostalgia_demo_1.jpg](./../media/front_page/nostalgia_demo_1.jpg)
