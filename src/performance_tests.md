@@ -27,5 +27,5 @@ Total Tests|Fast ⚡|Slow 🐌
 
 Test Name|Duration|Result
 -------|--------|---
-ImportAssetWindow_open|15ms| Fast ⚡
-ImportAssetWindow_close|995ms| Slow 🐌
+ImportAssetWindow_open|15ms| ⚡
+ImportAssetWindow_close|995ms| 🐌
