@@ -17,19 +17,18 @@ PC OS| Win32NT
 PC OS version| 10.0.19045.0
 PC host RAM| 31Go RAM
 PC host CPU| Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 cores)
-Date| May 26 2023
-Time| 16:59
+Date| May 27 2023
+Time| 13:21
 
 ## Summary
 
 Total Tests|Passed ✔️|Failed ❌|Skipped ⏭️|Inconclusive ❔
 -------|--------|---|---|---
-3|2|1|0|0
+2|2|0|0|0
 
 ## Details
 
 Test Name|Result
 -------|--------
+ImportAssetWindow_testImportTileset| ✔️
 ImportAssetWindow_testNavigation| ✔️
-ThisTestWillFail| ❌
-ThisTestWillPass| ✔️
