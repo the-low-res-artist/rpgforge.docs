@@ -4,7 +4,7 @@ This section covers the **Functional tests** results of **RPG Power Forge**.
 
 These tests make sure each functionnality run properly. With our specification for each feature, we can determine is a test is passed ✔️ or failed ❌.
 
-*In development, the following numbers are not representative*
+*In development, tests are added regularly*
 
 ## Context
 
@@ -18,19 +18,19 @@ PC OS version| 10.0.19045.0
 PC host RAM| 31Go RAM
 PC host CPU| Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 cores)
 Date| May 27 2023
-Time| 14:02
+Time| 14:11
 
 ## Summary
 
 Total Tests|Passed ✔️|Failed ❌|Skipped ⏭️|Inconclusive ❔
 -------|--------|---|---|---
-4|4|0|0|0
+4|3|1|0|0
 
 ## Details
 
 Test Name|Result
 -------|--------
 ImportAssetWindow_removeEmptySprites| ✔️
-ImportAssetWindow_sliceTileset| ✔️
+ImportAssetWindow_sliceTileset| ❌
 ImportAssetWindow_testImportTileset| ✔️
 ImportAssetWindow_testNavigation| ✔️
