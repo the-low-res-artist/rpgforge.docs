@@ -19,8 +19,6 @@ PC host RAM| 31Go RAM
 PC host CPU| Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 cores)
 Date| May 28 2023
 Time| 16:42
-ImportAsset_Performance_CreateTilesCollection_1056x1056_Tile_48x48| 2307 ms
-ImportAsset_Performance_CreateTilesCollection_256x256_Tile_16x16| 720 ms
 
 ## Summary
 
@@ -32,3 +30,5 @@ Total Tests|Fast ⚡|Slow 🐌|Skipped ⏭️|Inconclusive ❔
 
 Test Name|Duration|Result
 -------|--------|--------
+ImportAsset_Performance_CreateTilesCollection_1056x1056_Tile_48x48|2307 ms|🐌
+ImportAsset_Performance_CreateTilesCollection_256x256_Tile_16x16|720 ms|🐌
