@@ -22,9 +22,9 @@ Time| 16:00
 
 ## Summary
 
-Total Tests|Passed ✔️|Failed ❌|Skipped ⏭️|Inconclusive ❔
--------|--------|---|---|---
-5|5|0|0|0
+Total Tests|Passed ✔️|Failed ❌
+-------|--------|---
+5|5|0
 
 ## Details
 

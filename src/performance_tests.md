@@ -22,9 +22,9 @@ Time| 16:42
 
 ## Summary
 
-Total Tests|Fast ⚡|Slow 🐌|Skipped ⏭️|Inconclusive ❔
--------|--------|---|---|---
-0|0|0|0|0
+Total Tests|Fast ⚡|Slow 🐌
+-------|--------|---
+0|0|0
 
 ## Details
 
