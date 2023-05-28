@@ -9,7 +9,7 @@ These tests make sure each functionnality run properly. With our specification f
 ## Context
 
 Item|Value
---|---
+---|---
 RPG Power Forge version| 0.0.20
 Unity version| 2021.3.25f1
 Test Type| Functionnal
@@ -23,13 +23,13 @@ Time| 16:00
 ## Summary
 
 Total Tests|Passed ✔️|Failed ❌
--------|--------|---
+---|---|---
 5|5|0
 
 ## Details
 
 Test Name|Result
--------|--------
+---|---
 ImportAsset : CreateTilesCollection| ✔️
 ImportAsset : ImportTileset| ✔️
 ImportAsset : Navigation| ✔️
