@@ -18,17 +18,21 @@ PC OS version| 10.0.19045.0
 PC host RAM| 31Go RAM
 PC host CPU| Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 cores)
 Date| May 28 2023
-Time| 16:42
+Time| 17:44
 
 ## Summary
 
 Total Tests|Fast ⚡|Slow 🐌
 ---|---|---
-2|0|2
+6|4|2
 
 ## Details
 
 Test Name|Duration|Result
 ---|---|---
-ImportAsset : CreateTilesCollection_1056x1056_Tile_48x48|2307 ms|🐌
-ImportAsset : CreateTilesCollection_256x256_Tile_16x16|720 ms|🐌
+ImportAsset : CreateTilesCollection_1056x1056_Tile_48x48|2257 ms|🐌
+ImportAsset : CreateTilesCollection_256x256_Tile_16x16|704 ms|🐌
+ImportAsset : ImportTileset_1056x1056_Tile_48x48|3 ms|⚡
+ImportAsset : ImportTileset_256x256_Tile_16x16|2 ms|⚡
+ImportAsset : SliceTileset_1056x1056_Tile_48x48|39 ms|⚡
+ImportAsset : SliceTileset_256x256_Tile_16x16|26 ms|⚡
