@@ -2,7 +2,7 @@
 
 This section covers the **Performance tests** results of **RPG Power Forge**.
 
-These tests measure how efficient a feature is. With a given threshold (Doherty Threshold, more info [https://lawsofux.com/doherty-threshold/](here)), we can determine if the feature is fast enough ⚡ or too slow 🐌.
+These tests measure how efficient a feature is. With a given threshold (Doherty Threshold, more info [here](https://lawsofux.com/doherty-threshold/])), we can determine if the feature is fast enough ⚡ or too slow 🐌.
 
 *In development, tests are added regularly*
 
