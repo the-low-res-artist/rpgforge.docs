@@ -30,5 +30,5 @@ Total Tests|Fast ⚡|Slow 🐌
 
 Test Name|Duration|Result
 -------|--------|--------
-ImportAsset_Performance_CreateTilesCollection_1056x1056_Tile_48x48|2307 ms|🐌
-ImportAsset_Performance_CreateTilesCollection_256x256_Tile_16x16|720 ms|🐌
+ImportAsset : CreateTilesCollection_1056x1056_Tile_48x48|2307 ms|🐌
+ImportAsset : CreateTilesCollection_256x256_Tile_16x16|720 ms|🐌

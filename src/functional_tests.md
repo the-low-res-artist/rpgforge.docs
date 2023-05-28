@@ -30,8 +30,8 @@ Total Tests|Passed ✔️|Failed ❌
 
 Test Name|Result
 -------|--------
-ImportAsset_Functionnal_CreateTilesCollection| ✔️
-ImportAsset_Functionnal_ImportTileset| ✔️
-ImportAsset_Functionnal_Navigation| ✔️
-ImportAsset_Functionnal_RemoveEmptySprites| ✔️
-ImportAsset_Functionnal_SliceTileset| ✔️
+ImportAsset : CreateTilesCollection| ✔️
+ImportAsset : ImportTileset| ✔️
+ImportAsset : Navigation| ✔️
+ImportAsset : RemoveEmptySprites| ✔️
+ImportAsset : SliceTileset| ✔️
