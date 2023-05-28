@@ -18,16 +18,20 @@ PC OS version| 10.0.19045.0
 PC host RAM| 31Go RAM
 PC host CPU| Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 cores)
 Date| May 28 2023
-Time| 12:25
+Time| 16:00
 
 ## Summary
 
 Total Tests|Passed ✔️|Failed ❌|Skipped ⏭️|Inconclusive ❔
 -------|--------|---|---|---
-1|0|1|0|0
+5|5|0|0|0
 
 ## Details
 
 Test Name|Result
 -------|--------
-ImportAssetWindow_createTilesCollection| ❌
+ImportAsset_Functionnal_CreateTilesCollection| ✔️
+ImportAsset_Functionnal_ImportTileset| ✔️
+ImportAsset_Functionnal_Navigation| ✔️
+ImportAsset_Functionnal_RemoveEmptySprites| ✔️
+ImportAsset_Functionnal_SliceTileset| ✔️
