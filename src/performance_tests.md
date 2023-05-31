@@ -14,7 +14,7 @@ version| 0.0.20
 Unity version| 2021.3.25f1
 Host OS| Windows 10 Family
 Host spec| Intel Core i7 2.6GHz (12 cores) 32Go RAM
-Date| May 31 2023   20: 13
+Date| May 31 2023   20: 17
 
 ## Summary
 
@@ -26,13 +26,13 @@ Total Tests|Fast ⚡|Slow 🐌
 
 Test Name|Duration|Result
 ---|---|---
-ImportAsset : CreateTilesCollection_256x256_Tile_16x16|1178 ms|🐌
-ImportAsset : CreateTilesCollection_768x768_Tile_48x48|1576 ms|🐌
+ImportAsset : CreateTilesCollection_256x256_Tile_16x16|822 ms|🐌
+ImportAsset : CreateTilesCollection_768x768_Tile_48x48|957 ms|🐌
 ImportAsset : ImportTileset_256x256_Tile_16x16|9 ms|⚡
 ImportAsset : ImportTileset_768x768_Tile_48x48|9 ms|⚡
-ImportAsset : Navigation|40 ms|⚡
-ImportAsset : OpenWindow|319 ms|⚡
-ImportAsset : SliceTileset_256x256_Tile_16x16|56 ms|⚡
-ImportAsset : SliceTileset_768x768_Tile_48x48|54 ms|⚡
-ImportAsset : ValidateTilesCollection_256x256_Tile_16x16|1763 ms|🐌
-ImportAsset : ValidateTilesCollection_768x768_Tile_48x48|2809 ms|🐌
+ImportAsset : Navigation|39 ms|⚡
+ImportAsset : OpenWindow|332 ms|⚡
+ImportAsset : SliceTileset_256x256_Tile_16x16|62 ms|⚡
+ImportAsset : SliceTileset_768x768_Tile_48x48|56 ms|⚡
+ImportAsset : ValidateTilesCollection_256x256_Tile_16x16|636 ms|🐌
+ImportAsset : ValidateTilesCollection_768x768_Tile_48x48|1606 ms|🐌
