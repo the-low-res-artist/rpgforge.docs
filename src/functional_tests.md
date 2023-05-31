@@ -10,15 +10,11 @@ These tests make sure each functionnality run properly. With our specification f
 
 Item|Value
 ---|---
-RPG Power Forge version| 0.0.20
+version| 0.0.20
 Unity version| 2021.3.25f1
-Test Type| Functionnal
-PC OS| Win32NT
-PC OS version| 10.0.19045.0
-PC host RAM| 31Go RAM
-PC host CPU| Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 cores)
-Date| May 28 2023
-Time| 18:41
+Host OS| Windows 10 Family
+Host spec| Intel Core i7 2.6GHz (12 cores) 32Go RAM
+Date| May 31 2023   20: 17
 
 ## Summary
 

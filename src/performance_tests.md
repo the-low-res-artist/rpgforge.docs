@@ -10,15 +10,11 @@ These tests measure how efficient a feature is. With a given threshold (Doherty 
 
 Item|Value
 ---|---
-RPG Power Forge version| 0.0.20
+version| 0.0.20
 Unity version| 2021.3.25f1
-Test Type| Performance
-PC OS| Win32NT
-PC OS version| 10.0.19045.0
-PC host RAM| 31Go RAM
-PC host CPU| Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 cores)
-Date| May 28 2023
-Time| 18:41
+Host OS| Windows 10 Family
+Host spec| Intel Core i7 2.6GHz (12 cores) 32Go RAM
+Date| May 31 2023   20: 13
 
 ## Summary
 
@@ -30,13 +26,13 @@ Total Tests|Fast ⚡|Slow 🐌
 
 Test Name|Duration|Result
 ---|---|---
-ImportAsset : CreateTilesCollection_256x256_Tile_16x16|728 ms|🐌
-ImportAsset : CreateTilesCollection_768x768_Tile_48x48|924 ms|🐌
-ImportAsset : ImportTileset_256x256_Tile_16x16|2 ms|⚡
-ImportAsset : ImportTileset_768x768_Tile_48x48|2 ms|⚡
-ImportAsset : Navigation|9 ms|⚡
-ImportAsset : OpenWindow|258 ms|⚡
-ImportAsset : SliceTileset_256x256_Tile_16x16|27 ms|⚡
-ImportAsset : SliceTileset_768x768_Tile_48x48|24 ms|⚡
-ImportAsset : ValidateTilesCollection_256x256_Tile_16x16|657 ms|🐌
-ImportAsset : ValidateTilesCollection_768x768_Tile_48x48|1543 ms|🐌
+ImportAsset : CreateTilesCollection_256x256_Tile_16x16|1178 ms|🐌
+ImportAsset : CreateTilesCollection_768x768_Tile_48x48|1576 ms|🐌
+ImportAsset : ImportTileset_256x256_Tile_16x16|9 ms|⚡
+ImportAsset : ImportTileset_768x768_Tile_48x48|9 ms|⚡
+ImportAsset : Navigation|40 ms|⚡
+ImportAsset : OpenWindow|319 ms|⚡
+ImportAsset : SliceTileset_256x256_Tile_16x16|56 ms|⚡
+ImportAsset : SliceTileset_768x768_Tile_48x48|54 ms|⚡
+ImportAsset : ValidateTilesCollection_256x256_Tile_16x16|1763 ms|🐌
+ImportAsset : ValidateTilesCollection_768x768_Tile_48x48|2809 ms|🐌
