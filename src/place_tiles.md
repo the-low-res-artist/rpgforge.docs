@@ -26,7 +26,7 @@ The **Tile Palette** window has few sections :
 ---
 ## How to draw
 
-Start by select the the pen tool.
+Start by select the pen tool.
 
 ![select_pen.png](./../media/place_tiles/select_pen.png)
 
