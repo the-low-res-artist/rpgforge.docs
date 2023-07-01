@@ -25,7 +25,57 @@ You can choose between :
 
 ## Playable Character
 
-*In development*
+You should **[import some animations first](./import_spritesheet.md)** !
+
+### Animations auto-fill
+
+To create a playable character, you will have to select an **Animation Collection**. **RPG Power Forge** will try to fill animations automatically for your character based on the following :
+
+Animation filename contains|Result
+---|---
+"idle" | Will be assigned to the **Idle** animation
+"walk" | Will be assigned to the **Walk** animation
+"run" | Will be assigned to the **Run** animation
+... | ...
+
+Animation filename contains|Result
+---|---
+"up" | Will be assigned to the **Up direction** of the animation
+"down" | Will be assigned to the **Down direction** of the animation
+"right" | Will be assigned to the **Right direction** of the animation
+"left" |Will be assigned to the **Left direction** of the animation
+"down" + "left" |Will be assigned to the **Down Left direction** of the animation
+... | ...
+
+For example, the animation named *"idle_up"* will be automatically assigned to the **Idle animation** (**Up direction**) of the character. You can edit **Animation Collection** to change the naming if necessary before creating your playable character : 
+
+![animation_collection_naming.png](./../media/import/animation_collection_naming.png)
+
+### Create the playable character
+
+![create_playable_character.gif](./../media/create_prefab/create_playable_character.gif)
+
+### Edit the playable character
+
+You can see how the animations have been automatically filled in the Prefab edition window :
+
+![check_anim_auto_fill.gif](./../media/create_prefab/check_anim_auto_fill.gif)
+
+> 🐲 Don't forget to edit the following properties !
+
+Property|Value
+---|---
+Acceleration | 100
+Deceleration | 100
+Velocity | 5
+
+![playable_properties.png](./../media/create_prefab/playable_properties.png)
+
+### Assign the playable character
+
+Drag-and-drop your newly created prefab in the following field :
+
+![change_playable_character.gif](./../media/create_prefab/change_playable_character.gif)
 
 ## Props and other objects
 
@@ -37,4 +87,4 @@ You can choose between :
 
 ![place_prefabs.gif](./../media/create_prefab/place_prefabs.gif)
 
-> 🐲 Use the **[Asset picker](./place_props.md)** tfor more !
+> 🐲 Use the **[Asset picker](./place_props.md)** for more !
