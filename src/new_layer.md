@@ -14,3 +14,5 @@ To create a new layer, simply right-click the **Root** object in the **Hierarchy
 You now have a new layer for tiles !
 
 ![new_layer.png](./../media/new_tile_layer/new_layer.png)
+
+> 🐲 Multiple layers are useful as soon as you want to draw at different height levels, or if you want to organize your tiles !

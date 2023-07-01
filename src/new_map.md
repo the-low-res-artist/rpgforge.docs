@@ -26,9 +26,7 @@ Select [Create] to create a new map.
 
 ![create_map_layers.png](./../media/map/create_map_layers.png)
 
- Once the map is created, you will see a bunch of default object added :
-* [Root] object: every layers are attached to it
-    * [Bottom Layer] object : a layer to draw tiles
-    * [Middle Layer] object : a layer to draw tiles
-    * [Upper Layer] object : a layer to draw tiles
+ Once the map is created, you will see a default object added :
+* [Root] object: every tile layers are attached to it
+    * [Tilemap] object : a first layer to draw tiles ([how to add more](./new_layer.md))
     * [Start] object : where the player is instanciate in Play Mode.

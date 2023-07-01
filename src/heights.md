@@ -40,5 +40,7 @@ To change height of your playable character during play, you need to tell **RPG 
 
 In the **[Asset Picker](./place_props.md)**, select the **Stair** prefab (under Built-In/LD). In our example, we are using the **TopDownStair** prefab.
 
+> 🐲 Hold \<CTRL\> key went dragging a prefab to align it with the grid !
+
 ![height_stair_prefab.gif](./../media/heights/height_stair_prefab.gif)
 
