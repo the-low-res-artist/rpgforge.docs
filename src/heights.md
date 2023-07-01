@@ -66,6 +66,16 @@ In the **[Asset Picker](./place_props.md)**, select the **Stair** prefab (under 
 
 ![demo.gif](./../media/heights/demo.gif)
 
-Have fun !
+## Add custom collisions
 
-![demo.gif](./../media/heights/demo2.gif)
+Good ! But it could be better... We should add some collisions to prevent our character from running below everything. Let's utilize the **Custom colliders** prefabs !
+
+![custom_collisions.gif](./../media/heights/custom_collisions.gif)
+
+> 🐲 Make sure the custom collider is at the correct height ! Use the **[Properties](./properties.md)** window to check that. In our example, the collider should be at height 0 :
+
+![properties_height.png](./../media/heights/properties_height.png)
+
+Much better now !
+
+![demo3.gif](./../media/heights/demo3.gif)

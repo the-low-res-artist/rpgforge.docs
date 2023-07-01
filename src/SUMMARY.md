@@ -14,6 +14,7 @@
         - [Place props](./place_props.md)
         - [Add collisions ](./collision.md)
         - [Tiles and collisions heights](./heights.md)
+        - [Properties](./properties.md)
     - [Test your game]()
         - [Play mode](./play_mode.md)
 - [Export your game]()
