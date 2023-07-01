@@ -11,7 +11,8 @@ The **About** window is located here :
 
 ![menu_location.png](./../media/about/menu_location.png)
 
-> 🐲 The **About** window is quite useful to get social link an find your current **RPG Power Forge** version !
+## Window content
 
+> 🐲 The **About** window is quite useful to get social link an find your current **RPG Power Forge** version !
 
 ![window.png](./../media/about/window.PNG)
