@@ -50,7 +50,7 @@ Start by breaking breaking some autotiles collisions. To do so, use the *Hammer*
 
 ![break_collision.gif](./../media/heights/break_collision.gif)
 
-> 🐲 The **Hammer** is cool (but also in development) ! \<CTRL+Z\> is not yet available. To re-apply a tile collision, just redraw the tile in place.
+> 🐲 The **Hammer** is cool (but also in development) ! \<CTRL+Z\> is not yet available. To re-apply a tile collision, just hammer-click again !
 
 ### The **Stair** prefab
 
