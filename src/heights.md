@@ -32,15 +32,40 @@ It's quite simple actually !
 
 ## Apply the height of tiles automatically
 
-*In developpement*
+You can always select you tile and a specificheight when drawing !
+
+![height_auto.gif](./../media/heights/height_auto.gif)
+
+### The **Fill** tool
+
+The **Fill** tool speedup your workflow when editingthe whole height of a specific tile/autotile :
+
+![height_fill.gif](./../media/heights/height_fill.gif)
 
 ## How to go above and below ?
+
+### The **Hammer** tool
+
+Start by breaking breaking some autotiles collisions. To do so, use the *Hammer** tool in the **Tile Palette** window, and click on any tile collision :
+
+![break_collision.gif](./../media/heights/break_collision.gif)
+
+> 🐲 The **Hammer** is cool (but also in development) ! \<CTRL+Z\> is not yet available. To re-apply a tile collision, just redraw the tile in place.
+
+### The **Stair** prefab
 
 To change height of your playable character during play, you need to tell **RPG Power Forge** where the stairs are. This is where the **Stair prefab** comes in !
 
 In the **[Asset Picker](./place_props.md)**, select the **Stair** prefab (under Built-In/LD). In our example, we are using the **TopDownStair** prefab.
 
-> 🐲 Hold \<CTRL\> key went dragging a prefab to align it with the grid !
-
 ![height_stair_prefab.gif](./../media/heights/height_stair_prefab.gif)
 
+> 🐲 Hold \<CTRL\> key went dragging a prefab to align it with the grid !
+
+### Demonstration result
+
+![demo.gif](./../media/heights/demo.gif)
+
+Have fun !
+
+![demo.gif](./../media/heights/demo2.gif)
