@@ -12,6 +12,11 @@ This section covers the elements to download :
 
 Go to [unity.com/download](https://unity.com/download). This page will ask you to download the **Unity Hub**. Once installed on your computer, launch it.
 
+> ⚠️ Make sure you have **Unity Hub version >=3.4** installed ! The current installed version is displayed in the window title (top-left) 👇
+
+![unity_hub_version.png](./../media/download/unity_hub_version.png)
+
+
 ---
 ## Download Unity
 
