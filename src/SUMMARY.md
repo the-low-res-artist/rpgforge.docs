@@ -11,6 +11,7 @@
     - [Create maps]()
         - [Create a map](./new_map.md)
         - [Place tiles](./place_tiles.md)
+        - [Add tiles layers](./new_layer.md)
         - [Place props](./place_props.md)
         - [Add collisions ](./collision.md)
         - [Tiles and collisions heights](./heights.md)

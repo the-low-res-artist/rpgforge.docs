@@ -46,12 +46,12 @@ The selected tile is now bind to your mouse. You can left-click, hold and draw t
 
 ![draw_tile.png](./../media/place_tiles/draw_tile.PNG)
 
-> 🐲 Don't forget to select the correct layer to draw your tiles accordingly. Each map created is shipped with 3 default layers.
+> 🐲 Don't forget to select the correct layer to draw your tiles accordingly. Each map created is shipped with 1 default layer, but [you can add more of them !](./new_layer.md)
 
 ---
 ## Default Tile Palettes
 
-**RPG Power Forge** is shipped with default **Tile Palettes**.
+**RPG Power Forge** is shipped with default **Tile Palettes**. Here hare some of them :
 
 Tile Palette|Function
 --------|--------
