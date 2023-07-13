@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="17" result="Failed(Child)" total="17" passed="0" failed="17" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2023-07-13 12:24:44Z" end-time="2023-07-13 12:24:48Z" duration="4,0962124">
+  <test-suite type="TestSuite" id="1024" name="sample_tmp_project" fullname="sample_tmp_project" runstate="Runnable" testcasecount="17" result="Failed" site="Child" start-time="2023-07-13 12:24:44Z" end-time="2023-07-13 12:24:48Z" duration="4.096212" total="17" passed="0" failed="17" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1044" name="Tests.dll" fullname="C:/Users/jeanf/OneDrive/Documents/RPGPowerForge/test/sample_tmp_project/Library/ScriptAssemblies/Tests.dll" runstate="Runnable" testcasecount="17" result="Failed" site="Child" start-time="2023-07-13 12:24:44Z" end-time="2023-07-13 12:24:48Z" duration="4.021413" total="17" passed="0" failed="17" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="11332" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1025" name="ImportAsset_Functionnal" fullname="ImportAsset_Functionnal" classname="ImportAsset_Functionnal" runstate="Runnable" testcasecount="7" result="Failed" label="Error" site="SetUp" start-time="2023-07-13 12:24:44Z" end-time="2023-07-13 12:24:47Z" duration="3.312147" total="7" passed="0" failed="7" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Functionnal.json".]]></message>
+          <stack-trace><![CDATA[  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x00164] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 
+  at Result.WriteDictIntoJsonFile (System.Collections.Generic.Dictionary`2[TKey,TValue] dict, System.String jsonFilePath) [0x0000d] in C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Tests\Tools\Result.cs:66 
+  at Result.InitResultFile (System.String testType) [0x000ea] in C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Tests\Tools\Result.cs:35 
+  at ImportAsset_Functionnal.SuiteSetup () [0x00000] in C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Tests\Suites\Functionnal\ImportAsset_Functionnal.cs:310 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 ]]></stack-trace>
+        </failure>
+        <output><![CDATA[Python script exited with code: 9009
+]]></output>
+        <test-case id="1026" name="ConfigurePpu" fullname="ImportAsset_Functionnal.ConfigurePpu" methodname="ConfigurePpu" classname="ImportAsset_Functionnal" runstate="Runnable" seed="1247204001" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Functionnal.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1031" name="CreateTilesCollection" fullname="ImportAsset_Functionnal.CreateTilesCollection" methodname="CreateTilesCollection" classname="ImportAsset_Functionnal" runstate="Runnable" seed="837543789" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Functionnal.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1028" name="ImportSpritesheet" fullname="ImportAsset_Functionnal.ImportSpritesheet" methodname="ImportSpritesheet" classname="ImportAsset_Functionnal" runstate="Runnable" seed="704768304" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Functionnal.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1027" name="ImportTileset" fullname="ImportAsset_Functionnal.ImportTileset" methodname="ImportTileset" classname="ImportAsset_Functionnal" runstate="Runnable" seed="409885468" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Functionnal.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1032" name="Navigation" fullname="ImportAsset_Functionnal.Navigation" methodname="Navigation" classname="ImportAsset_Functionnal" runstate="Runnable" seed="2084142873" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Functionnal.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1030" name="RemoveEmptySprites" fullname="ImportAsset_Functionnal.RemoveEmptySprites" methodname="RemoveEmptySprites" classname="ImportAsset_Functionnal" runstate="Runnable" seed="1522000779" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Functionnal.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1029" name="SliceTileset" fullname="ImportAsset_Functionnal.SliceTileset" methodname="SliceTileset" classname="ImportAsset_Functionnal" runstate="Runnable" seed="1030377693" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Functionnal.json".]]></message>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1033" name="ImportAsset_Performance" fullname="ImportAsset_Performance" classname="ImportAsset_Performance" runstate="Runnable" testcasecount="10" result="Failed" label="Error" site="SetUp" start-time="2023-07-13 12:24:47Z" end-time="2023-07-13 12:24:48Z" duration="0.699595" total="10" passed="0" failed="10" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Performance.json".]]></message>
+          <stack-trace><![CDATA[  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x00164] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 
+  at Result.WriteDictIntoJsonFile (System.Collections.Generic.Dictionary`2[TKey,TValue] dict, System.String jsonFilePath) [0x0000d] in C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Tests\Tools\Result.cs:66 
+  at Result.InitResultFile (System.String testType) [0x000ea] in C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Tests\Tools\Result.cs:35 
+  at ImportAsset_Performance.SuiteSetup () [0x00000] in C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Tests\Suites\Performance\ImportAsset_Performance.cs:579 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6d53f1ee8ee746e4b3c819c68e33f296>:0 ]]></stack-trace>
+        </failure>
+        <output><![CDATA[Python script exited with code: 9009
+]]></output>
+        <test-case id="1038" name="CreateTilesCollection_256x256_Tile_16x16" fullname="ImportAsset_Performance.CreateTilesCollection_256x256_Tile_16x16" methodname="CreateTilesCollection_256x256_Tile_16x16" classname="ImportAsset_Performance" runstate="Runnable" seed="656073334" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Performance.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1042" name="CreateTilesCollection_768x768_Tile_48x48" fullname="ImportAsset_Performance.CreateTilesCollection_768x768_Tile_48x48" methodname="CreateTilesCollection_768x768_Tile_48x48" classname="ImportAsset_Performance" runstate="Runnable" seed="1387275901" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Performance.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1036" name="ImportTileset_256x256_Tile_16x16" fullname="ImportAsset_Performance.ImportTileset_256x256_Tile_16x16" methodname="ImportTileset_256x256_Tile_16x16" classname="ImportAsset_Performance" runstate="Runnable" seed="737850514" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Performance.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1040" name="ImportTileset_768x768_Tile_48x48" fullname="ImportAsset_Performance.ImportTileset_768x768_Tile_48x48" methodname="ImportTileset_768x768_Tile_48x48" classname="ImportAsset_Performance" runstate="Runnable" seed="1050960586" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Performance.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1035" name="Navigation" fullname="ImportAsset_Performance.Navigation" methodname="Navigation" classname="ImportAsset_Performance" runstate="Runnable" seed="1330233318" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Performance.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1034" name="OpenWindow" fullname="ImportAsset_Performance.OpenWindow" methodname="OpenWindow" classname="ImportAsset_Performance" runstate="Runnable" seed="1690910098" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Performance.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1037" name="SliceTileset_256x256_Tile_16x16" fullname="ImportAsset_Performance.SliceTileset_256x256_Tile_16x16" methodname="SliceTileset_256x256_Tile_16x16" classname="ImportAsset_Performance" runstate="Runnable" seed="749319268" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Performance.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1041" name="SliceTileset_768x768_Tile_48x48" fullname="ImportAsset_Performance.SliceTileset_768x768_Tile_48x48" methodname="SliceTileset_768x768_Tile_48x48" classname="ImportAsset_Performance" runstate="Runnable" seed="75335604" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Performance.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1039" name="ValidateTilesCollection_256x256_Tile_16x16" fullname="ImportAsset_Performance.ValidateTilesCollection_256x256_Tile_16x16" methodname="ValidateTilesCollection_256x256_Tile_16x16" classname="ImportAsset_Performance" runstate="Runnable" seed="1462226146" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Performance.json".]]></message>
+          </failure>
+        </test-case>
+        <test-case id="1043" name="ValidateTilesCollection_768x768_Tile_48x48" fullname="ImportAsset_Performance.ValidateTilesCollection_768x768_Tile_48x48" methodname="ValidateTilesCollection_768x768_Tile_48x48" classname="ImportAsset_Performance" runstate="Runnable" seed="1545977014" result="Failed" label="Error" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+          <failure>
+            <message><![CDATA[OneTimeSetUp: System.IO.DirectoryNotFoundException : Could not find a part of the path "C:\Users\jeanf\OneDrive\Documents\RPGPowerForge\test\sample_tmp_project\Assets\Project\Tests\Results\ImportAsset_Performance.json".]]></message>
+          </failure>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
