@@ -56,7 +56,7 @@ If some of your sprites are bigger than a slice, you can merge slice together to
 
 ![merge_sprites.gif](./../media/import/merge_sprites.gif)
 
-> 🐲 \<SHIFT\> click to select **multiple** sprites. Right-click to **Merge** them !
+> 🐲 \<SHIFT\> click to select **multiple** slices. Right-click to **Merge** them !
 
 ---
 ## **Delete empty slices**
@@ -100,6 +100,8 @@ Once you are satisfied with the parameters and settings, you can select **[Apply
 ---
 ## **Place Props on the map**
 
-Quite simple with the **Asset Picker** !
+Quite simple with the **Asset Picker** ! 
 
 ![props_collection_place.gif](./../media/import/props_collection_place.gif)
+
+> 🐲 The subfolder where your **Props** are located in named after the spritesheet filename.
