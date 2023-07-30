@@ -6,7 +6,7 @@
 - [Getting started]()
     - [Import assets]()
         - [Import animations](./import_spritesheet.md)
-        - [Import sprites](./import_sprites.md)
+        - [Import props](./import_sprites.md)
         - [Import tiles](./import_tileset.md)
     - [Create maps]()
         - [Create a map](./new_map.md)
