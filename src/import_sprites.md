@@ -56,7 +56,7 @@ If some of your sprites are bigger than a slice, you can merge slice together to
 
 ![merge_sprites.gif](./../media/import/merge_sprites.gif)
 
-> 🐲 \<SHIFT\> click to select **multiple** slices. Right-click to **Merge** them !
+> 🐲 \<SHIFT\> + left-click to select **multiple** slices. Right-click to **Merge** them !
 
 ---
 ## **Delete empty slices**
