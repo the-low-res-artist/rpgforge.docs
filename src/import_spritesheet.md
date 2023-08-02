@@ -132,6 +132,7 @@ Once created, the animation can be selected, renamed, edited and preview-run wit
 ## **Animation parameters**
 
 ![import_animation_parameters.png](./../media/import/import_animation_parameters.png)
+
 Property|Type|Function|Example
 --------|--------|--------|--------
 Pivot|Selector|Where to place the pivot of the animation|South
