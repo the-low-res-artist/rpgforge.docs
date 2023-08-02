@@ -131,7 +131,7 @@ Once created, the animation can be selected, renamed, edited and preview-run wit
 
 ## **Animation parameters**
 
-![import_animation_parameters.png](./../media/import/import_animation_parameters.png)
+![import_animation_parameters.PNG](./../media/import/import_animation_parameters.PNG)
 
 Property|Type|Function|Example
 --------|--------|--------|--------
@@ -145,11 +145,11 @@ Points|List|Where to attach an object/weapon to the animation *(in developpement
 
 Once you are OK, press **[Apply]** to generate all of the animation you have created.
 
-You can rename the animations if you are using a template.
+If you used a template, you will be prompted to name your characters / animated object :
 
 ![import_save_result.png](./../media/import/import_save_result.png)
 
-Your animations will be located in *Assets/Project/Animations* folder, grouped under an **Animation Collection**.
+Your animations will be located in *Assets/Project/Animations* folder, grouped under an **Animation Collection** file.
 
 ![import_animation_collection_location.png](./../media/import/import_animation_collection_location.png)
 
