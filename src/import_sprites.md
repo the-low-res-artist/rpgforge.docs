@@ -1,4 +1,4 @@
-# **Import Props**
+# Import Props
 
 This section covers the import of a **Property** (*props* for short) into **RPG Power Forge**. A prop is an object you place in your map, like a tree 🌳 or a barrel 🛢️ !
 

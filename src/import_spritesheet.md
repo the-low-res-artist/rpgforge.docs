@@ -1,4 +1,4 @@
-# **Import Animations**
+# Import Animations
 
 This section covers the import and edition of an **Animation** into **RPG Power Forge**.
 

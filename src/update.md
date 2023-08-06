@@ -4,8 +4,10 @@ This section covers the update of the **RPG Power Forge** package in your Unity 
 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
----
-## Open your Unity project
+## Summary
+- [Import a new package](#import-a-new-package)
+
+## Import a new package
 
 To update **RPG Power Forge** package, navigate the top-menu : *Assets > Import Package > Custom Package...*
 
