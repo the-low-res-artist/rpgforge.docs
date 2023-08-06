@@ -29,7 +29,13 @@ The **Properties** window is meant to simplify the editing process of an object 
 ![properties_start.PNG](./../media/properties/properties_start.PNG)
 
 ### **Prefab instance**
+
+By selecting the drop-down on the right of this UI, you can change the height of a placed prefab on the map !
+
 ![properties_prefab_instance.PNG](./../media/properties/properties_prefab_instance.PNG)
 
 ### **Tilemap**
+
+You can add and remove layers in this UI.
+
 ![properties_tilemap.PNG](./../media/properties/properties_tilemap.png)
