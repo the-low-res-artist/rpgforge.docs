@@ -1,12 +1,18 @@
 # Export your game to itch.io
 
-This section covers the export of a game made with **RPG Power Forge** to [itch.io](https://itch.io) (an online plateform and marketplace for game developpers)
+This section covers the export of a game made with **[RPG Power Forge]** to [itch.io](https://itch.io) (an online plateform and marketplace for game developpers)
 
-To export your game to [itch.io](https://itch.io), you will need an [itch.io](https://itch.io) project first.
+To export your game to [itch.io](https://itch.io), you will need an [itch.io](https://itch.io) project page first.
 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
----
+## Summary
+- [Create a project on itchio](#create-a-project-on-itchio)
+    - [Verify your mail adress](#verify-your-mail-adress)
+    - [Create a new project page](#create-a-new-project-page)
+- [Export your game to itchio](#export-your-game-to-itchio)
+
+
 ## Create a project on itchio
 
 Go to [itch.io](https://itch.io). In the top-right corner of the webpage, select [Register]
@@ -23,9 +29,9 @@ Once logged in, go to your profile settings and ask for a verification.
 
 > 🐲 You won't be able to export your game from **RPG Power Forge** to [itch.io](https://itch.io) if you don't verify your mail adress first.
 
-### Create a new project
+### Create a new project page
 
-Go to your [itch.io dashboard](https://itch.io/dashboard) and select [Create new project].
+Go to your [itch.io dashboard](https://itch.io/dashboard) and select **[Create new project]**.
 
 ![create_new_project.png](./../media/export_itchio/create_new_project.png)
 
@@ -40,51 +46,41 @@ Fill the form accordingly :
 
 ![project_settings.png](./../media/export_itchio/project_settings.png)
 
-Hit [Save]. Your project is ready !
+Hit **[Save]**. Your project is ready !
 
----
 ## Export your game to itchio
 
-Go back in **RPG Power Forge**. As you can see, I have an awesome map to export.
-
-![export_scene.png](./../media/export_itchio/export_scene.png)
-
-Choose [Build for Web] in the drop-down menu.
+Go back in **RPG Power Forge**. Choose **[Build for Web]** in the drop-down menu.
 
 ![build_for_web.png](./../media/export_itchio/build_for_web.png)
 
-You are prompted with the Export UI.
+You are prompted with the **[Export UI]**.
 
 ![export_web_build_settings.png](./../media/export_itchio/export_web_build_settings.png)
 
 Property|Type|Function|Example
 --------|--------|--------|--------
 Version|Integers|The version (Major.Minor.Patch) of your game | 0.0.1
-Product Name|String|Name of your game (no space)| My_awesome_game
+Product Name|String|Name of your game| My_awesome_game
 Company Name|String|Name of your company| My awesome company
-Directory|Selector|Path of the output folder where the game is built (no space)| C:/output
+Directory|Selector|Path of the output folder where the game is built| C:/output
 
-> 🐲 **Product Name** and **Directory** must not have spaces !
 
-Additionnaly, you can export your game to [itch.io](https://itch.io) with the following properties.
+Additionnaly, you will have to fill [itch.io](https://itch.io) related properties :
 
 ![export_web_creds.png](./../media/export_itchio/export_web_creds.png)
+
+> 🐲 Missing credentials ! On the first export you will be asked to link **[RPG Power Forge]** with [itch.io](https://itch.io). Click **[Create]** to do so (the web browser opens : connect to your [itch.io](https://itch.io) account and authorize **[butler]**, the [itch.io](https://itch.io) game uploader).
+
 
 Property|Type|Function|Example
 --------|--------|--------|--------
 Upload to itch.io|Checkbox|Whenever you want you game to be upload to [itch.io](https://itch.io)| ☑️
-Account Name|String|Name of your [itch.io](https://itch.io) account. If your profile page is [gif-superretroworld.itch.io](https://gif-superretroworld.itch.io), then your account name is **gif-superretroworld**| gif-superretroworld
+Account Name|String|Name of your [itch.io](https://itch.io) account. If your [itch.io](https://itch.io) profile page is [gif-superretroworld.itch.io](https://gif-superretroworld.itch.io), then your account name is **gif-superretroworld**| gif-superretroworld
 Project Name|String|Name of your itch.io project. If your project page is [gif-superretroworld.itch.io/rpg-power-forge-export](https://gif-superretroworld.itch.io/rpg-power-forge-export), then your project name is **rpg-power-forge-export**| rpg-power-forge-export
-Channel Name|String|A tag for your itch.io project (no space)| web
+Channel Name|String|A tag for your itch.io project channel (no space)| web
 
-
-> 🐲 **Account Name** and **Project Name** fields are mandatory to perform the upload correctly !
-
-> 🐲 On the first export you will be asked to link **RPG Power Forge** with **itch.io**. Click [Create] to do so (the web browser opens : connect to your [itch.io](https://itch.io) account and authorise "butler", the [itch.io](https://itch.io) game uploader).
-
-![export_web_authorize.png](./../media/export_itchio/export_web_authorize.png)
-
-When everything is set, you can click [Build].
+When everything is set, you can click **[Build]**.
 
 ![export_web_build.png](./../media/export_itchio/export_web_build.png)
 
@@ -94,7 +90,7 @@ When the export is done, you can see logs in the Console Window, telling your ga
 
 ![export_build_success.png](./../media/export_itchio/export_build_success.png)
 
-[Itch.io](https://itch.io) webpage also notifies you.
+[Itch.io](https://itch.io) webpage also notifies you !
 
 ![itchio_notification.png](./../media/export_itchio/itchio_notification.PNG)
 

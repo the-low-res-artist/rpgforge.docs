@@ -4,22 +4,33 @@ This section covers the **Creation of prefabs** with **RPG Power Forge**
 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
----
+## Summary
+- [Window location](#window-location)
+- [Window content](#window-content)
+- [Playable Character](#playable-character)
+    - [Animations auto-fill](#animations-auto-fill)
+    - [Create the playable character](#create-the-playable-character)
+    - [Edit the playable character](#edit-the-playable-character)
+    - [Assign the playable character](#assign-the-playable-character)
+- [Props and other objects](#props-and-other-objects)
+- [Drag-and-drop prefabs](#drag-and-drop-prefabs)
+
+
 ## Window location
 
-The **About** window is located here : 
+The **[Create Prefab]** window is located here : 
 
 ![window_location.png](./../media/create_prefab/window_location.png)
 
 ## Window content
 
-Currently, you can create **Top-Down** prefabs. Select **[Top Down]** :
+Currently, you can create **[Top-Down]** prefabs. Select **[Top Down]** :
 
 ![window.png](./../media/create_prefab/window.png)
 
 You can choose between :
-* Creation of a new **playable character**
-* Creation of a so called **"props"** (object, tree, ...) with a small hit-box.
+* Creation of a new **[Playable Character]**
+* Creation of a so called **[Props]** (object, tree, ...) with a small hit-box.
 
 ![window_topdown.png](./../media/create_prefab/window_topdown.png)
 
@@ -29,25 +40,25 @@ You should **[import some animations first](./import_spritesheet.md)** !
 
 ### Animations auto-fill
 
-To create a playable character, you will have to select an **Animation Collection**. **RPG Power Forge** will try to fill animations automatically for your character based on the following :
+To create a playable character, you will have to select an **[Animation Collection]**. **[RPG Power Forge]** will try to fill animations automatically for your character based on the following :
 
 Animation filename contains|Result
 ---|---
-"idle" | Will be assigned to the **Idle** animation
-"walk" | Will be assigned to the **Walk** animation
-"run" | Will be assigned to the **Run** animation
+"idle" | Will be assigned to the **[Idle]** animation
+"walk" | Will be assigned to the **[Walk]** animation
+"run" | Will be assigned to the **[Run]** animation
 ... | ...
 
 Animation filename contains|Result
 ---|---
-"up" | Will be assigned to the **Up direction** of the animation
-"down" | Will be assigned to the **Down direction** of the animation
-"right" | Will be assigned to the **Right direction** of the animation
-"left" |Will be assigned to the **Left direction** of the animation
-"down" + "left" |Will be assigned to the **Down Left direction** of the animation
+"up" | Will be assigned to the **[Up direction]** of the animation
+"down" | Will be assigned to the **[Down direction]** of the animation
+"right" | Will be assigned to the **[Right direction]** of the animation
+"left" |Will be assigned to the **[Left direction]** of the animation
+"down" + "left" |Will be assigned to the **[Down Left direction]** of the animation
 ... | ...
 
-For example, the animation named *"idle_up"* will be automatically assigned to the **Idle animation** (**Up direction**) of the character. You can edit **Animation Collection** to change the naming if necessary before creating your playable character : 
+For example, the animation named *"idle_up"* will be automatically assigned to the **[Idle animation]** (**[Up direction]**) of the character. You can edit **[Animation Collection]** to change the naming if necessary before creating your playable character : 
 
 ![animation_collection_naming.png](./../media/import/animation_collection_naming.png)
 

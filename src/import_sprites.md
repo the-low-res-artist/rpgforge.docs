@@ -4,19 +4,38 @@ This section covers the import of a **Property** (*props* for short) into **RPG 
 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
----
-## **Import Assets UI**
+# Recommandations
+- At any time, you can hit the **[Back Button]** to cancel current edit and go back to the previous UI panel :
+![back_arrow.png](./../media/import/back_arrow.png)
+
+
+## Summary
+- [Window location](#window-location)
+- [Window content](#window-content)
+- [Import the sprite sheet](#import-the-sprite-sheet)
+    - [Slice the sprite sheet](#slice-the-sprite-sheet)
+    - [Set Transparent Colors](#set-transparent-colors)
+    - [Merge slices](#merge-slices)
+    - [Delete empty slices](#delete-empty-slices)
+- [Create the Props Collection](#create-the-props-collection)
+    - [Arrange the Props Collection](#arrange-the-props-collection)
+    - [Apply the Props Collection](#apply-the-props-collection)
+- [Place Props on the map](#place-props-on-the-map)
+
+## Window location
 
 To import props (arranged in a sprite sheet), you need to access the **Import Assets** User Interface (UI). It is located under the **RPG Power Forge** menu.
 
 ![import_button.png](./../media/import/import_button.png)
 
+## Window content
+
 The UI let you choose what kind of assets you want to import.
 
 ![import_ui.png](./../media/import/import_ui.PNG)
 
----
-## **Import the sprite sheet**
+
+## Import the sprite sheet
 
 Let's import the following sprite sheet and make props out of it !
 
@@ -30,8 +49,8 @@ To do so, select **Props > Sprite Sheet** and choose the above file (download it
 
 ![sprites_window.png](./../media/import/sprites_window.png)
 
----
-## **Slice the sprite sheet**
+
+### Slice the sprite sheet
 
 Select **[Slice]** to be able to slice your sprites according to the grid they are on. Here our sprites are placed on a 4x8 tiles grid, with each tile being 16x16 pixels. We can either slice by tile size or number of row/columns.
 
@@ -44,13 +63,13 @@ Property|Type|Function|Example
 
 Select **[Apply]** to apply the slice.
 
----
-## **Set Transparent Colors**
+
+### Set Transparent Colors
 
 *In developpement*
 
----
-## **Merge slices**
+
+### Merge slices
 
 If some of your sprites are bigger than a slice, you can merge slice together to reassemble the sprite.
 
@@ -58,19 +77,19 @@ If some of your sprites are bigger than a slice, you can merge slice together to
 
 > 🐲 \<SHIFT\> + left-click to select **multiple** slices. Right-click to **Merge** them !
 
----
-## **Delete empty slices**
+
+### Delete empty slices
 
 You can get rid of empty slices by cliking the **[Delete Empty Sprites]** button !
 
----
-## **Create the Props Collection**
+
+## Create the Props Collection
 
 Once you are satisfied with the slice and merge, you can click **[Apply]** to create the **Props Collection** !
 
 ![props_collection_window.gif](./../media/import/props_collection_window.gif)
 
-Each *Props* has the following parameter :
+If you select a **[Props]** (like the tree in the above example) you will access its properties :
 
 Property|Type|Function|Example
 --------|--------|--------|--------
@@ -85,20 +104,19 @@ Property|Type|Function|Example
 **Collision Type** | Selector | What kind of collision the Props has| Box
 **Ground Collision** | Chekcbox | Is the collision only for grounded object or also flying ones like bullets or birds ?| Unchecked
 
----
-## **Arrange the Props Collection**
+
+### Arrange the Props Collection
 
 You can always rearrange the Props for a better lisibility !
 
 ![props_collection_arrange.gif](./../media/import/props_collection_arrange.gif)
 
----
-## **Apply the Props Collection**
 
+### Apply the Props Collection
 Once you are satisfied with the parameters and settings, you can select **[Apply]** to close the window.
 
----
-## **Place Props on the map**
+
+## Place Props on the map
 
 Quite simple with the **Asset Picker** ! 
 

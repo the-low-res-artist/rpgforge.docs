@@ -4,15 +4,26 @@ This section covers tiles and collisions heights !
 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
----
-## Open the Tile Height Setter
+## Summary
+- [Window location](#window-location)
+- [Window content](#window-content)
+- [Apply the height of tiles manually](#apply-the-height-of-tiles-manually)
+- [Apply the height of tiles automatically](#apply-the-height-of-tiles-automatically)
+    - [The Fill tool](#the-fill-tool)
+- [How to go above and below](#how-to-go-above-and-below)
+    - [The Hammer tool](#the-hammer-tool)
+    - [The Stair prefab](#the-stair-prefab)
+    - [Demonstration](#demonstration)
+- [Add custom collisions](#add-custom-collisions)
+
+## Window location
 
 You can open the **Tile Height Setter** from the **Window** top menu.
 
 ![top_menu_access.png](./../media/heights/top_menu_access.png)
 
----
-## Tile Height Setter Window
+
+## Window content
 
 The **Tile Height Setter** window has few sections :
 * A "toggle visibility" button
@@ -22,7 +33,7 @@ The **Tile Height Setter** window has few sections :
 
 ![tile_height_setter_window.png](./../media/heights/tile_height_setter_window.png)
 
----
+
 ## Apply the height of tiles manually
 
 It's quite simple actually !
@@ -36,15 +47,15 @@ You can always select you tile and a specificheight when drawing !
 
 ![height_auto.gif](./../media/heights/height_auto.gif)
 
-### The **Fill** tool
+### The Fill tool
 
 The **Fill** tool speedup your workflow when editingthe whole height of a specific tile/autotile :
 
 ![height_fill.gif](./../media/heights/height_fill.gif)
 
-## How to go above and below ?
+## How to go above and below
 
-### The **Hammer** tool
+### The Hammer tool
 
 Start by breaking breaking some autotiles collisions. To do so, use the *Hammer** tool in the **Tile Palette** window, and click on any tile collision :
 
@@ -62,7 +73,7 @@ In the **[Asset Picker](./place_props.md)**, select the **Stair** prefab (under 
 
 > 🐲 Hold \<CTRL\> key went dragging a prefab to align it with the grid !
 
-### Demonstration result
+### Demonstration
 
 ![demo.gif](./../media/heights/demo.gif)
 

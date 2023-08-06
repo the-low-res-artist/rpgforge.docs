@@ -1,14 +1,12 @@
 # About
 
-This section covers the **About** window of **RPG Power Forge**
+This section covers the **About** window of **RPG Power Forge**. This window gives useful information regarding the current installed **RPG Power Forge** version.
 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
 - [Window location](#window-location)
 - [Window content](#window-content)
-- [Another content](#another-content)
-- [Another content 2](#another-content-2)
 
 ## Window location
 
@@ -21,22 +19,3 @@ The **About** window is located here :
 > 🐲 The **About** window is quite useful to get social links, documentation and get your current **RPG Power Forge** version !
 
 ![window.png](./../media/about/window.PNG)
-
-
-## Another content
-
-
-d
-
-d
-
-d
-
-d
-
-d
-
-d
-
-d
-## **Another content 2**

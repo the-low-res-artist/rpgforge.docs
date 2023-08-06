@@ -4,12 +4,17 @@ This section covers the creation of a new map (as known as *Scene* in **Unity**)
 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
----
-## Create a new map
+## Summary
+- [Window location](#window-location)
+- [Window content](#window-content)
+
+## Window location
 
 To create a new map, simply open the **RPG Power Forge** menu :
 
 ![create_map.png](./../media/map/create_map.png)
+
+## Window content
 
 Map creation has a few properties :
 
@@ -22,7 +27,7 @@ File Name|String|Name of the map. Will serve as a filename for the .scene file| 
 Camera|Enum|    Type of camera to use to render the map    |DefaultTopDownCamera
 Avatar|Enum|    Type of the playable character to instanciate on the map    |DefaultTopDownAvatarParameters
 
-Select [Create] to create a new map.
+Select **[Create]** to create a new map.
 
 ![create_map_layers.png](./../media/map/create_map_layers.png)
 

@@ -1,22 +1,38 @@
-# **Import Animation**
+# **Import Animations**
 
 This section covers the import and edition of an **Animation** into **RPG Power Forge**.
 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
----
-## **Import Assets UI**
+## Summary
+- [Window location](#window-location)
+- [Window content](#window-content)
+- [Import Animations](#import-animations)
+    - [Slice a spritesheet](#slice-a-sprite-sheet)
+    - [Set Transparent Colors](#set-transparent-colors)
+    - [Remove Empty Sprites](#remove-empty-sprites)
+- [Create the Animations](#create-the-animations)
+    - [Use an animation template](#use-an-animation-template)
+    - [Create your own template](#create-your-own-template)
+    - [Create an animation manually](#create-an-animation-manually)
+    - [Animation parameters](#animation-parameters)
+    - [Apply the animations](#apply-the-animations)
+
+
+## Window location
 
 To import an **Animation**, you need to access the **Import Assets** User Interface (UI). It is located under the **RPG Power Forge** top menu of Unity.
 
 ![import_button.png](./../media/import/import_button.png)
 
+## Window content
+
 The UI let you choose what kind of assets you want to import.
 
 ![import_ui.png](./../media/import/import_ui.PNG)
 
----
-## **Import Animations**
+
+## Import Animations
 
 Importing an **Animation** means importing a serie of sprites (arranged in a spritesheet, Aseprite file, or folders), which then are animated by **RPG Power Forge**. For instance, let's say I want to import this spritesheet (a set of 8 characters walking in 4 directions, RPG Maker MZ convention):
 
@@ -37,10 +53,12 @@ The explorer opens : select the spritesheet you've saved above. Once selected, t
 
 The next step is to separate this spritesheet into individuals sprites. For this we use the **Slice** feature.
 
----
-## **Slice a spritesheet**
 
-Select **[Slice]** to be able to slice your sprites according to the grid they are on. Here our sprites are placed on a 12x8 tiles grid, with each tile being 16x20 pixels. We can either slice by tile size or number of row/columns.
+### Slice a spritesheet
+
+To create animations from a spritesheet we first need to serapate each frame individually. This operation is called **[Slice]**.
+
+Select **[Slice]** to be able to slice your spritesheet according to the grid they are on. Here our sprites are placed on a 12x8 tiles grid, with each tile being 16x20 pixels. We can either slice by tile size or number of row/columns.
 
 Property|Type|Function|Example
 --------|--------|--------|--------
@@ -51,53 +69,33 @@ Property|Type|Function|Example
 
 Select **[Apply]** to apply the slice.
 
-
----
-## **Set Transparent Colors**
+### Set Transparent Colors
 
 *In developpement*
 
----
-## **Remove Empty Sprites**
+### Remove Empty Sprites
 
-This action detects empty sprites (with only transparent pixels) and removes them before the sprites are loaded in **RPG Power Forge**.
+This action detects empty sprites (with only transparent pixels) and removes them.
 
----
-## **Merge & Delete**
+## Create the Animations
 
-At any time you can always select an individual sprite, or hold SHIFT key for multiple selection. Then right-click to access the sub-menu : Merge or Delete.
-
- - **Merge** : merge 2 (or more) sprites together to make 1 sprite.
- - **Delete** : delete the selected sprite(s). The deleted sprites are not loaded in **RPG Power Forge**.
-
-![import_delete_spritesheet.png](./../media/import/import_delete_spritesheet.PNG)
-
-> 🐲 \<SHIFT\> + left click to select **multiple** slices.
-
----
-## **Create the Animations** 
-
-Once you are OK, press **[Apply]** to validate your setup :
+Once you are OK, press **[Apply]** to validate your setup and move to the next UI panel :
 
 ![import_create_animation.gif](./../media/import/import_create_animation.gif)
 
----
-## Create animations
+You can move sprites freely while holding left-click (like cards) to rearrange them as you like. With right-click on a sprite you can also :
+* FlipX (to perform an horizontal symetry)
+* FlipY (to perform a vertical symetry)
+* Delete (to remvoe the sprite)
 
-The next UI allows you to create animations from all of the sprites you have previously sliced.
+### Use an animation template
 
-You can move sprites freely (like cards) to rearrange them as you like. With right-click on a sprite you can also :
-* FlipX
-* FlipY
-* Delete
-
-### Create an animation with a template
-If you are importing a spritesheet that respects RPG Maker convention you can use one of our templates to generate all of the animations at once !
+If you are importing a spritesheet that respects RPG Maker conventions you can use one of our templates to generate all of the animations at once !
 
 ![import_create_animation_template.gif](./../media/import/import_create_animation_template.gif)
 
 
-*Tadaaa !* The template have been applied. All of the animations have been created correctly.
+*Tadaaa !* The template have been applied. All of the animations have been created correctly (here : walk + idle in 4 directions).
 
 Below the available templates :
 
@@ -113,14 +111,14 @@ VX/MV/MZ|Character| 4 x 2 characters spritesheet
 VX/MV/MZ|Vertical| 4 x 2 item spritesheet (4 vertical frames)
 VX/MV/MZ|Horizontal| 4 x 2 item spritesheet (3 horizontal frames)
 
-> 🐲 Templates are super useful ! They allow you to import RPG Maker content in 1 click !
+> 🐲 Templates are super useful ! They allow you to import RPG Maker-compatible content in 1 click !
 
----
+
 ### Create your own template
 
 *In developpement*
 
----
+
 ### Create an animation manually
 
 Select at least 2 neighboring sprites thanks to < SHIFT key > + left-click. Then right-click to reach the menu.
@@ -129,7 +127,10 @@ Select at least 2 neighboring sprites thanks to < SHIFT key > + left-click. Then
 
 Once created, the animation can be selected, renamed, edited and preview-run with the **[Play]** button.
 
-## **Animation parameters**
+
+### Animation parameters
+
+When you select a frame or an animation, you will access its properties :
 
 ![import_animation_parameters.PNG](./../media/import/import_animation_parameters.PNG)
 
@@ -139,9 +140,10 @@ Pivot|Selector|Where to place the pivot of the animation|South
 Pivot Offset|X;Y|How much you want the pivot to be offset from the above selected position
 Name|String|Name of the animation you are creating|Walk_Down
 Frame Rate|Integer|How fast the animation will run|8
-Points|List|Where to attach an object/weapon to the animation *(in developpement)*|
----
-## **Apply the animations**
+Points|List|Where to attach an object/weapon on the animation frames *(in developpement)*|---
+
+
+### Apply the animations
 
 Once you are OK, press **[Apply]** to generate all of the animation you have created.
 
@@ -153,4 +155,4 @@ Your animations will be located in *Assets/Project/Animations* folder, grouped u
 
 ![import_animation_collection_location.png](./../media/import/import_animation_collection_location.png)
 
-> 🐲 This is an **Animation Collection**. Double-click this object in your Project window to edit your animations if necessary !
+> 🐲 This is an **Animation Collection**. Double-click this object in your Project window to edit your animations again if necessary !
