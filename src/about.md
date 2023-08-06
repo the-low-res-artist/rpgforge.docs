@@ -1,16 +1,16 @@
-# **About**
+# About
 
 This section covers the **About** window of **RPG Power Forge**
 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
-## **Summary**
-- [Window location](#Window-location)
-- [Window content](#Window-content)
-- [Another content](#Another-content)
-- [Another content 2](#Another-content-2)
+## Summary
+- [Window location](#window-location)
+- [Window content](#window-content)
+- [Another content](#another-content)
+- [Another content 2](#another-content-2)
 
-## **Window location**
+## Window location
 
 The **About** window is located here : 
 
