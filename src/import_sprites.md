@@ -4,12 +4,8 @@ This section covers the import of a **Property** (*props* for short) into **RPG 
 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
-# Recommandations
-- At any time, you can hit the **[Back Button]** to cancel current edit and go back to the previous UI panel :
-![back_arrow.png](./../media/import/back_arrow.png)
-
-
 ## Summary
+- [Recommendations](#recommendations)
 - [Window location](#window-location)
 - [Window content](#window-content)
 - [Import the sprite sheet](#import-the-sprite-sheet)
@@ -21,6 +17,13 @@ This section covers the import of a **Property** (*props* for short) into **RPG 
     - [Arrange the Props Collection](#arrange-the-props-collection)
     - [Apply the Props Collection](#apply-the-props-collection)
 - [Place Props on the map](#place-props-on-the-map)
+
+## Recommendations
+- At any time, you can hit the **[Back Button]** to cancel current edit and go back to the previous UI panel :
+
+![back_arrow.png](./../media/import/back_arrow.png)
+- You can import a set of free resources here : [resources.zip](./../media/zip/resources.zip)
+- If you quit the UI during the import without (with the top-right❌button), nothing will be saved and you will need to restart the import.
 
 ## Window location
 
@@ -37,11 +40,7 @@ The UI let you choose what kind of assets you want to import.
 
 ## Import the sprite sheet
 
-Let's import the following sprite sheet and make props out of it !
-
-![spitesheet.png](./../media/import/sprites.png)
-
-> 🐲 So small lol
+Let's import props from the free resources archive linked in the above [Recommendations](#recommendations) section.
 
 To do so, select **Props > Sprite Sheet** and choose the above file (download it first !).
 

@@ -5,6 +5,7 @@ This section covers the import and edition of an **Animation** into **RPG Power 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
+- [Recommendations](#recommendations)
 - [Window location](#window-location)
 - [Window content](#window-content)
 - [Import Animations](#import-animations)
@@ -18,6 +19,12 @@ This section covers the import and edition of an **Animation** into **RPG Power 
     - [Animation parameters](#animation-parameters)
     - [Apply the animations](#apply-the-animations)
 
+## Recommendations
+- At any time, you can hit the **[Back Button]** to cancel current edit and go back to the previous UI panel :
+
+![back_arrow.png](./../media/import/back_arrow.png)
+- You can import a set of free resources here : [resources.zip](./../media/zip/resources.zip)
+- If you quit the UI during the import without (with the top-right❌button), nothing will be saved and you will need to restart the import.
 
 ## Window location
 
@@ -37,7 +44,7 @@ The UI let you choose what kind of assets you want to import.
 Importing an **Animation** means importing a serie of sprites (arranged in a spritesheet, Aseprite file, or folders), which then are animated by **RPG Power Forge**. For instance, let's say I want to import this spritesheet (a set of 8 characters walking in 4 directions, RPG Maker MZ convention):
 
 ![spitesheet.png](./../media/import/spritesheet.png)
-> 🐲 "Right click > Save this image" in your computer for the next step
+> 🐲 This file is also accessible in the free resources archive linked in the above [Recommendations](#recommendations) section.
 
 First, select **[Animations]**
 

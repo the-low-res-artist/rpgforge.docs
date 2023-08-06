@@ -32,6 +32,7 @@ The property **Pixel per Unit** should match the resolution of the tiles you are
 Other recommendations :
 
 - At any time, you can hit the **[Back Button]** to cancel current edit and go back to the previous UI panel :
+
 ![back_arrow.png](./../media/import/back_arrow.png)
 - You can import a set of free resources here : [resources.zip](./../media/zip/resources.zip)
 - If you quit the UI during the import without (with the top-right❌button), nothing will be saved and you will need to restart the import.

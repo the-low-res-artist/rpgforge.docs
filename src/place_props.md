@@ -40,7 +40,7 @@ Now select a prop you want to place on the map. The prop is now snap to the mous
 
 ![place_prop_tree.gif](./../media/place_props/place_prop_tree.gif)
 
-FInally, you can keep placing the same props multiple times by ticking the **[Continue Placing]** ☑️ 
+Finally, you can keep placing the same props multiple times by ticking the **[Continue Placing]** ☑️ 
 
 ![continue.png](./../media/place_props/continue.png)
 
