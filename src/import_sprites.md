@@ -106,7 +106,7 @@ Property|Type|Function|Example
 
 ### Arrange the Props Collection
 
-You can always rearrange the Props for a better lisibility !
+You can always rearrange the Props for a better readability !
 
 ![props_collection_arrange.gif](./../media/import/props_collection_arrange.gif)
 
@@ -114,11 +114,15 @@ You can always rearrange the Props for a better lisibility !
 ### Apply the Props Collection
 Once you are satisfied with the parameters and settings, you can select **[Apply]** to close the window.
 
+![import_props_collection_location.png](./../media/import/import_props_collection_location.png)
+
+
+> 🐲 This is a **Props Collection**. Double-click this object in your Project window to edit your props again if necessary !
 
 ## Place Props on the map
 
-Quite simple with the **Asset Picker** ! 
+We have added a UI specifically to find and place props on the map. The UI is called the **[Asset Picker](./place_props.md)** ! 
 
 ![props_collection_place.gif](./../media/import/props_collection_place.gif)
 
-> 🐲 The subfolder where your **Props** are located in named after the spritesheet filename.
+> 🐲 The subfolder where your **Props** are located is named after the spritesheet filename you've imported.

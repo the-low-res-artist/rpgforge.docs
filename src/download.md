@@ -43,6 +43,7 @@ Before runnig the download + installation, select the additionnal **[WebGL Build
 ![install_webgl.png](./../media/download/install_webgl.png)
 
 Once you have clicked **[Install]** you can see the download and installation progress in the **[Unity Hub]**.
+
 ![install_progress.png](./../media/download/install_progress.png)
 
 ## Download RPG Power Forge

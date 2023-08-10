@@ -2,7 +2,8 @@
 
 This section covers collision ! Collision can be either :
 * Assign to tiles and autotiles.
-* Created from custom shapes in the **[Asset Picker]** window.
+* Assign to props.
+* Placed freely with custom shapes in the **[Asset Picker]** window.
 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 

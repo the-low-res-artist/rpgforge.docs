@@ -93,7 +93,7 @@ Once you are OK, press **[Apply]** to validate your setup and move to the next U
 You can move sprites freely while holding left-click (like cards) to rearrange them as you like. With right-click on a sprite you can also :
 * FlipX (to perform an horizontal symetry)
 * FlipY (to perform a vertical symetry)
-* Delete (to remvoe the sprite)
+* Delete (to remove the sprite)
 
 ### Use an animation template
 

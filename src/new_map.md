@@ -23,7 +23,8 @@ Map creation has a few properties :
 
 Property|Type|Function|Example
 --------|--------|--------|--------
-File Name|String|Name of the map. Will serve as a filename for the .scene file| "new_map" or "my map 001"
+Name|String|Name of the map. Will serve as a filename for the .scene file| "new_map" or "my map 001"
+Template|Enum|    Type of level you want to load    |Sample Top Down Level
 Camera|Enum|    Type of camera to use to render the map    |DefaultTopDownCamera
 Avatar|Enum|    Type of the playable character to instanciate on the map    |DefaultTopDownAvatarParameters
 
