@@ -38,7 +38,12 @@ Yes ! See below :
 
 ![nostalgia_demo_1.jpg](./../media/front_page/nostalgia_demo_1.jpg)
 
+coucou 1
 
 [id1]: ## "your hover text 2"
+
 This is a [hover text][id1] example.
+
 This is a [hover text](## "your hover text") example.
+
+coucou 2
