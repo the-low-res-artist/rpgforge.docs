@@ -49,6 +49,8 @@ Animation filename contains|Result
 "run" | Will be assigned to the **[Run]** animation
 ... | ...
 
+
+
 Animation filename contains|Result
 ---|---
 "up" | Will be assigned to the **[Up direction]** of the animation

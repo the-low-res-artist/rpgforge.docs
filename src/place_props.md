@@ -18,10 +18,10 @@ You can open the **[Asset Picker]** from the **[Window]** top menu.
 
 ## Window content
 
-The **[Asset Picker]** window has few sections :
+The **[Asset Picker]** window has few sections (from left to right):
 * Root category on the left
 * Sub-categories next to it
-* A preview of the props from the sub-category selected
+* A list of props from the sub-category selected. 
 
 ![asset_picker_main.png](./../media/place_props/asset_picker_main.png)
 
@@ -29,6 +29,7 @@ The **[Asset Picker]** window has few sections :
 
 ![snap_window.gif](./../media/place_props/snap_window.gif)
 
+> 🐲 Whenever not spanned, the window will always appears above the Scene view and will close automatically when you place a props. The window is bind to **F11 key** and can be customised in the Unity shortcut section.
 
 ## How to draw
 

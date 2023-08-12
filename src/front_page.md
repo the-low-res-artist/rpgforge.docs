@@ -38,6 +38,7 @@ Yes ! See below :
 
 ![nostalgia_demo_1.jpg](./../media/front_page/nostalgia_demo_1.jpg)
 
+Hover the text [<span style="color:orange">Pivot</span>][pivot] for detail !
 
-[id1]: ## "your hover text 2"
-This is a [<span style="color:orange">hover text</span>][id1] example.
+
+[pivot]: ## "A point placed on a sprite or prefab"

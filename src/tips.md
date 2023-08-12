@@ -15,6 +15,12 @@
 ##### title 5
 ###### title 6
 
+Hover the text [<span style="color:orange">Pivot</span>][pivot] for detail !
+
+
+[pivot]: ## "A point placed on a sprite or prefab"
+
+
 coucou
 
 php
