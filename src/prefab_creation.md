@@ -49,7 +49,7 @@ Animation filename contains|Result
 "run" | Will be assigned to the **[Run]** animation
 ... | ...
 
-
+As well as the following :
 
 Animation filename contains|Result
 ---|---
