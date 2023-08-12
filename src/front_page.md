@@ -37,8 +37,3 @@ Yes ! See below :
 - RPG Power Forge Music pack : *we're packaging it, be patient !*
 
 ![nostalgia_demo_1.jpg](./../media/front_page/nostalgia_demo_1.jpg)
-
-Hover the text [<span style="color:orange">Pivot</span>][pivot] for detail !
-
-
-[pivot]: ## "A point placed on a sprite or prefab"
