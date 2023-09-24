@@ -46,8 +46,8 @@ def set_glossary(filename):
         s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
-    #with open(filename, 'w', encoding="utf8") as f:
-        #f.write(s)
+    with open(filename, 'w', encoding="utf8") as f:
+        f.write(s)
 
 
 # entry point
