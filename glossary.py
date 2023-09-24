@@ -1,7 +1,7 @@
 
 import re # regex operations
 import sys # to return 0
-
+import os # loop over files
 
 # goal : to find and replace each glossary entry with a tooltip (mouse hover)
 # example : ?Pivot? ==> [<span style="color:orange">Pivot</span>][pivot]
@@ -51,7 +51,13 @@ def set_glossary(filename):
 
 
 # entry point
-set_glossary("./src/front_page.md")
+print("Current working directory : " + os.getcwd())
+print("Scanning files in ./src/ and updating glossary words")
+for root, dirs, files in os.walk("./src/", topdown=False):
+   for filename in files:
+        if filename.endswith(".md"):
+            print(os.path.join("./src/", filename))
+            #set_glossary(os.path.join(directory, filename))
 
 # safe return
 sys.exit(0)
