@@ -1,5 +1,5 @@
 # Welcome !
-**RPG Power Forge** is a 2D RPG game-engine assistant in **Unity**.
+**RPG Power Forge** is your 2D RPG game-engine assistant in **Unity**.
 
 Want to import animated autotiles, have pixel-perfect collisions or create a chest in 1 click ? That's the spirit ✨
 
