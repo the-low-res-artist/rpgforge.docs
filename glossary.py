@@ -36,7 +36,7 @@ def set_glossary(filename):
         word=match[1]
         glossary_entry=word.lower()
 
-        str_replacement=f"[<span style=\"color:{GLOSSARY_COLOR}\">{word}</span>][{glossary_entry}]"
+        str_replacement="[<span style=\"color:" + GLOSSARY_COLOR + "\">" + word + "</span>][" + glossary_entry + "]"
         print(str_to_replace)
         print(str_replacement)
 
