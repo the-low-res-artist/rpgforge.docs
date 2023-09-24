@@ -1,5 +1,6 @@
 
-import re
+import re # regex operations
+import sys # to return 0
 
 # goal : to find and replace each glossary entry with a tooltip (mouse hover)
 # example : ?Pivot? ==> [<span style="color:orange">Pivot</span>][pivot]
@@ -49,3 +50,6 @@ def set_glossary(filename):
 
 # entry point
 set_glossary("./src/front_page.md")
+
+# safe return
+sys.exit(0)
