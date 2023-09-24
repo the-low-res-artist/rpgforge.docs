@@ -18,7 +18,7 @@ def set_glossary(filename):
 
     # Safely read the input filename using 'with'
     s= ""
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding="utf8") as f:
         s = f.read()
 
     # safe exit
@@ -46,8 +46,8 @@ def set_glossary(filename):
         s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
-    with open(filename, 'w') as f:
-        f.write(s)
+    #with open(filename, 'w', encoding="utf8") as f:
+        #f.write(s)
 
 
 # entry point
@@ -57,7 +57,7 @@ for root, dirs, files in os.walk("./src/", topdown=False):
    for filename in files:
         if filename.endswith(".md"):
             print(os.path.join("./src/", filename))
-            #set_glossary(os.path.join(directory, filename))
+            set_glossary("./src/" + filename)
 
 # safe return
 sys.exit(0)
