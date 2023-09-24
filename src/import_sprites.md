@@ -101,7 +101,7 @@ Property|Type|Function|Example
 **Sorting Layer** | Selector | On which layer the Props is| Default
 **Order in Layer** | Integer | For the selected layer above, on which position is rendered the Props| 0
 **Collision Type** | Selector | What kind of collision the Props has| Box
-**Ground Collision** | Chekcbox | Is the collision only for grounded object or also flying ones like bullets or birds ?| Unchecked
+**Ground Collision** | Chekcbox | Is the collision only for grounded object or also flying ones like bullets or birds| Unchecked
 
 
 ### Arrange the Props Collection

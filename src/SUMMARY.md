@@ -30,4 +30,4 @@
     - [Performance tests](./performance_tests.md)
 ----
 [Road map](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
-[Socials](https://twitter.com/RPGPowerForge?s=20)
+[Socials](https://twitter.com/RPGPowerForge)
