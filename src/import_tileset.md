@@ -129,3 +129,5 @@ Once you are OK, press **[Apply]**. Your tiles will be located in *Assets/Projec
 ![import_tile_collection_location.png](./../media/import/import_tile_collection_location.png)
 
 > 🐲 This is a **Tile Collection**. Double-click this object in your Project window to edit your tiles if necessary !
+
+{{#include glossary.md}}

@@ -94,8 +94,8 @@ Property|Type|Function|Example
 --------|--------|--------|--------
 **Name**|String|Name of the Props|my tree
 **Framerate** |Integer|How fast the Props is animated (if animated)|8
-**Pivot** |Selector | Where the pivot point is located| bottom-center
-**Pivot Offset** | (X;Y) | How much the pivot point is offset from the previous selector| 0;0
+**Pivot** |Selector | Where the ?pivot? point is located| bottom-center
+**Pivot Offset** | (X;Y) | How much the ?pivot? point is offset from the previous selector| 0;0
 **Blend Mode** | Selector | How the Props is rendered on the map (great for light effects !)| Diffuse
 **Sorting Mode** | Selector | How the Props is sorted on the map comparing to the player and other props| Standing
 **Sorting Layer** | Selector | On which layer the Props is| Default
@@ -126,3 +126,5 @@ We have added a UI specifically to find and place props on the map. The UI is ca
 ![props_collection_place.gif](./../media/import/props_collection_place.gif)
 
 > 🐲 The subfolder where your **Props** are located is named after the spritesheet filename you've imported.
+
+{{#include glossary.md}}

@@ -36,3 +36,5 @@ ImportAsset : SliceTileset_256x256_Tile_16x16|62 ms|⚡
 ImportAsset : SliceTileset_768x768_Tile_48x48|56 ms|⚡
 ImportAsset : ValidateTilesCollection_256x256_Tile_16x16|636 ms|🐌
 ImportAsset : ValidateTilesCollection_768x768_Tile_48x48|1606 ms|🐌
+
+{{#include glossary.md}}

@@ -101,3 +101,5 @@ Drag-and-drop your newly created prefab in the following field :
 ![place_prefabs.gif](./../media/create_prefab/place_prefabs.gif)
 
 > 🐲 Use the **[Asset picker](./place_props.md)** for more !
+
+{{#include glossary.md}}

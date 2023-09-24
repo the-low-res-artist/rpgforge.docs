@@ -38,6 +38,4 @@ Yes ! See below :
 
 ![nostalgia_demo_1.jpg](./../media/front_page/nostalgia_demo_1.jpg)
 
-Hover the text ?Pivot? for detail !
-
 {{#include glossary.md}}

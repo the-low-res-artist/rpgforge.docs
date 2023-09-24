@@ -93,3 +93,6 @@ Polygon|Custom polygon shape
 > 🐲 Once placed on a map, colliders shapes can be edited and moved by directly clicking them ! Don't forget to select the **Move tool** from the tools bar.
 
 ![colliders_edit.png](./../media/collision/colliders_edit.png)
+
+
+{{#include glossary.md}}

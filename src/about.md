@@ -19,3 +19,6 @@ The **About** window is located here :
 > 🐲 The **About** window is quite useful to get social links, documentation and get your current **RPG Power Forge** version !
 
 ![window.png](./../media/about/window.PNG)
+
+
+{{#include glossary.md}}

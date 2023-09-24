@@ -48,3 +48,5 @@ Finally, you can keep placing the same props multiple times by ticking the **[Co
 Have fun creating maps !
 
 ![result.png](./../media/place_props/result.PNG)
+
+{{#include glossary.md}}

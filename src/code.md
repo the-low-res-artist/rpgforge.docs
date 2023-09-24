@@ -15,3 +15,5 @@ The code of **RPG Power Forge** is located under *Packages/RPG Power Forge*
 ![location.png](./../media/code/location.png)
 
 *In development*
+
+{{#include glossary.md}}

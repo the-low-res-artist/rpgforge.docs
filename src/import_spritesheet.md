@@ -143,11 +143,11 @@ When you select a frame or an animation, you will access its properties :
 
 Property|Type|Function|Example
 --------|--------|--------|--------
-Pivot|Selector|Where to place the pivot of the animation|South
-Pivot Offset|X;Y|How much you want the pivot to be offset from the above selected position
-Name|String|Name of the animation you are creating|Walk_Down
-Frame Rate|Integer|How fast the animation will run|8
-Points|List|Where to attach an object/weapon on the animation frames *(in developpement)*|---
+**Pivot**|Selector|Where to place the ?pivot? of the animation|South
+**Pivot Offset**|X;Y|How much you want the ?pivot? to be offset from the above selected position
+**Name**|String|Name of the animation you are creating|Walk_Down
+**Frame Rate**|Integer|How fast the animation will run|8
+**Points**|List|Where to attach an object/weapon on the animation frames *(in developpement)*|---
 
 
 ### Apply the animations
@@ -163,3 +163,6 @@ Your animations will be located in *Assets/Project/Animations* folder, grouped u
 ![import_animation_collection_location.png](./../media/import/import_animation_collection_location.png)
 
 > 🐲 This is an **Animation Collection**. Double-click this object in your Project window to edit your animations again if necessary !
+
+
+{{#include glossary.md}}

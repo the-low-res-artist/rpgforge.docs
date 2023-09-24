@@ -31,3 +31,6 @@ ImportAsset : ImportTileset| ✔️
 ImportAsset : Navigation| ✔️
 ImportAsset : RemoveEmptySprites| ✔️
 ImportAsset : SliceTileset| ✔️
+
+
+{{#include glossary.md}}
