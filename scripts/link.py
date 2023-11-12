@@ -29,16 +29,11 @@ def set_link(filename):
     if (len(matches) == 0):
         return
 
-    print("all link matches:")
-    print(matches)
     for match in matches:
         host = match.replace('http://', '').replace('https://', '').replace('www.', '').split('/')[0]
         if host in HOSTS_LIST:
-            print(f"matching host : {host}")
             str_to_replace = match
             str_replacement = str_to_replace.replace('.html', '')
-            print(f"{str_to_replace} => {str_replacement}")
-            print("---")
             s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content

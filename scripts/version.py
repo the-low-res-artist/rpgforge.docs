@@ -42,14 +42,9 @@ def set_version(filename):
         objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{version}\">{version}</button></li>"
     objects_html += "</ul>"
 
-    print("matches:")
-    print(matches)
     for match in matches:
         str_to_replace = match
         str_replacement = match + objects_html
-        print(str_to_replace)
-        print(str_replacement)
-        print("---")
         s = s.replace(str_to_replace, str_replacement)
 
     # add custom .js scripts at the end of the file

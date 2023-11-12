@@ -34,17 +34,11 @@ def set_glossary(filename):
     if (len(matches) == 0):
         return
 
-    print("matches:")
-    print(matches)
     for match in matches:
         str_to_replace=match[0]
         word=match[1]
         glossary_entry=word.lower()
-
         str_replacement="[<span style=\"color:" + GLOSSARY_COLOR + "\">" + word + "</span>][" + glossary_entry + "]"
-        print(str_to_replace)
-        print(str_replacement)
-        print("---")
         s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
