@@ -1,5 +1,5 @@
 # move temporary to the script folder
-pushd ./scripts
+pushd scripts
 
 # update the glossary to each src/*.md page
 python3 -m glossary.py
