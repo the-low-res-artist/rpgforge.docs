@@ -61,9 +61,9 @@ def set_langage(filename):
 
 
 # local setup (remove before publish to git !!)
-shutil.rmtree("./../book")
-from distutils.dir_util import copy_tree
-copy_tree("./../book_default", "./../book")
+#shutil.rmtree("./../book")
+#from distutils.dir_util import copy_tree
+#copy_tree("./../book_default", "./../book")
 
 # entry point
 root = "./../book/"
