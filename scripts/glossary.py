@@ -13,6 +13,8 @@ GLOSSARY_REGEX=r"(\?(\w+)\?)"
 # replace in a file
 def set_glossary(filename):
 
+    print(f"Updating {filename}...")
+
     global GLOSSARY_COLOR
     global GLOSSARY_REGEX
 
@@ -51,13 +53,14 @@ def set_glossary(filename):
 
 
 # entry point
-print("Current working directory : " + os.getcwd())
-print("Scanning files in ./src/ and updating glossary words")
-for root, dirs, files in os.walk("./src/", topdown=False):
+root = "./../src/"
+print("====================================")
+print("GLOSSARY UPDATE")
+print(f"Scanning md files in {root} and updating their glossary words")
+for root, dirs, files in os.walk(root, topdown=False):
    for filename in files:
         if filename.endswith(".md"):
-            print(os.path.join("./src/", filename))
-            set_glossary("./src/" + filename)
+            set_glossary(os.path.join(root, filename))
 
 # safe return
 sys.exit(0)

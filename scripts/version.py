@@ -1,0 +1,85 @@
+
+import re # regex operations
+import sys # to return 0
+import os # loop over files
+import shutil # move files
+
+# goal : add an html dropdown menu on each page to select the doc version
+
+# replace in a file
+def set_version(filename):
+
+    print(f"Updating {filename}...")
+
+    TOP_BUTTON_REGEX = r"(<div class=\"left-buttons\">)"
+
+    # Safely read the input filename using 'with'
+    s= ""
+    with open(filename, 'r', encoding="utf8") as f:
+        s = f.read()
+
+    # safe exit
+    if (s == ""):
+        return
+
+    # find all matches
+    matches = re.findall(TOP_BUTTON_REGEX, s)
+
+    # safe exit
+    if (len(matches) == 0):
+        return
+
+    # build version selection
+    version_list = ["0.0.24", "0.1.0", "0.2.0", "1.x", "🐤 version wip", "&#128512; coucou"]
+    # button class
+    objects_html =  "<button id=\"version-toggle\" class=\"icon-button\" type=\"button\" title=\"Change version\" aria-label=\"Change version\""
+    objects_html += "aria-haspopup=\"true\" aria-expanded=\"false\" aria-controls=\"version-list\">"
+    objects_html += "<i class=\"fa fa-github-alt\"></i>"
+    objects_html += "Versions</button>"
+    # dropdown class
+    objects_html += "<ul id=\"version-list\" class=\"theme-popup\" aria-label=\"Versions\" role=\"menu\" style=\"display: none;\">"
+    # dropdown items
+    for version in version_list:
+        objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{version}\">{version}</button></li>"
+    objects_html += "</ul>"
+
+    print("matches:")
+    print(matches)
+    for match in matches:
+        str_to_replace = match
+        str_replacement = match + objects_html
+        print(str_to_replace)
+        print(str_replacement)
+        print("---")
+        s = s.replace(str_to_replace, str_replacement)
+
+    # add custom .js scripts at the end of the file
+    str_to_replace = "<!-- Custom JS scripts -->"
+    str_replacement = "<!-- Custom JS scripts --><script src=\"version.js\" type=\"text/javascript\" charset=\"utf-8\"></script>"
+    s = s.replace(str_to_replace, str_replacement)
+
+    # copy the version.js file itself
+    shutil.copyfile("version.js", "./../book/version.js")
+
+    # Safely write the changed content
+    with open(filename, 'w', encoding="utf8") as f:
+        f.write(s)
+
+
+# local setup (remove before publish to git !!)
+#shutil.rmtree("./../book")
+#from distutils.dir_util import copy_tree
+#copy_tree("./../book_default", "./../book")
+
+# entry point
+root = "./../book/"
+print("====================================")
+print("VERSION UPDATE")
+print(f"Scanning html files in {root} and adding a Version dropdown")
+for root, dirs, files in os.walk(root, topdown=False):
+   for filename in files:
+        if filename.endswith(".html"):
+            set_version(os.path.join(root, filename))
+
+# safe return
+sys.exit(0)
