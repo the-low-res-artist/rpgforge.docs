@@ -16,7 +16,7 @@ for i in src/**/book.toml; do # Whitespace-safe and recursive
     filepath="$i"
     src_folderpath=${root_dir}/$(dirname "${filepath}")
     dest_folderpath=${src_folderpath/src/book}
-    echo =========================================================
+    echo ==========================================================
     echo mdbook build ${src_folderpath} -d ${dest_folderpath}
     mdbook build ${src_folderpath} -d ${dest_folderpath}
     ln -s ${root_dir}/media/ ${root_dir}/book/en/stable/media
