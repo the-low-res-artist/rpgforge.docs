@@ -3,8 +3,7 @@ title = "RPG Power Forge documentation"
 authors = ["Gif", "Chiw", "Noiracide"]
 description = "The Unity package to create RPG with ease"
 language = "en"
-multilingual = false
-src = "src"
+src = "."
 
 [output.html]
 default-theme = "navy"

@@ -39,7 +39,7 @@ def set_langage(filename):
     objects_html += "<ul id=\"langage-list\" class=\"theme-popup\" aria-label=\"langages\" role=\"menu\" style=\"display: none;\">"
     # dropdown items
     for langage in langage_list:
-        objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{langage}\"><i class=\"fa fa-flag\"></i>{langage}</button></li>"
+        objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{langage}\">{langage}</button></li>"
     objects_html += "</ul>"
 
     for match in matches:
