@@ -12,9 +12,9 @@ cd ${root_dir}/scripts && python3 -m glossary.py && cd ${root_dir}
 # BUILD SCRIPTS
 # find all the book.toml files and execute the build
 shopt -s globstar
-for i in ./src/**/book.toml; do # Whitespace-safe and recursive
+for i in src/**/book.toml; do # Whitespace-safe and recursive
     filepath="$i"
-    src_folderpath=$(dirname "${filepath}")
+    src_folderpath=${root_dir}/$(dirname "${filepath}")
     dest_folderpath=${src_folderpath/src/book}
     echo ========================================================
     echo mdbook build ${src_folderpath} -d ${dest_folderpath}
