@@ -19,7 +19,7 @@ shopt -s globstar
 for i in ./src/**/book.toml; do # Whitespace-safe and recursive
     filepath="$i"
     src_folderpath=$(dirname "${filepath}")
-    dest_folderpath=${src_folderpath/src/book/}
+    dest_folderpath=${src_folderpath/src/book}
     echo ========================================================
     echo Building ${src_folderpath} in ${dest_folderpath}...
     mdbook build ${src_folderpath} -d ${dest_folderpath}
