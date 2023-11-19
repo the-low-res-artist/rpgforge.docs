@@ -49,11 +49,8 @@ def set_version(filename):
 
     # add custom .js scripts at the end of the file
     str_to_replace = "<!-- Custom JS scripts -->"
-    str_replacement = "<!-- Custom JS scripts --><script src=\"version.js\" type=\"text/javascript\" charset=\"utf-8\"></script>"
+    str_replacement = "<!-- Custom JS scripts --><script src=\"js/version.js\" type=\"text/javascript\" charset=\"utf-8\"></script>"
     s = s.replace(str_to_replace, str_replacement)
-
-    # copy the version.js file itself
-    shutil.copyfile("version.js", "./../book/version.js")
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:

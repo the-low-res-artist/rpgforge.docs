@@ -49,11 +49,8 @@ def set_langage(filename):
 
     # add custom .js scripts at the end of the file
     str_to_replace = "<!-- Custom JS scripts -->"
-    str_replacement = "<!-- Custom JS scripts --><script src=\"langage.js\" type=\"text/javascript\" charset=\"utf-8\"></script>"
+    str_replacement = "<!-- Custom JS scripts --><script src=\"js/langage.js\" type=\"text/javascript\" charset=\"utf-8\"></script>"
     s = s.replace(str_to_replace, str_replacement)
-
-    # copy the langage.js file itself
-    shutil.copyfile("langage.js", "./../book/langage.js")
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
