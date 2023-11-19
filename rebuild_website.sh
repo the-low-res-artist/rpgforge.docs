@@ -3,10 +3,6 @@
 root_dir=${PWD}
 
 # ---------------------------------------------------------------
-# keep current website as backup
-mv ./book ./book.sav
-
-# ---------------------------------------------------------------
 # PRE BUILD SCRIPTS
 
 # update the glossary to each src/**/*.md page
@@ -21,7 +17,7 @@ for i in ./src/**/book.toml; do # Whitespace-safe and recursive
     src_folderpath=$(dirname "${filepath}")
     dest_folderpath=${src_folderpath/src/book}
     echo ========================================================
-    echo Building ${src_folderpath} in ${dest_folderpath}...
+    echo mdbook build ${src_folderpath} -d ${dest_folderpath}
     mdbook build ${src_folderpath} -d ${dest_folderpath}
     ln -s ${root_dir}/media/ ${root_dir}/book/en/stable/media
     ln -s ${root_dir}/scripts/ ${root_dir}/book/en/stable/js
