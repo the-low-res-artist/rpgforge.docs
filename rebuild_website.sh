@@ -16,8 +16,8 @@ python3 -m glossary.py
 cd ${root_dir}
 # ---------------------------------------------------------------
 # BUILD SCRIPTS
-cd ${root_dir}/scr/en/stable
-mdbook build ${root_dir}/book/en/stable
+#cd ${root_dir}/src/en/stable
+mdbook build ${root_dir}/src/en/stable -d ${root_dir}/book/en/stable
 
 # ---------------------------------------------------------------
 # POST BUILD SCRIPTS
