@@ -17,12 +17,6 @@ def set_summary(filename):
     if (s == ""):
         return
 
-    ## Summary
-    - [Create a project on itchio](#create-a-project-on-itchio)
-        - [Verify your mail adress](#verify-your-mail-adress)
-        - [Create a new project page](#create-a-new-project-page)
-    - [Export your game to itchio](#export-your-game-to-itchio)
-
     # search titles (example : '## Create a project on itchio')
     summary = ""
     for line in s:
