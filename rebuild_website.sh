@@ -30,6 +30,7 @@ for folder in $(find src -type d);
 do
     # si le dossier courant contient le fichier book.toml, alors build du book
     if [ -f "${folder}/book.toml" ]; then
+        echo mdbook build ${PWD}/${folder} -d ${PWD}/${folder/src/book}
         mdbook build ${PWD}/${folder} -d ${PWD}/${folder/src/book}
     fi
 done
