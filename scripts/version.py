@@ -72,9 +72,6 @@ for root, dirs, files in os.walk(book_root, topdown=False):
             if os.path.isdir(os.path.join(book_root, current_lang, version)): # check whether the current object is a folder or not
                 version_list.append(version)
         if filename.endswith(".html"):
-            print(f"current file : {os.path.join(root, filename)}")
-            print(f"version_list : {version_list}")
-            print(f"current_version : {current_version}")
             set_version(os.path.join(root, filename), version_list, current_version, current_lang)
             nb_files+=1
 print(f"{nb_files} updated")
