@@ -26,7 +26,7 @@ The UI let you choose what kind of assets you want to import.
 ![import_ui.png](./../media/import/import_ui.PNG)
 
 
-## Import Animations
+## Import an animation
 
 Importing an **Animation** means importing a serie of sprites (arranged in a spritesheet, Aseprite file, or folders), which then are animated by **RPG Power Forge**. For instance, let's say I want to import this spritesheet (a set of 8 characters walking in 4 directions, RPG Maker MZ convention):
 
