@@ -41,7 +41,7 @@ def set_summary(filename):
             # append title (if found)
             if (len(title) > 0):
                 link=title.lower().replace(" ","-")
-                summary += ' '*offset + f" - [{title}](#{link})" + os.linesep
+                summary += ' '*offset + f"- [{title}](#{link})" + os.linesep
 
     # update summary (if found)
     if (len(summary) > 0):
