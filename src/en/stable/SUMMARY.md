@@ -3,7 +3,7 @@
 - [Download](./download.md)
 - [Create a new project](./new_project.md)
 - [Update RPG Power Forge](./update.md)
-------
+
 # ↗️ Getting started
 - [Create maps]()
     - [Create a map](./new_map.md)
@@ -19,7 +19,7 @@
     - [Play mode](./play_mode.md)
 - [Export your game]()
     - [To itch.io](./export_to_itchio.md)
-------
+
 # 📕 User manual
 - [Import assets]()
     - [Import animations](./import_spritesheet.md)
@@ -34,7 +34,7 @@
     - [About the project](./about.md)
     - [Functional tests](./functional_tests.md)
     - [Performance tests](./performance_tests.md)
-------
+
 # 🌞 Community 
 - [Dev Team]()
 - [Discord channel]()
