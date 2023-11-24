@@ -19,7 +19,7 @@ def set_favicon(filename):
 
     # replace the favicon
     str_to_replace = '<link rel="icon" href="favicon.svg">'
-    str_replacement = '<link rel="icon" href="/media/icons/favicon2.png">'
+    str_replacement = '<link rel="icon" href="/media/icons/favicon3.png">'
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
