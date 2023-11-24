@@ -19,31 +19,46 @@ def set_summary(filename):
 
     # search titles (example : '## Create a project on itchio')
     summary = ""
-    for line in s:
-        if line.startswith("## "):
-            title=line[3:]
-            link=title.lower().replace(" ","-")
-            summary += f"- [{title}](#{link})" + os.linesep
-        if line.startswith("### "):
-            title=line[4:]
-            link=title.lower().replace(" ","-")
-            summary += f"    - [{title}](#{link})" + os.linesep
+    with open(filename, 'r', encoding="utf8") as f:
+        for line in f.readlines():
+            # remove last \n
+            line=line[:-1]
+            #skip summary itself
+            if (line == "## Summary"):
+                continue
+            # initialisation
+            title=""
+            offset=0
+            # test title
+            if line.startswith("## "):
+                title=line[3:]
+            if line.startswith("### "):
+                title=line[4:]
+                offset=4
+            if line.startswith("#### "):
+                title=line[5:]
+                offset=8
+            # append title (if found)
+            if (len(title) > 0):
+                link=title.lower().replace(" ","-")
+                summary += ' '*offset + f" - [{title}](#{link})" + os.linesep
 
-    str_to_replace = '## Summary'
-    str_replacement = '## Summary' + os.linesep + summary
-    s = s.replace(str_to_replace, str_replacement)
+    # update summary (if found)
+    if (len(summary) > 0):
+        str_to_replace = '## Summary'
+        str_replacement = '## Summary' + os.linesep + summary
+        s = s.replace(str_to_replace, str_replacement)
 
-    # Safely write the changed content
-    with open(filename, 'w', encoding="utf8") as f:
-        f.write(s)
-
+        # Safely write the changed content
+        with open(filename, 'w', encoding="utf8") as f:
+            f.write(s)
 
 # entry point
 src_root = "./../src/"
 nb_files=0
 print("====================================")
 print("SUMMARY UPDATE")
-print(f"Scanning md files in {src_root} and updating their glossary words")
+print(f"Scanning md files in {src_root} and updating their summary section")
 for root, dirs, files in os.walk(src_root, topdown=False):
    for filename in files:
         if filename.endswith(".md"):
