@@ -1,0 +1,14 @@
+[book]
+title = "RPG Power Forge documentation"
+authors = ["Gif", "Chiw", "Noiracide"]
+description = "The Unity package to create RPG with ease"
+language = "en"
+src = "."
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+
+[output.html.print]
+enable = true    # include support for printable output
+page-break = true # insert page-break after each chapter

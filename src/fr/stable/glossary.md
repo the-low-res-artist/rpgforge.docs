@@ -1,0 +1,1 @@
+[pivot]: ## "A point placed on a sprite or prefab"
