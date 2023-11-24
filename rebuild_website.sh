@@ -15,8 +15,6 @@ root_dir=${PWD}
 # ---------------------------------------------------------------
 # PRE BUILD SCRIPTS
 echo "[ PRE-BUILD PART ]"
-whoami
-pwd
 # update the glossary to each src/**/*.md page
 cd ${root_dir}/scripts && python3 -m glossary.py && cd ${root_dir}
 
