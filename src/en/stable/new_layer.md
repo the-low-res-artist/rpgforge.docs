@@ -5,8 +5,6 @@ This section covers the addition of tile layer ! (as known as *Tilemap* in **Uni
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Create a new layer of tiles](#create-a-new-layer-of-tiles)
-
 
 ## Create a new layer of tiles
 

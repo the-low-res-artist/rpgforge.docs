@@ -5,9 +5,6 @@ This section covers tiles drawing !
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Window location](#window-location)
-- [Window content](#window-content)
-- [How to draw](#how-to-draw)
 
 ## Window location
 

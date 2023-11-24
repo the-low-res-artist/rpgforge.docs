@@ -5,8 +5,6 @@ This section covers the creation of a **RPG Power Forge** project !
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Create a new Unity project](#create-a-new-unity-project)
-- [Import RPG Power Forge](#import-rpg-power-forge)
 
 ## Create a new Unity project
 

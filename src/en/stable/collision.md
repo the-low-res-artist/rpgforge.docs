@@ -8,11 +8,6 @@ This section covers collision ! Collision can be either :
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Show or hide collisions in RPG Power Forge](#show-or-hide-collisions-in-RPG-Power-Forge)
-- [Assign collisions to autotiles](#assign-collisions-to-autotiles)
-- [Assign collisions to tiles](#assign-collisions-to-tiles)
-- [Assign collisions to props](#assign-collisions-to-props)
-- [Add custom collision shapes freely](#add-custom-collision-shapes-freely)
 
 ## Show or hide collisions in RPG Power Forge
 

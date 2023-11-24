@@ -6,12 +6,6 @@ This section covers the **Properties** window of **RPG Power Forge**. This windo
 
 ## Summary
 
-- [Window location](#window-location)
-- [Window content](#window-content)
-    - [Start position](#start-position)
-    - [Prefab instance](#prefab-instance)
-    - [Tilemap](#tilemap)
-
 ## Window location
 
 The **Properties** window is located here : 

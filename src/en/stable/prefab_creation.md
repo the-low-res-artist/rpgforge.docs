@@ -5,16 +5,6 @@ This section covers the **Creation of prefabs** with **RPG Power Forge**
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Window location](#window-location)
-- [Window content](#window-content)
-- [Playable Character](#playable-character)
-    - [Animations auto-fill](#animations-auto-fill)
-    - [Create the playable character](#create-the-playable-character)
-    - [Edit the playable character](#edit-the-playable-character)
-    - [Assign the playable character](#assign-the-playable-character)
-- [Props and other objects](#props-and-other-objects)
-- [Drag-and-drop prefabs](#drag-and-drop-prefabs)
-
 
 ## Window location
 

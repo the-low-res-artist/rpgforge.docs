@@ -7,11 +7,6 @@ To export your game to [itch.io](https://itch.io), you will need an [itch.io](ht
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Create a project on itchio](#create-a-project-on-itchio)
-    - [Verify your mail adress](#verify-your-mail-adress)
-    - [Create a new project page](#create-a-new-project-page)
-- [Export your game to itchio](#export-your-game-to-itchio)
-
 
 ## Create a project on itchio
 

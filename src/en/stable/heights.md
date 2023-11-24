@@ -5,16 +5,6 @@ This section covers tiles and collisions heights !
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Window location](#window-location)
-- [Window content](#window-content)
-- [Apply the height of tiles manually](#apply-the-height-of-tiles-manually)
-- [Apply the height of tiles automatically](#apply-the-height-of-tiles-automatically)
-    - [The Fill tool](#the-fill-tool)
-- [How to go above and below](#how-to-go-above-and-below)
-    - [The Hammer tool](#the-hammer-tool)
-    - [The Stair prefab](#the-stair-prefab)
-    - [Demonstration](#demonstration)
-- [Add custom collisions](#add-custom-collisions)
 
 ## Window location
 

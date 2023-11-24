@@ -5,19 +5,6 @@ This section covers the import and edition of an **Animation** into **RPG Power 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Recommendations](#recommendations)
-- [Window location](#window-location)
-- [Window content](#window-content)
-- [Import Animations](#import-animations)
-    - [Slice a spritesheet](#slice-a-sprite-sheet)
-    - [Set Transparent Colors](#set-transparent-colors)
-    - [Remove Empty Sprites](#remove-empty-sprites)
-- [Create the Animations](#create-the-animations)
-    - [Use an animation template](#use-an-animation-template)
-    - [Create your own template](#create-your-own-template)
-    - [Create an animation manually](#create-an-animation-manually)
-    - [Animation parameters](#animation-parameters)
-    - [Apply the animations](#apply-the-animations)
 
 ## Recommendations
 - At any time, you can hit the **[Back Button]** to cancel current edit and go back to the previous UI panel :

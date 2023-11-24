@@ -5,18 +5,6 @@ This section covers the import of a **Property** (*props* for short) into **RPG 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Recommendations](#recommendations)
-- [Window location](#window-location)
-- [Window content](#window-content)
-- [Import the sprite sheet](#import-the-sprite-sheet)
-    - [Slice the sprite sheet](#slice-the-sprite-sheet)
-    - [Set Transparent Colors](#set-transparent-colors)
-    - [Merge slices](#merge-slices)
-    - [Delete empty slices](#delete-empty-slices)
-- [Create the Props Collection](#create-the-props-collection)
-    - [Arrange the Props Collection](#arrange-the-props-collection)
-    - [Apply the Props Collection](#apply-the-props-collection)
-- [Place Props on the map](#place-props-on-the-map)
 
 ## Recommendations
 - At any time, you can hit the **[Back Button]** to cancel current edit and go back to the previous UI panel :

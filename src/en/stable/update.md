@@ -5,7 +5,6 @@ This section covers the update of the **RPG Power Forge** package in your Unity 
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Import a new package](#import-a-new-package)
 
 ## Import a new package
 

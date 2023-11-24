@@ -5,8 +5,6 @@ This section covers the **About** window of **RPG Power Forge**. This window giv
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Window location](#window-location)
-- [Window content](#window-content)
 
 ## Window location
 

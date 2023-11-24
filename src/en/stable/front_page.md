@@ -6,9 +6,6 @@ Want to import animated autotiles, have pixel-perfect collisions or create a che
 ![rpf_demo_1.gif](./../media/front_page/rpf_demo_1.gif)
 
 ## Summary
-- [Why are we making RPG Power Forge ?](#why-are-we-making-rpg-power-forge)
-- [What can you expect to make with RPG Power Forge ?](#what-can-you-expect-to-make-with-rpg-power-forge)
-- [Will RPG Power Forge be shipped with game assets as well ?](#will-rpg-power-forge-be-shipped-with-game-assets-as-well)
 
 ## Why are we making RPG Power Forge
 

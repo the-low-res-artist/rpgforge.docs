@@ -6,16 +6,6 @@ This section covers the import of a tileset into **RPG Power Forge**.
 
 
 ## Summary
-- [Recommendations](#recommendations)
-- [Window location](#window-location)
-- [Window content](#window-content)
-- [Import Tiles](#)
-    - [Slice Tiles](#slice-tiles)
-    - [Set Transparent Colors](#set-transparent-colors)
-    - [Remove Empty Sprites](#remove-empty-tiles)
-    - [Template](#template)
-    - [Apply](#apply)
-- [Edit tiles](#edit-tiles)
 
 ## Recommendations
 

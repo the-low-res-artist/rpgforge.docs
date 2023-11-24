@@ -5,8 +5,6 @@ This section covers the code of **RPG Power Forge**
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Code location](#code-location)
-
 
 ## Code location
 
