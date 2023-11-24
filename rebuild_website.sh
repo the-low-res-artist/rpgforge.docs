@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # TODO
 # attention probleme de git pull, de build (shopt not found)
 # besoin de loop sur tous les book.toml
@@ -17,6 +19,7 @@ echo "[ PRE-BUILD PART ]"
 cd ${root_dir}/scripts && python3 -m glossary.py && cd ${root_dir}
 
 # save previous build
+rm -rf ${PWD}/book.previous_build
 mv ${PWD}/book ${PWD}/book.previous_build
 
 # ---------------------------------------------------------------
