@@ -54,7 +54,7 @@ def set_version(filename, version_list, current_version):
         f.write(s)
 
 # entry point
-book_root = "./../book/"
+book_root = "./../src/"
 nb_files=0
 print("====================================")
 print("VERSION UPDATE")
@@ -69,7 +69,7 @@ for root, dirs, files in os.walk(book_root, topdown=False):
         potential_versions= os.listdir(os.path.join(book_root, current_lang))
         version_list = []
         for version in potential_versions: # loop through all the files and folders (no recursive)
-            if os.path.isdir(os.path.join(book_root, current_lang, filename)): # check whether the current object is a folder or not
+            if os.path.isdir(os.path.join(book_root, current_lang, version)): # check whether the current object is a folder or not
                 version_list.append(version)
         if filename.endswith(".html"):
             set_version(os.path.join(root, filename), version_list, current_version)
