@@ -75,7 +75,7 @@ for root, dirs, files in os.walk(book_root, topdown=False):
         # get current language
         current_lang=root.replace(book_root,'').split('\\')[0].split('/')[0]
         if filename.endswith(".html"):
-            set_langage(os.path.join(book_root, filename), current_lang)
+            set_langage(os.path.join(book_root, filename), lang_list, current_lang)
             nb_files+=1
 print(f"{nb_files} updated")
 
