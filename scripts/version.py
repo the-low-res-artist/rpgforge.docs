@@ -27,7 +27,7 @@ def set_version(filename):
         return
 
     # build version selection
-    version_list = ["0.0.24", "0.1.0", "0.2.0", "1.x", "version wip", "coucou"]
+    version_list = ["stable"]
     # button class
     objects_html =  "<button id=\"version-toggle\" class=\"icon-button\" type=\"button\" title=\"Change version\" aria-label=\"Change version\""
     objects_html += "aria-haspopup=\"true\" aria-expanded=\"false\" aria-controls=\"version-list\">"

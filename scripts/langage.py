@@ -6,7 +6,7 @@ import shutil # move files
 # goal : add an html dropdown menu on each page to select the doc langage
 
 # replace in a file
-def set_langage(filename):
+def set_langage(filename, lang_list, current_lang):
 
     TOP_BUTTON_REGEX = r"(<div class=\"left-buttons\">)"
 
@@ -27,17 +27,16 @@ def set_langage(filename):
         return
 
     # build langage selection
-    langage_list = ["English", "Français", "中文", "日本語"]
     # button class
     objects_html =  "<button id=\"langage-toggle\" class=\"icon-button\" type=\"button\" title=\"Change langage\" aria-label=\"Change langage\""
     objects_html += "aria-haspopup=\"true\" aria-expanded=\"false\" aria-controls=\"langage-list\">"
     objects_html += "<i class=\"fa fa-globe\"></i>"
-    objects_html += "Langages</button>"
+    objects_html += f"{current_lang}</button>"
     # dropdown class
     objects_html += "<ul id=\"langage-list\" class=\"theme-popup\" aria-label=\"langages\" role=\"menu\" style=\"display: none;\">"
     # dropdown items
-    for langage in langage_list:
-        objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{langage}\">{langage}</button></li>"
+    for lang in lang_list:
+        objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{lang}\">{lang}</button></li>"
     objects_html += "</ul>"
 
     for match in matches:
@@ -55,15 +54,28 @@ def set_langage(filename):
         f.write(s)
 
 # entry point
-root = "./../book/"
-nb_files=0
+
 print("====================================")
 print("LANGAGE UPDATE")
-print(f"Scanning html files in {root} and adding a Langage dropdown")
-for root, dirs, files in os.walk(root, topdown=False):
-   for filename in files:
+src_root = "./../src/"
+lang_list=""
+print(f"Scanning src to get language list")
+for root, dirs, files in os.walk(src_root, topdown=False):
+    if root == src_root:
+        lang_list = dirs
+
+print(f"languages list is : {lang_list}")
+
+book_root = "./../book/"
+nb_files=0
+print(f"Scanning html files in {book_root} and adding a Langage dropdown")
+for root, dirs, files in os.walk(book_root, topdown=False):
+    current_lang=""
+    for filename in files:
+        # get current language
+        current_lang=root.replace(book_root,'').split('\\')[0].split('/')[0]
         if filename.endswith(".html"):
-            set_langage(os.path.join(root, filename))
+            set_langage(os.path.join(book_root, filename), current_lang)
             nb_files+=1
 print(f"{nb_files} updated")
 
