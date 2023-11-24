@@ -21,7 +21,7 @@ mv ${PWD}/book ${PWD}/book.previous_build
 
 # ---------------------------------------------------------------
 # BUILD SCRIPTS
-echo "[ BUILD PART ] "
+echo "[ BUILD PART ]"
 # find all the book.toml files and execute the build
 for folder in $(find src -type d);
 do
