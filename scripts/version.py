@@ -6,7 +6,7 @@ import shutil # move files
 # goal : add an html dropdown menu on each page to select the doc version
 
 # replace in a file
-def set_version(filename, version_list, current_version):
+def set_version(filename, version_list, current_version, current_lang):
 
     TOP_BUTTON_REGEX = r"(<div class=\"left-buttons\">)"
 
@@ -36,7 +36,7 @@ def set_version(filename, version_list, current_version):
     objects_html += "<ul id=\"version-list\" class=\"theme-popup\" aria-label=\"Versions\" role=\"menu\" style=\"display: none;\">"
     # dropdown items
     for version in version_list:
-        objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{version}\">{version}</button></li>"
+        objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{version}\"><a href='https://rpgpowerforge.com/{current_lang}/{version}'>{version}</a></button></li>"
     objects_html += "</ul>"
 
     for match in matches:
@@ -75,7 +75,7 @@ for root, dirs, files in os.walk(book_root, topdown=False):
             print(f"current file : {os.path.join(root, filename)}")
             print(f"version_list : {version_list}")
             print(f"current_version : {current_version}")
-            set_version(os.path.join(root, filename), version_list, current_version)
+            set_version(os.path.join(root, filename), version_list, current_version, current_lang)
             nb_files+=1
 print(f"{nb_files} updated")
 
