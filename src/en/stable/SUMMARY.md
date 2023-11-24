@@ -1,4 +1,4 @@
-[Front page](./front_page.md)
+[🏠 Home](./front_page.md)
 - [Installation]()
     - [Download](./download.md)
     - [Create a new project](./new_project.md)
