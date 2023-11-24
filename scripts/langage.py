@@ -8,8 +8,6 @@ import shutil # move files
 # replace in a file
 def set_langage(filename):
 
-    print(f"Updating {filename}...")
-
     TOP_BUTTON_REGEX = r"(<div class=\"left-buttons\">)"
 
     # Safely read the input filename using 'with'
@@ -56,14 +54,9 @@ def set_langage(filename):
     with open(filename, 'w', encoding="utf8") as f:
         f.write(s)
 
-
-# local setup (remove before publish to git !!)
-#shutil.rmtree("./../book")
-#from distutils.dir_util import copy_tree
-#copy_tree("./../book_default", "./../book")
-
 # entry point
 root = "./../book/"
+nb_files=0
 print("====================================")
 print("LANGAGE UPDATE")
 print(f"Scanning html files in {root} and adding a Langage dropdown")
@@ -71,6 +64,8 @@ for root, dirs, files in os.walk(root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
             set_langage(os.path.join(root, filename))
+            nb_files+=1
+print(f"{nb_files} updated")
 
 # safe return
 sys.exit(0)

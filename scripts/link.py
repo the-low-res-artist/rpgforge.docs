@@ -8,8 +8,6 @@ import os # loop over files
 # replace in a file
 def set_link(filename):
 
-    print(f"Updating {filename}...")
-
     LINK_REGEX = "(https?://.+?\.html)"
     HOSTS_LIST = ["trello.com", "x.com", "twitter.com"]
 
@@ -43,6 +41,7 @@ def set_link(filename):
 
 # entry point
 root = "./../book/"
+nb_files=0
 print("====================================")
 print("LINKS UPDATE")
 print(f"Scanning html files in {root} and fixing external links suffixes")
@@ -50,6 +49,8 @@ for root, dirs, files in os.walk(root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
             set_link(os.path.join(root, filename))
+            nb_files+=1
+print(f"{nb_files} updated")
 
 # safe return
 sys.exit(0)
