@@ -54,7 +54,7 @@ def set_version(filename, version_list, current_version):
         f.write(s)
 
 # entry point
-book_root = "./../src/"
+book_root = "./../book/"
 nb_files=0
 print("====================================")
 print("VERSION UPDATE")
