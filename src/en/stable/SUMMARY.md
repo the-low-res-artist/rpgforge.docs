@@ -35,7 +35,7 @@
     - [Functional tests](./functional_tests.md)
     - [Performance tests](./performance_tests.md)
 ------
-# 🌐 Community
+# 🌞 Community 
 - [Dev Team]()
 - [Discord channel]()
 - [Twitter](https://twitter.com/RPGPowerForge)
