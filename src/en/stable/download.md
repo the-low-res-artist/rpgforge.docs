@@ -5,10 +5,6 @@ This section covers the solfwares to download in order to use **[RPG Power Forge
 > 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
-- [Recommendations](#recommendations)
-- [Download Unity Hub](#download-unity-hub)
-- [Download Unity](#download-unity)
-- [Download RPG Power Forge](#download-rpg-power-forge)
 
 ## Recommendations
 -  **[Unity Hub]** version **>=3.4**
