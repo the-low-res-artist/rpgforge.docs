@@ -17,6 +17,8 @@ root_dir=${PWD}
 echo "[ PRE-BUILD PART ]"
 # update the glossary to each src/**/*.md page
 cd ${root_dir}/scripts && python3 -m glossary.py && cd ${root_dir}
+# update the summary to each src/**/*.md page
+python3 -m summary.py
 
 # save previous build
 rm -rf ${PWD}/book.previous_build
