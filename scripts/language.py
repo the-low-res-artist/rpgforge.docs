@@ -36,7 +36,7 @@ def set_language(filename, lang_list, current_lang):
     objects_html += "<ul id=\"language-list\" class=\"theme-popup\" aria-label=\"languages\" role=\"menu\" style=\"display: none;\">"
     # dropdown items
     for lang in lang_list:
-        objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{lang}\">{lang}</button></li>"
+        objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{lang}\"><a href='https://rpgpowerforge.com/{lang}'>{lang}</a></button></li>"
     objects_html += "</ul>"
 
     for match in matches:
