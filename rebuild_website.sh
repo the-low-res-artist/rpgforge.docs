@@ -44,15 +44,6 @@ do
     fi
 done
 
-# process remaining output folders
-for folder in $(find book -type d);
-do
-    # process folder
-    # add js + media links
-    ln -s ${PWD}/media/ ${PWD}/${folder}/media
-    ln -s ${PWD}/js/ ${PWD}/${folder}/js
-done
-
 # ---------------------------------------------------------------
 # POST BUILD SCRIPTS
 echo "[ POST-BUILD PART ]"
@@ -66,3 +57,12 @@ python3 -m link.py
 # update favicons
 python3 -m favicon.py
 cd ${root_dir}
+
+# process remaining output folders
+for folder in $(find book -type d);
+do
+    # process folder
+    # add js + media links
+    ln -s ${PWD}/media/ ${PWD}/${folder}/media
+    ln -s ${PWD}/js/ ${PWD}/${folder}/js
+done
