@@ -6,7 +6,7 @@ import shutil # move files
 # goal : add an html dropdown menu on each page to select the doc version
 
 # replace in a file
-def set_version(filename):
+def set_version(filename, version_list, current_version):
 
     TOP_BUTTON_REGEX = r"(<div class=\"left-buttons\">)"
 
@@ -27,12 +27,11 @@ def set_version(filename):
         return
 
     # build version selection
-    version_list = ["stable"]
     # button class
     objects_html =  "<button id=\"version-toggle\" class=\"icon-button\" type=\"button\" title=\"Change version\" aria-label=\"Change version\""
     objects_html += "aria-haspopup=\"true\" aria-expanded=\"false\" aria-controls=\"version-list\">"
     objects_html += "<i class=\"fa fa-code-fork\"></i>"
-    objects_html += "Versions</button>"
+    objects_html += f"{current_version}</button>"
     # dropdown class
     objects_html += "<ul id=\"version-list\" class=\"theme-popup\" aria-label=\"Versions\" role=\"menu\" style=\"display: none;\">"
     # dropdown items
@@ -55,15 +54,25 @@ def set_version(filename):
         f.write(s)
 
 # entry point
-root = "./../book/"
+book_root = "./../src/"
 nb_files=0
 print("====================================")
 print("VERSION UPDATE")
-print(f"Scanning html files in {root} and adding a Version dropdown")
-for root, dirs, files in os.walk(root, topdown=False):
+print(f"Scanning html files in {book_root} and adding a Version dropdown")
+for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
+        # get current language
+        current_lang=root.replace(book_root,'').split('\\')[0].split('/')[0]
+        # get current version
+        current_version=root.replace(book_root,'')[3:].split('\\')[0].split('/')[0]
+        # get version list
+        potential_versions= os.listdir(os.path.join(book_root, current_lang))
+        version_list = []
+        for version in potential_versions: # loop through all the files and folders (no recursive)
+            if os.path.isdir(os.path.join(book_root, current_lang, filename)): # check whether the current object is a folder or not
+                version_list.append(version)
         if filename.endswith(".html"):
-            set_version(os.path.join(root, filename))
+            set_version(os.path.join(root, filename), version_list, current_version)
             nb_files+=1
 print(f"{nb_files} updated")
 

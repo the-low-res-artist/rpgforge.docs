@@ -3,103 +3,103 @@
 // Fix back button cache problem
 window.onunload = function () { };
 
-(function langages() {
+(function languages() {
     var html = document.querySelector('html');
-    var langageToggleButton = document.getElementById('langage-toggle');
-    var langagePopup = document.getElementById('langage-list');
-    var langageColorMetaTag = document.querySelector('meta[name="langage-color"]');
+    var languageToggleButton = document.getElementById('language-toggle');
+    var languagePopup = document.getElementById('language-list');
+    var languageColorMetaTag = document.querySelector('meta[name="language-color"]');
     var stylesheets = {
         ayuHighlight: document.querySelector("[href$='ayu-highlight.css']"),
         tomorrowNight: document.querySelector("[href$='tomorrow-night.css']"),
         highlight: document.querySelector("[href$='highlight.css']"),
     };
 
-    function showlangages() {
-        langagePopup.style.display = 'block';
-        langageToggleButton.setAttribute('aria-expanded', true);
-        /*langagePopup.querySelector("button#" + get_langage()).focus();*/
+    function showlanguages() {
+        languagePopup.style.display = 'block';
+        languageToggleButton.setAttribute('aria-expanded', true);
+        /*languagePopup.querySelector("button#" + get_language()).focus();*/
     }
 
-    function hidelangages() {
-        langagePopup.style.display = 'none';
-        langageToggleButton.setAttribute('aria-expanded', false);
-        langageToggleButton.focus();
+    function hidelanguages() {
+        languagePopup.style.display = 'none';
+        languageToggleButton.setAttribute('aria-expanded', false);
+        languageToggleButton.focus();
     }
 
-    function get_langage() {
-        var langage;
-        try { langage = localStorage.getItem('mdbook-langage'); } catch (e) { }
-        if (langage === null || langage === undefined) {
+    function get_language() {
+        var language;
+        try { language = localStorage.getItem('mdbook-language'); } catch (e) { }
+        if (language === null || language === undefined) {
             return "latest";
         } else {
-            return langage;
+            return language;
         }
     }
 
-    /*function set_langage(langage, store = true) {
-        let ace_langage;
+    /*function set_language(language, store = true) {
+        let ace_language;
 
-        if (langage == 'coal' || langage == 'navy') {
+        if (language == 'coal' || language == 'navy') {
             stylesheets.ayuHighlight.disabled = true;
             stylesheets.tomorrowNight.disabled = false;
             stylesheets.highlight.disabled = true;
 
-            ace_langage = "ace/langage/tomorrow_night";
-        } else if (langage == 'ayu') {
+            ace_language = "ace/language/tomorrow_night";
+        } else if (language == 'ayu') {
             stylesheets.ayuHighlight.disabled = false;
             stylesheets.tomorrowNight.disabled = true;
             stylesheets.highlight.disabled = true;
-            ace_langage = "ace/langage/tomorrow_night";
+            ace_language = "ace/language/tomorrow_night";
         } else {
             stylesheets.ayuHighlight.disabled = true;
             stylesheets.tomorrowNight.disabled = true;
             stylesheets.highlight.disabled = false;
-            ace_langage = "ace/langage/dawn";
+            ace_language = "ace/language/dawn";
         }
 
         setTimeout(function () {
-            langageColorMetaTag.content = getComputedStyle(document.body).backgroundColor;
+            languageColorMetaTag.content = getComputedStyle(document.body).backgroundColor;
         }, 1);
 
         if (window.ace && window.editors) {
             window.editors.forEach(function (editor) {
-                editor.setlangage(ace_langage);
+                editor.setlanguage(ace_language);
             });
         }
 
-        var previouslangage = get_langage();
+        var previouslanguage = get_language();
 
         if (store) {
-            try { localStorage.setItem('mdbook-langage', langage); } catch (e) { }
+            try { localStorage.setItem('mdbook-language', language); } catch (e) { }
         }
 
-        html.classList.remove(previouslangage);
-        html.classList.add(langage);
+        html.classList.remove(previouslanguage);
+        html.classList.add(language);
     }*/
 
-    // Set langage
-    var langage = get_langage();
+    // Set language
+    var language = get_language();
 
-    /*set_langage(langage, false);*/
+    /*set_language(language, false);*/
 
-    langageToggleButton.addEventListener('click', function () {
-        if (langagePopup.style.display === 'block') {
-            hidelangages();
+    languageToggleButton.addEventListener('click', function () {
+        if (languagePopup.style.display === 'block') {
+            hidelanguages();
         } else {
-            showlangages();
+            showlanguages();
         }
     });
 
-    langagePopup.addEventListener('click', function (e) {
-        var langage;
-        if (e.target.parentElement.parentElement.id === "langage-list") {
-            langage = e.target.id;
+    languagePopup.addEventListener('click', function (e) {
+        var language;
+        if (e.target.parentElement.parentElement.id === "language-list") {
+            language = e.target.id;
         } else {
             return;
         }
 
         /* safe exit*/
-        if (langage == ""){
+        if (language == ""){
             return
         }
 
@@ -107,33 +107,33 @@ window.onunload = function () { };
         var new_location = current_location
         console.log("current location : " + current_location)
         console.log("new location : " + new_location)
-        console.log("(work in progress) switching to documentation v" + langage);
+        console.log("(work in progress) switching to documentation v" + language);
  
         /*window.location.href = new_location;*/
     });
 
-    langagePopup.addEventListener('focusout', function(e) {
+    languagePopup.addEventListener('focusout', function(e) {
         // e.relatedTarget is null in Safari and Firefox on macOS (see workaround below)
-        if (!!e.relatedTarget && !langageToggleButton.contains(e.relatedTarget) && !langagePopup.contains(e.relatedTarget)) {
-            hidelangages();
+        if (!!e.relatedTarget && !languageToggleButton.contains(e.relatedTarget) && !languagePopup.contains(e.relatedTarget)) {
+            hidelanguages();
         }
     });
 
     // Should not be needed, but it works around an issue on macOS & iOS: https://github.com/rust-lang/mdBook/issues/628
     document.addEventListener('click', function(e) {
-        if (langagePopup.style.display === 'block' && !langageToggleButton.contains(e.target) && !langagePopup.contains(e.target)) {
-            hidelangages();
+        if (languagePopup.style.display === 'block' && !languageToggleButton.contains(e.target) && !languagePopup.contains(e.target)) {
+            hidelanguages();
         }
     });
 
     document.addEventListener('keydown', function (e) {
         if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) { return; }
-        if (!langagePopup.contains(e.target)) { return; }
+        if (!languagePopup.contains(e.target)) { return; }
 
         switch (e.key) {
             case 'Escape':
                 e.preventDefault();
-                hidelangages();
+                hidelanguages();
                 break;
             case 'ArrowUp':
                 e.preventDefault();
@@ -151,11 +151,11 @@ window.onunload = function () { };
                 break;
             case 'Home':
                 e.preventDefault();
-                langagePopup.querySelector('li:first-child button').focus();
+                languagePopup.querySelector('li:first-child button').focus();
                 break;
             case 'End':
                 e.preventDefault();
-                langagePopup.querySelector('li:last-child button').focus();
+                languagePopup.querySelector('li:last-child button').focus();
                 break;
         }
     });

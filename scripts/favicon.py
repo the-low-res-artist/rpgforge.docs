@@ -27,12 +27,12 @@ def set_favicon(filename):
         f.write(s)
 
 # entry point
-root = "./../book/"
+book_root = "./../book/"
 nb_files=0
 print("====================================")
 print("FAVICON UPDATE")
-print(f"Scanning html files in {root} and updating the favicon")
-for root, dirs, files in os.walk(root, topdown=False):
+print(f"Scanning html files in {book_root} and updating the favicon")
+for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
             set_favicon(os.path.join(root, filename))

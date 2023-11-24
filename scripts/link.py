@@ -40,12 +40,12 @@ def set_link(filename):
 
 
 # entry point
-root = "./../book/"
+book_root = "./../book/"
 nb_files=0
 print("====================================")
 print("LINKS UPDATE")
-print(f"Scanning html files in {root} and fixing external links suffixes")
-for root, dirs, files in os.walk(root, topdown=False):
+print(f"Scanning html files in {book_root} and fixing external links suffixes")
+for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
             set_link(os.path.join(root, filename))
