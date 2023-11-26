@@ -36,47 +36,6 @@ window.onunload = function () { };
         }
     }
 
-    /*function set_version(version, store = true) {
-        let ace_version;
-
-        if (version == 'coal' || version == 'navy') {
-            stylesheets.ayuHighlight.disabled = true;
-            stylesheets.tomorrowNight.disabled = false;
-            stylesheets.highlight.disabled = true;
-
-            ace_version = "ace/version/tomorrow_night";
-        } else if (version == 'ayu') {
-            stylesheets.ayuHighlight.disabled = false;
-            stylesheets.tomorrowNight.disabled = true;
-            stylesheets.highlight.disabled = true;
-            ace_version = "ace/version/tomorrow_night";
-        } else {
-            stylesheets.ayuHighlight.disabled = true;
-            stylesheets.tomorrowNight.disabled = true;
-            stylesheets.highlight.disabled = false;
-            ace_version = "ace/version/dawn";
-        }
-
-        setTimeout(function () {
-            versionColorMetaTag.content = getComputedStyle(document.body).backgroundColor;
-        }, 1);
-
-        if (window.ace && window.editors) {
-            window.editors.forEach(function (editor) {
-                editor.setversion(ace_version);
-            });
-        }
-
-        var previousversion = get_version();
-
-        if (store) {
-            try { localStorage.setItem('mdbook-version', version); } catch (e) { }
-        }
-
-        html.classList.remove(previousversion);
-        html.classList.add(version);
-    }*/
-
     // Set version
     var version = get_version();
 

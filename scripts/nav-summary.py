@@ -37,19 +37,19 @@ def set_nav_summary(filename):
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 1. Installation (show)
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation</div></li>"
-    str_replacement="<li class=\"part-title expanded\" id=\"li-installation\"><button class=\"button-summary\" id=\"button-installation\" title=\"Installation\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-down\" id=\"chevron\"></i> Installation  <i class=\"fa fa-download\"></i></strong></button></li>"
+    str_replacement="<li class=\"part-title expanded\" id=\"li-installation\"><button class=\"button-summary\" id=\"button-installation\" title=\"Installation\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-down\" id=\"chevron-installation\"></i> Installation  <i class=\"fa fa-download\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 2. Getting started (hide)
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started</div></li>"
-    str_replacement="<li class=\"part-title\" id=\"li-getting-started\"><button class=\"button-summary\" id=\"button-getting-started\" title=\"Getting Started\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron\"></i> Getting started  <i class=\"fa fa-bolt\"></i></strong></button></li>"
+    str_replacement="<li class=\"part-title\" id=\"li-getting-started\"><button class=\"button-summary\" id=\"button-getting-started\" title=\"Getting Started\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-getting-started\"></i> Getting started  <i class=\"fa fa-bolt\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 3. User manual (hide)
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
-    str_replacement="<li class=\"part-title\" id=\"li-user-manual\"><button class=\"button-summary\" id=\"button-user-manual\" title=\"User Manual\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron\"></i> User manual  <i class=\"fa fa-book\"></i></strong></button></li>"
+    str_replacement="<li class=\"part-title\" id=\"li-user-manual\"><button class=\"button-summary\" id=\"button-user-manual\" title=\"User Manual\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-user-manual\"></i> User manual  <i class=\"fa fa-book\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 4. Community (hide)
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community</div></li>"
-    str_replacement="<li class=\"part-title\" id=\"li-community\"><button class=\"button-summary\" id=\"button-community\" title=\"Community\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron\"></i> Community  <i class=\"fa fa-comments\"></i></strong></button></li>"
+    str_replacement="<li class=\"part-title\" id=\"li-community\"><button class=\"button-summary\" id=\"button-community\" title=\"Community\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-community\"></i> Community  <i class=\"fa fa-comments\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
 
     # update the nav section (chapters)

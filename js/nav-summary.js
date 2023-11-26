@@ -23,7 +23,7 @@ window.onunload = function () { };
     // Installation chapters
     buttonSectionInstallation.addEventListener('click', function () {
         var chapter = buttonSectionInstallation.parentNode;
-        var chevron = buttonSectionInstallation.getElementById('chevron');
+        var chevron = document.getElementById('chevron-installation');
         if (chapter.className === 'part-title') {
             showchapters(chapter, chevron);
         } else {
@@ -34,7 +34,7 @@ window.onunload = function () { };
     // Getting Started chapters
     buttonSectionGettingStarted.addEventListener('click', function () {
         var chapter=buttonSectionGettingStarted.parentNode;
-        var chevron = buttonSectionInstallation.getElementById('chevron');
+        var chevron = document.getElementById('chevron-getting-started');
         if (chapter.className === 'part-title') {
             showchapters(chapter, chevron);
         } else {
@@ -45,7 +45,7 @@ window.onunload = function () { };
     // User Manual chapters
     buttonSectionUserManual.addEventListener('click', function () {
         var chapter=buttonSectionUserManual.parentNode;
-        var chevron = buttonSectionInstallation.getElementById('chevron');
+        var chevron = document.getElementById('chevron-user-manual');
         if (chapter.className === 'part-title') {
             showchapters(chapter, chevron);
         } else {
@@ -56,7 +56,7 @@ window.onunload = function () { };
     // Community chapters
     buttonSectionCommunity.addEventListener('click', function () {
         var chapter=buttonSectionCommunity.parentNode;
-        var chevron = buttonSectionInstallation.getElementById('chevron');
+        var chevron = document.getElementById('chevron-community');
         if (chapter.className === 'part-title') {
             showchapters(chapter, chevron);
         } else {
