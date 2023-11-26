@@ -5,56 +5,62 @@ window.onunload = function () { };
 
 (function sections() {
     var buttonSectionInstallation = document.getElementById('button-installation');
-    var chaptersSectionInstallation = document.getElementById('li-installation');
     var buttonSectionGettingStarted = document.getElementById('button-getting-started');
-    var chaptersSectionGettingStarted = document.getElementById('li-getting-started');
     var buttonSectionUserManual = document.getElementById('button-user-manual');
-    var chaptersSectionUserManual = document.getElementById('li-user-manual');
     var buttonSectionCommunity = document.getElementById('button-community');
-    var chaptersSectionCommunity = document.getElementById('li-community');
 
 
-    function showchapters(chapters) {
+    function showchapters(chapters, chevron) {
         chapters.className = "part-title expanded";
+        chevron.className = "fa fa-chevron-down";
     }
 
     function hidechapters(chapters) {
         chapters.className = "part-title";
+        chevron.className = "fa fa-chevron-right";
     }
 
     // Installation chapters
     buttonSectionInstallation.addEventListener('click', function () {
-        if (chaptersSectionInstallation.className === 'part-title') {
-            showchapters(chaptersSectionInstallation);
+        var chapter = buttonSectionInstallation.parentNode;
+        var chevron = buttonSectionInstallation.getElementById('chevron');
+        if (chapter.className === 'part-title') {
+            showchapters(chapter, chevron);
         } else {
-            hidechapters(chaptersSectionInstallation);
+            hidechapters(chapter, chevron);
         }
     });
 
     // Getting Started chapters
     buttonSectionGettingStarted.addEventListener('click', function () {
-        if (chaptersSectionGettingStarted.className === 'part-title') {
-            showchapters(chaptersSectionGettingStarted);
+        var chapter=buttonSectionGettingStarted.parentNode;
+        var chevron = buttonSectionInstallation.getElementById('chevron');
+        if (chapter.className === 'part-title') {
+            showchapters(chapter, chevron);
         } else {
-            hidechapters(chaptersSectionGettingStarted);
+            hidechapters(chapter, chevron);
         }
     });
 
     // User Manual chapters
     buttonSectionUserManual.addEventListener('click', function () {
-        if (chaptersSectionUserManual.className === 'part-title') {
-            showchapters(chaptersSectionUserManual);
+        var chapter=buttonSectionUserManual.parentNode;
+        var chevron = buttonSectionInstallation.getElementById('chevron');
+        if (chapter.className === 'part-title') {
+            showchapters(chapter, chevron);
         } else {
-            hidechapters(chaptersSectionUserManual);
+            hidechapters(chapter, chevron);
         }
     });
 
     // Community chapters
     buttonSectionCommunity.addEventListener('click', function () {
-        if (chaptersSectionCommunity.className === 'part-title') {
-            showchapters(chaptersSectionCommunity);
+        var chapter=buttonSectionCommunity.parentNode;
+        var chevron = buttonSectionInstallation.getElementById('chevron');
+        if (chapter.className === 'part-title') {
+            showchapters(chapter, chevron);
         } else {
-            hidechapters(chaptersSectionCommunity);
+            hidechapters(chapter, chevron);
         }
     });
 })();
