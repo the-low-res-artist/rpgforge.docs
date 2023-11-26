@@ -8,7 +8,7 @@ import shutil # move files
 # replace in a file
 def set_version(filename, version_list, current_version, current_lang):
 
-    TOP_BUTTON_REGEX = r"(<div class=\"left-buttons\">)"
+    TOP_BUTTON_REGEX = "(<div class=\"left-buttons\">)"
 
     # Safely read the input filename using 'with'
     s= ""

@@ -6,7 +6,7 @@ import os # loop over files
 # goal : create a summary for each page (if the '## Summary' tag is used)
 
 # replace in a file
-def set_summary(filename):
+def set_page_summary(filename):
 
     # Safely read the input filename using 'with'
     s= ""
@@ -57,12 +57,12 @@ def set_summary(filename):
 src_root = "./../src/"
 nb_files=0
 print("====================================")
-print("SUMMARY UPDATE")
-print(f"Scanning md files in {src_root} and updating their summary section")
+print("PAGE SUMMARY UPDATE")
+print(f"Scanning md files in {src_root} and updating the page summary section")
 for root, dirs, files in os.walk(src_root, topdown=False):
    for filename in files:
         if filename.endswith(".md"):
-            set_summary(os.path.join(root, filename))
+            set_page_summary(os.path.join(root, filename))
             nb_files+=1
 print(f"{nb_files} updated")
 

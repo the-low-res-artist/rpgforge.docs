@@ -20,7 +20,7 @@ cd ${root_dir}/scripts
 # update the glossary to each src/**/*.md page
 python3 -m glossary.py
 # update the summary to each src/**/*.md page
-python3 -m summary.py
+python3 -m page-summary.py
 
 cd ${root_dir}
 
@@ -66,7 +66,8 @@ python3 -m link.py
 python3 -m custom-css.py
 # update favicons
 python3 -m favicon.py
-
+# update the navigation summary
+#python3 -m nav-summary.py
 cd ${root_dir}
 
 # add redirection to website root too (book/)
