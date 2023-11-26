@@ -32,20 +32,20 @@ def set_nav_summary(filename):
 
     # hide some chapters
     # 1. Installation
-    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation</div></li>"
-    str_replacement="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1. Installation</strong></div></li>"
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation 📦</div></li>"
+    str_replacement="<li class=\"part-title expanded \"><div><strong aria-hidden=\"true\">1. Installation 📦</strong></div></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 2. Getting started
-    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started</div></li>"
-    str_replacement="<li class=\"chapter-item \"><div><strong aria-hidden=\"true\">Getting started</strong></div></li>"
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started ↗️</div></li>"
+    str_replacement="<li class=\"part-title \"><div><strong aria-hidden=\"true\">Getting started ↗️</strong></div></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 3. User manual
-    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
-    str_replacement="<li class=\"chapter-item \"><div><strong aria-hidden=\"true\">User manual</strong></div></li>"
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual 📕</div></li>"
+    str_replacement="<li class=\"part-title \"><div><strong aria-hidden=\"true\">User manual 📕</strong></div></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 4. Community
-    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community</div></li>"
-    str_replacement="<li class=\"chapter-item \"><div><strong aria-hidden=\"true\">Community</strong></div></li>"
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community 😊</div></li>"
+    str_replacement="<li class=\"part-title \"><div><strong aria-hidden=\"true\">Community 😊</strong></div></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
 
     # update the nav section (chapters)

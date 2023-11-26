@@ -1,13 +1,11 @@
 [Home](./front_page.md)
 
-* [Installation]()
+* [Installation 📦]()
     * [Download](./download.md)
     * [Create a new project](./new_project.md)
     * [Update RPG Power Forge](./update.md)
 
-# title part
-
-* [Getting started]()
+* [Getting started ↗️]()
     * [First 2D map !]()
         * [Create a map](./new_map.md)
         * [Place tiles](./place_tiles.md)
@@ -23,7 +21,7 @@
     * [Export your game]()
         * [To itch.io](./export_to_itchio.md)
 
-* [User manual]()
+* [User manual 📕]()
     * [Import assets]()
         * [Import animations](./import_spritesheet.md)
         * [Import props](./import_sprites.md)
@@ -38,7 +36,7 @@
         * [Functional tests](./functional_tests.md)
         * [Performance tests](./performance_tests.md)
 
-* [Community]()
+* [Community 😊]()
     * [Dev Team]()
     * [Discord channel]()
     * [Twitter](https://twitter.com/RPGPowerForge)
