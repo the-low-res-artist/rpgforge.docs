@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-.button-summary {
+button .button-summary {
     background-color: #04AA6D; /* Green */
     border: none;
     color: white;
