@@ -4,7 +4,7 @@
     * [Download](./download.md)
     * [Create a new project](./new_project.md)
     * [Update RPG Power Forge](./update.md)
-
+part
 * [Getting started]()
     * [First 2D map !]()
         * [Create a map](./new_map.md)

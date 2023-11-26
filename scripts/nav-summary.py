@@ -30,7 +30,12 @@ def set_nav_summary(filename):
     if (len(chapters) == 0):
         return
 
-    # hide some chapters (only used for index)
+    # hide some chapters
+    
+    "<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started</div></li>"
+    "<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
+    "<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community</div></li>"
+    "<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
     for i in range(10):
         str_to_replace=f"<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">{i}.</strong> HIDE</div></li>"
         str_replacement=f"<li class=\"chapter-item hidden expanded \"><div><strong aria-hidden=\"true\">{i}.</strong> HIDE</div></li>"
