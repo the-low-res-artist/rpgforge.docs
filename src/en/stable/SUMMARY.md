@@ -1,10 +1,10 @@
 [Home](./front_page.md)
-# 📦 1. Installation { #installation-group }
+# 📦 1. Installation
 * [Download](./download.md)
 * [Create a new project](./new_project.md)
 * [Update RPG Power Forge](./update.md)
 
-# ↗️ 2. Getting started { #getting-started-group }
+# ↗️ 2. Getting started
 * [Create maps]()
     * [Create a map](./new_map.md)
     * [Place tiles](./place_tiles.md)
@@ -20,7 +20,7 @@
 * [Export your game]()
     * [To itch.io](./export_to_itchio.md)
 
-# 📕 3. User manual { #user-manual-group }
+# 📕 3. User manual
 * [Import assets]()
     * [Import animations](./import_spritesheet.md)
     * [Import props](./import_sprites.md)
@@ -35,7 +35,7 @@
     * [Functional tests](./functional_tests.md)
     * [Performance tests](./performance_tests.md)
 
-# 🌞 4. Community { #community-group }
+# 🌞 4. Community
 * [Dev Team]()
 * [Discord channel]()
 * [Twitter](https://twitter.com/RPGPowerForge)
