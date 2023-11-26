@@ -1,11 +1,11 @@
 [Home](./front_page.md)
 # 📦 1. Installation
-    * [Download](./download.md)
-    * [Create a new project](./new_project.md)
-    * [Update RPG Power Forge](./update.md)
+* [Download](./download.md)
+* [Create a new project](./new_project.md)
+* [Update RPG Power Forge](./update.md)
 
 # ↗️ 2. Getting started
-* [Create maps]()
+* [First 2D map !]()
     * [Create a map](./new_map.md)
     * [Place tiles](./place_tiles.md)
     * [Add tiles layers](./new_layer.md)
