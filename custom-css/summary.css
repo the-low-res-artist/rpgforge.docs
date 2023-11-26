@@ -13,13 +13,14 @@
     cursor: pointer;
 }
 
-button .button-summary {
-    background-color: #04AA6D; /* Green */
+.button-summary {
+    background-color: var(--bg);
     border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+    color: var(--fg);
+    padding: 6px;
+    width: 100%;
+    text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
