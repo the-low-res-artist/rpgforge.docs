@@ -31,15 +31,18 @@ def set_nav_summary(filename):
         return
 
     # hide some chapters
-    
-    "<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started</div></li>"
-    "<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
-    "<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community</div></li>"
-    "<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
-    for i in range(10):
-        str_to_replace=f"<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">{i}.</strong> HIDE</div></li>"
-        str_replacement=f"<li class=\"chapter-item hidden expanded \"><div><strong aria-hidden=\"true\">{i}.</strong> HIDE</div></li>"
-        chapters_new = chapters_new.replace(str_to_replace, str_replacement)
+    # 2. Getting started
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started</div></li>"
+    str_replacement="<li class=\"chapter-item \"><div><strong aria-hidden=\"true\">Getting started</strong></div></li>"
+    chapters_new = chapters_new.replace(str_to_replace, str_replacement)
+    # 3. User manual
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
+    str_replacement="<li class=\"chapter-item \"><div><strong aria-hidden=\"true\">User manual</strong></div></li>"
+    chapters_new = chapters_new.replace(str_to_replace, str_replacement)
+    # 4. Community
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community</div></li>"
+    str_replacement="<li class=\"chapter-item \"><div><strong aria-hidden=\"true\">Community</strong></div></li>"
+    chapters_new = chapters_new.replace(str_to_replace, str_replacement)
 
     # update the nav section (chapters)
     str_to_replace = chapters
