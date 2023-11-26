@@ -31,7 +31,7 @@ def set_nav_summary(filename):
         return
 
     # hide some chapters
-    
+
     # Home
     str_to_replace="<li class=\"chapter-item expanded affix \"><a href=\"front_page.html\" tabindex=\"0\">Home</a></li>"
     str_replacement="<li class=\"part-title expanded affix \"><a href=\"front_page.html\" tabindex=\"0\"><i class=\"fa fa-house\"></i> Home</a></li>"
