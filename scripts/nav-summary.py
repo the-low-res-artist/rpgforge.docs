@@ -30,7 +30,9 @@ def set_nav_summary(filename):
     if (len(chapters) == 0):
         return
 
-    # hide some chapters
+    # reformat some chapters
+
+    print(chapters)
 
     # Home
     str_to_replace="<li class=\"chapter-item expanded affix \"><a href=\"front_page.html\" tabindex=\"0\">Home</a></li>"
