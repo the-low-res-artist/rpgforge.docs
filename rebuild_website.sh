@@ -67,7 +67,7 @@ python3 -m custom-css.py
 # update favicons
 python3 -m favicon.py
 # update the navigation summary
-#python3 -m nav-summary.py
+python3 -m nav-summary.py
 cd ${root_dir}
 
 # add redirection to website root too (book/)
