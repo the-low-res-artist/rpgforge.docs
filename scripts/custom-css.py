@@ -3,7 +3,7 @@ import sys # to return 0
 import os # loop over files
 import shutil # move files
 
-# goal : add the custom css link in every html output pages
+# goal : add the custom-css link in every html output pages
 
 # replace in a file
 def set_css(filename):
@@ -19,7 +19,7 @@ def set_css(filename):
 
     # add custom .js scripts at the end of the file
     str_to_replace = "<!-- Custom theme stylesheets -->"
-    str_replacement = "<!-- Custom theme stylesheets --><link rel=\"stylesheet\" href=\"css/summary.css\">"
+    str_replacement = "<!-- Custom theme stylesheets --><link rel=\"stylesheet\" href=\"custom-css/summary.css\">"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
