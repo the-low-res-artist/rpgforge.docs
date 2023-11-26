@@ -7,3 +7,8 @@
 .chapter li.part-title {
     font-size: 20px;
 }
+
+/* pointer to toggle visibility */
+.part-title {
+    cursor: pointer;
+}
