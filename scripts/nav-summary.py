@@ -31,7 +31,6 @@ def set_nav_summary(filename):
         return
 
     # reformat some chapters
-    print(chapters)
     # Home
     str_to_replace="<li class=\"chapter-item expanded affix \"><a href=\"front_page.html\">Home</a></li>"
     str_replacement="<li class=\"part-title expanded affix \"><a href=\"front_page.html\"><i class=\"fa fa-house\"></i> Home</a></li>"
