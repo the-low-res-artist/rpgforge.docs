@@ -33,23 +33,23 @@ def set_nav_summary(filename):
     # reformat some chapters
     # Home
     str_to_replace="<li class=\"chapter-item expanded affix \"><a href=\"front_page.html\">Home</a></li>"
-    str_replacement="<li class=\"part-title expanded affix \"><a href=\"front_page.html\"><i class=\"fa fa-house\"></i> Home</a></li>"
+    str_replacement="<li class=\"part-title expanded affix \"><a href=\"front_page.html\">Home <i class=\"fa fa-house\"></i></a></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 1. Installation (show)
-    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation 📦</div></li>"
-    str_replacement="<li class=\"part-title expanded \"><div><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-down\"></i> Installation 📦</strong></div></li>"
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation</div></li>"
+    str_replacement="<li class=\"part-title expanded \"><div><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-down\"></i> Installation <i class=\"fa fa-unity\"></i></strong></div></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 2. Getting started (hide)
-    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started ↗️</div></li>"
-    str_replacement="<li class=\"part-title \"><div><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i> Getting started ↗️</strong></div></li>"
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started</div></li>"
+    str_replacement="<li class=\"part-title \"><div><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i> Getting started <i class=\"fa fa-bolt\"></i></strong></div></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 3. User manual (hide)
-    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual 📕</div></li>"
-    str_replacement="<li class=\"part-title \"><div><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i> User manual 📕</strong></div></li>"
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
+    str_replacement="<li class=\"part-title \"><div><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i>User manual <i class=\"fa fa-book\"></i></strong></div></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 4. Community (hide)
-    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community 😊</div></li>"
-    str_replacement="<li class=\"part-title \"><div><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i> Community 😊</strong></div></li>"
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community</div></li>"
+    str_replacement="<li class=\"part-title \"><div><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i> Community <i class=\"fa fa-comments\"></i></strong></div></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
 
     # update the nav section (chapters)
