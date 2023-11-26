@@ -37,19 +37,19 @@ def set_nav_summary(filename):
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 1. Installation (show)
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation</div></li>"
-    str_replacement="<li class=\"part-title expanded\"><button onclick=\"toggle_section(this)\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-down\"></i> Installation  <i class=\"fa fa-download\"></i></strong></button></li>"
+    str_replacement="<li class=\"part-title expanded\" id=\"li-installation\" ><button id=\"button-installation\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-down\"></i> Installation  <i class=\"fa fa-download\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 2. Getting started (hide)
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started</div></li>"
-    str_replacement="<li class=\"part-title\"><button onclick=\"toggle_section(this)\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i> Getting started  <i class=\"fa fa-bolt\"></i></strong></button></li>"
+    str_replacement="<li class=\"part-title\"><button><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i> Getting started  <i class=\"fa fa-bolt\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 3. User manual (hide)
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
-    str_replacement="<li class=\"part-title\"><button onclick=\"toggle_section(this)\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i> User manual  <i class=\"fa fa-book\"></i></strong></button></li>"
+    str_replacement="<li class=\"part-title\"><button><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i> User manual  <i class=\"fa fa-book\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 4. Community (hide)
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community</div></li>"
-    str_replacement="<li class=\"part-title\"><button onclick=\"toggle_section(this)\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i> Community  <i class=\"fa fa-comments\"></i></strong></button></li>"
+    str_replacement="<li class=\"part-title\"><button><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\"></i> Community  <i class=\"fa fa-comments\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
 
     # update the nav section (chapters)
