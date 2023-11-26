@@ -13,6 +13,7 @@
     cursor: pointer;
 }
 
+/* part title style*/
 .button-summary {
     background-color: var(--bg);
     border: none;
@@ -23,4 +24,9 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+/* section style */
+.section {
+    padding-bottom: 5px;
 }

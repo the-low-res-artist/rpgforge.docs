@@ -15,7 +15,7 @@ window.onunload = function () { };
         chevron.className = "fa fa-chevron-down";
     }
 
-    function hidechapters(chapters) {
+    function hidechapters(chapters, chevron) {
         chapters.className = "part-title";
         chevron.className = "fa fa-chevron-right";
     }
