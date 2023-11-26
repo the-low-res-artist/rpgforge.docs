@@ -34,7 +34,7 @@ def set_nav_summary(filename):
 
     # Home
     str_to_replace="<li class=\"chapter-item expanded affix \"><a href=\"front_page.html\" tabindex=\"0\">Home</a></li>"
-    str_replacement="<li class=\"part-title expanded affix \"><a href=\"front_page.html\" tabindex=\"0\"><i class=\"fa fa-house\"></i> Home</a></li>"
+    str_replacement="TEST"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 1. Installation
     #str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation 📦</div></li>"
