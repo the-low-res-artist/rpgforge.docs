@@ -21,7 +21,7 @@ def set_nav_summary(filename):
         return
 
     # get the chapters in the nav section
-    chapters = re.findall(CHAPTERS_SECTION_REGEX, s)
+    chapters = re.findall(CHAPTERS_SECTION_REGEX, s)[0]
     chapters_new = chapters
     # safe exit
     if (len(chapters) == 0):
