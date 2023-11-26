@@ -1,8 +1,8 @@
-$(".part-title").click(function () {
-    $header = $(this);
-    if ($header.context.className === "part-title") {
-    	$header.context.className = "header expanded";
+function toggle_section(element) {
+    var item = element.parentNode; // get the parent 'li' element
+    if (item.className === "part-title") {
+    	section.className = "part-title expanded";
     } else {
-    	$header.context.className = "part-title";
+    	section.className = "part-title";
     }
-});
+};
