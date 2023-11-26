@@ -1,0 +1,9 @@
+/* chapters are closer together */
+.chapter li.chapter-item {
+    line-height: 1.3em;
+}
+
+/* parts title are bigger */
+.chapter li.part-title {
+    font-size: 20px;
+}
