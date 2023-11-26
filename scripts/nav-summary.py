@@ -57,6 +57,11 @@ def set_nav_summary(filename):
     str_replacement = chapters_new
     s = s.replace(str_to_replace, str_replacement)
 
+    # add custom .js scripts at the end of the file
+    str_to_replace = "<!-- Custom JS scripts -->"
+    str_replacement = "<!-- Custom JS scripts --><script src=\"js/nav-summary.js\" type=\"text/javascript\" charset=\"utf-8\"></script>"
+    s = s.replace(str_to_replace, str_replacement)
+
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
         f.write(''.join(s))
