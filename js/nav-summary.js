@@ -18,7 +18,7 @@ window.onunload = function () { };
         chapters.className = "part-title expanded";
     }
 
-    function hidesectionInstallation(chapters) {
+    function hidechapters(chapters) {
         chapters.className = "part-title";
     }
 
