@@ -27,19 +27,17 @@ def set_highlight_actions(filename):
 
     # safe exit
     if (len(matches) == 0):
-        print(f"no match found for {filename}")
         return
 
     for match in matches:
         str_to_replace=match[0]
         action=match[1]
-        print(f"match : {str_to_replace}")
         str_replacement=f"<span style=\"color:{ACTION_COLOR}\">**{action}**</span>"
         s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
-    #with open(filename, 'w', encoding="utf8") as f:
-    #    f.write(s)
+    with open(filename, 'w', encoding="utf8") as f:
+        f.write(s)
 
 
 # entry point
