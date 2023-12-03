@@ -13,27 +13,27 @@ Unity Hub | 3.4
 Unity | 2021.3
 RPG Power Forge | last stable
 
-## Download Unity Hub
+## Install Unity Hub
 
 The Unity Hub is a launcher and manager for Unity versions and projects.
 
-[[Go to the Unity website]] : [unity.com/download](https://unity.com/download). This page will ask you to download the Unity Hub. Once installed on your computer, launch it.
+[[Go to the Unity website]] : [unity.com/download](https://unity.com/download). This page will ask you to download the Unity Hub.
 
-The Unity Hub version is diplayed in the top-left window corner :
+Once installed on your computer, [[launch it]]. The Unity Hub version is diplayed in the top-left window corner :
 
 ![unity_hub_version.png](./../../../../media/download/unity_hub_version.png)
 
-## Download Unity
+## Install Unity
 
-With the Unity Hub installed and opened, [[select the "Installs" button]] :
+With the Unity Hub installed and opened, [[select "Installs"]] :
 
 ![install_button.png](./../../../../media/download/install_button.png)
 
-Then [[select the "Install Editor" button]] :
+Then [[select "Install Editor"]] :
 
 ![install_editor_button.png](./../../../../media/download/install_editor_button.png)
 
-[[Select the last Unity 2021.3 recommended version ]]. In this example, this is the version 2021.3.25f1 :
+[[Select Unity 2021.3]] (recommended version). In this example, this is the version 2021.3.25f1 :
 
 ![install_unity_version.png](./../../../../media/download/install_unity_version.png)
 
@@ -47,9 +47,9 @@ This package allows Unity to build WebGL projects, which is used to publish game
 
 ![install_webgl.png](./../../../../media/download/install_webgl.png)
 
-## Start the Unity installation
+### Start the Unity installation
 
-Once you have chosen your packages, [[select the "Install" button]].
+Once you have chosen your packages, [[select "Install"]] :
 
 ![install_progress.png](./../../../../media/download/install_unity_with_packages.png)
 
@@ -59,11 +59,13 @@ You can now see the download and installation progress in the Unity Hub left pan
 
 ## Download RPG Power Forge
 
-If you have access to the early-access of this package, then we have given you the download link already. By now you should have downloaded a .unitypackage.
+If you have access to the early-access of this package, then we have given you the download link already. By now you should have downloaded a .unitypackage file :
 
 ![rpf_unitypackage.png](./../../../../media/download/rpf_unitypackage.png)
 
-Once the Unity installation is completed and you have your RPG Power Forge package, you are ready to create a [new project](./new_project.md) !
 
+## Create a new project
+
+Once complete, [[Create a new project]] : [new project](./new_project.md)
 
 {{#include ./../glossary.md}}

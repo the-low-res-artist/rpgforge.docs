@@ -40,7 +40,7 @@ def set_page_summary(filename):
                 offset=8
             # append title (if found)
             if (len(title) > 0):
-                link=title.lower().replace(" ","-")
+                link=title.lower().replace(" ","-").replace("(","").replace(")","")
                 summary += ' '*offset + f"- [{title}](#{link})" + os.linesep
 
     # update summary (if found)
