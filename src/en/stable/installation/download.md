@@ -2,7 +2,7 @@
 
 This section covers the download procedure in order to use RPG Power Forge.
 
-```admonish
+```admonish tip
 This section is up-to-date !
 ```
 
