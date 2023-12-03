@@ -65,4 +65,5 @@ If you have access to the early-access of this package, then we have given you t
 
 Once the Unity installation is completed and you have your RPG Power Forge package, you are ready to create a [new project](./new_project.md) !
 
-{{#include glossary.md}}
+
+{{#include ./../glossary.md}}
