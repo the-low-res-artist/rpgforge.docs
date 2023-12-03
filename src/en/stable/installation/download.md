@@ -6,7 +6,6 @@ This section covers the download procedure in order to use RPG Power Forge.
 A plain note.
 ```
 
-
 ```admonish example
 My example is the best!
 ```
