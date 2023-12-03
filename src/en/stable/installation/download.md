@@ -66,6 +66,6 @@ If you have access to the early-access of this package, then we have given you t
 
 ## Create a new project
 
-Once complete, [[Create a new project]] : [new project](./new_project.md)
+You are noew ready to make games ! [[Create a new project]] : [Your first 2D project !](./new_project.md)
 
 {{#include ./../glossary.md}}
