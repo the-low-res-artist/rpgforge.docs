@@ -17,9 +17,13 @@ def set_css(filename):
     if (s == ""):
         return
 
-    # add custom .js scripts at the end of the file
+    # add custom .css scripts at the end of the file
     str_to_replace = "<!-- Custom theme stylesheets -->"
     str_replacement = "<!-- Custom theme stylesheets --><link rel=\"stylesheet\" href=\"custom-css/summary.css\">"
+    s = s.replace(str_to_replace, str_replacement)
+
+    str_to_replace = "<!-- Custom theme stylesheets -->"
+    str_replacement = "<!-- Custom theme stylesheets --><link rel=\"stylesheet\" href=\"custom-css/mdbook-admonish.css\">"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
