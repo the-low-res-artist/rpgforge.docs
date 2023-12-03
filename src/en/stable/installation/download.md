@@ -3,30 +3,8 @@
 This section covers the download procedure in order to use RPG Power Forge.
 
 ```admonish
-A plain note.
+This section is up-to-date !
 ```
-
-```admonish example
-My example is the best!
-```
-
-```admonish warning title="Data loss"
-The following steps can lead to irrecoverable data corruption.
-```
-
-```admonish tip title="_Referencing_ and <i>dereferencing</i>"
-The opposite of *referencing* by using `&` is *dereferencing*, which is
-accomplished with the <span style="color: hotpink">dereference operator</span>, `*`.
-```
-
-~~~admonish bug
-This syntax won't work in Python 3:
-```python
-print "Hello, world!"
-```
-~~~
-
-> 🐞 [Bug tracker here](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
 
 ## Summary
 
@@ -39,7 +17,9 @@ RPG Power Forge | last stable
 
 ## Install Unity Hub
 
+```admonish title="What is the Unity Hub ?"
 The Unity Hub is a launcher and manager for Unity versions and projects.
+```
 
 [[Go to the Unity website]] : [unity.com/download](https://unity.com/download). This page will ask you to download the Unity Hub.
 
@@ -64,6 +44,10 @@ Then [[select "Install Editor"]] :
 ### Additional Unity packages
 
 For a greater experience, we recommend to also select the following packages when installing Unity.
+
+```admonish
+You can also skip this part and install packages later on.
+```
 
 #### WebGL Build Support (optional)
 
