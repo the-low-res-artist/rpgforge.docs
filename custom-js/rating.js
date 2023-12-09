@@ -11,23 +11,23 @@ window.onunload = function () { };
     var button_start_5 = document.getElementById('rating3-5');
 
     button_start_1.addEventListener('click', function () {
-        rate("1 star")
+        rate("1 star");
     });
 
     button_start_2.addEventListener('click', function () {
-        rate("2 star")
+        rate("2 star");
     });
 
     button_start_3.addEventListener('click', function () {
-        rate("3 star")
+        rate("3 star");
     });
 
     button_start_4.addEventListener('click', function () {
-        rate("4 star")
+        rate("4 star");
     });
 
     button_start_5.addEventListener('click', function () {
-        rate("5 star")
+        rate("5 star");
     });
 
     function rate(score) {
