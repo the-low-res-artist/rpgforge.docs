@@ -35,6 +35,7 @@ window.onunload = function () { };
         console.log(path);
         console.log(score);
         // Write data in 'Output.txt' .
+        const fs = require('fs')
         fs.writeFile('Output.txt', score, (err) => {
         
             // In case of a error throw err.
