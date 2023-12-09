@@ -34,12 +34,9 @@ window.onunload = function () { };
         var path = window.location.pathname;
         console.log(path);
         console.log(score);
-        // Write data in 'Output.txt' .
-        const fs = require('fs')
-        fs.writeFile('Output.txt', score, (err) => {
-        
-            // In case of a error throw err.
-            if (err) throw err;
-        })
+        // hide stars
+        document.getElementById("full-stars-example-two").style.visibility = 'hidden';
+        // show "thank you" message
+        document.getElementById("thank-you").style.visibility = 'visible';
     }
 })();
