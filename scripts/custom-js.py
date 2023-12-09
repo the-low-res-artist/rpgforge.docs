@@ -3,10 +3,10 @@ import sys # to return 0
 import os # loop over files
 import shutil # move files
 
-# goal : add the custom-css link in every html output pages
+# goal : add the custom-js link in every html output pages
 
 # replace in a file
-def set_css(filename):
+def set_js(filename):
 
     # Safely read the input filename using 'with'
     s= ""
@@ -17,14 +17,14 @@ def set_css(filename):
     if (s == ""):
         return
 
-    # add custom .css scripts at the end of the file
-    css_link = ""
-    for root, dirs, files in os.walk("./../custom-css"):
+    # add custom .js scripts at the end of the file
+    js_link = ""
+    for root, dirs, files in os.walk("./../custom-js"):
         for file in files:
-            css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
+            js_link += f"<script src=\"custom-js/{file}\" type=\"text/javascript\" charset=\"utf-8\"></script>""
     
-    str_to_replace = "<!-- Custom theme stylesheets -->"
-    str_replacement = f"<!-- Custom theme stylesheets -->{css_link}"
+    str_to_replace = "<!-- Custom JS scripts -->"
+    str_replacement = f"<!-- Custom JS scripts -->{js_link}"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
@@ -35,12 +35,12 @@ def set_css(filename):
 book_root = "./../book/"
 nb_files=0
 print("====================================")
-print("CSS UPDATE")
-print(f"Scanning html files in {book_root} and adding a css link")
+print("JS UPDATE")
+print(f"Scanning html files in {book_root} and adding a js link")
 for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
-            set_css(os.path.join(root, filename))
+            set_js(os.path.join(root, filename))
             nb_files+=1
 print(f"{nb_files} updated")
 
