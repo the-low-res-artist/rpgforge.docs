@@ -95,6 +95,6 @@ do
     # process folder
     # add folders links (css, js, media, ...)
     ln -s ${PWD}/media/ ${PWD}/${folder}/media
-    ln -s ${PWD}/custom-js/ ${PWD}/${folder}/js
+    ln -s ${PWD}/custom-js/ ${PWD}/${folder}/custom-js
     ln -s ${PWD}/custom-css/ ${PWD}/${folder}/custom-css
 done
