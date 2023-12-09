@@ -35,8 +35,8 @@ window.onunload = function () { };
         console.log(path);
         console.log(score);
         // hide stars
-        document.getElementById("full-stars-example-two").style.visibility = 'hidden';
+        document.getElementById("full-stars-example-two").style.display = 'none';
         // show "thank you" message
-        document.getElementById("thank-you").style.visibility = 'visible';
+        document.getElementById("thank-you").style.display = 'block';
     }
 })();
