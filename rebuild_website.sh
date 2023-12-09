@@ -68,6 +68,8 @@ python3 -m language.py
 python3 -m link.py
 # add css link
 python3 -m custom-css.py
+# add css link
+python3 -m custom-js.py
 # update favicons
 python3 -m favicon.py
 # update the navigation summary
