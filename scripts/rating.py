@@ -3,10 +3,10 @@ import sys # to return 0
 import os # loop over files
 import shutil # move files
 
-# goal : add the custom-css link in every html output pages
+# goal : add a rating at the bottom of each page
 
 # replace in a file
-def set_css(filename):
+def set_rating(filename):
 
     # Safely read the input filename using 'with'
     s= ""
@@ -17,14 +17,12 @@ def set_css(filename):
     if (s == ""):
         return
 
+    with open("./../resources/rating.html") as f:
+        rating_html = f.read()
+
     # add custom .css scripts at the end of the file
-    css_link = ""
-    for root, dirs, files in os.walk("./../custom-css"):
-        for file in files:
-            css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
-    
-    str_to_replace = "<!-- Custom theme stylesheets -->"
-    str_replacement = f"<!-- Custom theme stylesheets -->{css_link}"
+    str_to_replace = "</main>"
+    str_replacement = f"{rating_html}</main>"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
@@ -35,12 +33,12 @@ def set_css(filename):
 book_root = "./../book/"
 nb_files=0
 print("====================================")
-print("CSS UPDATE")
-print(f"Scanning html files in {book_root} and adding a Version dropdown")
+print("RATE UPDATE")
+print(f"Scanning html files in {book_root} and adding a rating option")
 for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
-            set_css(os.path.join(root, filename))
+            set_rating(os.path.join(root, filename))
             nb_files+=1
 print(f"{nb_files} updated")
 
