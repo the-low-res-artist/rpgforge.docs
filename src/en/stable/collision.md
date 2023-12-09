@@ -89,5 +89,3 @@ Polygon|Custom polygon shape
 
 ![colliders_edit.png](./../media/collision/colliders_edit.png)
 
-
-{{#include glossary.md}}

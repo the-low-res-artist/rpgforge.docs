@@ -39,6 +39,9 @@ def set_glossary(filename):
         str_replacement="[<span style=\"color:" + GLOSSARY_COLOR + "\">" + word + "</span>][" + glossary_entry + "]"
         s = s.replace(str_to_replace, str_replacement)
 
+    ## add the glossary file
+    s += '\n\n{{#include ./../glossary.md}}'
+
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
         f.write(s)

@@ -18,7 +18,7 @@ RPG Power Forge | last stable
 ## Install Unity Hub
 
 ```admonish title="What is the Unity Hub ?"
-The Unity Hub is a launcher and manager for Unity versions and projects.
+The Unity Hub is a standalone application that streamlines the way you find, download, and manage your Unity Projects and installations.
 ```
 
 [[Go to the Unity website]] : [unity.com/download](https://unity.com/download). This page will ask you to download the Unity Hub.
@@ -40,6 +40,7 @@ Then [[select "Install Editor"]] :
 [[Select Unity 2021.3]] (recommended version). In this example, this is the version 2021.3.25f1 :
 
 ![install_unity_version.png](./../../../../media/download/install_unity_version.png)
+
 
 ### Additional Unity packages
 
@@ -74,6 +75,4 @@ If you have access to the early-access of this package, then we have given you t
 
 ## Create a new project
 
-You are noew ready to make games ! [[Create a new project]] : [Your first 2D project !](./new_project.md)
-
-{{#include ./../glossary.md}}
+You are noew ready to make games ! [[Create a new project]] : [Your first 2D project !](./installation/create_new_project.md)

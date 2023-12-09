@@ -151,5 +151,3 @@ Your animations will be located in *Assets/Project/Animations* folder, grouped u
 
 > 🐲 This is an **Animation Collection**. Double-click this object in your Project window to edit your animations again if necessary !
 
-
-{{#include glossary.md}}

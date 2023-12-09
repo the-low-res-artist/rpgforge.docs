@@ -1,7 +1,7 @@
 [Home](./front_page.md)
 
 * [Installation]()
-    * [Download](./installation/download.md)
+    * [Download Unity](./installation/download.md)
     * [Create a new project](./new_project.md)
     * [Update RPG Power Forge](./update.md)
 

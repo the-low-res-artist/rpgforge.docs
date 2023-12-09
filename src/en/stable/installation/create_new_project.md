@@ -67,6 +67,3 @@ Once restarted, **[Unity]** now has **[RPG Power Forge]** installed. You will fi
 ![import_completed.png](./../media/new_project/import_completed.png)
 
 Congratulations ! With **[RPG Power Forge]** installed, you can now head to creation !
-
-
-{{#include glossary.md}}

@@ -114,5 +114,3 @@ We have added a UI specifically to find and place props on the map. The UI is ca
 ![props_collection_place.gif](./../media/import/props_collection_place.gif)
 
 > 🐲 The subfolder where your **Props** are located is named after the spritesheet filename you've imported.
-
-{{#include glossary.md}}

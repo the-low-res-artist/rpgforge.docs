@@ -34,5 +34,3 @@ Yes ! See below :
 - RPG Power Forge Music pack : *we're packaging it, be patient !*
 
 ![nostalgia_demo_1.jpg](./../media/front_page/nostalgia_demo_1.jpg)
-
-{{#include glossary.md}}

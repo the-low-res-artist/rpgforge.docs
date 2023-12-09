@@ -18,5 +18,3 @@ The **About** window is located here :
 
 ![window.png](./../media/about/window.PNG)
 
-
-{{#include glossary.md}}

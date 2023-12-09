@@ -80,5 +80,3 @@ Good ! But it could be better... We should add some collisions to prevent our ch
 Much better now !
 
 ![demo3.gif](./../media/heights/demo3.gif)
-
-{{#include glossary.md}}

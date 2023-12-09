@@ -16,5 +16,3 @@ The **Avatar Move** behavior if located under the **Move** section, in the **Beh
 
 ![window.png](./../media/prefab_behaviors/player_move/window_content.PNG)
 
-
-{{#include glossary.md}}

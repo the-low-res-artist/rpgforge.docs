@@ -29,5 +29,3 @@ Once the import process is done, **RPG Power Forge** may ask you to restart Unit
 ![list.png](./../media/new_project/import_restart.png)
 
 Congratulations, **RPG Power Forge** is now updated ! You can make sure about your version in the **[About](./about.md)** window.
-
-{{#include glossary.md}}

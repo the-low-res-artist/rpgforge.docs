@@ -15,5 +15,3 @@ To create a new layer, simply select the **[Tilemap]** object in the **[Hierarch
 You now have a new layer for tiles !
 
 > 🐲 Multiple layers are useful as soon as you want to draw at different height levels, or if you want to organize your tiles ! You can also drag 'n' drop then to rearrange the order of display.
-
-{{#include glossary.md}}

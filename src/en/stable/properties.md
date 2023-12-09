@@ -34,5 +34,3 @@ By selecting the drop-down on the right of this UI, you can change the height of
 You can add and remove layers in this UI.
 
 ![properties_tilemap.PNG](./../media/properties/properties_tilemap.png)
-
-{{#include glossary.md}}

@@ -35,5 +35,3 @@ Select **[Create]** to create a new map.
     * [Tilemap] object : a first layer to draw tiles ([how to add more](./new_layer.md))
     * [Start] object : where the player is instanciate in Play Mode.
 
-
-{{#include glossary.md}}

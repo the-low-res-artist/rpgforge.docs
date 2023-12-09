@@ -91,5 +91,3 @@ When the export is done, you can see logs in the Console Window, telling your ga
 
 Congratulation, your game is now online ! Test my sample map here : [here](https://gif-superretroworld.itch.io/rpg-power-forge-export?secret=d2TMyzQ8Ero5Kblk8OEx9WgMp0)
 
-
-{{#include glossary.md}}
