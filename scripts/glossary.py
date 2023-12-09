@@ -40,7 +40,7 @@ def set_glossary(filename):
         s = s.replace(str_to_replace, str_replacement)
 
     ## add the glossary file
-    s += '\n\n{{#include ./../glossary.md}}'
+    s += '\n\n{{#include ./glossary.md}}'
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
