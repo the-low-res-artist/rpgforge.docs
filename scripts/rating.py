@@ -17,11 +17,11 @@ def set_rating(filename):
     if (s == ""):
         return
 
-    current_rate_htlm="<div style=\"font-size:13px;font-weight: normal;\"><i>Users find this page helpful</i></div>"
+    current_rate_htlm="<div style=\"font-size:13px;font-weight: normal;opacity: 0.5;\"><i>Users find this page helpful</i></div>"
 
     # add the subtitle on top of the page
-    str_to_replace = "</h1>"
-    str_replacement = f"{current_rate_htlm}</h1>"
+    str_to_replace = "</a></h1>"
+    str_replacement = f"</a>{current_rate_htlm}</h1>"
     s = s.replace(str_to_replace, str_replacement)
     
 
