@@ -17,6 +17,14 @@ def set_rating(filename):
     if (s == ""):
         return
 
+    current_rate_htlm="<div style=\"font-size:13px;font-weight: normal;\"><i>Users find this page helpful</i></div>"
+
+    # add the subtitle on top of the page
+    str_to_replace = "</h1>"
+    str_replacement = f"{current_rate_htlm}</h1>"
+    s = s.replace(str_to_replace, str_replacement)
+    
+
     with open("./../resources/rating.html") as f:
         rating_html = f.read()
 
