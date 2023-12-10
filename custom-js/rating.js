@@ -45,7 +45,7 @@ window.onunload = function () { };
         const url = `https://rpgpowerforge.com/rate/rate.php?page=${page}&rate=${rate}`;
 
         fetch(url)
-        .then(response => {
+        /*.then(response => {
             if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
             }
@@ -54,7 +54,7 @@ window.onunload = function () { };
         .then(data => {
             console.log('Response from server:', data);
             // Process the data as needed
-        })
+        })*/
         .catch(error => {
             console.error('Error:', error);
         });
