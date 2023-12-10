@@ -11,46 +11,52 @@ window.onunload = function () { };
     var button_start_5 = document.getElementById('rating3-5');
 
     button_start_1.addEventListener('click', function () {
-        rate("1 star");
+        rate(1);
     });
 
     button_start_2.addEventListener('click', function () {
-        rate("2 star");
+        rate(2);
     });
 
     button_start_3.addEventListener('click', function () {
-        rate("3 star");
+        rate(3);
     });
 
     button_start_4.addEventListener('click', function () {
-        rate("4 star");
+        rate(4);
     });
 
     button_start_5.addEventListener('click', function () {
-        rate("5 star");
+        rate(5);
     });
 
-    function rate(score) {
+    function rate(rate) {
         var path = window.location.pathname;
+        var page = path.split("/").pop();
+
         console.log("update page")
         // hide stars
         document.getElementById("full-stars-example-two").style.display = 'none';
         // show "thank you" message
         document.getElementById("thank-you").style.display = 'block';
+        
         // send the post request
         console.log("send request")
-        const url = 'https://rpgpowerforge.com/newRating';
-        const data = { page_html: path, page_rate : score };
-        console.log(data)
-        fetch(url, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-            })
-            .then(response => response.json())
-            .then(data => console.log(data))
-            .catch(error => console.error('Error:', error));
-        }
+        const url = `https://rpgpowerforge.com/rate/rate.php?page=${page}&rate=${rate}`;
+
+        fetch(url)
+        .then(response => {
+            if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json(); // Assuming the server returns JSON
+        })
+        .then(data => {
+            console.log('Response from server:', data);
+            // Process the data as needed
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }    
 })();
