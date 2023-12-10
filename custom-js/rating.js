@@ -32,11 +32,25 @@ window.onunload = function () { };
 
     function rate(score) {
         var path = window.location.pathname;
-        console.log(path);
-        console.log(score);
+        console.log("update page")
         // hide stars
         document.getElementById("full-stars-example-two").style.display = 'none';
         // show "thank you" message
         document.getElementById("thank-you").style.display = 'block';
-    }
+        // send the post request
+        console.log("send request")
+        const url = 'https://82.180.132.196/newRating';
+        const data = { page_html: path, page_rate : score };
+        console.log(data)
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+            })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error('Error:', error));
+        }
 })();
