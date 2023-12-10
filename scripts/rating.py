@@ -61,7 +61,7 @@ def set_rating(filename):
     if (s == ""):
         return
 
-    rate_subtitle = get_rate_subtitle("./../rate/rate.csv", filename)
+    rate_subtitle = get_rate_subtitle("./../../rate/rate.csv", filename)
     
     current_rate_htlm=f"<div style=\"font-size:13px;font-weight: normal;opacity: 0.5;\"><i>{rate_subtitle}</i></div>"
 
