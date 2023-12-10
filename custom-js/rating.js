@@ -39,7 +39,7 @@ window.onunload = function () { };
         document.getElementById("thank-you").style.display = 'block';
         // send the post request
         console.log("send request")
-        const url = 'https://82.180.132.196/newRating';
+        const url = 'https://rpgpowerforge.com/newRating';
         const data = { page_html: path, page_rate : score };
         console.log(data)
         fetch(url, {
