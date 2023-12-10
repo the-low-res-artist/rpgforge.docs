@@ -3,7 +3,51 @@ import sys # to return 0
 import os # loop over files
 import shutil # move files
 
-# goal : add a rating at the bottom of each page
+# goal : add a rating at the bottom of each page + rate subtitle at the top
+
+# helpers
+def get_average_rate(rates, basename):
+    total = 0
+    occurence = 0
+    for rate in rates:
+        tab = rate.split(';')
+        if (tab[1] == basename):
+            total += int(tab[2])
+            occurence += 1
+    # safe exit
+    if (occurence < 5):
+        return None
+    else:
+        return total/float(occurence)
+
+def get_rate_subtitle(rate_file, filename):
+    
+    # get basename
+    basename = os.path.basename(filename)
+    
+    # open the rate.csv file
+    rates = ""
+    with open(rate_file, 'r', encoding="utf8") as f:
+        rates = f.readlines()
+
+    # safe outcome
+    rate_subtitle = ""
+    if (rates == ""):
+        return rate_subtitle
+    else:
+        average = get_average_rate(rates, basename)
+        if (average == None):
+            return ""
+        if (average >= 4):
+            return "Users find this page very helpful !"
+        elif (average >= 3):
+            return "Users find this page mostly helpful"
+        elif (average >= 2):
+            return "Users think this page needs a bit more work"
+        elif (average >= 1):
+            return "Users think this page isn't great yet"
+        else:
+            return "Users think this page needs to be reworked"
 
 # replace in a file
 def set_rating(filename):
@@ -17,14 +61,15 @@ def set_rating(filename):
     if (s == ""):
         return
 
-    current_rate_htlm="<div style=\"font-size:13px;font-weight: normal;opacity: 0.5;\"><i>Users find this page helpful</i></div>"
+    rate_subtitle = get_rate_subtitle("./../rate/rate.csv", filename)
+    
+    current_rate_htlm=f"<div style=\"font-size:13px;font-weight: normal;opacity: 0.5;\"><i>{rate_subtitle}</i></div>"
 
     # add the subtitle on top of the page
     str_to_replace = "</a></h1>"
     str_replacement = f"</a>{current_rate_htlm}</h1>"
     s = s.replace(str_to_replace, str_replacement)
     
-
     with open("./../resources/rating.html") as f:
         rating_html = f.read()
 
