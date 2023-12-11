@@ -57,7 +57,7 @@ RPG Power Forge will ask you if you are OK to install it. [[select "Install"]].
 
 ![import_restart.png](./../../../../media/new_project/import_restart.png)
 
-**[RPG Power Forge]** package is installing ! Unity will restart upon completion.
+RPG Power Forge package is installing ! Unity will restart upon completion.
 
 ![import_loading_2.png](./../../../../media/new_project/import_loading_2.png)
 
