@@ -29,9 +29,9 @@ def set_nav_summary(filename, current_chapter):
 
     # reformat some chapters
     # Home
-    #str_to_replace="<li class=\"chapter-item expanded affix \"><a href=\"front_page.html\">Home</a></li>"
-    #str_replacement="<li class=\"part-title expanded affix\"><a href=\"front_page.html\">Home <i class=\"fa fa-home\"></i></a></li>"
-    #chapters_new = chapters_new.replace(str_to_replace, str_replacement)
+    str_to_replace="<div class=\"sidebar-scrollbox\"><ol class=\"chapter\"><li class=\"chapter-item expanded affix \">"
+    str_replacement="<div class=\"sidebar-scrollbox\"><ol class=\"chapter\"><li class=\"part-title expanded affix \">"
+    chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     # 1. Installation (show)
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation</div></li>"
     str_replacement="<li class=\"part-title expanded\" id=\"li-installation\"><button class=\"button-summary\" id=\"button-installation\" title=\"Installation\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-down\" id=\"chevron-installation\"></i>&nbsp;&nbsp;Installation&nbsp;&nbsp;<i class=\"fa fa-download\"></i></strong></button></li>"
