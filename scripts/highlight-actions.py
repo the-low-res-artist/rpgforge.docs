@@ -11,7 +11,7 @@ def set_highlight_actions(filename):
 
     # constants
     ACTION_COLOR="crimson"
-    ACTION_REGEX=r"(\[\[(.*)\]\])"
+    ACTION_REGEX=r"(\[\[(.+?)\]\])"
 
     # Safely read the input filename using 'with'
     s= ""
