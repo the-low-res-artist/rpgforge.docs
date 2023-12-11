@@ -75,4 +75,4 @@ If you have access to the early-access of this package, then we have given you t
 
 ## Create a new project
 
-You are noew ready to make games ! [[Create a new project]] : [Your first 2D project !](./installation/create_new_project.md)
+You are now ready to make games ! [[Create a new project]] : [Your first 2D project !](./installation/create_new_project.md)
