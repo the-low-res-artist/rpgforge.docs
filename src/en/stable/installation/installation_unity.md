@@ -1,6 +1,6 @@
-# Download
+# Install Unity
 
-This section covers the download procedure in order to use RPG Power Forge.
+This section covers the download and installation process for Unity Hub and Unity Editor.
 
 ```admonish tip title="Oh yeah"
 This section is up-to-date !
@@ -13,7 +13,6 @@ Software | Version |
 --- | --- 
 Unity Hub | >= 3.4
 Unity | 2021.3
-RPG Power Forge | last stable
 
 ## Install Unity Hub
 
@@ -27,7 +26,7 @@ Once installed on your computer, [[launch it]]. The Unity Hub version is diplaye
 
 ![unity_hub_version.png](./../../../../media/download/unity_hub_version.png)
 
-## Install Unity
+## Install Unity Editor
 
 With the Unity Hub installed and opened, [[select "Installs"]] :
 
@@ -66,13 +65,7 @@ You can now see the download and installation progress in the Unity Hub left pan
 
 ![install_progress.png](./../../../../media/download/install_progress.png)
 
-## Download RPG Power Forge
 
-If you have access to the early-access of this package, then we have given you the download link already. By now you should have downloaded a .unitypackage file :
+## Congratulations !
 
-![rpf_unitypackage.png](./../../../../media/download/rpf_unitypackage.png)
-
-
-## Create a new project
-
-You are now ready to make games ! [[Create a new project]] : [Your first 2D project !](./installation/create_new_project.md)
+Now you have the Unity Editor installed on your computer. You can now download  [RPG Power Forge here](./installation/download_rpg_power_forge.md).

@@ -1,9 +1,9 @@
 [Home](./front_page.md)
 
 * [Installation]()
-    * [Download Unity](./installation/download.md)
-    * [Create a new project](./new_project.md)
-    * [Update RPG Power Forge](./update.md)
+    * [Install Unity](./installation/installation_unity.md)
+    * [Download RPG Power Forge](./installation/download_rpg_power_forge.md)
+    * [Create a new project](./installation/create_new_project.md)
 
 * [Getting started]()
     * [First 2D map !]()
@@ -35,6 +35,7 @@
         * [About the project](./about.md)
         * [Functional tests](./functional_tests.md)
         * [Performance tests](./performance_tests.md)
+    * [Update RPG Power Forge](./update.md)
 
 * [Community]()
     * [Dev Team]()

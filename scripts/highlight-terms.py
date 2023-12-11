@@ -21,7 +21,8 @@ def set_highlight_terms(filename):
     terms = [
         'Unity',
         'Hub',
-        'RPG Power Forge'
+        'RPG Power Forge',
+        'Editor'
     ]
 
     for term in terms:
