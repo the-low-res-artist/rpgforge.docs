@@ -5,11 +5,19 @@ import shutil # move files
 
 # goal : add a rating at the bottom of each page + rate subtitle at the top
 
+# contants
+MAX_OCCURENCES = 50
+
 # helpers
 def get_average_rate(rates, basename):
+
+    global MAX_OCCURENCES
     total = 0
     occurence = 0
-    for rate in rates:
+
+    for rate in reversed(rates):
+        if occurence >= MAX_OCCURENCES:
+            break
         tab = rate.split(';')
         if (tab[1] == basename):
             total += int(tab[2])
