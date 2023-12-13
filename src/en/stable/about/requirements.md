@@ -48,7 +48,7 @@ RPF_V1_0002|xxx| Passed ✔️
 ### Behavior module
 Requirement|Description|Test result
 ----|---|---
-RPF_V1_0001|xxx| Passed ✔️
+RPF_V1_0001|xxx| Not tested 🍌
 RPF_V1_0002|xxx| Failed ❌
 
 ### XXX module
