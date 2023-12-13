@@ -37,6 +37,8 @@ def set_nav_summary(filename):
     #str_replacement="<div class=\"sidebar-scrollbox\"><ol class=\"chapter\"><li class=\"part-title expanded affix \">"
     #chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
+    print(filename)
+
     # 1. Installation
     expand = "expanded"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation</div></li>"
@@ -85,7 +87,6 @@ print(f"Scanning html files in {book_root} and update the navigation summary sec
 for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
-            print(filename)
             set_nav_summary(os.path.join(root, filename))
             nb_files+=1
 print(f"{nb_files} updated")
