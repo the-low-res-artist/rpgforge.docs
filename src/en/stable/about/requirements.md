@@ -32,16 +32,26 @@ Behavior|3|1
 ### Assets Importer module
 Requirement|Description|Test result
 ----|---|---
-RPF_V1_0001|xxx| Passed ✔️
-RPF_V1_0002|xxx| Failed ❌
+RPF_V1_0001|The module must import .png file format| Passed ✔️
+RPF_V1_0002|The module must import .ase file format| Passed ✔️
+RPF_V1_0003|The module must import .ase file format| Passed ✔️
+RPF_V1_0004|The module must import file size from 1x1 up to 2048x2048| Passed ✔️
+RPF_V1_0005|The module must allow the user to slice the file| Passed ✔️
+RPF_V1_0006|The module must allow the user to select a transparency color for the file| Passed ✔️
 
 ### Assets Picker module
 Requirement|Description|Test result
 ----|---|---
 RPF_V1_0001|xxx| Passed ✔️
-RPF_V1_0002|xxx| Failed ❌
+RPF_V1_0002|xxx| Passed ✔️
 
 ### Behavior module
+Requirement|Description|Test result
+----|---|---
+RPF_V1_0001|xxx| Passed ✔️
+RPF_V1_0002|xxx| Failed ❌
+
+### XXX module
 Requirement|Description|Test result
 ----|---|---
 RPF_V1_0001|xxx| Passed ✔️

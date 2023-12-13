@@ -44,7 +44,7 @@ def set_nav_summary(filename):
         expand = " expanded"
         chevron_icon_class="fa fa-chevron-down"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation</div></li>"
-    str_replacement=f"<li class=\"part-title {expand} \" id=\"li-installation\"><button class=\"button-summary\" id=\"button-installation\" title=\"Installation\"><strong aria-hidden=\"true\"><i class=\"{chevron_icon_class}\" id=\"chevron-installation\"></i>&nbsp;&nbsp;Installation&nbsp;&nbsp;<i class=\"fa fa-download\"></i></strong></button></li>"
+    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-installation\"><button class=\"button-summary\" id=\"button-installation\" title=\"Installation\"><strong aria-hidden=\"true\"><i class=\"{chevron_icon_class}\" id=\"chevron-installation\"></i>&nbsp;&nbsp;Installation&nbsp;&nbsp;<i class=\"fa fa-download\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
     # 2. Getting started
