@@ -84,8 +84,11 @@ print("NAV SUMMARY UPDATE")
 print(f"Scanning html files in {book_root} and update the navigation summary section")
 for root, dirs, files in os.walk(book_root, topdown=False):
    current_chapter=root.replace(book_root, "").split("/")[0]
+   print(f"current root : {root}")
+   print(f"current chapter : {current_chapter}")
    for filename in files:
         if filename.endswith(".html"):
+            print(f"current file : {filename}")
             set_nav_summary(os.path.join(root, filename), current_chapter)
             nb_files+=1
 print(f"{nb_files} updated")
