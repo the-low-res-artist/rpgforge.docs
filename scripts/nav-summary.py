@@ -71,7 +71,7 @@ def set_nav_summary(filename):
     expand = ""
     if ("/about/" in filename):
         expand = " expanded"
-    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">5.</strong> About the project</div></li>"
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">5.</strong> About the project...</div></li>"
     str_replacement=f"<li class=\"part-title{expand}\" id=\"li-about\"><button class=\"button-summary\" id=\"button-about\" title=\"About\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-about\"></i>&nbsp;&nbsp;About the project...</strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
 
