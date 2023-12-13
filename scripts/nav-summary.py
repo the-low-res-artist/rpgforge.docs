@@ -38,41 +38,53 @@ def set_nav_summary(filename):
     #chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
     # 1. Installation
-    expand = "expanded"
+    expand = ""
+    chevron_icon_class="fa fa-chevron-right"
+    if ("/installation/" in filename):
+        expand = " expanded"
+        chevron_icon_class="fa fa-chevron-down"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation</div></li>"
-    str_replacement=f"<li class=\"part-title {expand} \" id=\"li-installation\"><button class=\"button-summary\" id=\"button-installation\" title=\"Installation\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-down\" id=\"chevron-installation\"></i>&nbsp;&nbsp;Installation&nbsp;&nbsp;<i class=\"fa fa-download\"></i></strong></button></li>"
+    str_replacement=f"<li class=\"part-title {expand} \" id=\"li-installation\"><button class=\"button-summary\" id=\"button-installation\" title=\"Installation\"><strong aria-hidden=\"true\"><i class=\"{chevron_icon_class}\" id=\"chevron-installation\"></i>&nbsp;&nbsp;Installation&nbsp;&nbsp;<i class=\"fa fa-download\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
     # 2. Getting started
     expand = ""
+    chevron_icon_class="fa fa-chevron-right"
     if ("/getting_started/" in filename):
         expand = " expanded"
+        chevron_icon_class="fa fa-chevron-down"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started</div></li>"
-    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-getting-started\"><button class=\"button-summary\" id=\"button-getting-started\" title=\"Getting Started\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-getting-started\"></i>&nbsp;&nbsp;Getting started&nbsp;&nbsp;<i class=\"fa fa-bolt\"></i></strong></button></li>"
+    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-getting-started\"><button class=\"button-summary\" id=\"button-getting-started\" title=\"Getting Started\"><strong aria-hidden=\"true\"><i class=\"{chevron_icon_class}\" id=\"chevron-getting-started\"></i>&nbsp;&nbsp;Getting started&nbsp;&nbsp;<i class=\"fa fa-bolt\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
     # 3. User manual
     expand = ""
+    chevron_icon_class="fa fa-chevron-right"
     if ("/user_manual/" in filename):
         expand = " expanded"
+        chevron_icon_class="fa fa-chevron-down"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
-    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-user-manual\"><button class=\"button-summary\" id=\"button-user-manual\" title=\"User Manual\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-user-manual\"></i>&nbsp;&nbsp;User manual&nbsp;&nbsp;<i class=\"fa fa-book\"></i></strong></button></li>"
+    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-user-manual\"><button class=\"button-summary\" id=\"button-user-manual\" title=\"User Manual\"><strong aria-hidden=\"true\"><i class=\"{chevron_icon_class}\" id=\"chevron-user-manual\"></i>&nbsp;&nbsp;User manual&nbsp;&nbsp;<i class=\"fa fa-book\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
     # 4. Community
     expand = ""
+    chevron_icon_class="fa fa-chevron-right"
     if ("/community/" in filename):
         expand = " expanded"
+        chevron_icon_class="fa fa-chevron-down"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community</div></li>"
-    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-community\"><button class=\"button-summary\" id=\"button-community\" title=\"Community\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-community\"></i>&nbsp;&nbsp;Community&nbsp;&nbsp;<i class=\"fa fa-comments\"></i></strong></button></li>"
+    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-community\"><button class=\"button-summary\" id=\"button-community\" title=\"Community\"><strong aria-hidden=\"true\"><i class=\"{chevron_icon_class}\" id=\"chevron-community\"></i>&nbsp;&nbsp;Community&nbsp;&nbsp;<i class=\"fa fa-comments\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
 
     # 5. About the project
     expand = ""
+    chevron_icon_class="fa fa-chevron-right"
     if ("/about/" in filename):
         expand = " expanded"
+        chevron_icon_class="fa fa-chevron-down"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">5.</strong> About the project...</div></li>"
-    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-about\"><button class=\"button-summary\" id=\"button-about\" title=\"About\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-about\"></i>&nbsp;&nbsp;About the project...</strong></button></li>"
+    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-about\"><button class=\"button-summary\" id=\"button-about\" title=\"About\"><strong aria-hidden=\"true\"><i class=\"{chevron_icon_class}\" id=\"chevron-about\"></i>&nbsp;&nbsp;About the project...</strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
 
     # update the nav section (chapters)
