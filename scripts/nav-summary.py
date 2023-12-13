@@ -46,25 +46,25 @@ def set_nav_summary(filename):
     # 2. Getting started
     expand = ""
     if ("/getting_started/" in filename):
-        expand = "expanded"
+        expand = " expanded"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started</div></li>"
-    str_replacement=f"<li class=\"part-title {expand} \" id=\"li-getting-started\"><button class=\"button-summary\" id=\"button-getting-started\" title=\"Getting Started\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-getting-started\"></i>&nbsp;&nbsp;Getting started&nbsp;&nbsp;<i class=\"fa fa-bolt\"></i></strong></button></li>"
+    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-getting-started\"><button class=\"button-summary\" id=\"button-getting-started\" title=\"Getting Started\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-getting-started\"></i>&nbsp;&nbsp;Getting started&nbsp;&nbsp;<i class=\"fa fa-bolt\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
     # 3. User manual
     expand = ""
     if ("/user_manual/" in filename):
-        expand = "expanded"
+        expand = " expanded"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
-    str_replacement=f"<li class=\"part-title {expand}\" id=\"li-user-manual\"><button class=\"button-summary\" id=\"button-user-manual\" title=\"User Manual\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-user-manual\"></i>&nbsp;&nbsp;User manual&nbsp;&nbsp;<i class=\"fa fa-book\"></i></strong></button></li>"
+    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-user-manual\"><button class=\"button-summary\" id=\"button-user-manual\" title=\"User Manual\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-user-manual\"></i>&nbsp;&nbsp;User manual&nbsp;&nbsp;<i class=\"fa fa-book\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
     # 4. Community
     expand = ""
     if ("/community/" in filename):
-        expand = "expanded"
+        expand = " expanded"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community</div></li>"
-    str_replacement=f"<li class=\"part-title {expand} \" id=\"li-community\"><button class=\"button-summary\" id=\"button-community\" title=\"Community\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-community\"></i>&nbsp;&nbsp;Community&nbsp;&nbsp;<i class=\"fa fa-comments\"></i></strong></button></li>"
+    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-community\"><button class=\"button-summary\" id=\"button-community\" title=\"Community\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-community\"></i>&nbsp;&nbsp;Community&nbsp;&nbsp;<i class=\"fa fa-comments\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
 
     # update the nav section (chapters)
@@ -85,6 +85,7 @@ print(f"Scanning html files in {book_root} and update the navigation summary sec
 for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
+            print(filename)
             set_nav_summary(os.path.join(root, filename))
             nb_files+=1
 print(f"{nb_files} updated")
