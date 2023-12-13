@@ -37,8 +37,6 @@ def set_nav_summary(filename):
     #str_replacement="<div class=\"sidebar-scrollbox\"><ol class=\"chapter\"><li class=\"part-title expanded affix \">"
     #chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
-    print(filename)
-
     # 1. Installation
     expand = "expanded"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation</div></li>"
@@ -67,6 +65,14 @@ def set_nav_summary(filename):
         expand = " expanded"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">4.</strong> Community</div></li>"
     str_replacement=f"<li class=\"part-title{expand}\" id=\"li-community\"><button class=\"button-summary\" id=\"button-community\" title=\"Community\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-community\"></i>&nbsp;&nbsp;Community&nbsp;&nbsp;<i class=\"fa fa-comments\"></i></strong></button></li>"
+    chapters_new = chapters_new.replace(str_to_replace, str_replacement)
+
+    # 5. About the project
+    expand = ""
+    if ("/about/" in filename):
+        expand = " expanded"
+    str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">5.</strong> About the project</div></li>"
+    str_replacement=f"<li class=\"part-title{expand}\" id=\"li-about\"><button class=\"button-summary\" id=\"button-about\" title=\"About\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-about\"></i>&nbsp;&nbsp;About the project...</strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
 
     # update the nav section (chapters)

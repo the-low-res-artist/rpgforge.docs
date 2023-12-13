@@ -8,6 +8,7 @@ window.onunload = function () { };
     var buttonSectionGettingStarted = document.getElementById('button-getting-started');
     var buttonSectionUserManual = document.getElementById('button-user-manual');
     var buttonSectionCommunity = document.getElementById('button-community');
+    var buttonSectionAbout = document.getElementById('button-about');
 
 
     function showchapters(chapters, chevron) {
@@ -57,6 +58,17 @@ window.onunload = function () { };
     buttonSectionCommunity.addEventListener('click', function () {
         var chapter=buttonSectionCommunity.parentNode;
         var chevron = document.getElementById('chevron-community');
+        if (chapter.className === 'part-title') {
+            showchapters(chapter, chevron);
+        } else {
+            hidechapters(chapter, chevron);
+        }
+    });
+
+    // About chapters
+    buttonSectionAbout.addEventListener('click', function () {
+        var chapter=buttonSectionCommunity.parentNode;
+        var chevron = document.getElementById('chevron-about');
         if (chapter.className === 'part-title') {
             showchapters(chapter, chevron);
         } else {
