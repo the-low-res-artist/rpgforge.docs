@@ -38,8 +38,12 @@
     * [Update RPG Power Forge](./update.md)
 
 * [Community]()
-    * [Dev Team]()
     * [Discord channel]()
     * [Twitter](https://twitter.com/RPGPowerForge)
     * [Road map](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
     * [Included assets]()
+
+* [About the project...]()
+    * [Dev Team]()
+    * [Requirements]()
+    * [Custom render pipeline]()
