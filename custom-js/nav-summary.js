@@ -67,7 +67,7 @@ window.onunload = function () { };
 
     // About chapters
     buttonSectionAbout.addEventListener('click', function () {
-        var chapter=buttonSectionCommunity.parentNode;
+        var chapter=buttonSectionAbout.parentNode;
         var chevron = document.getElementById('chevron-about');
         if (chapter.className === 'part-title') {
             showchapters(chapter, chevron);
