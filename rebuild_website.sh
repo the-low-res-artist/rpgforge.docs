@@ -9,7 +9,7 @@
 # créer la version francaise et tester la redirection de langue (la page doit exister, obligatoire)
 
 # ---------------------------------------------------------------
-# variables
+# variables declaration
 root_dir=${PWD}
 
 # ---------------------------------------------------------------
