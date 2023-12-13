@@ -30,19 +30,19 @@ Behavior|3|1
 ## Requirements list
 
 ### Assets Importer module
-Index|Description|Test result
+Requirement|Description|Test result
 ----|---|---
 RPF_V1_0001|xxx| Passed ✔️
 RPF_V1_0002|xxx| Failed ❌
 
 ### Assets Picker module
-Index|Description|Test result
+Requirement|Description|Test result
 ----|---|---
 RPF_V1_0001|xxx| Passed ✔️
 RPF_V1_0002|xxx| Failed ❌
 
 ### Behavior module
-Index|Description|Test result
+Requirement|Description|Test result
 ----|---|---
 RPF_V1_0001|xxx| Passed ✔️
 RPF_V1_0002|xxx| Failed ❌
