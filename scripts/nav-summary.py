@@ -42,6 +42,7 @@ def set_nav_summary(filename, current_chapter):
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation</div></li>"
     str_replacement=f"<li class=\"part-title {expand}\" id=\"li-installation\"><button class=\"button-summary\" id=\"button-installation\" title=\"Installation\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-down\" id=\"chevron-installation\"></i>&nbsp;&nbsp;Installation&nbsp;&nbsp;<i class=\"fa fa-download\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
+    
     # 2. Getting started
     expand = ""
     if ("getting_started" in current_chapter):
@@ -49,6 +50,7 @@ def set_nav_summary(filename, current_chapter):
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started</div></li>"
     str_replacement=f"<li class=\"part-title {expand}\" id=\"li-getting-started\"><button class=\"button-summary\" id=\"button-getting-started\" title=\"Getting Started\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-getting-started\"></i>&nbsp;&nbsp;Getting started&nbsp;&nbsp;<i class=\"fa fa-bolt\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
+    
     # 3. User manual
     expand = ""
     if ("user_manual" in current_chapter):
@@ -56,7 +58,8 @@ def set_nav_summary(filename, current_chapter):
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">3.</strong> User manual</div></li>"
     str_replacement=f"<li class=\"part-title {expand}\" id=\"li-user-manual\"><button class=\"button-summary\" id=\"button-user-manual\" title=\"User Manual\"><strong aria-hidden=\"true\"><i class=\"fa fa-chevron-right\" id=\"chevron-user-manual\"></i>&nbsp;&nbsp;User manual&nbsp;&nbsp;<i class=\"fa fa-book\"></i></strong></button></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
-    # 4. Community (hide)
+    
+    # 4. Community
     expand = ""
     if ("community" in current_chapter):
         expand = "expanded"
@@ -70,8 +73,8 @@ def set_nav_summary(filename, current_chapter):
     s = s.replace(str_to_replace, str_replacement) 
 
     # Safely write the changed content
-    #with open(filename, 'w', encoding="utf8") as f:
-    #    f.write(''.join(s))
+    with open(filename, 'w', encoding="utf8") as f:
+        f.write(''.join(s))
 
 # entry point
 book_root = "./../book/"
@@ -80,7 +83,7 @@ print("====================================")
 print("NAV SUMMARY UPDATE")
 print(f"Scanning html files in {book_root} and update the navigation summary section")
 for root, dirs, files in os.walk(book_root, topdown=False):
-   current_chapter="" #root.replace(book_root, "").split("/")[0]
+   current_chapter=root.replace(book_root, "").split("/")[0]
    for filename in files:
         if filename.endswith(".html"):
             set_nav_summary(os.path.join(root, filename), current_chapter)
