@@ -19,17 +19,17 @@ def set_test_results_format(filename):
 
     # PASS results
     str_to_replace = "<td>PASS</td>"
-    str_replacement = f"<td style=\"color:black;background-color:LightGreen\">Passed ✔️</td>"
+    str_replacement = f"<td style=\"color:black;background-color:LightGreen\">Passed</td>"
     s = s.replace(str_to_replace, str_replacement)
 
     # FAIL results
     str_to_replace = "<td>FAIL</td>"
-    str_replacement = f"<td style=\"color:black;background-color:LightCoral\">Failed ❌</td>"
+    str_replacement = f"<td style=\"color:black;background-color:LightCoral\">Failed</td>"
     s = s.replace(str_to_replace, str_replacement)
 
     # NOT_TESTED results
     str_to_replace = "<td>NOT_TESTED</td>"
-    str_replacement = f"<td style=\"color:black;background-color:LemonChiffon\">Not tested 🍌</td>"
+    str_replacement = f"<td style=\"color:black;background-color:LemonChiffon\">Not tested</td>"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
