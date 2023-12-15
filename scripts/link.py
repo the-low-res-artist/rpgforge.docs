@@ -7,10 +7,6 @@ import os # loop over files
 
 # replace in a file
 def set_link(filename):
-
-    LINK_REGEX = "(https?://.+?\.html)"
-    HOSTS_LIST = ["trello.com", "x.com", "twitter.com"]
-
     # Safely read the input filename using 'with'
     s= ""
     with open(filename, 'r', encoding="utf8") as f:
@@ -20,19 +16,19 @@ def set_link(filename):
     if (s == ""):
         return
 
-    # find all matches
-    matches = re.findall(LINK_REGEX, s)
+    # Twitter / X
+    str_to_replace = "<a href=\"../https://twitter.com/RPGPowerForge.html\""
+    str_replacement = "<a href=\"https://twitter.com/RPGPowerForge\" target=\"_blank\""
+    s = s.replace(str_to_replace, str_replacement)
 
-    # safe exit
-    if (len(matches) == 0):
-        return
+    str_to_replace = "<a href=\"../https://x.com/RPGPowerForge.html\""
+    str_replacement = "<a href=\"https://x.com/RPGPowerForge\" target=\"_blank\""
+    s = s.replace(str_to_replace, str_replacement)
 
-    for match in matches:
-        host = match.replace('http://', '').replace('https://', '').replace('www.', '').split('/')[0]
-        if host in HOSTS_LIST:
-            str_to_replace = match
-            str_replacement = str_to_replace.replace('.html', '')
-            s = s.replace(str_to_replace, str_replacement)
+    # Trello
+    str_to_replace = "<a href=\"../https://trello.com/b/PIzgsYov/rpg-power-forge-road-map.html\""
+    str_replacement = "<a href=\"https://trello.com/b/PIzgsYov/rpg-power-forge-road-map\" target=\"_blank\""
+    s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
