@@ -17,6 +17,9 @@ root_dir=${PWD}
 echo "[ PRE-BUILD PART ]"
 # python pre process scripts
 cd ${root_dir}/scripts
+
+# build the requirement tests result md page
+python3 -m test-results.py
 # update the glossary to each src/**/*.md page
 python3 -m glossary.py
 # update the summary to each src/**/*.md page
@@ -25,8 +28,6 @@ python3 -m page-summary.py
 python3 -m highlight-terms.py
 # improve the lisibility of [[actions]]
 python3 -m highlight-actions.py
-# build the requirement tests result md page
-python3 -m test-results.py
 
 cd ${root_dir}
 
