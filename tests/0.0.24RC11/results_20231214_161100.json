@@ -1,0 +1,16 @@
+{
+    "context": {
+        "rpf_version": "0.0.20",
+        "unity_version": "2021.3.25f1",
+        "host_OS": "Windows 10 Family",
+        "host_spec":  "Intel Core i7 2.6GHz (12 cores) 32Go RAM",
+        "date": "Dec 14 2023 16:11"
+    },
+    "results": {
+        "FORGE_0001": "PASS",
+        "FORGE_0002": "PASS",
+        "FORGE_0003": "WHAT",
+        "FORGE_0004": "FAIL",
+        "FORGE_0006": "PASS"
+    }
+}

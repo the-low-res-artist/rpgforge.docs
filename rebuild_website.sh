@@ -25,6 +25,8 @@ python3 -m page-summary.py
 python3 -m highlight-terms.py
 # improve the lisibility of [[actions]]
 python3 -m highlight-actions.py
+# build the requirement tests result md page
+python3 -m test-results.py
 
 cd ${root_dir}
 

@@ -8,7 +8,7 @@ import os # loop over files
 
 # constants
 GLOSSARY_COLOR="orange"
-GLOSSARY_REGEX=r"(\?(\w+)\?)"
+GLOSSARY_REGEX=r"(\?([\w ]+?)\?)"
 
 # replace in a file
 def set_glossary(filename):
