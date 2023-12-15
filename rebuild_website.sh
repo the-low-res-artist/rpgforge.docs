@@ -77,6 +77,8 @@ python3 -m custom-js.py
 python3 -m favicon.py
 # update the navigation summary
 python3 -m nav-summary.py
+# update the requirements tests results format for PASS, FAIL and NOT_TESTED cells
+python3 -m test-results-format.py
 # update the rating system
 python3 -m rating.py
 cd ${root_dir}

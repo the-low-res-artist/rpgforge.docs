@@ -87,7 +87,7 @@ Requirement|Description|Test result\n\
             results_details += f"{req['id']}|{req['description']}|{req['result']}\n"
 
     s = f"# Requirements \n\
-This section list all of our ?technical requirements? for each RPG Power Forge feature as well as their tests results\n\
+This section list each ?requirement? for RPG Power Forge features as well as their tests results\n\
 \n\
 *(This page is under development)* \n\
 \n\
@@ -99,7 +99,7 @@ This section list all of our ?technical requirements? for each RPG Power Forge f
 \n\
 ## Context\n\
 \n\
-|||\n\
+|Item|Value|\n\
 ---|---\n\
 RPG Power Forge version|{context_data['rpf_version']}\n\
 Unity Editor version| {context_data['unity_version']}\n\
