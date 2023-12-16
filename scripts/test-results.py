@@ -32,19 +32,15 @@ def generate_results_md(requirements_file, results_folder, output_file):
     # requirements details and results
     requirements_data={}
     for req in requirements:
-        tab = req.split(';')
+        # clear the req line from '\r' '\n' and split it by ';'
+        tab = req.strip().rstrip().split(';')
         req_id = tab[0]
         req_feat = tab[1]
-        req_desc = tab[2].strip().rstrip()
+        req_desc = tab[2]
         req_result = "NOT_TESTED"
         if req_id in results_data['results']:
             req_result = results_data['results'][req_id]
         requirements_data[req_id] = {"id": req_id, "feature": req_feat, "description": req_desc, "result" : req_result}
-
-    # results summary
-    results_summary_icon = "tip"
-    results_summary_title="Oh yeah"
-    results_summary_text = "All feature requirements are OK ✔️ !"
     
     # result by feature
     results_by_feature = ""
@@ -86,6 +82,36 @@ Requirement|Description|Test result\n\
         for req in results_by_feature_data[key]['req_list']:
             results_details += f"{req['id']}|{req['description']}|{req['result']}\n"
 
+    # results summary
+    total_req = 0
+    total_req_passed = 0
+    total_req_fail = 0
+    total_req_not_tested = 0
+    # count req results categories (total and passed)
+    for req_id in requirements_data:
+        total_req += 1
+        req_result = requirements_data[req_id]["result"]
+        if req_result == PASS:
+            total_req_passed += 1
+        elif req_result == FAIL:
+            total_req_fail += 1
+        elif req_result == NOT_TESTED:
+            total_req_not_tested += 1
+    # default summary
+    if total_req_passed == total_req:
+        results_summary_icon = "tip"
+        results_summary_title= "Oh yeah"
+        results_summary_text = "All requirements are passed ✔️ !"
+    elif total_req_passed < total_req and total_req_fail == 0:
+        results_summary_icon = "tip"
+        results_summary_title= "Oh yeah"
+        results_summary_text = "All tested requirements are passed ✔️ !"
+    elif total_req_passed < total_req and total_req_fail > 0:
+        ratio = total_req_passed/(float(total_req_passed) + total_req_fail)
+        ratio = round(ratio * 100, 1)
+        results_summary_icon = "info"
+        results_summary_title= "Testing ..."
+        results_summary_text = f"{ratio}% of tested requirements are passed ✔️ !"
     s = f"# Requirements \n\
 This section list each ?requirement? for RPG Power Forge features as well as their tests results\n\
 \n\
