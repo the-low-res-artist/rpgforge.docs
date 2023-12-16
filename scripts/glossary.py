@@ -52,7 +52,7 @@ def set_glossary(filename):
             for entry in GLOSSARY_LIST:
                 for key in entry:
                     # line sample : [pivot]: ## "A point placed on a sprite or prefab"
-                    line = f"[{key}]: ## \"{entry[key]}\""
+                    line = f'[{key}]: ## \"{entry[key]}\"\n'
                     f.write(line)
 
     ## add the glossary file
