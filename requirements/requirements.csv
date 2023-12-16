@@ -1,8 +1,12 @@
 FORGE_0001;Assets Importer;The module must import .png file format;
 FORGE_0002;Assets Importer;The module must import .ase file format;
 FORGE_0003;Assets Importer;The module must import .ase file format;
+FORGE_0006;Assets Importer;The module must import file or directory of files;
 FORGE_0004;Assets Importer;The module must import file size from 1x1 up to 2048x2048;
 FORGE_0005;Assets Importer;The module must allow the user to slice the file;
-FORGE_0006;Assets Importer;The module must allow the user to select a transparency color for the file;
-FORGE_0007;Assets Picker;aaa;
-FORGE_0008;Behavior;bbb;
+FORGE_0005;Assets Importer;The module must allow the user to delete empty slices;
+FORGE_0005;Assets Importer;The module must allow the user to set a transparency color for the file;
+FORGE_0005;Assets Importer;The module must allow the user to set a semi-transparency color for the file;
+FORGE_0005;Assets Importer;The module must allow the user to use templates for autotiles;
+FORGE_0101;Assets Picker;aaa;
+FORGE_0201;Behavior;bbb;

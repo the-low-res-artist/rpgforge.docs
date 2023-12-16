@@ -9,12 +9,17 @@ import os # loop over files
 # constants
 GLOSSARY_COLOR="orange"
 GLOSSARY_REGEX=r"(\?([\w ]+?)\?)"
+GLOSSARY_LIST = [
+    {"pivot":"A point placed on a sprite or prefab"},
+    {"requirement":"A description of a piece of the software system to deliver"}
+]
 
 # replace in a file
 def set_glossary(filename):
 
     global GLOSSARY_COLOR
     global GLOSSARY_REGEX
+    global GLOSSARY_LIST
 
     # Safely read the input filename using 'with'
     s= ""
@@ -38,6 +43,17 @@ def set_glossary(filename):
         glossary_entry=word.lower()
         str_replacement="[<span style=\"color:" + GLOSSARY_COLOR + "\">" + word + "</span>][" + glossary_entry + "]"
         s = s.replace(str_to_replace, str_replacement)
+
+    # create the glossary file next to filename (if not yet)
+    glossary_filepath = os.path.dirname(filename) + "/glossary.md"
+    if not os.path.isfile(glossary_filepath):
+        # create the glossary file at this location
+        with open(glossary_filepath, 'w', encoding="utf8") as f:
+            for entry in GLOSSARY_LIST:
+                for key in entry:
+                    # line sample : [pivot]: ## "A point placed on a sprite or prefab"
+                    line = f"[{key}]: ## \"{entry[key]}\""
+                    f.write(line)
 
     ## add the glossary file
     s += '\n\n{{#include ./glossary.md}}'
