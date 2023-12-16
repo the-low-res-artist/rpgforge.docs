@@ -1,12 +1,12 @@
 FORGE_0001;Assets Importer;The Assets Importer can import files to make Unity tiles
 FORGE_0002;Assets Importer;The Assets Importer can import files to make Unity prefabs
 FORGE_0003;Assets Importer;The Assets Importer can import files to make Unity animation clips
-FORGE_0004;Assets Importer;"The Assets Importer assemble tiles under a ""Tiles Collection"" file"
-FORGE_0005;Assets Importer;"The Assets Importer assemble props under a ""Props Collection"" file"
-FORGE_0006;Assets Importer;"The Assets Importer assemble animations under an ""Animations Collection"" file"
-FORGE_0007;Assets Importer;"The Assets Importer create the ""Tiles Collection"" file at the end of the Tile import process"
-FORGE_0008;Assets Importer;"The Assets Importer create the ""Props Collection"" file at the end of the Props import process"
-FORGE_0009;Assets Importer;"The Assets Importer create the ""Animations Collection"" file at the end of the Animation import process"
+FORGE_0004;Assets Importer;The Assets Importer assemble tiles under a Tiles Collection file
+FORGE_0005;Assets Importer;The Assets Importer assemble props under a Props Collection file
+FORGE_0006;Assets Importer;The Assets Importer assemble animations under an Animations Collection file
+FORGE_0007;Assets Importer;The Assets Importer create the Tiles Collection file at the end of the Tile import process
+FORGE_0008;Assets Importer;The Assets Importer create the Props Collection file at the end of the Props import process
+FORGE_0009;Assets Importer;The Assets Importer create the Animations Collection file at the end of the Animation import process
 FORGE_0010;Assets Importer;The user can import .png file format
 FORGE_0011;Assets Importer;The user can import .jpeg file format
 FORGE_0012;Assets Importer;The user can import .bmp file format
@@ -24,8 +24,8 @@ FORGE_0023;Assets Importer;The user can rename sprites
 FORGE_0024;Assets Importer;The user can reposition sprites
 FORGE_0025;Assets Importer;The user can cancel the import process
 FORGE_0026;Assets Importer;The user can edit any collection file after the initial import
-FORGE_0101;Assets Picker;The user can view, select, edit and drop on Scene tiles from any “Tiles collection”
-FORGE_0102;Assets Picker;The user can view, select, edit and drop on Scene props from any “Props collection”
+FORGE_0101;Assets Picker;The user can view, select, edit and drop on Scene tiles from any ï¿½Tiles collectionï¿½
+FORGE_0102;Assets Picker;The user can view, select, edit and drop on Scene props from any ï¿½Props collectionï¿½
 FORGE_0103;Assets Picker;The user can view, select, edit and drop on Scene custom colliders
 FORGE_0104;Assets Picker;The Assets Picker must display assets by category (Actor, Animations, Props, Tiles, Built-In)
 FORGE_0105;Assets Picker;The Assets Picker must display assets, in each category, by collection
@@ -33,7 +33,7 @@ FORGE_0106;Assets Picker;The Assets Picker must display a warning is the asset c
 FORGE_0107;Assets Picker;The user can access the Assets Importer directly from the Assets Picker 
 FORGE_0201;Assets Bar;The Assets Bar must be display at the bottom of the Assets Picker window
 FORGE_0202;Assets Bar;The Assets Bar must be display at the bottom of the Assets Importer window
-FORGE_0203;Assets Bar;The Assets Bar must be display at the bottom of each Collection window (Tiles, Props, Animations, …)
+FORGE_0203;Assets Bar;The Assets Bar must be display at the bottom of each Collection window (Tiles, Props, Animations, ï¿½)
 FORGE_0204;Assets Bar;The user can zoom-in and zoom-out the assets preview
 FORGE_0205;Assets Bar;The user can reset the zoom
 FORGE_0206;Assets Bar;The user can change the background color for the assets preview
@@ -47,8 +47,8 @@ FORGE_0306;Tool Bar;The user can access the Assets Picker
 FORGE_0307;Tool Bar;The user can access the Assets Properties
 FORGE_0308;Tool Bar;The user can access the Actors Statistics
 FORGE_0309;Tool Bar;The user can access the Actors Behaviors
-FORGE_0310;Tool Bar;The user can toggle the Scene’s Markers as well as choosing the color
-FORGE_0311;Tool Bar;The user can access the Unity “Play” button
+FORGE_0310;Tool Bar;The user can toggle the Scene Markers as well as choosing the color
+FORGE_0311;Tool Bar;The user can access the Unity Play button
 FORGE_0312;Tool Bar;The user can access the Test Controller
 FORGE_0313;Tool Bar;The user can access the World Map
 FORGE_0314;Tool Bar;The user can access the Database
