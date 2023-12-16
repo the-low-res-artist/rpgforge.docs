@@ -35,7 +35,7 @@ def generate_results_md(requirements_file, results_folder, output_file):
         tab = req.split(';')
         req_id = tab[0]
         req_feat = tab[1]
-        req_desc = tab[2]
+        req_desc = tab[2].strip().rstrip()
         req_result = "NOT_TESTED"
         if req_id in results_data['results']:
             req_result = results_data['results'][req_id]
