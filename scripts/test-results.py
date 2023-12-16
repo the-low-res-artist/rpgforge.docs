@@ -135,7 +135,7 @@ Date|{context_data['date']}\n\
 \n\
 ## Tests results\n\
 \n\
-Feature|Passed ✔️|Failed ❌|Not tested 💀\n\
+Feature|Passed ✔️|Failed ❌|Not tested yet...\n\
 ---|---|---|---\n\
 {results_by_feature}\n\
 \n\
