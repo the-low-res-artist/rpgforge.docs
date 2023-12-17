@@ -18,17 +18,17 @@ def set_test_results_format(filename):
         return
 
     # PASS results
-    str_to_replace = "<td>PASS</td>"
+    str_to_replace = "<td>Passed</td>"
     str_replacement = f"<td style=\"color:black;background-color:LightGreen\">Passed</td>"
     s = s.replace(str_to_replace, str_replacement)
 
     # FAIL results
-    str_to_replace = "<td>FAIL</td>"
+    str_to_replace = "<td>Fail</td>"
     str_replacement = f"<td style=\"color:black;background-color:LightCoral\">Failed</td>"
     s = s.replace(str_to_replace, str_replacement)
 
     # NOT_TESTED results
-    str_to_replace = "<td>NOT_TESTED</td>"
+    str_to_replace = "<td>Not_tested</td>"
     str_replacement = f"<td style=\"color:black;background-color:LightGrey\">Not tested</td>"
     s = s.replace(str_to_replace, str_replacement)
 
