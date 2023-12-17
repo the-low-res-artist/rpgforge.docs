@@ -17,7 +17,7 @@ RPG Power Forge version|0.0.24
 Unity Editor version| 2021.3.25f1
 Host OS|Windows 10 Family
 Host spec|Intel Core i7 2.6GHz (12 cores) 32Go RAM
-Date|December 17 2023 13:53
+Date|December 17 2023 14:59
 
 ## Tests results
 
@@ -25,8 +25,8 @@ Feature|Passed ✔️|Failed ❌|Not tested yet...
 ---|---|---|---
 General|2|0|0
 Assets Importer|0|0|26
-Assets Picker|5|0|2
-Assets Bar|0|0|7
+Assets Picker|6|0|1
+Status Bar|5|0|2
 Tool Bar|0|0|19
 
 
@@ -75,17 +75,17 @@ FORGE_0203|The user can view, select, edit and drop on Scene custom colliders|Pa
 FORGE_0204|The Assets Picker must display assets by category (Actor, Animations, Props, Tiles, Built-In)|Passed
 FORGE_0205|The Assets Picker must display assets, in each category, by collection|Passed
 FORGE_0206|The Assets Picker must display a warning is the asset can not be place on the Scene|Not_tested
-FORGE_0207|The user can access the Assets Importer directly from the Assets Picker|Not_tested
-### Assets Bar feature
+FORGE_0207|The user can access the Assets Importer directly from the Assets Picker|Passed
+### Status Bar feature
 Requirement|Description|Test result
 ---|---|---
-FORGE_0301|The Assets Bar must be display at the bottom of the Assets Picker window|Not_tested
-FORGE_0302|The Assets Bar must be display at the bottom of the Assets Importer window|Not_tested
-FORGE_0303|The Assets Bar must be display at the bottom of each Collection window (Tiles, Props, Animations, ...)|Not_tested
-FORGE_0304|The user can zoom-in and zoom-out the assets preview|Not_tested
-FORGE_0305|The user can reset the zoom|Not_tested
-FORGE_0306|The user can change the background color for the assets preview|Not_tested
-FORGE_0307|The user can reset the background color|Not_tested
+FORGE_0301|The Status Bar must be display at the bottom of the Assets Picker window|Passed
+FORGE_0302|The Status Bar must be display at the bottom of the Assets Importer window|Not_tested
+FORGE_0303|The Status Bar must be display at the bottom of each Collection window (Tiles, Props, Animations, ...)|Not_tested
+FORGE_0304|The user can zoom-in and zoom-out the assets preview|Passed
+FORGE_0305|The user can reset the zoom|Passed
+FORGE_0306|The user can change the background color for the assets preview|Passed
+FORGE_0307|The user can reset the background color|Passed
 ### Tool Bar feature
 Requirement|Description|Test result
 ---|---|---

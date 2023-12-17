@@ -18,7 +18,7 @@
         },
         {
             "key": "date",
-            "value": "December 17 2023 13:53"
+            "value": "December 17 2023 15:17"
         },
         {
             "key": "FORGE_0001",
@@ -42,7 +42,7 @@
         },
         {
             "key": "FORGE_0207",
-            "value": "Failed"
+            "value": "Passed"
         },
         {
             "key": "FORGE_0204",
@@ -50,6 +50,102 @@
         },
         {
             "key": "FORGE_0205",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0305",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0301",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0304",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0307",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0306",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0401",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0402",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0403",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0404",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0405",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0406",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0407",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0408",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0409",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0410",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0411",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0412",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0413",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0414",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0415",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0416",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0417",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0418",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0419",
             "value": "Passed"
         }
     ]

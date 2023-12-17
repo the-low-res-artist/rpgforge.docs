@@ -33,13 +33,13 @@ FORGE_0204;Assets Picker;The Assets Picker must display assets by category (Acto
 FORGE_0205;Assets Picker;The Assets Picker must display assets, in each category, by collection
 FORGE_0206;Assets Picker;The Assets Picker must display a warning is the asset can not be place on the Scene
 FORGE_0207;Assets Picker;The user can access the Assets Importer directly from the Assets Picker 
-FORGE_0301;Assets Bar;The Assets Bar must be display at the bottom of the Assets Picker window
-FORGE_0302;Assets Bar;The Assets Bar must be display at the bottom of the Assets Importer window
-FORGE_0303;Assets Bar;The Assets Bar must be display at the bottom of each Collection window (Tiles, Props, Animations, ...)
-FORGE_0304;Assets Bar;The user can zoom-in and zoom-out the assets preview
-FORGE_0305;Assets Bar;The user can reset the zoom
-FORGE_0306;Assets Bar;The user can change the background color for the assets preview
-FORGE_0307;Assets Bar;The user can reset the background color
+FORGE_0301;Status Bar;The Status Bar must be display at the bottom of the Assets Picker window
+FORGE_0302;Status Bar;The Status Bar must be display at the bottom of the Assets Importer window
+FORGE_0303;Status Bar;The Status Bar must be display at the bottom of each Collection window (Tiles, Props, Animations, ...)
+FORGE_0304;Status Bar;The user can zoom-in and zoom-out the assets preview
+FORGE_0305;Status Bar;The user can reset the zoom
+FORGE_0306;Status Bar;The user can change the background color for the assets preview
+FORGE_0307;Status Bar;The user can reset the background color
 FORGE_0401;Tool Bar;The Tool Bar is integrated in the Unity Editor
 FORGE_0402;Tool Bar;The user can undo an action
 FORGE_0403;Tool Bar;The user can redo an action
