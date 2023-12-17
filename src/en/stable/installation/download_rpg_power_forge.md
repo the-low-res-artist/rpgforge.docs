@@ -11,7 +11,7 @@ This section is up-to-date !
 ## Recommendations
 Software | Version |
 --- | --- 
-RPG Power Forge | last stable (${RPF_LAST_STABLE_VERSION})
+RPG Power Forge | last stable (0.0.24)
 
 ## Download RPG Power Forge (.unitypackage)
 
