@@ -1,0 +1,56 @@
+{
+    "entries": [
+        {
+            "key": "rpf_version",
+            "value": "0.0.24"
+        },
+        {
+            "key": "unity_version",
+            "value": "2021.3.25f1"
+        },
+        {
+            "key": "host_OS",
+            "value": "Windows 10 Family"
+        },
+        {
+            "key": "host_spec",
+            "value": "Intel Core i7 2.6GHz (12 cores) 32Go RAM"
+        },
+        {
+            "key": "date",
+            "value": "December 17 2023 13:53"
+        },
+        {
+            "key": "FORGE_0001",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0002",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0201",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0202",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0203",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0207",
+            "value": "Failed"
+        },
+        {
+            "key": "FORGE_0204",
+            "value": "Passed"
+        },
+        {
+            "key": "FORGE_0205",
+            "value": "Passed"
+        }
+    ]
+}
