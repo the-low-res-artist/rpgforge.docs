@@ -81,6 +81,8 @@ python3 -m nav-summary.py
 python3 -m test-results-format.py
 # update the rating system
 python3 -m rating.py
+# update the home page
+python3 -m home.py
 cd ${root_dir}
 
 # add redirection to website root too (book/)

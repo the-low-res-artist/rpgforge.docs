@@ -16,3 +16,12 @@
     margin-right: 0;
     max-width: 100%;
 }
+
+.home-background {
+    height: 862px;
+    width: calc(1896px * 3);
+    margin-top: 60px;
+    margin-bottom: 0px;
+    background: url("https://rpgpowerforge.com/media/home/background.jpg") repeat-x;
+    animation: slide 60s linear infinite;
+}
