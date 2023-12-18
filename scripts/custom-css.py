@@ -26,7 +26,8 @@ def set_css(filename):
                 basename = os.path.basename(filename)
                 if (basename == "home.html" or basename == "index.html"):
                     css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
-    
+            else:
+                css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
     str_to_replace = "<!-- Custom theme stylesheets -->"
     str_replacement = f"<!-- Custom theme stylesheets -->{css_link}"
     s = s.replace(str_to_replace, str_replacement)
