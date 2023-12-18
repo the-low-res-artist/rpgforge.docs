@@ -47,7 +47,7 @@ Then [[select "Install Editor"]] :
 For a greater experience, we recommend to also select the following packages when installing Unity.
 
 ```admonish info title="What if I don't want to install additionnal things now ?"
-You can also skip this section and install packages later on. [[Go to "Start the Unity installation" below]]  [Start the Unity installation](#start-the-unity-installation)
+You can also skip this section and install packages later on. [[Jump to]] [Start the Unity installation](#start-the-unity-installation) !
 ```
 
 #### WebGL Build Support (optional)
