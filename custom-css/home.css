@@ -1,8 +1,13 @@
-/* make home page awesome*/
+/* hide top bar */
 #menu-bar, #menu-bar-hover-placeholder {
     margin: 0;
+    display: none;
 }
-
+/* hide side bar */
+#sidebar {
+    display: none;
+}
+/* take the whole space */
 .page {
     padding: 0;
 }
@@ -16,20 +21,36 @@
     margin-right: 0;
     max-width: 100%;
 }
-
+/* background image */
 .home-background {
-    /*height: 862px;
-    width: calc(1896px * 3);*/
     margin-top: 0px;
     margin-bottom: 0px;
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
-    background: url("https://rpgpowerforge.com/media/home/background.jpg"); /* repeat-x;*/
-    /*animation: slide 60s linear infinite;*/
+    background: url("https://rpgpowerforge.com/media/home/background.jpg");
 }
 
-.background-blur {
+.div-blur {
     backdrop-filter: blur(15px);
+}
+
+.home-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.home-community {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 /* ==================================================================================== */
