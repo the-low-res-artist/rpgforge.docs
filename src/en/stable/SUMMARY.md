@@ -43,7 +43,7 @@
     * [Road map](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
     * [Included assets]()
 
-* [About the project...]()
+* [About the project]()
     * [Dev Team]()
     * [Requirements](./about/requirements.md)
     * [Custom render pipeline]()

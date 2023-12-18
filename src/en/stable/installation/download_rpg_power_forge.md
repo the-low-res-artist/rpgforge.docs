@@ -2,8 +2,8 @@
 
 This section covers the download and installation process for the Unity Editor package : RPG Power Forge.
 
-```admonish tip title="Oh yeah"
-This section is up-to-date !
+```admonish info title="Working on it..."
+RPG Power Forge download will be open early 2024 !
 ```
 
 ## Summary
@@ -11,7 +11,7 @@ This section is up-to-date !
 ## Recommendations
 Software | Version |
 --- | --- 
-RPG Power Forge | last stable (0.0.24)
+RPG Power Forge | last stable
 
 ## Download RPG Power Forge (.unitypackage)
 

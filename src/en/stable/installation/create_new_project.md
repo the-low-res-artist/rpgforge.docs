@@ -3,7 +3,7 @@
 This section covers the creation of a new Unity project with RPG Power Forge !
 
 ```admonish tip title="Oh yeah"
-This section is up-to-date for Unity 2021.3 !
+This section is up-to-date for Unity 2022.3 !
 ```
 
 ## Summary
@@ -63,8 +63,8 @@ RPG Power Forge package is installing ! Unity will restart upon completion.
 
 ## Congratulations !
 
-Well done, Unity now has RPG Power Forge installed ! Make sure you have a new drop-down menu in the top bar, named "RPG Power Forge".
+Well done, Unity Editor now has RPG Power Forge installed ! Make sure you have a new drop-down menu in the top bar, named "RPG Power Forge".
 
 ![import_completed.png](./../../../../media/new_project/import_completed.png)
 
-You can now start making games !
+You can now [start making games here]() !

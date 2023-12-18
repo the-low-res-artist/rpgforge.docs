@@ -36,10 +36,16 @@ diff
 ?>
 ```
 c++
-```cpp
-int main(int arg_c, char** arg_v)
+```c#
+// Hello World! program
+namespace HelloWorld
 {
-    return 0;
+    class Hello {         
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Hello World!");
+        }
+    }
 }
 ```
 bash

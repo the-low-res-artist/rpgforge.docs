@@ -3,7 +3,7 @@
 This section covers the download and installation process for Unity Hub and Unity Editor.
 
 ```admonish tip title="Oh yeah"
-This section is up-to-date !
+This section is up-to-date with Unity 2022.3 !
 ```
 
 ## Summary
@@ -12,7 +12,8 @@ This section is up-to-date !
 Software | Version |
 --- | --- 
 Unity Hub | >= 3.4
-Unity | 2021.3
+Unity | 2022.3
+Visual Studio | Community 2022
 
 ## Install Unity Hub
 
@@ -36,7 +37,7 @@ Then [[select "Install Editor"]] :
 
 ![install_editor_button.png](./../../../../media/download/install_editor_button.png)
 
-[[Select Unity 2021.3]] (recommended version). In this example, this is the version 2021.3.25f1 :
+[[Select Unity 2022.3]] (recommended version). In this example, this is the version 2022.3.15f1 :
 
 ![install_unity_version.png](./../../../../media/download/install_unity_version.png)
 
@@ -61,11 +62,27 @@ Once you have chosen your packages, [[select "Install"]] :
 
 ![install_progress.png](./../../../../media/download/install_unity_with_packages.png)
 
+If asked, please accept the Visual Studio 2022 Community Licence Terms. [[Check the box]] and [[select "Install"]]:
+
+![licence_accept.png](./../../../../media/download/licence_accept.png)
+
 You can now see the download and installation progress in the Unity Hub left panel.
 
 ![install_progress.png](./../../../../media/download/install_progress.png)
 
+## Install Visual Studio Community
+
+During the installation process, Visual Studio Community 2022 will install automatically.
+
+```admonish title="What is Visual Studio Community ?"
+Visual Studio Community is a powerful developer tool that you can use to write, edit, debug, and build code. It is a comprehensive Integrated Development Environment (IDE).
+```
+
+The installation will happend in a dedicated window. You can be asked to restart your computer at the end of the process.
+
+![visual_install.png](./../../../../media/download/visual_install.png)
+
 
 ## Congratulations !
 
-Now you have the Unity Editor installed on your computer. You can now download  [RPG Power Forge here](./installation/download_rpg_power_forge.md).
+You have the Unity Editor installed on your computer ! You can now download [RPG Power Forge here](./installation/download_rpg_power_forge.md).
