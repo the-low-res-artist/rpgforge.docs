@@ -1,0 +1,18 @@
+/* make home page awesome*/
+#menu-bar, #menu-bar-hover-placeholder {
+    margin: 0;
+}
+
+.page {
+    padding: 0;
+}
+
+.content {
+    padding: 0;
+}
+
+.content main {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+}
