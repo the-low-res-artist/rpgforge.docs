@@ -9,13 +9,13 @@
 }
 
 /* parts title hover*/
-.part-title:hover {
-    color: var(--links)!important;
+.part-title li.active {
+    color: var(--sidebar-active);
 }
 
 /* pointer to toggle visibility */
 .part-title {
-    cursor: pointer;
+    cursor: pointer!important;
 }
 
 /* part title style*/
