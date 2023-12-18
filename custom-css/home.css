@@ -45,7 +45,7 @@
     text-align: center;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 140px;
+    font-size: 150px;
     font-weight: bold;
     color: white;
 }
@@ -65,18 +65,18 @@
     color: white;
     border-radius: 100px;
     border: 3px solid;
+    transition: 0.1s;
 }
 
-a {
-    text-decoration: none!important;
-    color: white!important;
+.home-community-text {
+    display: flex;
+    align-items: center;
 }
 
-.home-community-img {
-    filter: brightness(100);
-    position: relative;
-    transform: translate(-50%, 10%);
+.home-community:hover {
+    background-color: #72bdda;
 }
+
 .home-values {
     position: fixed;
     bottom: 30px;
