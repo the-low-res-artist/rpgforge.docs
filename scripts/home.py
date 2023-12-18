@@ -18,7 +18,7 @@ def set_home(filename):
 
     # home
     heros_text = "The Maker of RPG"
-    community_link= "<img class=\"home-community-img\" width=\"32\" height=\"32\" src=\"https://img.icons8.com/color/32/000000/discord--v2.png\" alt=\"discord--v2\"/> Join us !"
+    community_text= "<img class=\"home-community-img\" width=\"32\" height=\"32\" src=\"https://img.icons8.com/color/32/000000/discord--v2.png\" alt=\"discord--v2\"/> Join us !"
     value_1 = ["000", "text"]
     value_2 = ["20k+", "assets included"]
     value_3 = ["000", "text"]
@@ -26,7 +26,7 @@ def set_home(filename):
     str_to_replace = "DIV_HOME"
     str_replacement = f"<div class=\"home-background\">\
         <div class=\"home-text\">{heros_text}</div>\
-        <div class=\"home-community\" onclick=\"window.open('https://x.com','mywindow');\" style=\"cursor: pointer;\">{community_link}</div>\
+        <div class=\"home-community\" onclick=\"window.open('https://x.com','mywindow');\" style=\"cursor: pointer;\"><div class=\"home-community-text\"{community_text}</div></div>\
         <div class=\"home-values\">\
             <div class=\"home-value\">\
                 <div class=\"home-value-number\">{value_1[0]}</div>\
