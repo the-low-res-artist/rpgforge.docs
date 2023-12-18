@@ -37,10 +37,12 @@
 .home-text {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 30%;
+    width: 100%;
+    text-align: center;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 100px;
+    font-size: 140px;
     font-weight: bold;
     color: white;
 }
@@ -48,19 +50,40 @@
 .home-community {
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
-/* ==================================================================================== */
-/* ANIMATIONS */
+.home-values {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-@keyframes slide {
-    0% {
-        transform: translate3d(0, 0, 0);
-    }
-    100% {
-        transform: translate3d(-1896px, 0, 0); /* The background image width */
-    }
+.home-value {
+    width: 20%;
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home-value-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+.home-value-text {
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+    height: 100px;
+    line-height: 100px;
 }

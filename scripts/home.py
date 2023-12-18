@@ -19,9 +19,9 @@ def set_home(filename):
     # home
     heros_text = "The Maker of RPG"
     community_link= "<a href=\"https://rpgpowerforge.com/\"><img src=\"./../../../media/home/join_discord.png\" alt=\"join_discord.png\"></a>"
-    value_1 = ["100", "value text 1"]
-    value_2 = ["200", "value text 2"]
-    value_3 = ["300", "value text 3"]
+    value_1 = ["000", "text"]
+    value_2 = ["20k+", "assets included"]
+    value_3 = ["000", "text"]
 
     str_to_replace = "DIV_HOME"
     str_replacement = f"<div class=\"home-background\">\
