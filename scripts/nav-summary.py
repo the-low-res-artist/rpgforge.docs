@@ -33,8 +33,8 @@ def set_nav_summary(filename):
     str_replacement="\">Home <i class=\"fa fa-home\"></i></a></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
-    str_to_replace="<div class=\"sidebar-scrollbox\"><ol class=\"chapter\"><li class=<\"chapter-item"
-    str_replacement="<div class=\"sidebar-scrollbox\"><ol class=\"chapter\"><li class=<\"part-title"
+    str_to_replace="<ol class=\"chapter\"><li class=<\"chapter-item"
+    str_replacement="<ol class=\"chapter\"><li class=<\"part-title"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
     # 1. Installation
