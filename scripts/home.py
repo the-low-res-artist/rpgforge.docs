@@ -18,7 +18,7 @@ def set_home(filename):
 
     # home
     heros_text = "The Maker of RPG"
-    community_link= "<a href=\"https://rpgpowerforge.com/\"><img class=\"home-community-img\" width=\"32\" height=\"32\" src=\"https://img.icons8.com/color/32/000000/discord--v2.png\" alt=\"discord--v2\"/> Join us !</a>"
+    community_link= "<img class=\"home-community-img\" width=\"32\" height=\"32\" src=\"https://img.icons8.com/color/32/000000/discord--v2.png\" alt=\"discord--v2\"/> Join us !"
     value_1 = ["000", "text"]
     value_2 = ["20k+", "assets included"]
     value_3 = ["000", "text"]
