@@ -95,13 +95,6 @@ ln -s ${PWD}/book/en/stable/fonts ${PWD}/book/fonts
 ln -s ${PWD}/book/en/stable/ayu-highlight.css ${PWD}/book/ayu-highlight.css
 ln -s ${PWD}/book/en/stable/highlight.css ${PWD}/book/highlight.css
 ln -s ${PWD}/book/en/stable/tomorrow-night.css ${PWD}/book/tomorrow-night.css
-ln -s ${PWD}/book/en/stable/highlight.js ${PWD}/book/highlight.js
-ln -s ${PWD}/book/en/stable/searcher.js ${PWD}/book/searcher.js
-ln -s ${PWD}/book/en/stable/clipboard.min.js ${PWD}/book/clipboard.min.js
-ln -s ${PWD}/book/en/stable/book.js ${PWD}/book/book.js
-ln -s ${PWD}/book/en/stable/elasticlunr.min.js ${PWD}/book/elasticlunr.min.js 
-ln -s ${PWD}/book/en/stable/mark.min.js ${PWD}/book/mark.min.js 
-ln -s ${PWD}/book/en/stable/favicon.png ${PWD}/book/favicon.png
 
 # add redirection in every language root folder (book/*/)
 for folder in $(ls -d book/*);
