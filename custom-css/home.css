@@ -25,3 +25,15 @@
     background: url("https://rpgpowerforge.com/media/home/background.jpg") repeat-x;
     animation: slide 60s linear infinite;
 }
+
+/* ==================================================================================== */
+/* ANIMATIONS */
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-1896px, 0, 0); /* The background image width */
+    }
+}
