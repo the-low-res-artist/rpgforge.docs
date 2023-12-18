@@ -85,8 +85,13 @@ python3 -m rating.py
 #python3 -m home.py
 cd ${root_dir}
 
-# add redirection to website root too (book/)
+# add home page
 cp ${PWD}/resources/index.html ${PWD}/book/index.html
+
+# add links for home page to work (assuming we have /en/stable at least)
+ln -s ${PWD}/book/en/stable/css ${PWD}/book/css
+ln -s ${PWD}/book/en/stable/FontAwesome ${PWD}/book/FontAwesome
+ln -s ${PWD}/book/en/stable/fonts ${PWD}/book/fonts
 
 # add redirection in every language root folder (book/*/)
 for folder in $(ls -d book/*);
