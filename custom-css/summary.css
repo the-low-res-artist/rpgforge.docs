@@ -10,7 +10,7 @@
 
 /* parts title hover*/
 .chapter li.part-title:hover {
-    color: var(--sidebar-active);
+    color: var(--sidebar-active) !important;
 }
 
 /* pointer to toggle visibility */
