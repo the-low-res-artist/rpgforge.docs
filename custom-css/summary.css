@@ -9,8 +9,8 @@
 }
 
 /* parts title hover*/
-.chapter li.part-title:hover {
-    color: var(--sidebar-active) !important;
+.part-title:hover {
+    color: var(--links)!important;
 }
 
 /* pointer to toggle visibility */
