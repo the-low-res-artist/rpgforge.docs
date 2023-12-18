@@ -7,6 +7,12 @@
 #sidebar {
     display: none;
 }
+/* hide nav next page */
+.nav-wide-wrapper {
+    display: none;
+}
+
+
 /* take the whole space */
 .page {
     padding: 0;
@@ -21,6 +27,7 @@
     margin-right: 0;
     max-width: 100%;
 }
+
 /* background image */
 .home-background {
     margin-top: 0px;
@@ -30,14 +37,10 @@
     background: url("https://rpgpowerforge.com/media/home/background.jpg");
 }
 
-.div-blur {
-    backdrop-filter: blur(15px);
-}
-
 .home-text {
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 40%;
     width: 100%;
     text-align: center;
     -webkit-transform: translate(-50%, -50%);
@@ -50,14 +53,14 @@
 .home-community {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 60%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
 .home-values {
     position: fixed;
-    bottom: 0px;
+    bottom: 30px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -76,14 +79,14 @@
     font-size: 40px;
     font-weight: bold;
     color: white;
-    height: 100px;
-    line-height: 100px;
+    height: 70px;
+    line-height: 70px;
 }
 
 .home-value-text {
     font-size: 30px;
     color: white;
     margin-left: 10px;
-    height: 100px;
-    line-height: 100px;
+    height: 70px;
+    line-height: 70px;
 }
