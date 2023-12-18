@@ -17,7 +17,7 @@ Visual Studio | Community 2022
 
 ## Install Unity Hub
 
-```admonish title="What is the Unity Hub ?"
+```admonish info title="What is the Unity Hub ?"
 The Unity Hub is a standalone application that streamlines the way you find, download, and manage your Unity Projects and installations.
 ```
 
@@ -46,8 +46,8 @@ Then [[select "Install Editor"]] :
 
 For a greater experience, we recommend to also select the following packages when installing Unity.
 
-```admonish
-You can also skip this part and install packages later on.
+```admonish info title="What if I don't want to install additionnal things now ?"
+You can also skip this section and install packages later on. [[Go to "Start the Unity installation" below]]
 ```
 
 #### WebGL Build Support (optional)
@@ -74,7 +74,7 @@ You can now see the download and installation progress in the Unity Hub left pan
 
 During the installation process, Visual Studio Community 2022 will install automatically.
 
-```admonish title="What is Visual Studio Community ?"
+```admonish info title="What is Visual Studio Community ?"
 Visual Studio Community is a powerful developer tool that you can use to write, edit, debug, and build code. It is a comprehensive Integrated Development Environment (IDE).
 ```
 
