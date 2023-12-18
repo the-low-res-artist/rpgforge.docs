@@ -82,11 +82,11 @@ python3 -m test-results-format.py
 # update the rating system
 python3 -m rating.py
 # update the home page
-python3 -m home.py
+#python3 -m home.py
 cd ${root_dir}
 
 # add redirection to website root too (book/)
-cp ${PWD}/resources/redirect_to_en.html ${PWD}/book/index.html
+cp ${PWD}/resources/index.html ${PWD}/book/index.html
 
 # add redirection in every language root folder (book/*/)
 for folder in $(ls -d book/*);

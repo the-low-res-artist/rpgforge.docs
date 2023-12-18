@@ -61,9 +61,9 @@ def get_rate_subtitle(rate_file, filename):
 def set_rating(filename):
 
     # skip home.html and index.html
-    basename = os.path.basename(filename)
-    if (basename == "home.html" or basename == "index.html"):
-         return
+    #basename = os.path.basename(filename)
+    #if (basename == "home.html" or basename == "index.html"):
+    #     return
 
     # Safely read the input filename using 'with'
     s= ""
