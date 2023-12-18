@@ -26,7 +26,7 @@ def set_home(filename):
     str_to_replace = "DIV_HOME"
     str_replacement = f"<div class=\"home-background\">\
         <div class=\"home-text\">{heros_text}</div>\
-        <div class=\"home-community\">{community_link}</div>\
+        <div class=\"home-community\" onclick=\"window.open('https://x.com','mywindow');\" style=\"cursor: pointer;\">{community_link}</div>\
         <div class=\"home-values\">\
             <div class=\"home-value\">\
                 <div class=\"home-value-number\">{value_1[0]}</div>\
