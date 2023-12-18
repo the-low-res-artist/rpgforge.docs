@@ -1,4 +1,4 @@
-[Home](./front_page.md)
+[Home](./home.md)
 
 * [Installation]()
     * [Install Unity](./installation/installation_unity.md)
@@ -41,7 +41,7 @@
     * [Discord channel]()
     * [Twitter](https://twitter.com/RPGPowerForge)
     * [Road map](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
-    * [Included assets]()
+    * [Included assets](./community.included_assets.md)
 
 * [About the project]()
     * [Dev Team]()

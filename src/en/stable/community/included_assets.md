@@ -1,9 +1,9 @@
 # Welcome !
-**RPG Power Forge** is your 2D RPG game-engine assistant in **Unity**.
+RPG Power Forge is your 2D RPG game-engine assistant in Unity.
 
 Want to import animated autotiles, have pixel-perfect collisions or create a chest in 1 click ? That's the spirit ✨
 
-![rpf_demo_1.gif](./../media/front_page/rpf_demo_1.gif)
+![rpf_demo_1.gif](./../media/home/rpf_demo_1.gif)
 
 ## Summary
 
@@ -13,13 +13,13 @@ Unity is quite powerful and we love it, but the entry ticket is, well, a bit exp
 
 Our goal is to provide tools and features to make Unity an easier experience for gamedev.
 
-![rpf_demo_2.gif](./../media/front_page/rpf_demo_2.gif)
+![rpf_demo_2.gif](./../media/home/rpf_demo_2.gif)
 
 ## What can you expect to make with RPG Power Forge
 
 We are primarily developping features for 2D topdown RPG with an Action-RPG battle system.
 
-![rpf_demo_3.gif](./../media/front_page/rpf_demo_3.gif)
+![rpf_demo_3.gif](./../media/home/rpf_demo_3.gif)
 
 ## Will RPG Power Forge be shipped with game assets as well
 
@@ -33,4 +33,4 @@ Yes ! See below :
 [https://noiracide.itch.io/plainstileset-nostalgialegends](https://noiracide.itch.io/plainstileset-nostalgialegends)
 - RPG Power Forge Music pack : *we're packaging it, be patient !*
 
-![nostalgia_demo_1.jpg](./../media/front_page/nostalgia_demo_1.jpg)
+![nostalgia_demo_1.jpg](./../media/home/nostalgia_demo_1.jpg)
