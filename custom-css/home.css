@@ -71,6 +71,13 @@ a {
     color: white!important;
 }
 
+.home-community-img {
+    filter:brightness(100);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .home-values {
     position: fixed;
     bottom: 30px;
