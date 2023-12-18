@@ -8,6 +8,11 @@
     font-size: 20px;
 }
 
+/* parts title hover*/
+.chapter li.part-title:hover {
+    color: var(--sidebar-active);
+}
+
 /* pointer to toggle visibility */
 .part-title {
     cursor: pointer;
