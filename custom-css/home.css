@@ -56,6 +56,19 @@
     top: 60%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    background-color: dodgerblue;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    color: white;
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none!important;
+    color: white!important;
 }
 
 .home-values {
