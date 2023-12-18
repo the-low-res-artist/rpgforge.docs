@@ -21,11 +21,9 @@ def set_css(filename):
     css_link = ""
     for root, dirs, files in os.walk("./../custom-css"):
         for file in files:
-            # special case : home.html + index.html
+            # special case : skip home
             if (file == "home.css"):
-                basename = os.path.basename(filename)
-                if (basename == "home.html" or basename == "index.html"):
-                    css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
+                continue
             else:
                 css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
     str_to_replace = "<!-- Custom theme stylesheets -->"
