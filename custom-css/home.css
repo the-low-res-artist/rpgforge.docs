@@ -26,6 +26,10 @@
     animation: slide 60s linear infinite;
 }
 
+.background-blur {
+    backdrop-filter: blur(15px);
+}
+
 /* ==================================================================================== */
 /* ANIMATIONS */
 

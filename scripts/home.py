@@ -16,9 +16,31 @@ def set_home(filename):
     if (s == ""):
         return
 
-    # Twitter / X
-    str_to_replace = "DIV_HOME_BACKGROUND"
-    str_replacement = "<div class=\"home-background\"></div>"
+    # home
+    heros_text = "The Maker of RPG"
+    community_link= "<a href=\"https://rpgpowerforge.com/\"><img src=\"./../../../media/home/join_discord.png\" alt=\"join_discord.png\"></a>"
+    value_1 = ["100", "value text 1"]
+    value_2 = ["200", "value text 2"]
+    value_3 = ["300", "value text 3"]
+
+    str_to_replace = "DIV_HOME"
+    str_replacement = f"<div class=\"home-background\"></div>\
+    <div class=\"home-text\">{heros_text}</div>\
+    <div class=\"home-community\">{community_link}</div>\
+    <div class=\"home-values\">\
+        <div class=\"home-value\">\
+            <div class=\"home-value-number\">{value_1[0]}</div>\
+            <div class=\"home-value-text\">{value_1[1]}</div>\
+        </div>\
+        <div class=\"home-value\">\
+            <div class=\"home-value-number\">{value_2[0]}</div>\
+            <div class=\"home-value-text\">{value_2[1]}</div>\
+        </div>\
+        <div class=\"home-value\">\
+            <div class=\"home-value-number\">{value_3[0]}</div>\
+            <div class=\"home-value-text\">{value_3[1]}</div>\
+        </div>\
+    </div>"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
