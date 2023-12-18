@@ -17,7 +17,7 @@ def set_home(filename):
         return
 
     # Twitter / X
-    str_to_replace = "_home_background_"
+    str_to_replace = "DIV_HOME_BACKGROUND"
     str_replacement = "<div class=\"home-background\"></div>"
     s = s.replace(str_to_replace, str_replacement)
 
