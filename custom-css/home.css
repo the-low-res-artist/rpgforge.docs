@@ -1,10 +1,10 @@
 
 /* device */
 .device-phone {display:none;}
-.device-desktop {display:display;}
+.device-desktop {display:block;}
 
 @media (max-width : 720px) {
-    .device-phone {display:display;}
+    .device-phone {display:block;}
     .device-desktop {display:none;}
 }
 /* font */
