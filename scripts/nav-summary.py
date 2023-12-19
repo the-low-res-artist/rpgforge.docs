@@ -27,6 +27,12 @@ def set_nav_summary(filename):
     if (len(chapters) == 0):
         return
 
+    # special case if we are in home.html / index/html
+    home_page = False
+    basename = os.path.basename(filename)
+    if (basename == "home.html" or basename == "index.html"):
+        home_page = True
+
     # reformat some chapters
     # Home
     str_to_replace="\">Home</a></li>"
@@ -40,7 +46,7 @@ def set_nav_summary(filename):
     # 1. Installation
     expand = ""
     chevron_icon_class="fa fa-chevron-right"
-    if ("/installation/" in filename):
+    if ("/installation/" in filename or home_page):
         expand = " expanded"
         chevron_icon_class="fa fa-chevron-down"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">1.</strong> Installation</div></li>"
@@ -50,7 +56,7 @@ def set_nav_summary(filename):
     # 2. Getting started
     expand = ""
     chevron_icon_class="fa fa-chevron-right"
-    if ("/getting_started/" in filename):
+    if ("/getting_started/" in filename or home_page):
         expand = " expanded"
         chevron_icon_class="fa fa-chevron-down"
     str_to_replace="<li class=\"chapter-item expanded \"><div><strong aria-hidden=\"true\">2.</strong> Getting started</div></li>"
