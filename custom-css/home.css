@@ -1,33 +1,13 @@
-/* hide top bar */
-#menu-bar, #menu-bar-hover-placeholder {
-    margin: 0;
-    display: none;
-}
-/* hide side bar */
-#sidebar {
-    display: none;
-}
-/* hide nav next page */
-.nav-wide-wrapper {
-    display: none;
-}
 
-
-/* take the whole space */
-.page {
-    padding: 0;
-}
-
-.content {
-    padding: 0;
-}
-
-.content main {
+/* font */
+body {
+    font-family: Lato;
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
 }
 
+/* background */
 .home-background {
     margin-top: 0px;
     margin-bottom: 0px;
