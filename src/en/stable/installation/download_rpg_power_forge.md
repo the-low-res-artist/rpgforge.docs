@@ -23,4 +23,4 @@ A unitypackage contains features to fit the various needs of your project. In th
 
 ## Congratulations !
 
-Now you have download RPG Power Forge on your computer. You can now [Create a new project here](./installation/create_new_project.md) to start your gamedev journey !
+Now you have download RPG Power Forge on your computer. You can now [Create a new project here](./create_new_project.md) to start your gamedev journey !
