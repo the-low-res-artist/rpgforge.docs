@@ -92,9 +92,6 @@ cp ${PWD}/resources/index.html ${PWD}/book/index.html
 ln -s ${PWD}/book/en/stable/css ${PWD}/book/css
 ln -s ${PWD}/book/en/stable/FontAwesome ${PWD}/book/FontAwesome
 ln -s ${PWD}/book/en/stable/fonts ${PWD}/book/fonts
-ln -s ${PWD}/book/en/stable/ayu-highlight.css ${PWD}/book/ayu-highlight.css
-ln -s ${PWD}/book/en/stable/highlight.css ${PWD}/book/highlight.css
-ln -s ${PWD}/book/en/stable/tomorrow-night.css ${PWD}/book/tomorrow-night.css
 
 # add redirection in every language root folder (book/*/)
 for folder in $(ls -d book/*);
