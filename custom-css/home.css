@@ -42,6 +42,18 @@ video {
     filter: grayscale(30%) brightness(60%);
   }
 
+/* gradient */
+.home-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(20,20,20,1) 0%, rgba(0,193,9,0) 5%, rgba(0,35,2,0) 95%, rgba(20,20,20,1) 100%);
+}
+
 /* background */
 .home-background {
     margin-top: 0px;
