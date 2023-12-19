@@ -17,16 +17,16 @@ def set_link(filename):
         return
 
     # Twitter / X
-    str_to_replace = "<a href=\"../https://twitter.com/RPGPowerForge.html\""
+    str_to_replace = "<a href=\"https://twitter.com/RPGPowerForge.html\""
     str_replacement = "<a href=\"https://twitter.com/RPGPowerForge\" target=\"_blank\""
     s = s.replace(str_to_replace, str_replacement)
 
-    str_to_replace = "<a href=\"../https://x.com/RPGPowerForge.html\""
+    str_to_replace = "<a href=\"https://x.com/RPGPowerForge.html\""
     str_replacement = "<a href=\"https://x.com/RPGPowerForge\" target=\"_blank\""
     s = s.replace(str_to_replace, str_replacement)
 
     # Trello
-    str_to_replace = "<a href=\"../https://trello.com/b/PIzgsYov/rpg-power-forge-road-map.html\""
+    str_to_replace = "<a href=\"https://trello.com/b/PIzgsYov/rpg-power-forge-road-map.html\""
     str_replacement = "<a href=\"https://trello.com/b/PIzgsYov/rpg-power-forge-road-map\" target=\"_blank\""
     s = s.replace(str_to_replace, str_replacement)
 
