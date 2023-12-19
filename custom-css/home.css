@@ -166,7 +166,7 @@ body {
     text-align: center;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 160px;
+    font-size: 100px;
     font-weight: bold;
     color: white;
 }
@@ -174,8 +174,7 @@ body {
 .home-community-phone {
     position: absolute;
     left: 50%;
-    top: 60%;
-    -webkit-transform: translate(-50%, -50%);
+    top: 65%;
     transform: translate(-50%, -50%);
     background-color: #7289da;
     padding-left: 35px;
@@ -183,6 +182,7 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 25px;
+    font-weight: bold;
     color: white;
     border-radius: 100px;
     border: 3px solid;
@@ -208,7 +208,7 @@ body {
 }
 
 .home-value-phone {
-    width: 25%;
+    width: 80%;
     display: flex;
     margin: 10px 10px 10px 10px;
     flex-wrap: wrap;
@@ -250,6 +250,7 @@ body {
     border-radius: 10px;
     font-weight: bold;
     transition: 0.1s;
+    font-size: 25px;
 }
 
 .home-documentation-phone:hover {
