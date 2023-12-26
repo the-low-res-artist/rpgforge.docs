@@ -82,11 +82,11 @@ python3 -m test-results-format.py
 # update the rating system
 python3 -m rating.py
 # update the home page
-#python3 -m home.py
+python3 -m home.py
 cd ${root_dir}
 
 # add home page
-cp ${PWD}/resources/index.html ${PWD}/book/index.html
+cp ${PWD}/resources/hero.html ${PWD}/book/index.html
 
 # add links for home page to work (assuming we have /en/stable at least)
 ln -s ${PWD}/book/en/stable/css ${PWD}/book/css

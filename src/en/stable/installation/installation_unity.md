@@ -75,10 +75,10 @@ You can now see the download and installation progress in the Unity Hub left pan
 During the installation process, Visual Studio Community 2022 will install automatically.
 
 ```admonish info title="What is Visual Studio Community ?"
-Visual Studio Community is a powerful developer tool that you can use to write, edit, debug, and build code. It is a comprehensive Integrated Development Environment (IDE).
+Visual Studio Community is a powerful developer tool that you can use to write, edit, debug, and build code. It is a comprehensive Integrated Development Environment (IDE). It's useful to edit scripts and code in your Unity projects.
 ```
 
-The installation will happend in a dedicated window. You can be asked to restart your computer at the end of the process.
+The installation will happend in a dedicated window. You may be asked to restart your computer at the end of the process.
 
 ![visual_install.png](./../../../../media/download/visual_install.png)
 

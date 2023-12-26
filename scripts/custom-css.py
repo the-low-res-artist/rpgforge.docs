@@ -21,8 +21,8 @@ def set_css(filename):
     css_link = ""
     for root, dirs, files in os.walk("./../custom-css"):
         for file in files:
-            # special case : skip home
-            if (file == "home.css"):
+            # special case : skip hero css
+            if (file == "hero.css"):
                 continue
             else:
                 css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
