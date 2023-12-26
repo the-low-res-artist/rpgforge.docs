@@ -19,15 +19,15 @@ def set_home(filename):
     str_to_replace = "CARDS_GO_HERE"
     str_replacement = f"<div class=\"cards\">\
             <div class=\"card card1\">\
-                <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_unity.jpg\"></img></div>\
+                <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_unity.png\"></img></div>\
                 <div class=\"card-text\"><h3>Installation</h3><p>Grab the requirements to start a new project !</p></div>\
             </div>\
             <div class=\"card card2\">\
-                <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_unity.jpg\"></img></div>\
+                <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_unity.png\"></img></div>\
                 <div class=\"card-text\"><h3>Getting started !</h3><p>Begin your journey with all the online help and tutorials !</p></div>\
             </div>\
             <div class=\"card card3\">\
-                <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_unity.jpg\"></img></div>\
+                <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_unity.png\"></img></div>\
                 <div class=\"card-text\"><h3>Community</h3><p>Join the dev team and the community on Discord !</p></div>\
             </div>\
         </div>"
