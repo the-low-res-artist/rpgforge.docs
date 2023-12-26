@@ -19,13 +19,23 @@ def set_css(filename):
 
     # add custom .css scripts at the end of the file
     css_link = ""
+    basename = os.path.basename(filename)
     for root, dirs, files in os.walk("./../custom-css"):
         for file in files:
             # special case : skip hero css
             if (file == "hero.css"):
                 continue
             else:
-                css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
+                # special case (home or index)
+                if (file == "home.css"):
+                    if (basename != "home.html" and basename != "index.html"):
+                        continue
+                    else:
+                        css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
+                else:
+                    css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
+                    
+                
     str_to_replace = "<!-- Custom theme stylesheets -->"
     str_replacement = f"<!-- Custom theme stylesheets -->{css_link}"
     s = s.replace(str_to_replace, str_replacement)
