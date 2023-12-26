@@ -33,7 +33,6 @@ body{
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
     transition: transform .2s;
     cursor: pointer;
-    color: var(--fg);
 }
 
 .card:hover{
@@ -84,13 +83,13 @@ body{
     padding: 20px 10px;
 }
 .card-text>h3{
-    color: #ffffff;
+    color: var(--fg);
     font-weight: 600;
     font-size: 18px;
     margin: 10px 0 15px 0;
 }
 .card-text>p{
-    color: #a0a0a0;
+    color: var(--fg);
     font-size: 15px;
     line-height: 30px;
     font-weight: 400;
