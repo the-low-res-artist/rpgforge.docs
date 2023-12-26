@@ -29,9 +29,9 @@ def set_nav_summary(filename):
 
     # special case if we are in home.html / index/html
     home_page = False
-    basename = os.path.basename(filename)
-    if (basename == "home.html" or basename == "index.html"):
-        home_page = True
+    #basename = os.path.basename(filename)
+    #if (basename == "home.html" or basename == "index.html"):
+    #    home_page = True
 
     # reformat some chapters
     # Home
