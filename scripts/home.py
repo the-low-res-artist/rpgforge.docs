@@ -19,21 +19,21 @@ def set_home(filename):
     str_to_replace = "CARDS_GO_HERE"
     str_replacement = f"<div class=\"global-container\">\
         <div class=\"cards-container\">\
-            <div class=\"card\">\
+            <div class=\"card card1\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_installation.jpg\"></img></div>\
                 <div class=\"card-text\"><h3>Title</h3><p>text text text text text text text text text text text text text text text text text text text text.</p></div>\
             </div>\
-            <div class=\"card\">\
+            <div class=\"card card2\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_installation.jpg\"></img></div>\
                 <div class=\"card-text\"><h3>Title</h3><p>text text text text text text text text text text text text text text text text text text text text.</p></div>\
             </div>\
-            <div class=\"card\">\
+            <div class=\"card card3\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_installation.jpg\"></img></div>\
                 <div class=\"card-text\"><h3>Title</h3><p>text text text text text text text text text text text text text text text text text text text text.</p></div>\
             </div>\
         </div>\
     </div>"
-    
+
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
