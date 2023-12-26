@@ -28,7 +28,7 @@ def set_home(filename):
             </div>\
             <div class=\"card card3\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_community.png\"></img></div>\
-                <div class=\"card-text\"><h3>Community</h3><p>Join the dev team and the community on Discord. We will listen to your feedback and try to improve our product in the right direction !</p></div>\
+                <div class=\"card-text\"><h3>Community</h3><p>Join the dev team and users on Discord. We will listen to your feedback and try to improve our product in the right direction !</p></div>\
             </div>\
         </div>"
 
