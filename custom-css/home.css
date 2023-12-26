@@ -11,9 +11,16 @@ body{
     place-items: center center;
     font-family: 'Poppins',sans-serif;
 }*/
+
+.content main {
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 100%;
+}
+
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250,1fr));
     padding: 20px;
     grid-gap: 40px;
     padding: 0;
