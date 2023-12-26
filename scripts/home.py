@@ -18,7 +18,7 @@ def set_home(filename):
 
     str_to_replace = "CARDS_GO_HERE"
     str_replacement = f"<div class=\"cards\">\
-            <div class=\"card card1\" onclick=\window.location.href = 'https://rpgpowerforge.com/en/stable/installation/installation_unity.html';\" style=\"cursor: pointer;\">\
+            <div class=\"card card1\" onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/installation/installation_unity.html';\" style=\"cursor: pointer;\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_unity.png\"></img></div>\
                 <div class=\"card-text\"><h3>Installation</h3><p>RPG Power Forge is your powerful Unity package to make RPG without coding. Grab the requirements and start a new project !</p></div>\
             </div>\
