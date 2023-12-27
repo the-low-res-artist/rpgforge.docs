@@ -32,8 +32,8 @@ python3 -m highlight-actions.py
 cd ${root_dir}
 
 # save previous build
-rm -rf ${PWD}/book.previous_build
-mv ${PWD}/book ${PWD}/book.previous_build
+rm -rf ${root_dir}/book.previous_build
+mv ${root_dir}/book ${root_dir}/book.previous_build
 
 # ---------------------------------------------------------------
 # BUILD SCRIPTS
@@ -43,8 +43,8 @@ for folder in $(find src -type d);
 do
     # si le dossier courant contient le fichier book.toml, alors build du book
     if [ -f "${folder}/book.toml" ]; then
-        echo mdbook build ${PWD}/${folder} -d ${PWD}/${folder/src/book}
-        mdbook build ${PWD}/${folder} -d ${PWD}/${folder/src/book}
+        echo mdbook build ${root_dir}/${folder} -d ${root_dir}/${folder/src/book}
+        mdbook build ${root_dir}/${folder} -d ${root_dir}/${folder/src/book}
     fi
 done
 
@@ -84,11 +84,11 @@ python3 -m home.py
 
 # HERO PAGE ADDITION HERE
 # add hero page
-cp ${PWD}/resources/hero.html ${PWD}/book/index.html
+cp ${root_dir}/resources/hero.html ${root_dir}/book/index.html
 # add links for home page to work (assuming we have /en/stable at least)
-ln -s ${PWD}/book/en/stable/css ${PWD}/book/css
-ln -s ${PWD}/book/en/stable/FontAwesome ${PWD}/book/FontAwesome
-ln -s ${PWD}/book/en/stable/fonts ${PWD}/book/fonts
+ln -s ${root_dir}/book/en/stable/css ${root_dir}/book/css
+ln -s ${root_dir}/book/en/stable/FontAwesome ${root_dir}/book/FontAwesome
+ln -s ${root_dir}/book/en/stable/fonts ${root_dir}/book/fonts
 
 # add link thumbnails
 python3 -m thumbnails.py
@@ -104,7 +104,7 @@ cd ${root_dir}
 for folder in $(ls -d book/*);
 do
     if [ -d "${folder}" ]; then
-        cp ${PWD}/resources/redirect_to_stable.html ${PWD}/${folder}/index.html
+        cp ${root_dir}/resources/redirect_to_stable.html ${root_dir}/${folder}/index.html
     fi
 done
 
@@ -113,7 +113,7 @@ for folder in $(find book -type d);
 do
     # process folder
     # add folders links (css, js, media, ...)
-    ln -s ${PWD}/media/ ${PWD}/${folder}/media
-    ln -s ${PWD}/custom-js/ ${PWD}/${folder}/custom-js
-    ln -s ${PWD}/custom-css/ ${PWD}/${folder}/custom-css
+    ln -s ${root_dir}/media/ ${root_dir}/${folder}/media
+    ln -s ${root_dir}/custom-js/ ${root_dir}/${folder}/custom-js
+    ln -s ${root_dir}/custom-css/ ${root_dir}/${folder}/custom-css
 done
