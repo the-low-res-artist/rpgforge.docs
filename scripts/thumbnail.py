@@ -27,7 +27,7 @@ def set_thumbnail(filename):
     <meta property=\"og:image:type\" content=\"image/jpeg\">\
     <meta name=\"twitter:card\" content=\"summary_large_image\">\
     <meta name=\"twitter:site\" content=\"@rpgpowerforge\">\
-    <meta property=\"twitter:url\" content="{file_url}">\
+    <meta property=\"twitter:url\" content=\"{file_url}\">\
     <meta property=\"twitter:title\" content=\"RPG Power Forge\">\
     <meta property=\"twitter:description\" content=\"Documentation for the Unity package : RPG Power Forge\">\
     <meta property=\"twitter:image\" content=\"https://rpgpowerforge.com/media/thumbnail/thumbnail_v2.jpg\">"
