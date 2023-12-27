@@ -19,22 +19,28 @@ def set_thumbnail(filename):
 
     file_url=filename.replace('./../book/', 'https://rpgpowerforge.com/')
 
+    description="The awesome documentation for the Unity package : RPG Power Forge"
+    image="https://rpgpowerforge.com/media/thumbnail/thumbnail_v2.jpg"
+    title="RPG Power Forge documentation site"
+    author="@rpgpowerforge"
+    site="rpgpowerforge.com"
+    
     thumbnail = f"<!-- Custom HTML thumbnail image -->\
-    <meta property=\"og:image\" content=\"https://rpgpowerforge.com/media/thumbnail/thumbnail_v2.jpg\">\
+    <meta property=\"og:image\" content=\"{image}\">\
     <meta property=\"og:image:width\" content=\"1200\">\
     <meta property=\"og:image:height\" content=\"630\">\
     <meta property=\"og:image:type\" content=\"image/jpeg\">\
     <meta name=\"twitter:card\" content=\"summary_large_image\">\
-    <meta name=\"twitter:site\" content=\"@rpgpowerforge\">\
-    <meta name=\"twitter:creator\" content=\"@rpgpowerforge\">\
+    <meta name=\"twitter:site\" content=\"{author}\">\
+    <meta name=\"twitter:creator\" content=\"{author}\">\
     <meta property=\"twitter:url\" content=\"{file_url}\">\
-    <meta property=\"twitter:title\" content=\"RPG Power Forge documentation site\">\
-    <meta property=\"twitter:description\" content=\"Documentation for the Unity package : RPG Power Forge\">\
-    <meta property=\"twitter:image\" content=\"https://rpgpowerforge.com/media/thumbnail/thumbnail_v2.jpg\">\
-    <meta property=\"og:site_name\" content=\"rpgpowerforge.com\">\
+    <meta property=\"twitter:title\" content=\"{title}\">\
+    <meta property=\"twitter:description\" content=\"{description}\">\
+    <meta property=\"twitter:image\" content=\"{image}\">\
+    <meta property=\"og:site_name\" content=\"{site}\">\
     <meta property=\"og:locale\" content=\"en_EN\">\
-    <meta property=\"og:title\" content=\"RPG Power Forge documentation site\">\
-    <meta property=\"og:description\" content=\"Documentation for the Unity package : RPG Power Forge\">\
+    <meta property=\"og:title\" content=\"{title}\">\
+    <meta property=\"og:description\" content=\"{description}\">\
     <meta property=\"og:url\" content=\"{file_url}\">\
     <meta property=\"og:type\" content=\"website\">"
     str_to_replace = "</head>"
