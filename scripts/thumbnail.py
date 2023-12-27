@@ -17,11 +17,20 @@ def set_thumbnail(filename):
     if (s == ""):
         return
 
-    thumbnail = "<!-- Custom HTML thumbnail image -->\
+    file_url=f"https://rpgpowerforge.com/{filename}"
+    print(file_url)
+
+    thumbnail = f"<!-- Custom HTML thumbnail image -->\
     <meta property=\"og:image\" content=\"https://rpgpowerforge.com/media/thumbnail/thumbnail_v2.jpg\">\
     <meta property=\"og:image:width\" content=\"1200\">\
-    <meta property=\"og:image:height\" content=\"630\">"
-
+    <meta property=\"og:image:height\" content=\"630\">\
+    <meta property=\"og:image:type\" content=\"image/jpeg\">\
+    <meta name=\"twitter:card\" content=\"summary_large_image\">\
+    <meta name=\"twitter:site\" content=\"@rpgpowerforge\">\
+    <meta property=\"twitter:url\" content="{file_url}">\
+    <meta property=\"twitter:title\" content=\"RPG Power Forge\">\
+    <meta property=\"twitter:description\" content=\"Documentation for the Unity package : RPG Power Forge\">\
+    <meta property=\"twitter:image\" content=\"https://rpgpowerforge.com/media/thumbnail/thumbnail_v2.jpg\">"
     str_to_replace = "</head>"
     str_replacement = f"{thumbnail}</head>"
     s = s.replace(str_to_replace, str_replacement)
