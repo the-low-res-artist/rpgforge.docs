@@ -2,8 +2,8 @@
 main {
     border-radius: 20px;
     border: 2px solid var(--sidebar-bg);
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 /* improve quotes */
