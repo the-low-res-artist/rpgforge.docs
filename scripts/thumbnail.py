@@ -46,7 +46,7 @@ def set_thumbnail(filename):
     <meta property=\"og:title\" content=\"{title}\">\
     <meta property=\"og:description\" content=\"{description}\">\
     <meta property=\"og:url\" content=\"{file_url}\">\
-    <meta property=\"og:type\" content=\"website\">"
+    <meta property=\"og:type\" content=\"article\">"
     str_to_replace = "</head>"
     str_replacement = f"{thumbnail}</head>"
     s = s.replace(str_to_replace, str_replacement)
