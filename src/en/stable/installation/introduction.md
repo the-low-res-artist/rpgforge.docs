@@ -3,7 +3,7 @@
 Welcome to the installation process ! Please take a look a the following steps.
 
 ```admonish tip title="Oh yeah"
-This section is up-to-date with Unity 2022.3 !
+This section is up-to-date !
 ```
 
 ## Summary
@@ -21,6 +21,6 @@ RPG Power Forge is our product : it's a Unity package designed to make RPG games
 ```
 
 ### Create a new project
-```admonish note title="RPG Power Forge download"
-Create a new project to complete the installation ! Creation process [is detailled here](installation/create_new_project.md).
+```admonish note title="New project"
+Create a new RPG Power Forge project in Unity to complete the installation ! Creation process [is detailled here](installation/create_new_project.md).
 ```

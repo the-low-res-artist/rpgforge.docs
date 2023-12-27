@@ -5,3 +5,8 @@ main {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+/* improve quotes */
+blockquote {
+    border-radius: 20px;
+}
