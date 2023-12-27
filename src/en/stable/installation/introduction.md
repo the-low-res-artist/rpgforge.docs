@@ -8,7 +8,9 @@ This section is up-to-date !
 
 ## Summary
 
-# Overview
+## Overview
+
+![overview.jpg](./../../../../media/download/overview.jpg)
 
 ## Detailled steps
 
