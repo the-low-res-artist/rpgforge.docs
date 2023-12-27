@@ -24,7 +24,7 @@ def set_thumbnail(filename):
     title="RPG Power Forge documentation site"
     author="@rpgpowerforge"
     site="rpgpowerforge.com"
-    
+
     thumbnail = f"<!-- Custom HTML thumbnail image -->\
     <meta property=\"og:image\" content=\"{image}\">\
     <meta property=\"og:image:width\" content=\"1200\">\
@@ -33,6 +33,10 @@ def set_thumbnail(filename):
     <meta name=\"twitter:card\" content=\"summary_large_image\">\
     <meta name=\"twitter:site\" content=\"{author}\">\
     <meta name=\"twitter:creator\" content=\"{author}\">\
+    <meta name=\"twitter:url\" content=\"{file_url}\">\
+    <meta name=\"twitter:title\" content=\"{title}\">\
+    <meta name=\"twitter:description\" content=\"{description}\">\
+    <meta name=\"twitter:image\" content=\"{image}\">\
     <meta property=\"twitter:url\" content=\"{file_url}\">\
     <meta property=\"twitter:title\" content=\"{title}\">\
     <meta property=\"twitter:description\" content=\"{description}\">\
