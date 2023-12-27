@@ -16,19 +16,32 @@ def set_link(filename):
     if (s == ""):
         return
 
-    # Twitter / X
-    str_to_replace = "<a href=\"https://twitter.com/RPGPowerForge.html\""
-    str_replacement = "<a href=\"https://twitter.com/RPGPowerForge\" target=\"_blank\""
-    s = s.replace(str_to_replace, str_replacement)
+    # links can be reformatted by mdbook (depending on where the html page is in the hierarchy) :
+    # https://twitter.com/RPGPowerForge.html
+    # ../https://twitter.com/RPGPowerForge.html
+    # ../../https://twitter.com/RPGPowerForge.html
+    # ...
+    
+    # I add 'target=\"_blank\"' to make the click open a new tab
 
-    str_to_replace = "<a href=\"https://x.com/RPGPowerForge.html\""
-    str_replacement = "<a href=\"https://x.com/RPGPowerForge\" target=\"_blank\""
-    s = s.replace(str_to_replace, str_replacement)
+    # lets' go up to 10 dept levels
+    for i in range(10):
+        # current dept level
+        dept= i * '../'
+        
+        # Twitter / X
+        str_to_replace = f"<a href=\"{dept}https://twitter.com/RPGPowerForge.html\""
+        str_replacement = "<a href=\"https://twitter.com/RPGPowerForge\" target=\"_blank\""
+        s = s.replace(str_to_replace, str_replacement)
 
-    # Trello
-    str_to_replace = "<a href=\"https://trello.com/b/PIzgsYov/rpg-power-forge-road-map.html\""
-    str_replacement = "<a href=\"https://trello.com/b/PIzgsYov/rpg-power-forge-road-map\" target=\"_blank\""
-    s = s.replace(str_to_replace, str_replacement)
+        str_to_replace = f"<a href=\"{dept}https://x.com/RPGPowerForge.html\""
+        str_replacement = "<a href=\"https://x.com/RPGPowerForge\" target=\"_blank\""
+        s = s.replace(str_to_replace, str_replacement)
+
+        # Trello
+        str_to_replace = f"<a href=\"{dept}https://trello.com/b/PIzgsYov/rpg-power-forge-road-map.html\""
+        str_replacement = "<a href=\"https://trello.com/b/PIzgsYov/rpg-power-forge-road-map\" target=\"_blank\""
+        s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
