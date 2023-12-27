@@ -17,7 +17,7 @@ def set_thumbnail(filename):
     if (s == ""):
         return
 
-    file_url=f"https://rpgpowerforge.com/{filename}"
+    file_url=filename.replace('./../book/', 'https://rpgpowerforge.com/')
     print(file_url)
 
     thumbnail = f"<!-- Custom HTML thumbnail image -->\
