@@ -17,27 +17,13 @@ def set_thumbnail(filename):
     if (s == ""):
         return
 
-    # add custom .css scripts at the end of the file
-    css_link = ""
-    basename = os.path.basename(filename)
-    for root, dirs, files in os.walk("./../custom-css"):
-        for file in files:
-            # special case : skip hero css
-            if (file == "hero.css"):
-                continue
-            else:
-                # special case (home or index)
-                if (file == "home.css"):
-                    if (basename != "home.html" and basename != "index.html"):
-                        continue
-                    else:
-                        css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
-                else:
-                    css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
-                    
-                
-    str_to_replace = "<!-- Custom theme stylesheets -->"
-    str_replacement = f"<!-- Custom theme stylesheets -->{css_link}"
+    thumbnail = "<!-- Custom HTML thumbnail image -->\
+    <meta property=\"og:image\" content=\"https://rpgpowerforge.com/media/thumbnail/thumbnail_v2.jpg\">\
+    <meta property=\"og:image:width\" content=\"1200\">\
+    <meta property=\"og:image:height\" content=\"630\">"
+
+    str_to_replace = "</head>"
+    str_replacement = f"{thumbnail}</head>"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
@@ -48,8 +34,8 @@ def set_thumbnail(filename):
 book_root = "./../book/"
 nb_files=0
 print("====================================")
-print("CSS UPDATE")
-print(f"Scanning html files in {book_root} and adding a css link")
+print("THUMBNAILS UPDATE")
+print(f"Scanning html files in {book_root} and adding a link thumbnail")
 for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):

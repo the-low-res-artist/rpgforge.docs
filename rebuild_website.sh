@@ -73,8 +73,6 @@ python3 -m link.py
 python3 -m custom-css.py
 # add css link
 python3 -m custom-js.py
-# update favicons
-python3 -m favicon.py
 # update the navigation summary
 python3 -m nav-summary.py
 # update the requirements tests results format for PASS, FAIL and NOT_TESTED cells
@@ -83,15 +81,24 @@ python3 -m test-results-format.py
 python3 -m rating.py
 # update the home page
 python3 -m home.py
-cd ${root_dir}
 
-# add home page
+# HERO PAGE ADDITION HERE
+# add hero page
 cp ${PWD}/resources/hero.html ${PWD}/book/index.html
-
 # add links for home page to work (assuming we have /en/stable at least)
 ln -s ${PWD}/book/en/stable/css ${PWD}/book/css
 ln -s ${PWD}/book/en/stable/FontAwesome ${PWD}/book/FontAwesome
 ln -s ${PWD}/book/en/stable/fonts ${PWD}/book/fonts
+
+# add link thumbnails
+python3 -m thumbnails.py
+# update favicons
+python3 -m favicon.py
+
+cd ${root_dir}
+
+
+
 
 # add redirection in every language root folder (book/*/)
 for folder in $(ls -d book/*);
