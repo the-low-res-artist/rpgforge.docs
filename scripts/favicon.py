@@ -22,6 +22,10 @@ def set_favicon(filename):
     str_replacement = '<link rel="icon" href="/media/icons/favicon5.png">'
     s = s.replace(str_to_replace, str_replacement)
 
+    str_to_replace = '<link rel="shortcut icon" href="favicon.png">'
+    str_replacement = '<link rel="shortcut icon" href="/media/icons/favicon5.png">'
+    s = s.replace(str_to_replace, str_replacement)
+
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
         f.write(s)
