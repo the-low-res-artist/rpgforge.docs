@@ -25,11 +25,23 @@ def set_thumbnail(filename):
     author="@rpgpowerforge"
     site="rpgpowerforge.com"
 
-    thumbnail = f"<!-- Custom HTML thumbnail image -->\
+    thumbnail = f"<!-- Custom HTML thumbnail image and metadata -->\
     <meta property=\"og:image\" content=\"{image}\">\
     <meta property=\"og:image:width\" content=\"1200\">\
     <meta property=\"og:image:height\" content=\"630\">\
     <meta property=\"og:image:type\" content=\"image/jpeg\">\
+    \
+    <meta property=\"og:site_name\" content=\"{site}\">\
+    <meta property=\"og:locale\" content=\"en_EN\">\
+    <meta property=\"og:title\" content=\"{title}\">\
+    <meta property=\"og:description\" content=\"{description}\">\
+    <meta property=\"og:url\" content=\"{file_url}\">\
+    <meta property=\"og:type\" content=\"article\">\
+    \
+    <meta property=\"og:rating\" content=\"1\">\
+    <meta property=\"og:rating_scale\" content=\"2\">\
+    <meta property=\"og:rating_count\" content=\"3\">\
+    \
     <meta name=\"twitter:card\" content=\"summary_large_image\">\
     <meta name=\"twitter:site\" content=\"{author}\">\
     <meta name=\"twitter:creator\" content=\"{author}\">\
@@ -40,13 +52,8 @@ def set_thumbnail(filename):
     <meta property=\"twitter:url\" content=\"{file_url}\">\
     <meta property=\"twitter:title\" content=\"{title}\">\
     <meta property=\"twitter:description\" content=\"{description}\">\
-    <meta property=\"twitter:image\" content=\"{image}\">\
-    <meta property=\"og:site_name\" content=\"{site}\">\
-    <meta property=\"og:locale\" content=\"en_EN\">\
-    <meta property=\"og:title\" content=\"{title}\">\
-    <meta property=\"og:description\" content=\"{description}\">\
-    <meta property=\"og:url\" content=\"{file_url}\">\
-    <meta property=\"og:type\" content=\"article\">"
+    <meta property=\"twitter:image\" content=\"{image}\">"
+
     str_to_replace = "</head>"
     str_replacement = f"{thumbnail}</head>"
     s = s.replace(str_to_replace, str_replacement)
