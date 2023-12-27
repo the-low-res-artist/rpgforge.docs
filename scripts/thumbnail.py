@@ -18,7 +18,6 @@ def set_thumbnail(filename):
         return
 
     file_url=filename.replace('./../book/', 'https://rpgpowerforge.com/')
-    print(file_url)
 
     thumbnail = f"<!-- Custom HTML thumbnail image -->\
     <meta property=\"og:image\" content=\"https://rpgpowerforge.com/media/thumbnail/thumbnail_v2.jpg\">\
@@ -27,10 +26,17 @@ def set_thumbnail(filename):
     <meta property=\"og:image:type\" content=\"image/jpeg\">\
     <meta name=\"twitter:card\" content=\"summary_large_image\">\
     <meta name=\"twitter:site\" content=\"@rpgpowerforge\">\
+    <meta name=\"twitter:creator\" content=\"@rpgpowerforge\">\
     <meta property=\"twitter:url\" content=\"{file_url}\">\
-    <meta property=\"twitter:title\" content=\"RPG Power Forge\">\
+    <meta property=\"twitter:title\" content=\"RPG Power Forge documentation site\">\
     <meta property=\"twitter:description\" content=\"Documentation for the Unity package : RPG Power Forge\">\
-    <meta property=\"twitter:image\" content=\"https://rpgpowerforge.com/media/thumbnail/thumbnail_v2.jpg\">"
+    <meta property=\"twitter:image\" content=\"https://rpgpowerforge.com/media/thumbnail/thumbnail_v2.jpg\">\
+    <meta property=\"og:site_name\" content=\"rpgpowerforge.com\">\
+    <meta property=\"og:locale\" content=\"en_EN\">\
+    <meta property=\"og:title\" content=\"RPG Power Forge documentation site\">\
+    <meta property=\"og:description\" content=\"Documentation for the Unity package : RPG Power Forge\">\
+    <meta property=\"og:url\" content=\"{file_url}\">\
+    <meta property=\"og:type\" content=\"website\">"
     str_to_replace = "</head>"
     str_replacement = f"{thumbnail}</head>"
     s = s.replace(str_to_replace, str_replacement)
