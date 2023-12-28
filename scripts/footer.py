@@ -17,8 +17,14 @@ def set_footer(filename):
     if (s == ""):
         return
 
+
+    footer="Copyright © 2023 LumenSection \n\n \"RPG Power Forge\", RPG Power Forge logos, and other RPG Power Forge trademarks are trademarks or registered trademarks of LumenSection.\
+    \
+    Other names or brands are trademarks of their respective owners."
+
+
     str_to_replace="<nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
-    str_replacement=f"<div class=\"footer-container\"><div class=\"footer-text\">footer part</div></div><nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
+    str_replacement=f"<div class=\"footer-container\"><div class=\"footer-text\">{footer}</div></div><nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content

@@ -1,0 +1,13 @@
+.footer-container {
+    display: table;
+    width: 100%;
+}
+
+.footer-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    opacity: 0.5;
+}
