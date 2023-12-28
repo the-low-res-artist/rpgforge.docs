@@ -18,7 +18,7 @@ def set_footer(filename):
         return
 
     str_to_replace="<nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
-    str_replacement=f"<div class=\"website-footer\">footer part</div><nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
+    str_replacement=f"<div class=\"footer-container\"><div class=\"footer-text\">footer part</div></div><nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
