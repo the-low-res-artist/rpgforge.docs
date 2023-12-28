@@ -12,3 +12,7 @@
     font-size: small;
     opacity: 0.5;
 }
+
+.footer-link {
+    display: contents;
+}
