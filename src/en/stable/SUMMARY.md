@@ -39,9 +39,9 @@
     * [Update RPG Power Forge](./update.md)
 
 * [Community]()
-    * [Discord channel]()
-    * [Twitter](https://twitter.com/RPGPowerForge)
-    * [Road map](https://trello.com/b/PIzgsYov/rpg-power-forge-road-map)
+    * [Discord channel](link_discord)
+    * [Twitter](link_x)
+    * [Road map](link_trello)
     * [Included assets](./community.included_assets.md)
 
 * [About the project]()

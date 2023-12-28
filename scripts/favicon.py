@@ -2,6 +2,7 @@ import re # regex operations
 import sys # to return 0
 import os # loop over files
 import shutil # move files
+from config import config # global config
 
 # goal : replace the favicon in each output html page
 
@@ -19,11 +20,11 @@ def set_favicon(filename):
 
     # replace the favicon
     str_to_replace = '<link rel="icon" href="favicon.svg">'
-    str_replacement = '<link rel="icon" href="/media/icons/favicon5.png">'
+    str_replacement = f"<link rel=\"icon\" href=\"{config.img_favicon}\">"
     s = s.replace(str_to_replace, str_replacement)
 
     str_to_replace = '<link rel="shortcut icon" href="favicon.png">'
-    str_replacement = '<link rel="shortcut icon" href="/media/icons/favicon5.png">'
+    str_replacement = f"<link rel=\"shortcut icon\" href=\"{config.img_favicon}\">"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
