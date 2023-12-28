@@ -24,7 +24,7 @@ def set_link(filename):
     s = s.replace(str_to_replace, str_replacement)
 
     # Twitter / X
-    str_to_replace = "<div><strong aria-hidden=\"true\">4.2.</strong> link_x</div><"
+    str_to_replace = "<div><strong aria-hidden=\"true\">4.2.</strong> link_x</div>"
     str_replacement = f"<a href=\"{config.link_x}\" target=\"_blank\"><strong aria-hidden=\"true\">4.2.</strong> X (Twitter)</a>"
     s = s.replace(str_to_replace, str_replacement)
 
