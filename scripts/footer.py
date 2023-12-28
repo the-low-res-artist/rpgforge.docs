@@ -17,14 +17,17 @@ def set_footer(filename):
     if (s == ""):
         return
 
+    discord_link="<div class=\"footer-link\"><a href=\"http://www.x.com\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/discord.png\" /></a></div>"
+    x_link="<div class=\"footer-link\"><a href=\"http://www.x.com\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/x.png\" /></a></div>"
+    trello_link="<div class=\"footer-link\"><a href=\"https://trello.com/b/PIzgsYov/rpg-power-forge-road-map\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/trello.png\" /></a></div>"
 
-
-    footer=f"<p>Copyright © {datetime.now().year} RPG Power Forge</p>\
+    footer=f"<p>{discord_link}{x_link}{trello_link}</p>\
+    <p>Copyright © {datetime.now().year} RPG Power Forge</p>\
     <p>\"RPG Power Forge\", RPG Power Forge logos, and other RPG Power Forge trademarks are trademarks or registered trademarks.</p>\
     <p>Other names or brands are trademarks of their respective owners.</p>"
 
     str_to_replace="<nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
-    str_replacement=f"<div class=\"footer-container\"><div class=\"footer-text\">{footer}</div></div><nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
+    str_replacement=f"<div class=\"footer-container\"><div class=\"footer-text\">{footer_text}</div></div><nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
