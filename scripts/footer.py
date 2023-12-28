@@ -1,5 +1,5 @@
 
-import re # regex operations
+from datetime import datetime # get current year
 import sys # to return 0
 import os # loop over files
 
@@ -18,10 +18,10 @@ def set_footer(filename):
         return
 
 
-    footer="Copyright © 2023 LumenSection \n\n \"RPG Power Forge\", RPG Power Forge logos, and other RPG Power Forge trademarks are trademarks or registered trademarks of LumenSection.\
-    \
-    Other names or brands are trademarks of their respective owners."
 
+    footer=f"<p>Copyright © {datetime.now().year} RPG Power Forge</p>\
+    <p>\"RPG Power Forge\", RPG Power Forge logos, and other RPG Power Forge trademarks are trademarks or registered trademarks.</p>\
+    <p>Other names or brands are trademarks of their respective owners.</p>"
 
     str_to_replace="<nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
     str_replacement=f"<div class=\"footer-container\"><div class=\"footer-text\">{footer}</div></div><nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
