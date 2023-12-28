@@ -27,11 +27,11 @@ def set_footer(filename):
 
 
 # entry point
-src_root = "./../src/"
+src_root = "./../book/"
 nb_files=0
 print("====================================")
 print("FOOTER UPDATE")
-print(f"Scanning md files in {src_root} and add a footer part")
+print(f"Scanning html files in {src_root} and add a footer part")
 for root, dirs, files in os.walk(src_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
