@@ -5,6 +5,7 @@
 
 .footer-text {
     padding: 30px;
+    padding-left: 150px;
     display: table-cell;
     vertical-align: middle;
     /*text-align: center;*/
