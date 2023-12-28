@@ -21,7 +21,6 @@ def set_link(filename):
     # Discord
     str_to_replace = "<div><strong aria-hidden=\"true\">4.1.</strong> link_discord</div>"
     str_replacement = f"<a href=\"{config.link_discord}\" target=\"_blank\"><strong aria-hidden=\"true\">4.1.</strong> Discord server</a>"
-    str_replacement = "<a href=\"https://trello.com/b/PIzgsYov/rpg-power-forge-road-map\" target=\"_blank\""
     s = s.replace(str_to_replace, str_replacement)
 
     # Twitter / X
