@@ -34,6 +34,10 @@ window.onunload = function () { };
         var path = window.location.pathname;
         var page = path.split("/").pop();
 
+        if (page === '') {
+            page = "home.html";
+        }
+
         console.log("update page")
         // hide stars
         document.getElementById("full-stars-example-two").style.display = 'none';

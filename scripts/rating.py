@@ -33,6 +33,10 @@ def get_rate_subtitle(rate_file, filename):
     # get basename
     basename = os.path.basename(filename)
     
+    # manage index.html
+    if (basename == "index.html"):
+        basename = "home.html"
+
     # open the rate.csv file
     rates = ""
     with open(rate_file, 'r', encoding="utf8") as f:
