@@ -82,7 +82,7 @@ python3 -m rating.py
 # update the home page
 python3 -m home.py
 # update the footer part
-#python3 -m footer.py
+python3 -m footer.py
 
 # HERO PAGE ADDITION HERE
 # add hero page

@@ -2,6 +2,7 @@
 from datetime import datetime # get current year
 import sys # to return 0
 import os # loop over files
+from var import var 
 
 # goal : to add a footer on each html page
 
@@ -17,9 +18,9 @@ def set_footer(filename):
     if (s == ""):
         return
 
-    discord_link="<div class=\"footer-link\"><a href=\"https://x.com\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/discord.png\" /></a></div>"
-    x_link="<div class=\"footer-link\"><a href=\"https://x.com\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/x.png\" /></a></div>"
-    trello_link="<div class=\"footer-link\"><a href=\"https://trello.com/b/PIzgsYov/rpg-power-forge-road-map\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/trello.png\" /></a></div>"
+    discord_link=f"<div class=\"footer-link\"><a href=\"{var.link_discord}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/discord.png\" /></a></div>"
+    x_link=f"<div class=\"footer-link\"><a href=\"{var.link_x}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/x.png\" /></a></div>"
+    trello_link=f"<div class=\"footer-link\"><a href=\"{var.link_trello}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/trello.png\" /></a></div>"
 
     footer=f"<p>{discord_link} {x_link} {trello_link}</p>\
     <p>Copyright © {datetime.now().year} RPG Power Forge</p>\
