@@ -29,11 +29,11 @@ class config:
 
     # terms to highlight
     highlight_terms = [
-        'Unity',
-        'Unity Hub',
-        'RPG Power Forge',
         'Unity Editor',
-        'Aseprite',
+        'Unity Hub',
+        'Unity',
+        'RPG Power Forge',
         'Aseprite Importer',
+        'Aseprite',
         'Probuilder'
     ]
