@@ -2,6 +2,7 @@
 import re # regex operations
 import sys # to return 0
 import os # loop over files
+from config import config
 
 # goal : to find and replace each important term formatting
 # example : Unity ==> **Unity**
@@ -18,14 +19,7 @@ def set_highlight_terms(filename):
     if (s == ""):
         return
 
-    terms = [
-        'Unity',
-        'Hub',
-        'RPG Power Forge',
-        'Editor'
-    ]
-
-    for term in terms:
+    for term in config.highlight_terms:
         str_to_replace=term
         str_replacement=f"**{term}**"
         s = s.replace(str_to_replace, str_replacement)

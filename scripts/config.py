@@ -26,3 +26,14 @@ class config:
     description_gif = "I love retrogaming !1!!§!"
     description_chiw = "I should make my game projects accessible to cats"
     description_noiracide = "I draw like a god but my sleep schedule is terrible"
+
+    # terms to highlight
+    highlight_terms = [
+        'Unity',
+        'Unity Hub',
+        'RPG Power Forge',
+        'Unity Editor',
+        'Aseprite',
+        'Aseprite Importer',
+        'Probuilder'
+    ]
