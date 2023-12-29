@@ -1,8 +1,9 @@
-
 import re # regex operations
 import sys # to return 0
 import os # loop over files
 from config import config
+import random
+
 # goal : edit dev team page to add specific div tags
 
 # replace in a file
@@ -16,19 +17,36 @@ def set_dev_team(filename):
     if (s == ""):
         return
 
+    # prepare cool tags
+    tags_gif = ""
+    for tag in config.tags_gif:
+        tags_gif += f"<div class=\"tag\" style=\"background-color:{random.choice(config.tags_colors)}\">{tag}</div>"
+    tags_gif = f"<div class=\"tags_container\">{tags_gif}</div>"
+
+    chiw_tags = ""
+    for tag in config.chiw_tags:
+        chiw_tags += f"<div class=\"tag\" style=\"background-color:{random.choice(config.tags_colors)}\">{tag}</div>"
+    chiw_tags = f"<div class=\"tags_container\">{chiw_tags}</div>"
+
+    noiracide_tags = ""
+    for tag in config.tags_gif:
+        noiracide_tags += f"<div class=\"tag\" style=\"background-color:{random.choice(config.tags_colors)}\">{tag}</div>"
+    noiracide_tags = f"<div class=\"tags_container\">{noiracide_tags}</div>"
+
+    # setup cards
     str_to_replace = "CARDS_GO_HERE"
     str_replacement = f"<div class=\"cards\">\
             <div class=\"card card1\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/dev_team/card_gif.png\"></img></div>\
-                <div class=\"card-text\"><h3>Gif 👴🏻</h3><p>Project lead, community manager, website maintainer, pixelartist, marketing enthousiast, tester</p></div>\
+                <div class=\"card-text\"><h3>{config.title_gif}</h3>{tags_gif}<p>{config.description_gif}</p></div>\
             </div>\
             <div class=\"card card2\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/dev_team/card_chiw.png\"></img></div>\
-                <div class=\"card-text\"><h3>Chiw 😺</h3><p>Father of the project, C# developper</p></div>\
+                <div class=\"card-text\"><h3>{config.title_chiw}</h3>{tags_chiw}<p>{config.description_chiw}</p></div>\
             </div>\
             <div class=\"card card3\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/dev_team/card_noiracide.png\"></img></div>\
-                <div class=\"card-text\"><h3>Noiracide 🎨</h3><p>Father of the project, 2D/3D assets artist, UI/UX design, tester</p></div>\
+                <div class=\"card-text\"><h3>{config.title_noiracide}</h3>{tags_noiracide}<p>{config.description_noiracide}</p></div>\
             </div>\
         </div>"
 
