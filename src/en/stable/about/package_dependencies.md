@@ -14,8 +14,8 @@ Dependencies are automatically downloaded and installed during RPG Power Forge p
 ```
 
 ## Aseprite importer
-
-2D Aseprite Importer is a free Unity package which enables the import of .aseprite files from the Pixel Art tool Aseprite.
+![aseprite_importer_banner.png](../../../../media/package_dependencies/aseprite_importer_banner.png)
+Aseprite Importer is a free Unity package which enables the import of .aseprite files from the Pixel Art tool Aseprite.
 
 This package is included in RPG Power Forge to import these files directly in Unity and automatically create ?Animation Collection?.
 
@@ -24,7 +24,8 @@ This package is included in RPG Power Forge to import these files directly in Un
 [Aseprite website](https://www.aseprite.org/)
 
 ## Probuilder
-Probuilder is a free Unity package which enables the creation of 3D objects in Unity with a set of simple tools.
+![probuilder_banner.png](../../../../media/package_dependencies/probuilder_banner.png)
+Probuilder is a free Unity package which enables the creation of 3D objects in Unity with a set of simple tools and commands.
 
 *currently in RPG Power Forge integration stage*
 
