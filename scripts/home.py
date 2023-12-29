@@ -2,7 +2,7 @@
 import re # regex operations
 import sys # to return 0
 import os # loop over files
-
+from config import config
 # goal : edit home to add specific div tags
 
 # replace in a file
@@ -26,7 +26,7 @@ def set_home(filename):
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_getting_started.png\"></img></div>\
                 <div class=\"card-text\"><h3>Getting started !</h3><p>Begin your RPG journey with all the online help you need !</p></div>\
             </div>\
-            <div class=\"card card3\" onclick=\"window.location.href = 'https://x.com';\" style=\"cursor: pointer;\">\
+            <div class=\"card card3\" onclick=\"window.location.href = '{config.link_discord}';\" style=\"cursor: pointer;\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/home/card_community.png\"></img></div>\
                 <div class=\"card-text\"><h3>Community</h3><p>Join the dev team and users on Discord. We will listen to your feedback and try to improve our product in the right direction !</p></div>\
             </div>\
@@ -44,7 +44,7 @@ book_root = "./../book/"
 nb_files=0
 print("====================================")
 print("HOME UPDATE")
-print(f"Scanning html files in {book_root} and fixing external links suffixes")
+print(f"Scanning html files in {book_root} and updating home page")
 for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):

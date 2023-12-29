@@ -81,6 +81,8 @@ python3 -m test-results-format.py
 python3 -m rating.py
 # update the home page
 python3 -m home.py
+# update the dev team page
+python3 -m dev_team.py
 # update the footer part
 python3 -m footer.py
 

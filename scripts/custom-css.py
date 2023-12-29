@@ -26,12 +26,10 @@ def set_css(filename):
             if (file == "hero.css"):
                 continue
             else:
-                # special case (home or index)
-                if (file == "home.css"):
-                    if (basename != "home.html" and basename != "index.html"):
-                        continue
-                    else:
-                        css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
+                # special case (home/index/dev_team)
+                if (file == "home.css" and basename != "home.html" and basename != "index.html") or
+                   (file == "dev_team.css" and basename != "dev_team.html"):
+                    continue
                 else:
                     css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
                     
