@@ -5,13 +5,11 @@
     * [Install Unity](./installation/installation_unity.md)
     * [Download RPG Power Forge](./installation/download_rpg_power_forge.md)
     * [Create a new project](./installation/create_new_project.md)
-
 * [Getting started]()
     * [Let's make a game !]()
         * [2D top-down game]()
         * [2D sidescroller game]()
         * [3D game]()
-
 * [User manual]()
     * [RPG Power Forge features]()
         * [Assets management]()
@@ -49,7 +47,6 @@
         * [Edit a Tiles Collection]()
         * [Edit a Behavior]()
     * [Glossary]()
-
 * [Community]()
     * [link_discord]()
     * [link_x]()
