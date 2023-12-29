@@ -2,19 +2,15 @@
 
 Welcome to the installation process ! Please take a look a the following steps.
 
-```admonish warning title="Working on it..."
-Almost done !
+```admonish success title="Oh yeah"
+This section is up-to-date !
 ```
 
 ## Summary
 
-## Overview
-
-![overview.jpg](./../../../../media/download/overview.jpg)
-
 ## Detailled steps
 
-### Unity Hub + Unity Editor
+### Unity Hub and Unity Editor
 ```admonish example title="Detailled process"
 Unity Hub is a standalone application to manage all of your Unity Projects and installations.
 Unity Editor is the game developpement engine we are using to run RPG Power Forge.

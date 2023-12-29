@@ -70,12 +70,12 @@ You can now see the download and installation progress in the Unity Hub left pan
 
 ![install_progress.png](./../../../../media/download/install_progress.png)
 
-## Install Visual Studio Community
+### Install Visual Studio Community
 
 During the installation process, Visual Studio Community 2022 will install automatically.
 
 ```admonish info title="What is Visual Studio Community ?"
-Visual Studio Community is a powerful developer tool that you can use to write, edit, debug, and build code. It is a comprehensive Integrated Development Environment (IDE). It's useful to edit scripts and code in your Unity projects.
+Visual Studio Community is a powerful developer tool that you can use to write, edit, debug, and build code in your Unity projects. The installation is not mandatory but recommended for a better gamedev experience.
 ```
 
 The installation will happend in a dedicated window. You may be asked to restart your computer at the end of the process.
