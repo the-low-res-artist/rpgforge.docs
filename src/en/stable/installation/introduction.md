@@ -2,8 +2,8 @@
 
 Welcome to the installation process ! Please take a look a the following steps.
 
-```admonish success title="Oh yeah"
-This section is up-to-date !
+```admonish warning title="Working on it..."
+Almost done !
 ```
 
 ## Summary
