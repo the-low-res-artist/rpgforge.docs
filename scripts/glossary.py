@@ -11,7 +11,8 @@ GLOSSARY_COLOR="orange"
 GLOSSARY_REGEX=r"(\?([\w ]+?)\?)"
 GLOSSARY_LIST = [
     {"pivot":"A point placed on a sprite or prefab"},
-    {"requirement":"A description of a piece of the software system to deliver"}
+    {"requirement":"A description of a piece of the software system to deliver"},
+    {"animation collection":"Animations packaged in one file for easy edition"}
 ]
 
 # replace in a file
