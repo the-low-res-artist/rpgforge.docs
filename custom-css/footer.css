@@ -5,10 +5,9 @@
 
 .footer-text {
     padding: 30px;
-    padding-left: 150px;
+    padding-left: 100px;
     display: table-cell;
     vertical-align: middle;
-    /*text-align: center;*/
     font-style: italic;
     font-size: small;
     opacity: 0.5;
