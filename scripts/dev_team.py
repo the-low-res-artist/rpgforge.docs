@@ -23,15 +23,15 @@ def set_dev_team(filename):
         tags_gif += f"<div class=\"tag\" style=\"background-color:{random.choice(config.tags_colors)}\">{tag}</div>"
     tags_gif = f"<div class=\"tags_container\">{tags_gif}</div>"
 
-    chiw_tags = ""
-    for tag in config.chiw_tags:
-        chiw_tags += f"<div class=\"tag\" style=\"background-color:{random.choice(config.tags_colors)}\">{tag}</div>"
-    chiw_tags = f"<div class=\"tags_container\">{chiw_tags}</div>"
+    tags_chiw = ""
+    for tag in config.tags_chiw:
+        tags_chiw += f"<div class=\"tag\" style=\"background-color:{random.choice(config.tags_colors)}\">{tag}</div>"
+    tags_chiw = f"<div class=\"tags_container\">{tags_chiw}</div>"
 
-    noiracide_tags = ""
-    for tag in config.tags_gif:
-        noiracide_tags += f"<div class=\"tag\" style=\"background-color:{random.choice(config.tags_colors)}\">{tag}</div>"
-    noiracide_tags = f"<div class=\"tags_container\">{noiracide_tags}</div>"
+    tags_noiracide = ""
+    for tag in config.tags_noiracide:
+        tags_noiracide += f"<div class=\"tag\" style=\"background-color:{random.choice(config.tags_colors)}\">{tag}</div>"
+    tags_noiracide = f"<div class=\"tags_container\">{tags_noiracide}</div>"
 
     # setup cards
     str_to_replace = "CARDS_GO_HERE"
