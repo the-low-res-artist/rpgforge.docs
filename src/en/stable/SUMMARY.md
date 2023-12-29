@@ -41,8 +41,9 @@
     * [link_discord]()
     * [link_x]()
     * [link_trello]()
-    * [Included assets](./community/included_assets.md)
-
+    
 * [About the project]()
-    * [Dev Team]()
+    * [Dev Team](./about/dev_team.md)
     * [Requirements](./about/requirements.md)
+    * [Included assets](./about/included_assets.md)
+    * [Packages dependencies](./about/package_dependencies.md)
