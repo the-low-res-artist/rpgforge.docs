@@ -12,7 +12,7 @@ This section is up-to-date !
 
 ### Unity Hub and Unity Editor
 ```admonish example title="Detailled process"
-Unity Hub is a standalone application to manage all of your Unity Projects and installations.
+Unity Hub is a standalone application to manage all of your Unity projects and installations.
 Unity Editor is the game developpement engine we are using to run RPG Power Forge.
 
 Installation process [is detailled here](./installation_unity.md).
