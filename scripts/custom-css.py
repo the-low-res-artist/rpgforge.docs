@@ -33,7 +33,7 @@ def set_css(filename):
             if file in common_list:
                 css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
             # also add if css file same name as html file
-            else
+            else:
                 html_filename = basename.split('.')[0]
                 # index and home are the same page
                 if html_filename == "index":
