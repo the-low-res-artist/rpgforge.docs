@@ -20,20 +20,27 @@ def set_css(filename):
     # add custom .css scripts at the end of the file
     css_link = ""
     basename = os.path.basename(filename)
+
+    common_list = ["footer.css", "main.css", "mdbook-admonish.css", "rating.css", "summary.css"]
+    black_list = ["hero.css"]
+
     for root, dirs, files in os.walk("./../custom-css"):
         for file in files:
-            # special case : skip hero css
-            if (file == "hero.css"):
+            # skip black list css files
+            if file in black_list:
                 continue
-            else:
-                # special case (home/index/dev_team)
-                if (file == "home.css" and basename != "home.html" and basename != "index.html") or
-                   (file == "dev_team.css" and basename != "dev_team.html"):
-                    continue
-                else:
+            # add if in common list
+            if file in common_list:
+                css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
+            # also add if css file same name as html file
+            else
+                html_filename = basename.split('.')[0]
+                # index and home are the same page
+                if html_filename == "index":
+                    html_filename = "home"
+                css_filename =  file.split('.')[0]
+                if html_filename == css_filename:
                     css_link += f"<link rel=\"stylesheet\" href=\"custom-css/{file}\">"
-                    
-                
     str_to_replace = "<!-- Custom theme stylesheets -->"
     str_replacement = f"<!-- Custom theme stylesheets -->{css_link}"
     s = s.replace(str_to_replace, str_replacement)
