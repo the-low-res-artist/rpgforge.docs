@@ -20,16 +20,20 @@ def set_dev_team(filename):
     # prepare cool tags
     tags_gif = ""
     for tag in config.tags_gif:
+        # same color for same tag name
+        random.seed(hash(tag))
         tags_gif += f"<div class=\"tag\" style=\"background-color:{random.choice(config.tags_colors)}\">{tag}</div>"
     tags_gif = f"<div class=\"tags_container\">{tags_gif}</div>"
 
     tags_chiw = ""
     for tag in config.tags_chiw:
+        random.seed(hash(tag))
         tags_chiw += f"<div class=\"tag\" style=\"background-color:{random.choice(config.tags_colors)}\">{tag}</div>"
     tags_chiw = f"<div class=\"tags_container\">{tags_chiw}</div>"
 
     tags_noiracide = ""
     for tag in config.tags_noiracide:
+        random.seed(hash(tag))
         tags_noiracide += f"<div class=\"tag\" style=\"background-color:{random.choice(config.tags_colors)}\">{tag}</div>"
     tags_noiracide = f"<div class=\"tags_container\">{tags_noiracide}</div>"
 
