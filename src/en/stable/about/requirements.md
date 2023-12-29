@@ -3,7 +3,7 @@ This section list each ?requirement? for RPG Power Forge features as well as the
 
 *(This page is under development)* 
 
-```admonish tip title="Oh yeah" 
+```admonish check title="Oh yeah" 
 All tested requirements passed ✔️ !
 ```
 

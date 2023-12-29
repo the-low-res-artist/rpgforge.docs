@@ -2,7 +2,7 @@
 
 This section covers the download and installation process for Unity Hub and Unity Editor.
 
-```admonish tip title="Oh yeah"
+```admonish success title="Oh yeah"
 This section is up-to-date with Unity 2022.3 !
 ```
 

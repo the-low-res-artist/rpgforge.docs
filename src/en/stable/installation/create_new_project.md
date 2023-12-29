@@ -2,7 +2,7 @@
 
 This section covers the creation of a new Unity project with RPG Power Forge !
 
-```admonish tip title="Oh yeah"
+```admonish success title="Oh yeah"
 This section is up-to-date for Unity 2022.3 !
 ```
 

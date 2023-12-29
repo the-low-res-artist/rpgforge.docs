@@ -103,17 +103,17 @@ Requirement|Description|Test result\n\
             total_req_not_tested += 1
     # default summary
     if total_req_passed == total_req:
-        results_summary_icon = "tip"
+        results_summary_icon = "check"
         results_summary_title= "Oh yeah"
         results_summary_text = "All requirements passed ✔️ !"
     elif total_req_passed < total_req and total_req_fail == 0:
-        results_summary_icon = "tip"
+        results_summary_icon = "check"
         results_summary_title= "Oh yeah"
         results_summary_text = "All tested requirements passed ✔️ !"
     elif total_req_passed < total_req and total_req_fail > 0:
         ratio = total_req_passed/(float(total_req_passed) + total_req_fail)
         ratio = round(ratio * 100, 1)
-        results_summary_icon = "info"
+        results_summary_icon = "warning"
         results_summary_title= "Testing ..."
         results_summary_text = f"{ratio}% of tested requirements passed ✔️ !"
     s = f"# Requirements \n\

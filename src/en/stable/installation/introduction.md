@@ -2,7 +2,7 @@
 
 Welcome to the installation process ! Please take a look a the following steps.
 
-```admonish tip title="Oh yeah"
+```admonish success title="Oh yeah"
 This section is up-to-date !
 ```
 
