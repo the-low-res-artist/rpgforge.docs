@@ -42,15 +42,15 @@ def set_dev_team(filename):
     str_replacement = f"<div class=\"cards\">\
             <div class=\"card card1\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/dev_team/card_gif.png\"></img></div>\
-                <div class=\"card-text\"><h3>{config.title_gif}</h3>{tags_gif}<p>{config.description_gif}</p></div>\
+                <div class=\"card-text\"><h3>{config.title_gif}</h3>{tags_gif}<p> - <i>{config.description_gif}</i></p></div>\
             </div>\
             <div class=\"card card2\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/dev_team/card_chiw.png\"></img></div>\
-                <div class=\"card-text\"><h3>{config.title_chiw}</h3>{tags_chiw}<p>{config.description_chiw}</p></div>\
+                <div class=\"card-text\"><h3>{config.title_chiw}</h3>{tags_chiw}<p> - <i>{config.description_chiw}</i></p></div>\
             </div>\
             <div class=\"card card3\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/dev_team/card_noiracide.png\"></img></div>\
-                <div class=\"card-text\"><h3>{config.title_noiracide}</h3>{tags_noiracide}<p>{config.description_noiracide}</p></div>\
+                <div class=\"card-text\"><h3>{config.title_noiracide}</h3>{tags_noiracide}<p> - <i>{config.description_noiracide}</i></p></div>\
             </div>\
         </div>"
 
