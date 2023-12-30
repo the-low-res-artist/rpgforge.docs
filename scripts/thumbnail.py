@@ -98,11 +98,11 @@ def set_thumbnail(filename):
         return
 
     # get file title
-    REGEX_TITLE_PAGE = "<h1.+?><a.+?>(.+?)</a>"
-   
-    print(f"file: {filename}")
-    title = re.findall(REGEX_TITLE_PAGE, s)[0].replace("<strong>", "").replace("</strong>", "")
-    print(f"title:[{title}]")
+    titles = re.findall("<h1.+?><a.+?>(.+?)</a>", s)
+    if len(title) > 0:
+        title = titles[0].replace("<strong>", "").replace("</strong>", "")
+    else:
+        title = "Documentation"
 
     file_url=filename.replace('./../book/', 'https://rpgpowerforge.com/')
     description="The awesome documentation for the Unity package : RPG Power Forge"
