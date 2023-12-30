@@ -71,15 +71,11 @@ def get_new_thumbnail_image(filename, title, file_template):
             # title row 1
             for x in range(-4,5,2):
                 for y in range(-4, 5, 2):
-                    draw.text((20+x, 300+y), title_row1, font=font_title, fill=back_color)
-                    draw.text((20+x, 400+y), title_row2, font=font_title, fill=back_color)
-            draw.text((20, 300), title_row1, font=font_title, fill=front_color)
-            draw.text((20, 400), title_row2, font=font_title, fill=front_color)
-            # subtitle
-            for x in range(-4,5,2):
-                for y in range(-4, 5, 2):
-                    draw.text((23+x, 500+y), subtitle, font=font_subtitle, fill=back_color)
-            draw.text((23, 500), subtitle, font=font_subtitle, fill=front_color)
+                    draw.text((20+x, 350+y), title_row1, font=font_title, fill=back_color)
+                    draw.text((20+x, 450+y), title_row2, font=font_title, fill=back_color)
+            draw.text((20, 350), title_row1, font=font_title, fill=front_color)
+            draw.text((20, 450), title_row2, font=font_title, fill=front_color)
+            
         # save
         output_filename = str(hash(title))
         thumbnail_path = f"./../media/thumbnail/thumbnail_{output_filename}.jpg"
