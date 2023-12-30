@@ -2,8 +2,43 @@ import re # regex operations
 import sys # to return 0
 import os # loop over files
 import shutil # move files
+from PIL import ImageFont, ImageDraw, Image
 
 # goal : add a nice thumbnail to html output pages
+
+# add a cool title to the thumbnail
+def get_new_thumbnail_image(filename, file_template):
+    basename = os.path.basename(filename)
+    
+    # open template image
+    with Image.open(file_template) as image:
+
+        # get the image
+        draw = ImageDraw.Draw(image)
+
+        # text to draw
+        title = "Hello"
+        subtitle = "User manual"
+
+        # create 2 fonts
+        font_title = ImageFont.truetype("./../font/mont.otf", 110)
+        font_subtitle = ImageFont.truetype("./../font/mont.otf", 50)
+        front_color = (255, 255, 255, 255)
+        back_color = (0, 0, 0, 255)
+
+        # title
+        for x in range(-4,5,2): for y in range(-4, 5, 2): draw.text((20+x, 400+y), title, font=font_title, fill=back_color)
+        draw.text((20, 400), title, font=font_title, fill=front_color)
+
+        # subtitle
+        for x in range(-4,5,2): for y in range(-4, 5, 2): draw.text((23+x, 500+y), subtitle, font=font_subtitle, fill=back_color)
+        draw.text((23, 500), subtitle, font=font_subtitle, fill=front_color)
+
+        # save
+        thumbnail_path = f"./../media/thumbnail/thumbnail_{title.replace(" ","_")}.jpg"
+        image.save(thumbnail_path)
+
+    return thumbnail_path.replace("./../", "https://rpgpowerforge.com/")
 
 # replace in a file
 def set_thumbnail(filename):
@@ -18,9 +53,8 @@ def set_thumbnail(filename):
         return
 
     file_url=filename.replace('./../book/', 'https://rpgpowerforge.com/')
-
     description="The awesome documentation for the Unity package : RPG Power Forge"
-    image="https://rpgpowerforge.com/media/thumbnail/thumbnail_v2.jpg"
+    image= get_new_thumbnail_image(filename, "./../media/thumbnail/thumbnail_template.jpg")
     title="RPG Power Forge documentation site"
     author="@rpgpowerforge"
     site="rpgpowerforge.com"
