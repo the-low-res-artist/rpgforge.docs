@@ -22,6 +22,7 @@ On the setting page, [[mind the steps]] :
 1. Check the Unity version you are using (we recommend **Unity 2022.3**)
 1. Select the "2D Core" project template
 1. Fill the project name and location
+1. Select your Unity account for "Unity Cloud Organization"
 1. Click "Create project" !
 
 ![new_project_settings.png](./../../../../media/new_project/new_project_settings.png)

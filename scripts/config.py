@@ -9,6 +9,19 @@ class config:
     # images
     img_favicon = "https://rpgpowerforge.com/media/icons/favicon5.png"
 
+    # let's make a game !
+    title_2d = "2D RPG game"
+    title_3d = "3D RPG game"
+    title_4d = "4D RPG game"
+
+    tags_2d = ["simple", "accessible"]
+    tags_3d = ["medium", "challenging"]
+    tags_4d = ["impossible", "very_hard", "not_simple_at_all", "dont_try_this_at_home"]
+
+    description_2d = "2D RPG games are cool and retro"
+    description_3d = "Let do a 3D RPG game"
+    description_4d = "???"
+
     # dev team
     title_gif = "Gif 👴🏻"
     title_chiw = "Chiw 😺"

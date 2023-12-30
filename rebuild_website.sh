@@ -83,6 +83,8 @@ python3 -m rating.py
 python3 -m home.py
 # update the dev team page
 python3 -m dev_team.py
+# update lets make a game page
+python3 -m lets_make_a_game.py
 # update the footer part
 python3 -m footer.py
 
