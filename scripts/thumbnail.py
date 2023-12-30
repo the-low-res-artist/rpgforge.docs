@@ -6,13 +6,33 @@ from PIL import ImageFont, ImageDraw, Image
 
 # goal : add a nice thumbnail to html output pages
 
+# slip evenly a sentence string (for title)
 def split_string_equally(input_string):
-    words = input_string.split()
-    total_words = len(words)
+    total_chars = len(input_string)
+    half_chars = total_chars // 2
 
-    half_index = total_words // 2
-    first_half = ' '.join(words[:half_index])
-    second_half = ' '.join(words[half_index:])
+    print(total_chars)
+    print(half_chars)
+
+    # Find the closest space to half_chars
+    offset = 0
+    index = 0
+    space_found = False
+    while not space_found:
+        index = half_chars + offset
+        # found
+        if input_string[index] == ' ':
+            space_found = True
+        else:
+            if offset == 0:
+                offset += 1
+            elif offset > 0:
+                offset = (offset * -1)
+            elif offset < 0:
+                offset = (offset * -1) + 1
+    
+    first_half = input_string[:index]
+    second_half = input_string[(index+1):] #skip first space
 
     return first_half, second_half
 
@@ -40,8 +60,8 @@ def get_new_thumbnail_image(filename, title, file_template):
             # title
             for x in range(-4,5,2):
                 for y in range(-4, 5, 2):
-                    draw.text((20+x, 400+y), title, font=font_title, fill=back_color)
-            draw.text((20, 400), title, font=font_title, fill=front_color)
+                    draw.text((20+x, 450+y), title, font=font_title, fill=back_color)
+            draw.text((20, 450), title, font=font_title, fill=front_color)
 
             # subtitle
             for x in range(-4,5,2):
