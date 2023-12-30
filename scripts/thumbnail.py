@@ -57,9 +57,12 @@ def set_thumbnail(filename):
     if (s == ""):
         return
 
+    # get file title
+    title = s[0]
+
     file_url=filename.replace('./../book/', 'https://rpgpowerforge.com/')
     description="The awesome documentation for the Unity package : RPG Power Forge"
-    image= get_new_thumbnail_image(filename, "./../media/thumbnail/thumbnail_template.jpg")
+    image= get_new_thumbnail_image(filename, title, "./../media/thumbnail/thumbnail_template.png")
     title="RPG Power Forge documentation site"
     author="@rpgpowerforge"
     site="rpgpowerforge.com"
