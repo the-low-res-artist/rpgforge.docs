@@ -7,7 +7,7 @@ from PIL import ImageFont, ImageDraw, Image
 # goal : add a nice thumbnail to html output pages
 
 # add a cool title to the thumbnail
-def get_new_thumbnail_image(filename, file_template):
+def get_new_thumbnail_image(filename, title, file_template):
     basename = os.path.basename(filename)
     
     # open template image
@@ -17,7 +17,6 @@ def get_new_thumbnail_image(filename, file_template):
         draw = ImageDraw.Draw(image)
 
         # text to draw
-        title = "Hello"
         subtitle = "User manual"
 
         # create 2 fonts
@@ -39,7 +38,7 @@ def get_new_thumbnail_image(filename, file_template):
         draw.text((23, 500), subtitle, font=font_subtitle, fill=front_color)
 
         # save
-        output_filename = title.replace(" ","_")
+        output_filename = title.replace(" ","_").lower()
         thumbnail_path = f"./../media/thumbnail/thumbnail_{output_filename}.jpg"
         image.save(thumbnail_path)
 
