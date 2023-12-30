@@ -51,7 +51,7 @@ def set_language(filename, lang_list, current_lang):
 # entry point
 
 print("====================================")
-print("language UPDATE")
+print("LANGAGE UPDATE")
 src_root = "./../src/"
 lang_list=""
 print(f"Scanning src to get language list")
