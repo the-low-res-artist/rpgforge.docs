@@ -38,7 +38,7 @@ def get_new_thumbnail_image(filename, title, file_template):
         draw.text((23, 500), subtitle, font=font_subtitle, fill=front_color)
 
         # save
-        output_filename = title.replace(" ","_").lower()
+        output_filename = str(hash(title))
         thumbnail_path = f"./../media/thumbnail/thumbnail_{output_filename}.jpg"
         image.save(thumbnail_path)
 
@@ -58,7 +58,7 @@ def set_thumbnail(filename):
 
     # get file title
     REGEX_TITLE_PAGE = "<h1.+?><a.+?>(.+?)</a>"
-    title = re.findall(REGEX_TITLE_PAGE, s)[0].replace("<strong>").replace("</strong>")
+    title = re.findall(REGEX_TITLE_PAGE, s)[0].replace("<strong>", "").replace("</strong>", "")
 
     print(f"file: {filename} ; title:[{title}]")
 
