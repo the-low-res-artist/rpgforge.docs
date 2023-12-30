@@ -27,11 +27,15 @@ def get_new_thumbnail_image(filename, file_template):
         back_color = (0, 0, 0, 255)
 
         # title
-        for x in range(-4,5,2): for y in range(-4, 5, 2): draw.text((20+x, 400+y), title, font=font_title, fill=back_color)
+        for x in range(-4,5,2):
+            for y in range(-4, 5, 2):
+                draw.text((20+x, 400+y), title, font=font_title, fill=back_color)
         draw.text((20, 400), title, font=font_title, fill=front_color)
 
         # subtitle
-        for x in range(-4,5,2): for y in range(-4, 5, 2): draw.text((23+x, 500+y), subtitle, font=font_subtitle, fill=back_color)
+        for x in range(-4,5,2):
+            for y in range(-4, 5, 2):
+                draw.text((23+x, 500+y), subtitle, font=font_subtitle, fill=back_color)
         draw.text((23, 500), subtitle, font=font_subtitle, fill=front_color)
 
         # save
