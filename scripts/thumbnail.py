@@ -99,7 +99,7 @@ def set_thumbnail(filename):
 
     # get file title
     titles = re.findall("<h1.+?><a.+?>(.+?)</a>", s)
-    if len(title) > 0:
+    if len(titles) > 0:
         title = titles[0].replace("<strong>", "").replace("</strong>", "")
     else:
         title = "Documentation"
