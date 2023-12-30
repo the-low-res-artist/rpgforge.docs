@@ -58,7 +58,7 @@ def set_thumbnail(filename):
 
     # get file title
     REGEX_TITLE_PAGE = "<h1.+?><a.+?>(.+?)</a>"
-    title = re.findall(REGEX_TITLE_PAGE, s)[0]
+    title = re.findall(REGEX_TITLE_PAGE, s)[0].replace("<strong>").replace("</strong>")
 
     print(f"file: {filename} ; title:[{title}]")
 
