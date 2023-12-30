@@ -32,7 +32,8 @@ def set_highlight_actions(filename):
     for match in matches:
         str_to_replace=match[0]
         action=match[1]
-        str_replacement=f"<span style=\"color:{ACTION_COLOR}\">**{action}**</span>"
+        #str_replacement=f"<span style=\"color:{ACTION_COLOR}\">**{action}**</span>"
+        str_replacement=f"<span style=\"text-decoration: underline;\">{action}</span>"
         s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
