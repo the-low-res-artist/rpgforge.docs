@@ -11,9 +11,6 @@ def split_string_equally(input_string):
     total_chars = len(input_string)
     half_chars = total_chars // 2
 
-    print(total_chars)
-    print(half_chars)
-
     # Find the closest space to half_chars
     offset = 0
     index = 0
@@ -56,7 +53,7 @@ def get_new_thumbnail_image(filename, title, file_template):
         back_color = (0, 0, 0, 255)
 
         # case if short title
-        if len(title) <= 12:
+        if (len(title) <= 12) or (not ' ' in title):
             # title
             for x in range(-4,5,2):
                 for y in range(-4, 5, 2):
