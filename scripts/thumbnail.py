@@ -6,6 +6,16 @@ from PIL import ImageFont, ImageDraw, Image
 
 # goal : add a nice thumbnail to html output pages
 
+def split_string_equally(input_string):
+    words = input_string.split()
+    total_words = len(words)
+
+    half_index = total_words // 2
+    first_half = ' '.join(words[:half_index])
+    second_half = ' '.join(words[half_index:])
+
+    return first_half, second_half
+
 # add a cool title to the thumbnail
 def get_new_thumbnail_image(filename, title, file_template):
     basename = os.path.basename(filename)
@@ -25,18 +35,29 @@ def get_new_thumbnail_image(filename, title, file_template):
         front_color = (255, 255, 255, 255)
         back_color = (0, 0, 0, 255)
 
-        # title
-        for x in range(-4,5,2):
-            for y in range(-4, 5, 2):
-                draw.text((20+x, 400+y), title, font=font_title, fill=back_color)
-        draw.text((20, 400), title, font=font_title, fill=front_color)
+        # case if short title
+        if len(title) <= 12:
+            # title
+            for x in range(-4,5,2):
+                for y in range(-4, 5, 2):
+                    draw.text((20+x, 400+y), title, font=font_title, fill=back_color)
+            draw.text((20, 400), title, font=font_title, fill=front_color)
 
-        # subtitle
-        for x in range(-4,5,2):
-            for y in range(-4, 5, 2):
-                draw.text((23+x, 500+y), subtitle, font=font_subtitle, fill=back_color)
-        draw.text((23, 500), subtitle, font=font_subtitle, fill=front_color)
-
+            # subtitle
+            for x in range(-4,5,2):
+                for y in range(-4, 5, 2):
+                    draw.text((23+x, 500+y), subtitle, font=font_subtitle, fill=back_color)
+            draw.text((23, 500), subtitle, font=font_subtitle, fill=front_color)
+        # case long titles
+        else:
+            title_row1, title_row2 = split_string_equally(title)
+            # title row 1
+            for x in range(-4,5,2):
+                for y in range(-4, 5, 2):
+                    draw.text((20+x, 300+y), title_row1, font=font_title, fill=back_color)
+                    draw.text((20+x, 450+y), title_row2, font=font_title, fill=back_color)
+            draw.text((20, 300), title_row1, font=font_title, fill=front_color)
+            draw.text((20, 450), title_row2, font=font_title, fill=front_color)
         # save
         output_filename = str(hash(title))
         thumbnail_path = f"./../media/thumbnail/thumbnail_{output_filename}.jpg"
