@@ -39,7 +39,8 @@ def get_new_thumbnail_image(filename, file_template):
         draw.text((23, 500), subtitle, font=font_subtitle, fill=front_color)
 
         # save
-        thumbnail_path = f"./../media/thumbnail/thumbnail_{title.replace(" ","_")}.jpg"
+        output_filename = title.replace(" ","_")
+        thumbnail_path = f"./../media/thumbnail/thumbnail_{output_filename}.jpg"
         image.save(thumbnail_path)
 
     return thumbnail_path.replace("./../", "https://rpgpowerforge.com/")
