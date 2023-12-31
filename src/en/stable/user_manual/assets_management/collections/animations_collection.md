@@ -10,15 +10,15 @@ Working on it !
 
 ## Feature definition
 ```admonish summary title="Animations Collection"
-The Animation Collection feature
+The Animation Collection feature allows you to create, break, edit and customize animations of one character in the same window.
 ```
 
 ## Feature location
 
 ### From the Assets Picker
-
+![import_animation_window.png](../../../../../../media/user_manual/assets_management/animations_collection/window_location_asset_picker.png)
 ### From the Project window
-
+![import_animation_window.png](../../../../../../media/user_manual/assets_management/animations_collection/window_location_project.png)
 ## Feature details
 
 ### Window content
