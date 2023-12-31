@@ -29,7 +29,7 @@ def set_png_to_jpg(filename):
         with Image.open(input_path) as image:
             jpg_image_path = png_image_path.replace(".png", ".jpg")
             output_path = f"./../{jpg_image_path}"
-            image.convert('RGB').save(output_path, format="JPEG", quality=95)
+            image.convert('RGB').save(output_path, format="JPEG", quality=80)
             # replace path in md file if this is a success
             s = s.replace(png_image_path, jpg_image_path)
 
