@@ -28,7 +28,7 @@ def set_language(filename, lang_list, current_lang):
 
     # build language selection
     # button class
-    objects_html =  "<button style:\"display:none\" id=\"language-toggle\" class=\"icon-button\" type=\"button\" title=\"Change language\" aria-label=\"Change language\""
+    objects_html =  "<button style=\"display:none\" id=\"language-toggle\" class=\"icon-button\" type=\"button\" title=\"Change language\" aria-label=\"Change language\""
     objects_html += "aria-haspopup=\"true\" aria-expanded=\"false\" aria-controls=\"language-list\">"
     objects_html += "<i class=\"fa fa-globe\"></i>"
     objects_html += f"{current_lang}</button>"
