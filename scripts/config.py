@@ -1,14 +1,20 @@
 # define global variables used in python pre and post build scripts
 class config:
 
+    # =============================================================================
+    # =============================================================================
     # links
     link_x = "https://twitter.com/RPGPowerForge"
     link_discord = "https://onesquareminesweeper.com/"
     link_trello = "https://trello.com/b/PIzgsYov/road-map"
 
-    # images
+    # =============================================================================
+    # =============================================================================
+    # favicon
     img_favicon = "https://rpgpowerforge.com/media/icons/favicon5.png"
 
+    # =============================================================================
+    # =============================================================================
     # let's make a game !
     title_2d = "2D RPG game"
     title_3d = "3D RPG game"
@@ -22,6 +28,8 @@ class config:
     description_3d = "Let do a 3D RPG game"
     description_4d = "???"
 
+    # =============================================================================
+    # =============================================================================
     # dev team
     title_gif = "Gif 👴🏻"
     title_chiw = "Chiw 😺"
@@ -40,6 +48,8 @@ class config:
     description_chiw = "I should make my game projects accessible to cats"
     description_noiracide = "I draw like a god but my sleep schedule is terrible"
 
+    # =============================================================================
+    # =============================================================================
     # terms to highlight
     highlight_terms = [
         'Unity Editor',
