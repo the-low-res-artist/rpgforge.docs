@@ -28,7 +28,7 @@ def set_version(filename, version_list, current_version, current_lang):
 
     # build version selection
     # button class
-    objects_html =  "<button id=\"version-toggle\" class=\"icon-button\" type=\"button\" title=\"Change version\" aria-label=\"Change version\""
+    objects_html =  "<button style:\"display:none\" id=\"version-toggle\" class=\"icon-button\" type=\"button\" title=\"Change version\" aria-label=\"Change version\""
     objects_html += "aria-haspopup=\"true\" aria-expanded=\"false\" aria-controls=\"version-list\">"
     objects_html += "<i class=\"fa fa-code-fork\"></i>"
     objects_html += f"{current_version}</button>"
