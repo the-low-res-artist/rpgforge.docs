@@ -30,8 +30,17 @@ def set_png_to_jpg(filename):
             jpg_image_path = png_image_path.replace(".png", ".jpg")
             output_path = f"./../{jpg_image_path}"
             image.convert('RGB').save(output_path, format="JPEG", quality=80)
-            # replace path in md file if this is a success
-            s = s.replace(png_image_path, jpg_image_path)
+            # replace path in md file if this is a success AND jpg is lighter
+            png_size_byte = os.path.getsize(input_path) 
+            jpg_size_byte = os.path.getsize(output_path) 
+            # jpg wins !
+            if (jpg_size_byte < jpg_size_byte):
+                os.remove(input_path)
+                s = s.replace(png_image_path, jpg_image_path)
+            # png wins !
+            else:
+                os.remove(output_path)
+
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
