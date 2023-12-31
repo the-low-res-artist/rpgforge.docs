@@ -31,8 +31,8 @@ def set_png_to_jpg(filename):
             jpg_image_path = png_image_path.replace(".png", ".jpg")
             output_path = f"./../{jpg_image_path}"
             image.save(output_path, format="JPEG")
-        # replace path in md file
-        s = s.replace(png_image_path, jpg_image_path)
+            # replace path in md file if this is a success
+            s = s.replace(png_image_path, jpg_image_path)
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
