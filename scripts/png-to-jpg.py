@@ -34,7 +34,7 @@ def set_png_to_jpg(filename):
             png_size_byte = os.path.getsize(input_path) 
             jpg_size_byte = os.path.getsize(output_path) 
             # jpg wins !
-            if (jpg_size_byte < jpg_size_byte):
+            if (jpg_size_byte < png_size_byte):
                 os.remove(input_path)
                 s = s.replace(png_image_path, jpg_image_path)
             # png wins !
