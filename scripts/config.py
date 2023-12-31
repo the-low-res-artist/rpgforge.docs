@@ -58,5 +58,6 @@ class config:
         'RPG Power Forge',
         'Aseprite Importer',
         'Aseprite',
-        'Probuilder'
+        'Probuilder',
+        'Assets Importer'
     ]
