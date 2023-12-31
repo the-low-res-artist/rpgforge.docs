@@ -1,4 +1,4 @@
-# Animations Collection
+# Props Collection
 
 This section covers the RPG Power Forge feature : Props Collection !
 
