@@ -31,7 +31,7 @@ Import process [is detailled here](./import_animations.md).
 
 ### Import Props
 ```admonish example title="Detailled process"
-Import process [is detailled here](./import_props.md.md).
+Import process [is detailled here](./import_props.md).
 ```
 
 ### Import Tiles
