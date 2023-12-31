@@ -28,6 +28,8 @@ python3 -m page-summary.py
 python3 -m highlight-terms.py
 # improve the lisibility of [[actions]]
 python3 -m highlight-actions.py
+# replace png images with jpg lighter ones
+python3 -m png-to-jpg.py
 
 cd ${root_dir}
 
