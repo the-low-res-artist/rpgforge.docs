@@ -68,7 +68,7 @@ for root, dirs, files in os.walk(book_root, topdown=False):
             if (basename == "lets_make_a_game.html"):
                 set_lets_make_a_game(os.path.join(root, filename))
             nb_files+=1
-print(f"LETS MAKE A GAME : {nb_files} updated")
+print(f"LETS MAKE A GAME UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

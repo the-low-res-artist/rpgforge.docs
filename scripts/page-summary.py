@@ -61,7 +61,7 @@ for root, dirs, files in os.walk(src_root, topdown=False):
         if filename.endswith(".md"):
             set_page_summary(os.path.join(root, filename))
             nb_files+=1
-print(f"PAGE SUMMARY : {nb_files} updated")
+print(f"PAGE SUMMARY UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

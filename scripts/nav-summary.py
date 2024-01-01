@@ -120,7 +120,7 @@ for root, dirs, files in os.walk(book_root, topdown=False):
         if filename.endswith(".html"):
             set_nav_summary(os.path.join(root, filename))
             nb_files+=1
-print(f"NAV SUMMARY : {nb_files} updated")
+print(f"NAV SUMMARY UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)
