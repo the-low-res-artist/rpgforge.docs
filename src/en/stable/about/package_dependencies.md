@@ -9,7 +9,7 @@ This section is up-to-date with RPG Power Forge v0.0.24 !
 ## Introduction
 RPG Power Forge comes with some packages dependencies listed below. Thanks to these, your gamedev experience is even more pleasant !
 
-```admonish info title="Easy-peazy"
+```admonish success title="Easy-peazy"
 Dependencies are automatically downloaded and installed when you start a new project.
 ```
 

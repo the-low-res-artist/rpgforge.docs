@@ -12,11 +12,12 @@ WIP
 ## RPG Power Forge terms
 Terms|definitions
 ---|---
-Collection | A file grouping multiple graphical elements to be either drop on the Scene or used to make prefabs.
+Collection | A file grouping multiple graphical elements to be either dropped on the Scene or used to make prefabs.
 ## General terms
 Terms|definitions
 ---|---
 Unity | A cross-platform game engine used for developing video games, including RPG games.
+Unity package | A unitypackage contains features to fit the various needs of your Unity project. In the case of RPG Power Forge, the package provides many tools and features to make RPG games easily !
 GameObject | A fundamental object in Unity representing characters, props, or items.
 Scene | A container holding game objects, assets, and settings for a game level.
 Prefab | A pre-made, reusable GameObject for efficient game development.
