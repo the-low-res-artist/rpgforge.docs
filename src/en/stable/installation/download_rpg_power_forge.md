@@ -15,8 +15,8 @@ RPG Power Forge | last stable
 
 ## Download RPG Power Forge (.unitypackage)
 
-```admonish title="What is a .unitypackage file ?"
-A unitypackage contains features to fit the various needs of your project. In the case of RPG Power Forge, the package provides many tools and features to make RPG games easily !
+```admonish summary title=".unitypackage file"
+A unitypackage contains features to fit the various needs of your Unity project. In the case of RPG Power Forge, the package provides many tools and features to make RPG games easily !
 ```
 
 *Download will be open early 2024*
