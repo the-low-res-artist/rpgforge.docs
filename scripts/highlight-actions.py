@@ -44,15 +44,13 @@ def set_highlight_actions(filename):
 # entry point
 src_root = "./../src/"
 nb_files=0
-print("====================================")
-print("HIGHTLIGHT ACTIONS UPDATE")
-print(f"Scanning md files in {src_root} and updating actions format")
+
 for root, dirs, files in os.walk(src_root, topdown=False):
    for filename in files:
         if filename.endswith(".md"):
             set_highlight_actions(os.path.join(root, filename))
             nb_files+=1
-print(f"{nb_files} updated")
+print(f"HIGHTLIGHT ACTIONS UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

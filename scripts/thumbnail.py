@@ -149,15 +149,12 @@ def set_thumbnail(filename):
 # entry point
 book_root = "./../book/"
 nb_files=0
-print("====================================")
-print("THUMBNAILS UPDATE")
-print(f"Scanning html files in {book_root} and adding a link thumbnail")
 for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
             set_thumbnail(os.path.join(root, filename))
             nb_files+=1
-print(f"{nb_files} updated")
+print(f"THUMBNAILS UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

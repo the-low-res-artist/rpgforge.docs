@@ -40,15 +40,12 @@ def set_test_results_format(filename):
 # entry point
 book_root = "./../book/"
 nb_files=0
-print("====================================")
-print("TESTS RESULTS FORMAT UPDATE")
-print(f"Scanning html files in {book_root} and update tests results format")
 for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
             set_test_results_format(os.path.join(root, filename))
             nb_files+=1
-print(f"{nb_files} updated")
+print(f"TESTS RESULTS FORMAT : {nb_files} updated")
 
 # safe return
 sys.exit(0)

@@ -60,9 +60,7 @@ def set_lets_make_a_game(filename):
 # entry point
 book_root = "./../book/"
 nb_files=0
-print("====================================")
-print("LETS MAKE A GAME UPDATE")
-print(f"Scanning html files in {book_root} and updating the lets make a game page")
+
 for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
@@ -70,7 +68,7 @@ for root, dirs, files in os.walk(book_root, topdown=False):
             if (basename == "lets_make_a_game.html"):
                 set_lets_make_a_game(os.path.join(root, filename))
             nb_files+=1
-print(f"{nb_files} updated")
+print(f"LETS MAKE A GAME : {nb_files} updated")
 
 # safe return
 sys.exit(0)

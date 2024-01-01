@@ -46,15 +46,12 @@ def set_png_to_jpg(filename):
 # entry point
 src_root = "./../src/"
 nb_files=0
-print("====================================")
-print("PNG TO JPG UPDATE")
-print(f"Scanning md files in {src_root} and replacing png images call by a jpg one")
 for root, dirs, files in os.walk(src_root, topdown=False):
    for filename in files:
         if filename.endswith(".md"):
             set_png_to_jpg(os.path.join(root, filename))
             nb_files+=1
-print(f"{nb_files} updated")
+print(f"PNG TO JPG UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

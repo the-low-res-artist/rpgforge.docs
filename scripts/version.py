@@ -51,9 +51,6 @@ def set_version(filename, version_list, current_version, current_lang):
 # entry point
 book_root = "./../book/"
 nb_files=0
-print("====================================")
-print("VERSION UPDATE")
-print(f"Scanning html files in {book_root} and adding a Version dropdown")
 for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         # get current language
@@ -69,7 +66,7 @@ for root, dirs, files in os.walk(book_root, topdown=False):
         if filename.endswith(".html"):
             set_version(os.path.join(root, filename), version_list, current_version, current_lang)
             nb_files+=1
-print(f"{nb_files} updated")
+print(f"VERSION UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

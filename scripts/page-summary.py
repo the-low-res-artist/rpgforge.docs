@@ -56,15 +56,12 @@ def set_page_summary(filename):
 # entry point
 src_root = "./../src/"
 nb_files=0
-print("====================================")
-print("PAGE SUMMARY UPDATE")
-print(f"Scanning md files in {src_root} and updating the page summary section")
 for root, dirs, files in os.walk(src_root, topdown=False):
    for filename in files:
         if filename.endswith(".md"):
             set_page_summary(os.path.join(root, filename))
             nb_files+=1
-print(f"{nb_files} updated")
+print(f"PAGE SUMMARY : {nb_files} updated")
 
 # safe return
 sys.exit(0)

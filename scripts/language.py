@@ -50,20 +50,13 @@ def set_language(filename, lang_list, current_lang):
 
 # entry point
 
-print("====================================")
-print("LANGAGE UPDATE")
 src_root = "./../src/"
 lang_list=""
-print(f"Scanning src to get language list")
 for root, dirs, files in os.walk(src_root, topdown=False):
     if root == src_root:
         lang_list = dirs
-
-print(f"languages list is : {lang_list}")
-
 book_root = "./../book/"
 nb_files=0
-print(f"Scanning html files in {book_root} and adding a language dropdown")
 for root, dirs, files in os.walk(book_root, topdown=False):
     current_lang=""
     for filename in files:
@@ -72,7 +65,7 @@ for root, dirs, files in os.walk(book_root, topdown=False):
         if filename.endswith(".html"):
             set_language(os.path.join(root, filename), lang_list, current_lang)
             nb_files+=1
-print(f"{nb_files} updated")
+print(f"LANGAGE UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

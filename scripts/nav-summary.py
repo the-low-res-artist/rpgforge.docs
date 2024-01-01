@@ -105,15 +105,12 @@ def set_nav_summary(filename):
 # entry point
 book_root = "./../book/"
 nb_files=0
-print("====================================")
-print("NAV SUMMARY UPDATE")
-print(f"Scanning html files in {book_root} and update the navigation summary section")
 for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
             set_nav_summary(os.path.join(root, filename))
             nb_files+=1
-print(f"{nb_files} updated")
+print(f"NAV SUMMARY : {nb_files} updated")
 
 # safe return
 sys.exit(0)

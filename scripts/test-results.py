@@ -157,11 +157,8 @@ output_file="./../src/en/stable/about/requirements.md"
 requirements_file="./../requirements/requirements.csv"
 results_file="./../tests/results.json"
 
-print("====================================")
-print("TESTS RESULTS UPDATE")
-print(f"Scanning the most recent test results to make a markdown file")
 generate_results_md(requirements_file, results_file, output_file)
-print(f"{output_file} generated")
+print(f"TESTS RESULTS UPDATE : {output_file} generated")
 
 # safe return
 sys.exit(0)
