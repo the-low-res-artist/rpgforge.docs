@@ -41,11 +41,12 @@
         * [Controllers]()
         * [Unity Editor layouts]()
     * [Glossary](./user_manual/glossary/glossary.md)
+* [API documentation]()
+    * [Not yet generated]()
 * [Community]()
     * [link_discord]()
     * [link_x]()
     * [link_trello]()
-    
 * [About the project]()
     * [Dev Team](./about/dev_team.md)
     * [Requirements](./about/requirements.md)

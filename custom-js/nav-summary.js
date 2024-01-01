@@ -7,6 +7,7 @@ window.onunload = function () { };
     var buttonSectionInstallation = document.getElementById('button-installation');
     var buttonSectionGettingStarted = document.getElementById('button-getting-started');
     var buttonSectionUserManual = document.getElementById('button-user-manual');
+    var buttonSectionApiDocumentation = document.getElementById('button-api-documentation');
     var buttonSectionCommunity = document.getElementById('button-community');
     var buttonSectionAbout = document.getElementById('button-about');
 
@@ -47,6 +48,17 @@ window.onunload = function () { };
     buttonSectionUserManual.addEventListener('click', function () {
         var chapter=buttonSectionUserManual.parentNode;
         var chevron = document.getElementById('chevron-user-manual');
+        if (chapter.className === 'part-title') {
+            showchapters(chapter, chevron);
+        } else {
+            hidechapters(chapter, chevron);
+        }
+    });
+
+    // API documentation chapters
+    buttonSectionApiDocumentation.addEventListener('click', function () {
+        var chapter=buttonSectionApiDocumentation.parentNode;
+        var chevron = document.getElementById('chevron-api-documentation');
         if (chapter.className === 'part-title') {
             showchapters(chapter, chevron);
         } else {
