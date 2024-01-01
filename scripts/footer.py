@@ -18,13 +18,13 @@ def set_footer(filename):
     if (s == ""):
         return
 
-    discord_link=f"<div class=\"footer-link\"><a href=\"{config.link_discord}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/discord.png\" /></a></div>"
-    x_link=f"<div class=\"footer-link\"><a href=\"{config.link_x}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/x.png\" /></a></div>"
-    trello_link=f"<div class=\"footer-link\"><a href=\"{config.link_trello}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/trello.png\" /></a></div>"
+    discord_link=f"<div class=\"footer-link\"><a href=\"{config.link_discord}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/discord.png\" alt=\"Discord logo\" /></a></div>"
+    x_link=f"<div class=\"footer-link\"><a href=\"{config.link_x}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/x.png\" alt=\"X/Twitter logo\" /></a></div>"
+    trello_link=f"<div class=\"footer-link\"><a href=\"{config.link_trello}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/trello.png\" alt=\"Trello logo\" /></a></div>"
 
     footer=f"<p>{discord_link} {x_link} {trello_link}</p>\
     <p>Copyright © {datetime.now().year} RPG Power Forge</p>\
-    <p>\"RPG Power Forge\", RPG Power Forge logos, and other RPG Power Forge trademarks are trademarks or registered trademarks.</p>\
+    <p>\"RPG Power Forge\" is a trademark.</p>\
     <p>Other names or brands are trademarks of their respective owners.</p>"
 
     str_to_replace="<nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
