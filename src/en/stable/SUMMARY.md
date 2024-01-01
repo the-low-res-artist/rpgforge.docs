@@ -40,7 +40,7 @@
         * [Markers]()
         * [Controllers]()
         * [Unity Editor layouts]()
-    * [Glossary]()
+    * [Glossary](./user_manual/glossary/glossary.md)
 * [Community]()
     * [link_discord]()
     * [link_x]()

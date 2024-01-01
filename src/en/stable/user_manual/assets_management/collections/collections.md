@@ -17,15 +17,15 @@ The Collections feature allows you to easily manage, edit and customize a group 
 
 ### Animations Collection
 ```admonish example title="Detailled process"
-Edit process [is detailled here](./animations_collection.md).
+Usage and edition of an Animations Collection [is detailled here](./animations_collection.md).
 ```
 
 ### Props Collection
 ```admonish example title="Detailled process"
-Edit process [is detailled here](./props_collection.md).
+Usage and edition of a Props Collection [is detailled here](./props_collection.md).
 ```
 
 ### Tiles Collection
 ```admonish example title="Detailled process"
-Edit process [is detailled here](./tiles_collection.md).
+Usage and edition of a Tiles Collection [is detailled here](./tiles_collection.md).
 ```
