@@ -89,6 +89,8 @@ python3 -m dev_team.py
 python3 -m lets_make_a_game.py
 # update the footer part
 python3 -m footer.py
+# update community join button
+python3 -m join-community.py
 
 # HERO PAGE ADDITION HERE
 # add hero page
