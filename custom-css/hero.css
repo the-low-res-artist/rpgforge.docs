@@ -30,20 +30,22 @@ body {
     top: 40px;
     margin-right: 10px;
     margin-top: 10px;
-    background-color: #5fcb7f;
     color: white;
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
     font-weight: bold;
     transition: 0.1s;
     z-index: 11;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
 }
 
 .hero-play-button-desktop:hover {
-    background-color: #5fcbb5;
+    background-color: DodgerBlue;
     cursor: pointer;
 }
 
@@ -187,20 +189,21 @@ video {
     right: 0%;
     margin-right: 10px;
     margin-top: 10px;
-    background-color: #5fcb7f;
     color: white;
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: bold;
     transition: 0.1s;
     z-index: 11;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 100px;
 }
 
 .hero-documentation:hover {
-    background-color: #5fcbb5;
+    background-color: dodgerblue;
 }
 
 
