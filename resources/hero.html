@@ -22,7 +22,7 @@
             <div class="hero-background">
                 <div class="hero-gradient"></div>
                 <div class="hero-video-container">
-                    <video width="100%" height="100%" class="hero-video-player" autoplay muted loop playsinline webkit-playsinline x5-playsinline>
+                    <video id="hero_video_desktop" width="100%" height="100%" class="hero-video-player" autoplay muted loop playsinline webkit-playsinline x5-playsinline>
                         <source src="https://rpgpowerforge.com/media/hero/video.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -58,7 +58,7 @@
             <div class="hero-background-phone">
                 <div class="hero-gradient"></div>
                 <div class="hero-video-container">
-                    <video width="100%" height="100%" class="hero-video-player" autoplay muted loop playsinline webkit-playsinline x5-playsinline>
+                    <video id="hero_video_phone" width="100%" height="100%" class="hero-video-player" autoplay muted loop playsinline webkit-playsinline x5-playsinline>
                         <source src="https://rpgpowerforge.com/media/hero/video.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -81,5 +81,35 @@
                 </div>  
             </div>  
         </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var video = document.getElementById('hero_video_desktop');
+        
+                // Attempt to autoplay
+                video.play().then(function () {
+                    // Autoplay succeeded
+                    console.log('Autoplay succeeded');
+                }).catch(function (error) {
+                    // Autoplay failed, show play button
+                    console.log('Autoplay failed:', error);
+                    showPlayButton();
+                });
+        
+                // Function to show the play button
+                function showPlayButton() {
+                    var playButton = document.createElement('button');
+                    playButton.textContent = 'Play';
+                    playButton.addEventListener('click', function () {
+                        video.play();
+                        playButton.style.display = 'none';
+                    });
+        
+                    // Append the play button to the body or any specific container
+                    document.body.appendChild(playButton);
+                }
+            });
+        </script>
+
     </body>
 </html>
