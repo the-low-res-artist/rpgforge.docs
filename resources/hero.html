@@ -104,11 +104,13 @@
                     playButton.classList.add("hero-play-button-desktop");
 
                     var textNode = document.createTextNode('Play our intro (mute)');
-                    var space = document.createTextNode('\u00A0');
+                    var space1 = document.createTextNode('\u00A0');
+                    var space2 = document.createTextNode('\u00A0');
+                    var space3 = document.createTextNode('\u00A0');
                     playButton.appendChild(textNode);
-                    playButton.appendChild(space);
-                    playButton.appendChild(space);
-                    playButton.appendChild(space);
+                    playButton.appendChild(space1);
+                    playButton.appendChild(space2);
+                    playButton.appendChild(space3);
 
                     playButton.addEventListener('click', function () {
                         video.play();
