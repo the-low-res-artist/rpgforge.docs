@@ -99,7 +99,8 @@
                 // Function to show the play button
                 function showPlayButton() {
                     var playButton = document.createElement('button');
-                    playButton.textContent = 'Play';
+                    playButton.classList.add("hero_play_button");
+                    playButton.textContent = 'Play our intro (muted) ▶️';
                     playButton.addEventListener('click', function () {
                         video.play();
                         playButton.style.display = 'none';

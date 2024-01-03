@@ -23,6 +23,14 @@ body {
 ================================================
 */
 
+/* play button in case of block */
+.hero_play_button {
+    position: absolute;
+    background-color: #000000;
+    color: white;
+    z-index: 99;
+}
+
 /* video */
 .hero-video-container {
     position: absolute;
