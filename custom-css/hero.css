@@ -24,11 +24,26 @@ body {
 */
 
 /* play button in case of block */
-.hero_play_button {
+.hero-play-button-desktop {
     position: absolute;
-    background-color: #000000;
+    right: 0%;
+    top: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #5fcb7f;
     color: white;
-    z-index: 99;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.1s;
+    z-index: 11;
+}
+
+.hero-play-button-desktop:hover {
+    background-color: #5fcbb5;
 }
 
 /* video */
