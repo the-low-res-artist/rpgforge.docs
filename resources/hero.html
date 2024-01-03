@@ -63,7 +63,8 @@
                     </video>
                 </div>
                 <div class="hero-documentation-phone" onclick="window.open('https://rpgpowerforge.com/en/stable/','documentation');" style="cursor: pointer;">
-                    Documentation 🡵
+                    Documentation&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
                 </div>
                 <div class="hero-text-phone">
                     Maker of RPG
@@ -100,12 +101,30 @@
                 function showPlayButton() {
                     var playButton = document.createElement('div');
                     playButton.classList.add("hero-play-button-desktop");
-                    playButton.textContent = 'Play our intro (muted) ▶';
+                    playButton.textContent = 'Play our intro (muted)&nbsp;&nbsp;&nbsp;';
                     playButton.addEventListener('click', function () {
                         video.play();
                         playButton.style.display = 'none';
                     });
         
+                    // Create an SVG element
+                    var svgElement = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                    svgElement.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+                    svgElement.setAttribute('height', '16');
+                    svgElement.setAttribute('width', '12');
+                    svgElement.setAttribute('viewBox', '0 0 384 512');
+
+                    // Create an SVG path
+                    var svgPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                    svgPath.setAttribute('fill', '#ffffff');
+                    svgPath.setAttribute('d', 'M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z');
+
+                    // Append the SVG path to the SVG element
+                    svgElement.appendChild(svgPath);
+
+                    // Append the SVG element to the div
+                    playButton.appendChild(svgElement);
+
                     // Append the play button to the body or any specific container
                     document.body.appendChild(playButton);
                 }
