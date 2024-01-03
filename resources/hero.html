@@ -107,7 +107,9 @@
                     var space = document.createTextNode('\u00A0');
                     playButton.appendChild(textNode);
                     playButton.appendChild(space);
-                    
+                    playButton.appendChild(space);
+                    playButton.appendChild(space);
+
                     playButton.addEventListener('click', function () {
                         video.play();
                         playButton.style.display = 'none';
