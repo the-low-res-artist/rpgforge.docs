@@ -27,7 +27,7 @@ body {
 .hero-play-button-desktop {
     position: absolute;
     right: 0%;
-    top: 40px;
+    top: 50px;
     margin-right: 10px;
     margin-top: 10px;
     color: white;
@@ -35,13 +35,12 @@ body {
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 10px;
     font-weight: bold;
     transition: 0.1s;
     z-index: 11;
     background-color: rgba(0,0,0,0.5);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 .hero-play-button-desktop:hover {
