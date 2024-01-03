@@ -27,7 +27,7 @@ body {
 .hero-play-button-desktop {
     position: absolute;
     right: 0%;
-    top: 50px;
+    top: 60px;
     margin-right: 10px;
     margin-top: 10px;
     color: white;
@@ -42,6 +42,7 @@ body {
     backdrop-filter: blur(10px);
     border-radius: 100px;
     border: 3px solid;
+    font-size: 18px;
 }
 
 .hero-play-button-desktop:hover {
@@ -201,6 +202,7 @@ video {
     backdrop-filter: blur(10px);
     border-radius: 100px;
     border: 3px solid;
+    font-size: 18px;
 }
 
 .hero-documentation:hover {
