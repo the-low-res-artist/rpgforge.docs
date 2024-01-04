@@ -21,7 +21,7 @@ def set_join_community(filename):
 
     # update the top bar section
     str_to_replace = "RPG Power Forge</a></h1>"
-    str_replacement = f"RPG Power Forge</h1><div class=\"join-community-container\"><div class=\"join-community-text\"><a href=\"{config.link_discord}\" target=\"_blank\">{svg}&nbsp!&nbsp!Join us (soon) !</a></div></div>"
+    str_replacement = f"RPG Power Forge</h1><div class=\"join-community-container\"><div class=\"join-community-text\"><a href=\"{config.link_discord}\" target=\"_blank\">{svg}&nbsp;&nbsp;Join us (soon) !</a></div></div>"
     s = s.replace(str_to_replace, str_replacement) 
 
     # Safely write the changed content
