@@ -6,7 +6,8 @@
 
 .join-community-text {
     display: block;
-    background-color: mediumpurple;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 2px;
