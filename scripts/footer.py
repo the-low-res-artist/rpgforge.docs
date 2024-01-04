@@ -23,7 +23,7 @@ def set_footer(filename):
     trello_link=f"<div class=\"footer-link\"><a href=\"{config.link_trello}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/trello.png\" alt=\"Trello link\" /></a></div>"
     youtube_link=f"<div class=\"footer-link\"><a href=\"{config.link_youtube}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/youtube.png\" alt=\"Youtube link\" /></a></div>"
 
-    footer=f"<p>{discord_link} {x_link} {trello_link}</p>\
+    footer=f"<p>{discord_link} {x_link} {trello_link} {youtube_link}</p>\
     <p>Copyright © {datetime.now().year} RPG Power Forge</p>\
     <p>\"RPG Power Forge\" is a trademark.</p>\
     <p>Other names or brands are trademarks of their respective owners.</p>"
