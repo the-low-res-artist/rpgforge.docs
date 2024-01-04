@@ -130,7 +130,7 @@ This section list each ?requirement? for RPG Power Forge features as well as the
 ## Requirement definition\n\
 ```admonish summary title=\"Requirement\"\n\
 In making a Unity package for RPG games, a requirement is a detailed guide specifying what the package must do, outlining its features, functionalities, performances, and constraints for success.\n\
-```\n\
+```\n\n\
 ## Context\n\
 \n\
 |Item|Value|\n\
