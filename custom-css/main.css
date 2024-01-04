@@ -24,7 +24,7 @@ blockquote {
 /* link top title */
 .menu-title>a {
     text-decoration: none;
-    color: var(--sidebar-fg);
+    color: var(--sidebar-active);
 }
 
 .menu-title:hover {
