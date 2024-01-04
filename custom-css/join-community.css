@@ -19,6 +19,11 @@
     color: white;
     border-style: solid;
     border-color: white;
+    transition: 0.2s;
+}
+
+.join-community-text:hover {
+    background-color: dodgerblue;
 }
 
 .join-community-text>a {
