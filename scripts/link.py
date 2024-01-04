@@ -19,18 +19,23 @@ def set_link(filename):
     # I add 'target=\"_blank\"' to make the click open a new tab
 
     # Discord
-    str_to_replace = "<div><strong aria-hidden=\"true\">4.1.</strong> link_discord</div>"
-    str_replacement = f"<a href=\"{config.link_discord}\" target=\"_blank\"><strong aria-hidden=\"true\">4.1.</strong> Discord server</a>"
+    str_to_replace = "<div><strong aria-hidden=\"true\">5.1.</strong> link_discord</div>"
+    str_replacement = f"<a href=\"{config.link_discord}\" target=\"_blank\"><strong aria-hidden=\"true\">5.1.</strong> Discord server</a>"
     s = s.replace(str_to_replace, str_replacement)
 
     # Twitter / X
-    str_to_replace = "<div><strong aria-hidden=\"true\">4.2.</strong> link_x</div>"
-    str_replacement = f"<a href=\"{config.link_x}\" target=\"_blank\"><strong aria-hidden=\"true\">4.2.</strong> X (Twitter)</a>"
+    str_to_replace = "<div><strong aria-hidden=\"true\">5.2.</strong> link_x</div>"
+    str_replacement = f"<a href=\"{config.link_x}\" target=\"_blank\"><strong aria-hidden=\"true\">5.2.</strong> X (Twitter)</a>"
     s = s.replace(str_to_replace, str_replacement)
 
     # Trello
-    str_to_replace = "<div><strong aria-hidden=\"true\">4.3.</strong> link_trello</div>"
-    str_replacement = f"<a href=\"{config.link_trello}\" target=\"_blank\"><strong aria-hidden=\"true\">4.3.</strong> Trello</a>"
+    str_to_replace = "<div><strong aria-hidden=\"true\">5.3.</strong> link_trello</div>"
+    str_replacement = f"<a href=\"{config.link_trello}\" target=\"_blank\"><strong aria-hidden=\"true\">5.3.</strong> Trello</a>"
+    s = s.replace(str_to_replace, str_replacement)
+
+    # Youtube
+    str_to_replace = "<div><strong aria-hidden=\"true\">5.4.</strong> link_youtube</div>"
+    str_replacement = f"<a href=\"{config.link_youtube}\" target=\"_blank\"><strong aria-hidden=\"true\">5.4.</strong> Youtube</a>"
     s = s.replace(str_to_replace, str_replacement)
 
 

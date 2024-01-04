@@ -66,7 +66,7 @@ RPG Power Forge package is installing ! Unity will restart upon completion.
 
 ![import_loading_2.png](./../../../../media/new_project/import_loading_2.png)
 
-## Congratulations !
+## Congratulations
 
 Well done, Unity Editor now has RPG Power Forge installed ! Make sure you have a new drop-down menu in the top bar, named "RPG Power Forge".
 

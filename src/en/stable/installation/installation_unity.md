@@ -82,6 +82,6 @@ The installation will happend in a dedicated window. You may be asked to restart
 
 ![visual_install.png](./../../../../media/download/visual_install.png)
 
-## Congratulations !
+## Congratulations
 
 You have the Unity Editor installed on your computer ! You can now [download RPG Power Forge here](./download_rpg_power_forge.md).

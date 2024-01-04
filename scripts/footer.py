@@ -18,9 +18,10 @@ def set_footer(filename):
     if (s == ""):
         return
 
-    discord_link=f"<div class=\"footer-link\"><a href=\"{config.link_discord}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/discord.png\" alt=\"Discord logo\" /></a></div>"
-    x_link=f"<div class=\"footer-link\"><a href=\"{config.link_x}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/x.png\" alt=\"X/Twitter logo\" /></a></div>"
-    trello_link=f"<div class=\"footer-link\"><a href=\"{config.link_trello}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/trello.png\" alt=\"Trello logo\" /></a></div>"
+    discord_link=f"<div class=\"footer-link\"><a href=\"{config.link_discord}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/discord.png\" alt=\"Discord link\" /></a></div>"
+    x_link=f"<div class=\"footer-link\"><a href=\"{config.link_x}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/x.png\" alt=\"X/Twitter link\" /></a></div>"
+    trello_link=f"<div class=\"footer-link\"><a href=\"{config.link_trello}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/trello.png\" alt=\"Trello link\" /></a></div>"
+    youtube_link=f"<div class=\"footer-link\"><a href=\"{config.link_youtube}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/youtube.png\" alt=\"Youtube link\" /></a></div>"
 
     footer=f"<p>{discord_link} {x_link} {trello_link}</p>\
     <p>Copyright © {datetime.now().year} RPG Power Forge</p>\

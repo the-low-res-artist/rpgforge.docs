@@ -47,6 +47,7 @@
     * [link_discord]()
     * [link_x]()
     * [link_trello]()
+    * [link_youtube]()
 * [About the project]()
     * [Dev Team](./about/dev_team.md)
     * [Requirements](./about/requirements.md)

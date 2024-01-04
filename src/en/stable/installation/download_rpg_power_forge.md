@@ -21,6 +21,6 @@ A unitypackage contains features to fit the various needs of your Unity project.
 
 *Download will be open early 2024*
 
-## Congratulations !
+## Congratulations
 
 Now you have download RPG Power Forge on your computer. You can now [Create a new project here](./create_new_project.md) to start your gamedev journey !
