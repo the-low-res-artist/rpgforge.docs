@@ -20,6 +20,13 @@ blockquote {
 .menu-title {
     transition: 0.1s;
 }
-h1.menu-title:hover {
+
+/* link top title */
+.menu-title>a {
+    text-decoration: none;
+    color: var(--sidebar-fg);
+}
+
+.menu-title:hover {
     font-weight: bold;
 }
