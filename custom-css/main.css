@@ -16,8 +16,10 @@ blockquote {
     display: none;
 }
 
-/* center top title */
-/*.menu-title {
-    position: absolute;
-    width: 100%;
-}*/
+/* link top title */
+.menu-title {
+    transition: 0.1s;
+}
+h1.menu-title:hover {
+    font-weight: bold;
+}
