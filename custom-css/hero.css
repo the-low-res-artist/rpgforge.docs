@@ -17,6 +17,18 @@ body {
     background-color: #000000;
 }
 
+/* placeholder */
+.hero-placeholder {
+    position: absolute;
+    color: white;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+    bottom: 11px;
+    font-style: italic;
+    opacity: 70%;
+  }
+
 /*
 ================================================
                 DESKTOP VERSION
