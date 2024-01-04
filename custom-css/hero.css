@@ -251,7 +251,7 @@ video {
     z-index: 11;
 }
 
-.hero-community {
+.hero-community-phone {
     position: absolute;
     left: 50%;
     top: 65%;
@@ -274,13 +274,13 @@ video {
     font-weight: bold;
 }
 
-.hero-community-text {
+.hero-community-text-phone {
     display: flex;
     align-items: center;
     z-index: 11;
 }
 
-.hero-community:hover {
+.hero-community-phone:hover {
     background-color: dodgerblue;
 }
 
