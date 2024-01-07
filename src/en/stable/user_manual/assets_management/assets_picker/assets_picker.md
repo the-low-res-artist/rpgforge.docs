@@ -16,7 +16,7 @@ The Assets Picker is one of the main feature of RPG Power Forge. With it, you ca
 ## Feature location
 
 ### From the Tool Bar
-*working on it*
+![window_location_asset_picker.png](../../../../../../media/user_manual/assets_management/window_location_asset_picker.png)
 
 ## Feature details
 

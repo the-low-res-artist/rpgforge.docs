@@ -27,7 +27,7 @@ Aseprite File| Import an Aseprite file that already contain animation informatio
 
 ### Sprite Sheet
 
-Let's import this sample sprite sheet :
+Let's import this sample sprite sheet (a character walking and attacking in 4 directions) :
 
 ![import_animation_spritesheet.png](../../../../../../media/user_resources/import_animation_spritesheet.png)
 

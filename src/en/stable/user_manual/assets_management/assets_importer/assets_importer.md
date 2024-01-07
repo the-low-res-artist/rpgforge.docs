@@ -21,7 +21,7 @@ The Assets Importer feature is the gateway to all your input files in RPG Power 
 
 ### From the Tool Bar
 
-![import_animation_window.png](../../../../../../media/user_manual/assets_management/window_location2.png)
+![window_location2.png](../../../../../../media/user_manual/assets_management/window_location2.png)
 
 ## Feature details
 
