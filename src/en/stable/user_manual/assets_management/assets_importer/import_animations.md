@@ -11,7 +11,7 @@ Working on it !
 ## Window location
 
 ```admonish example title="Window location"
-Detailled location are in [Assets Importer page here](./assets_importer.md).
+Detailled location are in [Assets Importer page here](./assets_importer.md#feature-location).
 ```
 
 ## Window content
