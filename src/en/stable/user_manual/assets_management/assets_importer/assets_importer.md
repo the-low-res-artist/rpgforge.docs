@@ -2,8 +2,8 @@
 
 This section covers the RPG Power Forge feature : Assets Importer !
 
-```admonish warning title="🛠️"
-Working on it !
+```admonish success title="Oh yeah"
+This section is up-to-date !
 ```
 
 ## Summary
@@ -17,10 +17,11 @@ The Assets Importer feature is the gateway to all your input files in RPG Power 
 
 ### From the Assets Picker
 
-![import_animation_window.png](../../../../../media/user_manual/assets_management/window_location.png)
+![import_animation_window.png](../../../../../../media/user_manual/assets_management/window_location.png)
 
 ### From the Tool Bar
-*working on it*
+
+![import_animation_window.png](../../../../../../media/user_manual/assets_management/window_location2.png)
 
 ## Feature details
 
