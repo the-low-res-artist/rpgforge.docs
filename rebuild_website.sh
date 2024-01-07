@@ -101,7 +101,7 @@ ln -s ${root_dir}/book/en/stable/FontAwesome ${root_dir}/book/FontAwesome
 ln -s ${root_dir}/book/en/stable/fonts ${root_dir}/book/fonts
 
 # add link thumbnails
-python3 -m thumbnail.py
+#python3 -m thumbnail.py
 # update favicons
 python3 -m favicon.py
 
