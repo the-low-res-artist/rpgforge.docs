@@ -108,7 +108,10 @@ python3 -m favicon.py
 cd ${root_dir}
 
 ## zip user manual resources files
-zip -r ${root_dir}/media/user_resources.zip ${root_dir}/media/user_resources
+cd ${root_dir}/media/
+zip -r user_resources.zip user_resources
+
+cd ${root_dir}
 
 # add redirection in every language root folder (book/*/)
 for folder in $(ls -d book/*);

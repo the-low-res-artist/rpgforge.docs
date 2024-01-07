@@ -24,6 +24,12 @@ def set_png_to_jpg(filename):
 
     # iterate images
     for png_image_path in images_path:
+
+        #skip images that are meant to be downloaded by user
+        # images in "user_resources/""
+        if "user_resources" in png_image_path:
+            continue
+
         input_path = f"./../{png_image_path}"
         # open png and save a jpg
         with Image.open(input_path) as image:
