@@ -3,6 +3,7 @@ import sys # to return 0
 import os # loop over files
 from config import config
 import random
+import time # measure duration
 
 # goal : edit dev team page to add specific div tags
 
@@ -62,6 +63,7 @@ def set_dev_team(filename):
 
 
 # entry point
+start = time.time()
 book_root = "./../book/"
 nb_files=0
 
@@ -72,7 +74,9 @@ for root, dirs, files in os.walk(book_root, topdown=False):
             if (basename == "dev_team.html"):
                 set_dev_team(os.path.join(root, filename))
             nb_files+=1
-print(f"DEV TEAM UPDATE : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] DEV TEAM UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

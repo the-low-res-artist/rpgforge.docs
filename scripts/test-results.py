@@ -2,6 +2,7 @@ import re # regex operations
 import sys # to return 0
 import os # loop over files
 import json # move files
+import time # measure duration
 
 # goal : create a .md file from the Unity tests results
 
@@ -157,12 +158,15 @@ Feature|Passed ✔️|Failed ❌|Not tested yet...\n\
 
 # ================================================================================
 # entry point
+start = time.time()
 output_file="./../src/en/stable/about/requirements.md"
 requirements_file="./../requirements/requirements.csv"
 results_file="./../tests/results.json"
 
 generate_results_md(requirements_file, results_file, output_file)
-print(f"TESTS RESULTS UPDATE : {output_file} generated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] TESTS RESULTS UPDATE : {output_file} generated")
 
 # safe return
 sys.exit(0)

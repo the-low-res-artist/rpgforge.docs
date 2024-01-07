@@ -3,6 +3,7 @@ import sys # to return 0
 import os # loop over files
 from config import config
 import random
+import time # measure duration
 
 # goal : edit lets make a game page to add specific div tags
 
@@ -58,6 +59,7 @@ def set_lets_make_a_game(filename):
 
 
 # entry point
+start = time.time()
 book_root = "./../book/"
 nb_files=0
 
@@ -68,7 +70,9 @@ for root, dirs, files in os.walk(book_root, topdown=False):
             if (basename == "lets_make_a_game.html"):
                 set_lets_make_a_game(os.path.join(root, filename))
             nb_files+=1
-print(f"LETS MAKE A GAME UPDATE : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] LETS MAKE A GAME UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

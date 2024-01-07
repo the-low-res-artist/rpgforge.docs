@@ -2,6 +2,7 @@ import re # regex operations
 import sys # to return 0
 import os # loop over files
 import shutil # move files
+import time # measure duration
 
 # goal : add an html dropdown menu on each page to select the doc language
 
@@ -49,6 +50,7 @@ def set_language(filename, lang_list, current_lang):
         f.write(s)
 
 # entry point
+start = time.time()
 
 src_root = "./../src/"
 lang_list=""
@@ -65,7 +67,9 @@ for root, dirs, files in os.walk(book_root, topdown=False):
         if filename.endswith(".html"):
             set_language(os.path.join(root, filename), lang_list, current_lang)
             nb_files+=1
-print(f"LANGAGE UPDATE : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] LANGAGE UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

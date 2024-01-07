@@ -2,6 +2,7 @@
 import re # regex operations
 import sys # to return 0
 import os # loop over files
+import time # measure duration
 
 # goal : to find and replace each glossary entry with a tooltip (mouse hover)
 # example : ?Pivot? ==> [<span style="color:orange">Pivot</span>][pivot]
@@ -65,6 +66,7 @@ def set_glossary(filename):
 
 
 # entry point
+start = time.time()
 src_root = "./../src/"
 nb_files=0
 
@@ -73,7 +75,9 @@ for root, dirs, files in os.walk(src_root, topdown=False):
         if filename.endswith(".md"):
             set_glossary(os.path.join(root, filename))
             nb_files+=1
-print(f"GLOSSARY UPDATE : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] GLOSSARY UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

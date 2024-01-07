@@ -3,6 +3,8 @@ import sys # to return 0
 import os # loop over files
 import shutil # move files
 from config import config
+import time # measure duration
+
 # goal : update the top bar and add a button
 
 # replace in a file
@@ -29,6 +31,7 @@ def set_join_community(filename):
         f.write(''.join(s))
 
 # entry point
+start = time.time()
 book_root = "./../book/"
 nb_files=0
 for root, dirs, files in os.walk(book_root, topdown=False):
@@ -36,7 +39,9 @@ for root, dirs, files in os.walk(book_root, topdown=False):
         if filename.endswith(".html"):
             set_join_community(os.path.join(root, filename))
             nb_files+=1
-print(f"JOIN COMMUNITY UPDATE : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] JOIN COMMUNITY UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

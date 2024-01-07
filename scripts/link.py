@@ -3,6 +3,8 @@ import re # regex operations
 import sys # to return 0
 import os # loop over files
 from config import config
+import time # measure duration
+
 # goal : edit the external links
 
 # replace in a file
@@ -48,6 +50,7 @@ def set_link(filename):
 
 
 # entry point
+start = time.time()
 book_root = "./../book/"
 nb_files=0
 
@@ -56,7 +59,9 @@ for root, dirs, files in os.walk(book_root, topdown=False):
         if filename.endswith(".html"):
             set_link(os.path.join(root, filename))
             nb_files+=1
-print(f"LINKS UPDATE : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] LINKS UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

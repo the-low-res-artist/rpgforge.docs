@@ -2,6 +2,7 @@
 import re # regex operations
 import sys # to return 0
 import os # loop over files
+import time # measure duration
 
 # goal : edit the external links by removing ".html" at the end
 
@@ -38,6 +39,7 @@ def set_test_results_format(filename):
 
 
 # entry point
+start = time.time()
 book_root = "./../book/"
 nb_files=0
 for root, dirs, files in os.walk(book_root, topdown=False):
@@ -45,7 +47,9 @@ for root, dirs, files in os.walk(book_root, topdown=False):
         if filename.endswith(".html"):
             set_test_results_format(os.path.join(root, filename))
             nb_files+=1
-print(f"TESTS RESULTS FORMAT : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] TESTS RESULTS FORMAT : {nb_files} updated")
 
 # safe return
 sys.exit(0)

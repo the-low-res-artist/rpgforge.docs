@@ -2,6 +2,7 @@
 import re # regex operations
 import sys # to return 0
 import os # loop over files
+import time # measure duration
 
 # goal : create a summary for each page (if the '## Summary' tag is used)
 
@@ -54,6 +55,7 @@ def set_page_summary(filename):
             f.write(s)
 
 # entry point
+start = time.time()
 src_root = "./../src/"
 nb_files=0
 for root, dirs, files in os.walk(src_root, topdown=False):
@@ -61,7 +63,9 @@ for root, dirs, files in os.walk(src_root, topdown=False):
         if filename.endswith(".md"):
             set_page_summary(os.path.join(root, filename))
             nb_files+=1
-print(f"PAGE SUMMARY UPDATE : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] PAGE SUMMARY UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

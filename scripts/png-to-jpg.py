@@ -4,6 +4,7 @@ import sys # to return 0
 import os # loop over files
 from config import config
 from PIL import ImageFont, ImageDraw, Image
+import time # measure duration
 
 # goal : to find and replace all png call image by a jpg alternative
 
@@ -50,6 +51,7 @@ def set_png_to_jpg(filename):
 
 
 # entry point
+start = time.time()
 src_root = "./../src/"
 nb_files=0
 for root, dirs, files in os.walk(src_root, topdown=False):
@@ -57,7 +59,9 @@ for root, dirs, files in os.walk(src_root, topdown=False):
         if filename.endswith(".md"):
             set_png_to_jpg(os.path.join(root, filename))
             nb_files+=1
-print(f"PNG TO JPG UPDATE : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] PNG TO JPG UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

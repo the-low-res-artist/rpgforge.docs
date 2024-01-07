@@ -2,6 +2,7 @@ import re # regex operations
 import sys # to return 0
 import os # loop over files
 import shutil # move files
+import time # measure duration
 
 # goal : add a rating at the bottom of each page + rate subtitle at the top
 
@@ -100,6 +101,7 @@ def set_rating(filename):
         f.write(s)
 
 # entry point
+start = time.time()
 book_root = "./../book/"
 nb_files=0
 for root, dirs, files in os.walk(book_root, topdown=False):
@@ -107,7 +109,9 @@ for root, dirs, files in os.walk(book_root, topdown=False):
         if filename.endswith(".html"):
             set_rating(os.path.join(root, filename))
             nb_files+=1
-print(f"RATE UPDATE : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] RATE UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

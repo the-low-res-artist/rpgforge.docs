@@ -3,6 +3,7 @@ from datetime import datetime # get current year
 import sys # to return 0
 import os # loop over files
 from config import config # global config
+import time # measure duration
 
 # goal : to add a footer on each html page
 
@@ -38,6 +39,7 @@ def set_footer(filename):
 
 
 # entry point
+start = time.time()
 src_root = "./../book/"
 nb_files=0
 
@@ -46,7 +48,9 @@ for root, dirs, files in os.walk(src_root, topdown=False):
         if filename.endswith(".html"):
             set_footer(os.path.join(root, filename))
             nb_files+=1
-print(f"FOOTER UPDATE : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] FOOTER UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)

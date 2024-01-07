@@ -2,6 +2,7 @@ import re # regex operations
 import sys # to return 0
 import os # loop over files
 import shutil # move files
+import time # measure duration
 
 # goal : add the custom-js link in every html output pages
 
@@ -32,6 +33,7 @@ def set_js(filename):
         f.write(s)
 
 # entry point
+start = time.time()
 book_root = "./../book/"
 nb_files=0
 
@@ -40,7 +42,9 @@ for root, dirs, files in os.walk(book_root, topdown=False):
         if filename.endswith(".html"):
             set_js(os.path.join(root, filename))
             nb_files+=1
-print(f"CUSTOM JS UPDATE : {nb_files} updated")
+
+end = time.time()
+print(f"[{str(round(end - start, 1))} sec] CUSTOM JS UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)
