@@ -27,11 +27,10 @@ Aseprite File| Import an Aseprite file that already contain animation informatio
 
 ### Sprite Sheet
 
-Let's try to import this sample sprite sheet :
+Let's import this sample sprite sheet :
 
-![import_animation_window.png](../../../../../../media/user_resources/import_animation_spritesheet.png)
-*import_animation_spritesheet.png*
+![import_animation_spritesheet.png](../../../../../../media/user_resources/import_animation_spritesheet.png)
 
-```admonish tip title="User manual resources"
-You can download all of our tutorial resources here : [download user_resources.zip file](https://rpgpowerforge/media/user_resources.zip)
+```admonish tip title="User manual resources (import_animation_spritesheet.png)"
+You can download all of our tutorial resources here : [download user_resources.zip file](https://rpgpowerforge.com/media/user_resources.zip)
 ```
