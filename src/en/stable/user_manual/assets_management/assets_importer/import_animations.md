@@ -138,4 +138,13 @@ You can create an animation manually :
 
 ![animation_collection_general_view_create.gif](../../../../../../media/user_manual/assets_management/import_animation/animation_collection_general_view_create.gif)
 
-All of your Sprites are now sliced and can be used to create an Animation !
+### Automatic creation
+
+RPG Power Forge comes with various way to create multiple Animations at once. All of these are under the Template dropdown :
+
+![animation_collection_general_view_template.png](../../../../../../media/user_manual/assets_management/import_animation/animation_collection_general_view_template.png)
+
+#### One animation per line of Sprites
+![animation_collection_general_view_create_template_per_row.gif](../../../../../../media/user_manual/assets_management/import_animation/animation_collection_general_view_create_template_per_row.gif)
+
+
