@@ -11,9 +11,13 @@ This section is up-to-date with Unity 2022.3 !
 ## Recommendations
 Software | Version |
 --- | --- 
-Unity Hub | >= 3.4
-Unity | 2022.3
-Visual Studio | Community 2022
+Unity Hub | at least **3.4**
+Unity | at least **VAR_UNITY_MIN_VERSION**
+
+```admonish warning title="Follow the above recommendations"
+RPG Power Forge is designed to run with Unity version **VAR_UNITY_MIN_VERSION** and above. This is due to Unity fixing bugs and limitations we've raised during RPG Power Forge development. Do not use an older Unity version.
+```
+
 
 ## Install Unity Hub
 
@@ -70,9 +74,9 @@ You can now see the download and installation progress in the Unity Hub left pan
 
 ![install_progress.png](./../../../../media/download/install_progress.png)
 
-### Install Visual Studio Community
+### Install Visual Studio Community (optional)
 
-During the installation process, Visual Studio Community 2022 will install automatically.
+During the installation process, Visual Studio Community will install automatically.
 
 ```admonish summary title="Visual Studio Community"
 Visual Studio Community is a powerful developer tool that you can use to write, edit, debug, and build code in your Unity projects. The installation is not mandatory but recommended for a better gamedev experience.

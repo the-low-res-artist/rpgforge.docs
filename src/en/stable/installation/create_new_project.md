@@ -19,7 +19,7 @@ To create a new project, [[open the Unity Hub]] and [[select "Project"]], from t
 ![new_project_button.png](./../../../../media/new_project/new_project_button.png)
 
 On the setting page, [[mind the steps]] :
-1. Check the Unity version you are using (we recommend **Unity 2022.3**)
+1. Check the Unity version you are using (we recommend Unity **VAR_UNITY_MIN_VERSION** at least)
 1. Select the "2D Core" project template
 1. Fill the project name and location
 1. Select your Unity account for "Unity Cloud Organization"
@@ -68,8 +68,6 @@ RPG Power Forge package is installing ! Unity will restart upon completion.
 
 ## Congratulations
 
-Well done, Unity Editor now has RPG Power Forge installed ! Make sure you have a new drop-down menu in the top bar, named "RPG Power Forge".
-
-![import_completed.png](./../../../../media/new_project/import_completed.png)
+Well done, Unity Editor now has RPG Power Forge installed !
 
 You can now [start making games here]() !

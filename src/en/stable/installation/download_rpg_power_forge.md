@@ -11,7 +11,7 @@ RPG Power Forge download will be open early 2024 !
 ## Recommendations
 Software | Version |
 --- | --- 
-RPG Power Forge | last stable
+RPG Power Forge | VAR_RPF_RECOMMENDED_VERSION
 
 ## Download RPG Power Forge (.unitypackage)
 

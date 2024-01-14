@@ -22,6 +22,8 @@ cd ${root_dir}/scripts
 python3 -m test-results.py
 # update the glossary to each src/**/*.md page
 python3 -m glossary.py
+# update the variables values to each src/**/*.md page
+python3 -m variables.py
 # update the summary to each src/**/*.md page
 python3 -m page-summary.py
 # improve the lisibility of important words

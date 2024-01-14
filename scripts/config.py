@@ -3,6 +3,14 @@ class config:
 
     # =============================================================================
     # =============================================================================
+    # variables to replace in md files
+    md_variables = {
+        "VAR_UNITY_MIN_VERSION" : "2022.3.17",
+        "VAR_RPF_RECOMMENDED_VERSION" : "0.0.24",
+    }
+
+    # =============================================================================
+    # =============================================================================
     # links
     link_x = "https://twitter.com/RPGPowerForge"
     link_discord = "https://onesquareminesweeper.com/"
@@ -59,5 +67,6 @@ class config:
         'Aseprite Importer',
         'Aseprite',
         'Probuilder',
-        'Assets Importer'
+        'Assets Importer',
+        'Sprite Editor'
     ]
