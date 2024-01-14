@@ -55,11 +55,13 @@ Slice method|Description
 Row & Column | Slice according to a number of rows and columns.
 Pixel Size | Slice according to X and Y individual Sprite size (width and height).
 
-Everytime you change a value, the slice preview will update (blue grid).
+Everytime you change a value, the slice preview will update (blue grid). 
+
+[[Select the Slice button]] once the preview match your desire.  
 
 ![import_animation_slice_view_no_slice.png](../../../../../../media/user_manual/assets_management/import_animation/import_animation_slice_view_row_column.png)
 
-[[Select the Slice button]] once the preview match your desire.  You will be redirected to the main Sprite Editor screen :
+You are redirected to the main Sprite Editor screen :
 
 ![import_animation_general_view_sliced.png](../../../../../../media/user_manual/assets_management/import_animation/import_animation_general_view_sliced.png)
 
