@@ -68,5 +68,16 @@ class config:
         'Aseprite',
         'Probuilder',
         'Assets Importer',
-        'Sprite Editor'
+        'Sprite Editor',
+        'Sprite Sheet',
+        'Sprite',
+        'Sprites',
+        'Slice',
+        'Animation',
+        'Animations',
+        'Props',
+        'Tile',
+        'Tiles',
+        'Collection',
+        'Collections'
     ]
