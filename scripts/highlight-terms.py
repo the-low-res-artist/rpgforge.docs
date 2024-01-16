@@ -21,9 +21,10 @@ def set_highlight_terms(filename):
         return
 
     for term in config.highlight_terms:
-        str_to_replace=term
+        pattern=term
         str_replacement=f"**{term}**"
-        s = s.replace(str_to_replace, str_replacement)
+        s = re.sub('pattern', str_replacement, s)
+        #s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:

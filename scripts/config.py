@@ -70,15 +70,11 @@ class config:
         'Assets Importer',
         'Sprite Editor',
         'Sprite Sheet',
-        'Sprites',
         'Sprite',
         'Slice',
-        'Animations',
         'Animation',
-        'Props',
-        'Tiles',
+        'Prop',
         'Tile',
-        'Collections',
         'Collection'
     ]
         
