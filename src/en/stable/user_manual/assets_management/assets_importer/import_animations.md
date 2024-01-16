@@ -105,3 +105,19 @@ RPG Power Forge comes with various way to create multiple Animations at once. Al
 ![animation_collection_general_view_create_template_per_row.gif](../../../../../../media/user_manual/assets_management/import_animation/animation_collection_general_view_create_template_per_row.gif)
 
 
+#### RPG Maker Character templates
+
+You can import your assets that follow RPG Maker templates and automatically create animations from them.
+
+With our sample, we use the RPG Maker XP Character template :
+![create_animation_template_xp_character.gif](../../../../../../media/user_manual/assets_management/import_animation/create_animation_template_xp_character.gif)
+
+Here's another example, using the RPG Maker MV/MZ Vertical template (chests and doors, mostly) :
+
+![create_animation_template_mv_vertical.gif](../../../../../../media/user_manual/assets_management/import_animation/create_animation_template_mv_vertical.gif)
+
+
+
+```admonish tip title="User manual resources"
+You can download all of our tutorial resources here (including all RPG Maker templates): [download user_resources.zip file](https://rpgpowerforge.com/media/user_resources.zip)
+```
