@@ -88,7 +88,7 @@ You are now ready to go ! [[Select the "Apply" button]] in the bottom-right corn
 ![import_animation_general_view_apply.png](../../../../../../media/user_manual/assets_management/import_animation/import_animation_general_view_apply.png)
 
 
-### Additionnal import method : Sprites Directory
+### Sprites Directory (additional import method)
 
 Instead of a Sprite Sheet, you can import a directory full of individual Sprites. Here is an example :
 
@@ -109,7 +109,7 @@ Once Imported, [[Use the feature "Template > One Animation per line"]] to create
 ![import_animation_sprite_directory_process.gif](../../../../../../media/user_manual/assets_management/import_animation/import_animation_sprite_directory_process.gif)
 
 
-### Additionnal import method : Aseprite File
+### Aseprite File (additional import method)
 
 ```admonish warning title="🛠️"
 Working on it !
