@@ -21,6 +21,7 @@
             * [Animations Collection](./user_manual/assets_management/collections/animations_collection.md)
             * [Props Collection](./user_manual/assets_management/collections/props_collection.md)
             * [Tiles Collection](./user_manual/assets_management/collections/tiles_collection.md)
+            * [Create Animations](./user_manual/assets_management/collections/create_animations.md)
     * [Game mecanics]()
         * [Scene creation]()
         * [Actor Maker]()
