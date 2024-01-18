@@ -36,16 +36,24 @@ You can download all of our tutorial resources here : [download user_resources.z
 ```
 
 #### Import the Sprite Sheet file
-[[Select the Sprite Sheet button]] and choose the file to import in your file browser.
+[[Select the Sprite Sheet button]] and choose the file to import in your file browser :
+
 ![import_animation_window_sprite_sheet.png](../../../../../../media/user_manual/assets_management/import_animation/import_animation_window_sprite_sheet.png)
 
-#### Sprite Sheet editor window
+#### Sprite Editor window
 The Sprite Sheet is imported into our Sprite Editor :
+
 ![import_animation_general_view.png](../../../../../../media/user_manual/assets_management/import_animation/import_animation_general_view.png)
 
 
 #### Slice the Sprite Sheet
 A Sprite Sheet is usually composed of multiple Sprites arranged in a grid, like our current sample. We can slice the Sprite Sheet into individual Sprites with the Slice function :
+
+Slice method|Description
+--------|--------
+Row & Column|Choose the number of [[rows]] and [[columns]] to Slice the Sprite Sheet into.
+Pixel size|Choose the size (X for [[width]], Y for [[height]]) of the individual Sprite.
+
 ![import_animation_slice.gif](../../../../../../media/user_manual/assets_management/import_animation/import_animation_slice.gif)
 
 #### Delete Sprites (optional)
@@ -68,7 +76,7 @@ Transparency method|Description
 Full Transparent Color| Useful if you want to remove a background color from your Sprite Sheet. The selected color will be completely transparent.
 Semi Transparent Color| Useful for shadow, glass, tall-grass, etc. The selected color will be half-transparent.
 
-In both cases, we recommend to use the **Color Picker** to select the desired color precisely.
+In both cases, we recommend to use the **Color Picker** to select the desired color precisely :
 
 ![import_animation_transparency.gif](../../../../../../media/user_manual/assets_management/import_animation/import_animation_transparency.gif)
 
@@ -76,48 +84,38 @@ In both cases, we recommend to use the **Color Picker** to select the desired co
 ### Validate the Sprite Sheet
 
 You are now ready to go ! [[Select the "Apply" button]] in the bottom-right corner to go to the Animation creation !
+
 ![import_animation_general_view_apply.png](../../../../../../media/user_manual/assets_management/import_animation/import_animation_general_view_apply.png)
 
-## Create Animations
 
-Welcome to the Animations Collection ! This editor will help you create animation easily !
+### Additionnal import method : Sprites Directory
 
-```admonish example title="Animations Collection window content"
-Please refer to the [detailled window content here](./../collections/animations_collection.md#window-content).
-```
+Instead of a Sprite Sheet, you can import a directory full of individual Sprites. Here is an example :
 
-All of your Sprites can be used to create an Animation !
-
-### Manual creation
-
-You can create an animation manually :
-* [[Select the first Sprite]]
-* [[Select the last Sprite (while holding SHIFT key)]]
-* [[Right-click > Create Animation]]
-
-![animation_collection_general_view_create.gif](../../../../../../media/user_manual/assets_management/import_animation/animation_collection_general_view_create.gif)
-
-### Automatic creation
-
-RPG Power Forge comes with various way to create multiple Animations at once. All of these are under the Template dropdown :
-
-#### One animation per line of Sprites
-![animation_collection_general_view_create_template_per_row.gif](../../../../../../media/user_manual/assets_management/import_animation/animation_collection_general_view_create_template_per_row.gif)
-
-
-#### RPG Maker Character templates
-
-You can import your assets that follow RPG Maker templates and automatically create animations from them.
-
-With our sample, we use the RPG Maker XP Character template :
-![create_animation_template_xp_character.gif](../../../../../../media/user_manual/assets_management/import_animation/create_animation_template_xp_character.gif)
-
-Here's another example, using the RPG Maker MV/MZ Vertical template (chests and doors, mostly) :
-
-![create_animation_template_mv_vertical.gif](../../../../../../media/user_manual/assets_management/import_animation/create_animation_template_mv_vertical.gif)
-
-
+![import_animation_sprite_directory_hierarchy.png](../../../../../../media/user_manual/assets_management/import_animation/import_animation_sprite_directory_hierarchy.png)
 
 ```admonish tip title="User manual resources"
-You can download all of our tutorial resources here (including all RPG Maker templates): [download user_resources.zip file](https://rpgpowerforge.com/media/user_resources.zip)
+You can download all of our tutorial resources here : [download user_resources.zip file](https://rpgpowerforge.com/media/user_resources.zip)
 ```
+
+When importing "import_sprites_directory", RPG Power Forge will automatically :
+* Browse your directory and sub-directories.
+* Find all of the Sprites (images files).
+* Name each Sprite according to its location ("idle/up/0.png" will be named "IdleUp0")
+* Import each Sprite in the Animation Collection (1 line per sub-directory).
+
+Once Imported, [[Use the feature "Template > One Animation per line"]] to create all of your animations at once. More about [Animation creation here](./../collections/create_animations.md).
+
+![import_animation_sprite_directory_process.gif](../../../../../../media/user_manual/assets_management/import_animation/import_animation_sprite_directory_process.gif)
+
+
+### Additionnal import method : Aseprite File
+
+```admonish warning title="🛠️"
+Working on it !
+```
+
+
+## Congratulation
+
+You have successfully imported a Sprite Sheet, Slice it and make it a serie of Sprites. Well done ! You can now [create animations here](./../collections/create_animations.md).
