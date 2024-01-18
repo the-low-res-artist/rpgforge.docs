@@ -20,7 +20,7 @@ Detailled location are in [Assets Importer page here](./assets_importer.md#featu
 Import option|Description|Supported formats
 --------|--------|--------
 Sprite Sheet|Import an image file made up of numerous smaller graphics ("sprites") that are grouped into a tiled grid formation.|.png .bmp .jpg .jpeg
-Sprite Directory|Import a folder containing one or multiple sprites, each separated in its own image file|folders and subfolders
+Sprite Directory|Import a folder containing one or multiple sprites, each separated in its own image file|directory and sub-directories
 Aseprite File| Import an Aseprite file that already contain animation information|.ase .aseprite
 
 ## Import procedure
@@ -36,7 +36,7 @@ You can download all of our tutorial resources here : [download user_resources.z
 ```
 
 #### Import the Sprite Sheet file
-[[Select the Sprite Sheet button]] and choose the file to import in your file browser :
+[[Select the "Sprite Sheet" button]] and choose the file to import in your file browser :
 
 ![import_animation_window_sprite_sheet.png](../../../../../../media/user_manual/assets_management/import_animation/import_animation_window_sprite_sheet.png)
 
