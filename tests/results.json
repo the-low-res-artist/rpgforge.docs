@@ -18,7 +18,7 @@
         },
         {
             "key": "date",
-            "value": "January 21 2024 13:11"
+            "value": "January 21 2024 18:00"
         },
         {
             "key": "FORGE_0001",
@@ -170,7 +170,7 @@
         },
         {
             "key": "FORGE_0106",
-            "value": "Failed"
+            "value": "Passed"
         },
         {
             "key": "FORGE_0107",
@@ -182,7 +182,7 @@
         },
         {
             "key": "FORGE_0109",
-            "value": "Failed"
+            "value": "Passed"
         },
         {
             "key": "FORGE_0110",
