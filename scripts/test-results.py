@@ -21,7 +21,7 @@ def get_result(result_dict, key):
 def generate_results_md(requirements_file, results_file, output_file):
 
     PASS="Passed"
-    FAIL="Fail"
+    FAIL="Failed"
     NOT_TESTED="Not_tested"
 
     # Safely read the requirements filename using 'with'
@@ -117,8 +117,8 @@ Requirement|Description|Test result\n\
         results_summary_icon = "warning"
         results_summary_title= "Testing ..."
         results_summary_text = f"{ratio}% of tested requirements passed ✔️ !"
-    s = f"# Requirements \n\
-This section list each ?requirement? for RPG Power Forge features as well as their tests results.\n\
+    s = f"# Features and tests \n\
+This section list each ?requirement? of RPG Power Forge features as well as their tests results.\n\
 \n\
 *(This page is under development)* \n\
 \n\

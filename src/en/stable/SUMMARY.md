@@ -51,6 +51,6 @@
     * [link_youtube]()
 * [About the project]()
     * [Dev Team](./about/dev_team.md)
-    * [Requirements](./about/requirements.md)
+    * [Features and tests](./about/requirements.md)
     * [Included assets](./about/included_assets.md)
     * [Packages dependencies](./about/package_dependencies.md)
