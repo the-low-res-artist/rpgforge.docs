@@ -24,7 +24,7 @@ def set_test_results_format(filename):
     s = s.replace(str_to_replace, str_replacement)
 
     # FAIL results
-    str_to_replace = "<td>Fail</td>"
+    str_to_replace = "<td>Failed</td>"
     str_replacement = f"<td style=\"color:black;background-color:LightCoral\">Failed</td>"
     s = s.replace(str_to_replace, str_replacement)
 
