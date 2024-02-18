@@ -23,7 +23,7 @@
             * [Tiles Collection](./user_manual/assets_management/collections/tiles_collection.md)
             * [Create Animations](./user_manual/assets_management/collections/create_animations.md)
     * [Game mecanics]()
-        * [Scene creation]()
+        * [Scene creation](./user_manual/game_mecanics/scene_creation/scene_creation.md)
         * [Actor Maker]()
         * [Behaviors]()
         * [Properties]()

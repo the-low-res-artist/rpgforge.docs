@@ -17,7 +17,7 @@ FORGE_0114;Assets Importer;The user can import .aseprite file format
 FORGE_0115;Assets Importer;The user can import file or directory of files
 FORGE_0116;Assets Importer;The user can import file size from 1x1 up to 2048x2048
 FORGE_0117;Assets Importer;The user can slice the file
-FORGE_0118;Assets Importer;The user can use premade templates to slice file
+FORGE_0118;Assets Importer;The user can use 2 methods to slice file : per rows/columns and per sprite size
 FORGE_0119;Assets Importer;The user can select a transparency color for the file
 FORGE_0120;Assets Importer;The user can select a semi-transparency color for the file
 FORGE_0121;Assets Importer;The user can delete empty sprites
