@@ -22,9 +22,9 @@ The Scene Creation feature allows you to create a new Scene in Unity with predef
 ## Feature details
 
 ### New Unity Scene
-A new Unity Scene is create with a few GameObjects :
-* **Root** : A root gameobject for the whole Scene.
-  * **Tilemap** : A Tilemap gameobject to start drawing tiles.
-  * **Start** : A Spawn gameobject for the Player character. 
+When you select the "Create Scene" option, a new Unity Scene is created with the following GameObjects :
+* **Root** : A parent GameObject for the whole Scene.
+  * **Tilemap** : A Tilemap GameObject to draw tiles on it.
+  * **Start** : A Spawner GameObject for the Player character. 
 
 ![window_location2.png](../../../../../../media/user_manual/game_mecanics/scene_creation/new_scene_setup.png)
