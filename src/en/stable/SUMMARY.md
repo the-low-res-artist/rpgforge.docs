@@ -37,7 +37,7 @@
         * [Localization]()
     * [Quality of life]()
         * [Status Bar]()
-        * [Tool Bar]()
+        * [Tool Bar](./user_manual/quality_of_life/toolbar.md)
         * [Markers]()
         * [Controllers]()
         * [Unity Editor layouts]()
