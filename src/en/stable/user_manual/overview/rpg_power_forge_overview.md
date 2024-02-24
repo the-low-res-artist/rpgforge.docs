@@ -1,7 +1,7 @@
 # RPG Power Forge overview
 
-```admonish warning title="Hold on..."
-I'm working on it !
+```admonish success title="Oh yeah"
+This section is up-to-date !
 ```
 
 OVERVIEW_GO_HERE

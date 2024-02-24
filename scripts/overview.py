@@ -38,9 +38,9 @@ def set_overview(filename):
         </div>\
       </div>\
       <div class=\"overview_scene overview\"> \
-        <div class=\"panel_scene panel\">\
-          <h3>Scene</h3>\
-          <p>This is where everything comes to life !</p>\
+        <div class=\"panel_scene panel\" onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/game_mecanics/scene_creation/scene_creation.html';\" style=\"cursor: pointer;\">\
+          <h3>Scene {svg}</h3>\
+          <p>This is where everything comes to life ! Create a Scene and play instantly.</p>\
         </div>\
       </div>\
       <div class=\"overview_behavior overview\">\
@@ -52,13 +52,13 @@ def set_overview(filename):
       <div class=\"overview_properties overview\"> \
         <div class=\"panel_properties panel\">\
           <h3>Properties {svg}</h3>\
-          <p>Customize the settings for each Scene element (tiles, props, Actors, ...)</p>\
+          <p>Customize the settings for each Scene element (Tiles, Props, Actors, ...)</p>\
         </div>\
       </div>\
       <div class=\"overview_hierarchy overview\"> \
         <div class=\"panel_hierarchy panel\">\
           <h3>Hierarchy</h3>\
-          <p>Select and reorganize your Scene elements (Actors, props, ...)</p>\
+          <p>Select and reorganize your Scene elements (Tiles, Props, Actors, ...)</p>\
         </div>\
       </div>\
     </div>\
