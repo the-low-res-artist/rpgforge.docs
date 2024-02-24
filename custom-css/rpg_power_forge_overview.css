@@ -116,7 +116,7 @@ h3 {
 .overview_behavior {
   width: 200px;
   height:300px;
-  top:-92.4%;
+  top:-93%;
   left: 80%;
   background-image: url("https://rpgpowerforge.com/media/user_manual/overview/behaviors.png");
 }
@@ -136,12 +136,12 @@ h3 {
 /* PANEL POSITIONS */
 .panel_toolbar {
   top:0%;
-  left:100.4%;
+  left:101.4%;
 }
 
 .panel_behavior {
   top:42.8%;
-  left:102.3%;
+  left:105.3%;
 }
 
 .panel_asset_picker {
@@ -151,7 +151,7 @@ h3 {
 
 .panel_properties {
   top:-4%;
-  left:102.3%;
+  left:105.3%;
 }
 
 .panel_scene {

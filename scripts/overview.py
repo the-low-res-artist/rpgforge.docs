@@ -32,14 +32,14 @@ def set_overview(filename):
         </div>\
       </div>\
       <div class=\"overview_toolbar overview\"> \
-        <div class=\"panel_toolbar panel\">\
+        <div class=\"panel_toolbar panel\" onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/quality_of_life/toolbar.html';\" style=\"cursor: pointer;\">\
           <h3>Tool Bar {svg}</h3>\
           <p>Quick access to most RPG Power Forge features. Data, settings, build...</p>\
         </div>\
       </div>\
       <div class=\"overview_scene overview\"> \
         <div class=\"panel_scene panel\">\
-          <h3>Scene {svg}</h3>\
+          <h3>Scene</h3>\
           <p>This is where everything comes to life !</p>\
         </div>\
       </div>\
@@ -57,7 +57,7 @@ def set_overview(filename):
       </div>\
       <div class=\"overview_hierarchy overview\"> \
         <div class=\"panel_hierarchy panel\">\
-          <h3>Hierarchy {svg}</h3>\
+          <h3>Hierarchy</h3>\
           <p>Select and reorganize your Scene elements (Actors, props, ...)</p>\
         </div>\
       </div>\
