@@ -37,6 +37,11 @@ h3 {
   background-color: var(--quote-bg);
   color: var(--fg);
   opacity: 75%;
+  transition: transform .2s;
+}
+
+.panel:hover {
+  transform: scale(1.03);
 }
 
 /* ============================================================================ */

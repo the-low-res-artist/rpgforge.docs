@@ -18,44 +18,46 @@ def set_overview(filename):
     if (s == ""):
         return
 
+    svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill=\"#ffffff\" d=\"M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z\"/></svg>"
+
     str_to_replace = "OVERVIEW_GO_HERE"
     str_replacement = f"<div class=\"overview_container\">\
     <div class=\"overview_panel\"> \
     </div>\
     <div class=\"overview_unity_editor\"> \
       <div class=\"overview_asset_picker overview\"> \
-        <div class=\"panel_asset_picker panel\">\
-          <h3>Asset Picker</h3>\
+        <div class=\"panel_asset_picker panel\"  onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/assets_management/assets_picker/assets_picker.html';\" style=\"cursor: pointer;\">\>\
+          <h3>Asset Picker {svg}</h3>\
           <p>Import, organize, edit, drag and drop all of your assets on the Scene !</p>\
         </div>\
       </div>\
       <div class=\"overview_toolbar overview\"> \
         <div class=\"panel_toolbar panel\">\
-          <h3>Tool Bar</h3>\
+          <h3>Tool Bar {svg}</h3>\
           <p>Quick access to most RPG Power Forge features. Data, settings, build...</p>\
         </div>\
       </div>\
       <div class=\"overview_scene overview\"> \
         <div class=\"panel_scene panel\">\
-          <h3>Scene</h3>\
+          <h3>Scene {svg}</h3>\
           <p>This is where everything comes to life !</p>\
         </div>\
       </div>\
       <div class=\"overview_behavior overview\">\
         <div class=\"panel_behavior panel\">\
-          <h3>Behaviors</h3>\
+          <h3>Behaviors {svg}</h3>\
           <p>Attach multiple high-level RPG game behaviors to an Actor (prefab).</p>\
         </div>\
       </div>\
       <div class=\"overview_properties overview\"> \
         <div class=\"panel_properties panel\">\
-          <h3>Properties</h3>\
+          <h3>Properties {svg}</h3>\
           <p>Customize the settings for each Scene element (tiles, props, Actors, ...)</p>\
         </div>\
       </div>\
       <div class=\"overview_hierarchy overview\"> \
         <div class=\"panel_hierarchy panel\">\
-          <h3>Hierarchy</h3>\
+          <h3>Hierarchy {svg}</h3>\
           <p>Select and reorganize your Scene elements (Actors, props, ...)</p>\
         </div>\
       </div>\
