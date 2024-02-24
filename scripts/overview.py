@@ -25,37 +25,37 @@ def set_overview(filename):
     <div class=\"overview_unity_editor\"> \
       <div class=\"overview_asset_picker overview\"> \
         <div class=\"panel_asset_picker panel\">\
-          <h2>Asset Picker</h2>\
-          <p>Import, edit, drag and drop various assets on the Scene ! Perfect for prefabs and tiles management.</p>\
+          <h3>Asset Picker</h3>\
+          <p>Import, edit, drag and drop various assets on the Scene ! Perfect for prefabs and tiles.</p>\
         </div>\
       </div>\
       <div class=\"overview_toolbar overview\"> \
         <div class=\"panel_toolbar panel\">\
-          <h2>Tool Bar</h2>\
+          <h3>Tool Bar</h3>\
           <p>Quick access to most RPG Power Forge features. Data management, project settings, game build and more !</p>\
         </div>\
       </div>\
       <div class=\"overview_scene overview\"> \
         <div class=\"panel_scene panel\">\
-          <h2>Scene</h2>\
+          <h3>Scene</h3>\
           <p>Customize the settings for each Scene element (tiles, props, actors, ...)</p>\
         </div>\
       </div>\
       <div class=\"overview_behavior overview\">\
         <div class=\"panel_behavior panel\">\
-          <h2>Behaviors</h2>\
+          <h3>Behaviors</h3>\
           <p>Attach any high-level RPG behaviors to an Actor (prefab).</p>\
         </div>\
       </div>\
       <div class=\"overview_properties overview\"> \
         <div class=\"panel_properties panel\">\
-          <h2>Properties</h2>\
+          <h3>Properties</h3>\
           <p>Customize the settings for each Scene element (tiles, props, actors, ...)</p>\
         </div>\
       </div>\
       <div class=\"overview_hierarchy overview\"> \
         <div class=\"panel_hierarchy panel\">\
-          <h2>Hierarchy</h2>\
+          <h3>Hierarchy</h3>\
           <p>Select and reorganize your Scene elements (actors, props, ...)</p>\
         </div>\
       </div>\
