@@ -48,11 +48,13 @@ h3 {
 /* ANY OVERVIEW */
 .overview {
   background-size: cover;
-  opacity: 50%;
+  opacity: 40%;
   position: relative;
+  transition: transform .2s;
 }
 .overview:hover {
   opacity: 100%;
+  transform: scale(1.03);
 }
 
 /* ============================================================================ */
