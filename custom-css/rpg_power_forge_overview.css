@@ -70,7 +70,7 @@ h3 {
   height: 100%;
   display: inline-block;
   background-size: cover;
-  background-image:url("https://rpgpowerforge.com/media/user_manual/overview/unity-editor.png");
+  background-image:url("https://rpgpowerforge.com/media/user_manual/overview/unity_editor.png");
 }
 
 /* ============================================================================ */
@@ -88,7 +88,7 @@ h3 {
   width: 800px;
   height: 144px;
   top:71.5%;
-  background-image:url("https://rpgpowerforge.com/media/user_manual/overview/asset-picker.png");
+  background-image:url("https://rpgpowerforge.com/media/user_manual/overview/asset_picker.png");
 }
 
 /* ============================================================================ */
