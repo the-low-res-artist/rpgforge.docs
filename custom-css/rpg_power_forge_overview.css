@@ -31,7 +31,7 @@ h3 {
   border: 2px var(--fg) solid;
   padding: 0px 0px 0px 10px;
   border-radius: 10px;
-  width:228px;
+  width:220px;
   height:150px;
   position: absolute;
   background-color: var(--quote-bg);
