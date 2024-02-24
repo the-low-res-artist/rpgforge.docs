@@ -25,7 +25,7 @@ def set_overview(filename):
     <div class=\"overview_unity_editor\"> \
       <div class=\"overview_asset_picker overview\"> \
         <div class=\"panel_asset_picker panel\">\
-          <h2>Asset Picker</h2\>\
+          <h2>Asset Picker</h2>\
           <p>Import, edit, drag and drop various assets on the Scene ! Perfect for prefabs and tiles management.</p>\
         </div>\
       </div>\
