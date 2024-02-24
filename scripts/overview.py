@@ -26,7 +26,7 @@ def set_overview(filename):
     </div>\
     <div class=\"overview_unity_editor\"> \
       <div class=\"overview_asset_picker overview\"> \
-        <div class=\"panel_asset_picker panel\"  onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/assets_management/assets_picker/assets_picker.html';\" style=\"cursor: pointer;\">\>\
+        <div class=\"panel_asset_picker panel\"  onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/assets_management/assets_picker/assets_picker.html';\" style=\"cursor: pointer;\">\
           <h3>Asset Picker {svg}</h3>\
           <p>Import, organize, edit, drag and drop all of your assets on the Scene !</p>\
         </div>\
