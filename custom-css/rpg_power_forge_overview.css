@@ -40,9 +40,9 @@ h3 {
   transition: transform .2s;
 }
 
-.panel:hover {
+/*.panel:hover {
   transform: scale(1.03);
-}
+}*/
 
 /* ============================================================================ */
 /* ANY OVERVIEW */
