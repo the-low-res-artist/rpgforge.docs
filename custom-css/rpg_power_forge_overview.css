@@ -48,6 +48,8 @@ h3 {
 /* ANY OVERVIEW */
 .overview {
   background-size: cover;
+  opacity: 50%;
+  position: relative;
 }
 .overview:hover {
   opacity: 100%;
@@ -68,7 +70,7 @@ h3 {
   height: 100%;
   display: inline-block;
   background-size: cover;
-  background-image:url("https://i.ibb.co/82Pz6Q8/unity-editor.png");
+  background-image:url("https://rpgpowerforge.com/media/user_manual/overview/unity-editor.png");
 }
 
 /* ============================================================================ */
@@ -76,10 +78,8 @@ h3 {
 .overview_hierarchy {
   width: 190px;
   height: 319px;
-  position: relative;
   top:-184.9%;
-  background-image:url("https://i.ibb.co/L5ycvcX/hierarchy.png");
-  opacity: 50%;
+  background-image:url("https://rpgpowerforge.com/media/user_manual/overview/hierarchy.png");
 }
 
 /* ============================================================================ */
@@ -87,10 +87,8 @@ h3 {
 .overview_asset_picker {
   width: 800px;
   height: 144px;
-  position: relative;
   top:71.5%;
-  background-image:url("https://i.ibb.co/g4vQ03L/asset-picker.png");
-  opacity: 50%;
+  background-image:url("https://rpgpowerforge.com/media/user_manual/overview/asset-picker.png");
 }
 
 /* ============================================================================ */
@@ -98,11 +96,9 @@ h3 {
 .overview_toolbar {
   width: 808px;
   height: 36px;
-  position: relative;
   top:-28.8%;
   left:19.2%;
-  background-image: url("https://i.ibb.co/KKS27xv/toolbar.png");
-  opacity: 50%;
+  background-image: url("https://rpgpowerforge.com/media/user_manual/overview/toolbar.png");
 }
 
 /* ============================================================================ */
@@ -110,11 +106,9 @@ h3 {
 .overview_scene {
   width: 608px;
   height: 320px;
-  position: relative;
   top:-28.8%;
   left: 19.2%;
-  background-image: url("https://i.ibb.co/6PZ2wrv/scene.png");
-  opacity: 50%;
+  background-image: url("https://rpgpowerforge.com/media/user_manual/overview/scene.png");
 }
 
 /* ============================================================================ */
@@ -122,11 +116,9 @@ h3 {
 .overview_behavior {
   width: 200px;
   height:300px;
-  position: relative;
   top:-92.4%;
   left: 80%;
-  background-image: url("https://i.ibb.co/XWwPVCr/behaviors.png");
-  opacity: 50%;
+  background-image: url("https://rpgpowerforge.com/media/user_manual/overview/behaviors.png");
 }
 
 /* ============================================================================ */
@@ -134,11 +126,10 @@ h3 {
 .overview_properties {
   width: 200px;
   height: 164px;
-  position: relative;
   top:-92.6%;
   left: 80%;
-  background-image: url("https://i.ibb.co/0JB7JHc/properties.png");
-  opacity: 50%;
+  background-image: url("https://rpgpowerforge.com/media/user_manual/overview/properties.png");
+  
 }
 
 /* ============================================================================ */
