@@ -25,7 +25,7 @@
             * [Create Animations](./user_manual/assets_management/collections/create_animations.md)
     * [Game mecanics]()
         * [Scene creation](./user_manual/game_mecanics/scene_creation/scene_creation.md)
-        * [Actor Maker]()
+        * [Actor creation](./user_manual/game_mecanics/actor_creation/actor_creation.md)
         * [Behaviors]()
         * [Properties]()
     * [Data management]()
