@@ -2,8 +2,8 @@
 
 This section covers the RPG Power Forge feature : Tool Bar !
 
-```admonish warning title="working..."
-This section is in progress !
+```admonish success title="Oh yeah"
+This section is up-to-date !
 ```
 
 ## Summary
@@ -77,7 +77,19 @@ Icon | Title | Functionnality
 ![keyboard.png](../../../../../media/user_manual/quality_of_life/toolbar/keyboard.png) | Keyboard | Choose the keyboard to control the Player.
 
 ### Build the game
+Icon | Title | Functionnality
+---|---|---
+![build.png](../../../../../media/user_manual/quality_of_life/toolbar/build.png) | Build | Main dropdown menu.
+![build_pc.png](../../../../../media/user_manual/quality_of_life/toolbar/build_pc.png) | Build for PC | Open the Build for PC/Mac/Linux window.
+![build_web.png](../../../../../media/user_manual/quality_of_life/toolbar/build_web.png) | Build for Web | Open the Build for Web window.
 
 ### Editor layouts
-
+Icon | Title | Functionnality
+---|---|---
+![layout.png](../../../../../media/user_manual/quality_of_life/toolbar/layout.png) | Layouts | Main dropdown menu.
 ### Help and documentation
+Icon | Title | Functionnality
+---|---|---
+![help.png](../../../../../media/user_manual/quality_of_life/toolbar/help.png) | Help | Main dropdown menu.
+![doc.png](../../../../../media/user_manual/quality_of_life/toolbar/doc.png) | Online documentation | Open the online documentation in your internet browser.
+![about.png](../../../../../media/user_manual/quality_of_life/toolbar/about.png) | About | Open the About window.

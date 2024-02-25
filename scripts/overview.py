@@ -27,37 +27,37 @@ def set_overview(filename):
     <div class=\"overview_unity_editor\"> \
       <div class=\"overview_asset_picker overview\"> \
         <div class=\"panel_asset_picker panel\"  onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/assets_management/assets_picker/assets_picker.html';\" style=\"cursor: pointer;\">\
-          <h3>Asset Picker {svg}</h3>\
-          <p>Import, organize, edit, drag and drop all of your assets on the Scene !</p>\
+          <h3>🌳 Assets {svg}</h3>\
+          <p>Import, organize, edit, drag and drop all of your assets in the Scene !</p>\
         </div>\
       </div>\
       <div class=\"overview_toolbar overview\"> \
         <div class=\"panel_toolbar panel\" onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/quality_of_life/toolbar.html';\" style=\"cursor: pointer;\">\
-          <h3>Tool Bar {svg}</h3>\
+          <h3>💡 Tool Bar {svg}</h3>\
           <p>Quick access to most RPG Power Forge features. Data, settings, build...</p>\
         </div>\
       </div>\
       <div class=\"overview_scene overview\"> \
         <div class=\"panel_scene panel\" onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/game_mecanics/scene_creation/scene_creation.html';\" style=\"cursor: pointer;\">\
-          <h3>Scene {svg}</h3>\
+          <h3>🎬 Scene {svg}</h3>\
           <p>This is where everything comes to life ! Create a Scene and play instantly.</p>\
         </div>\
       </div>\
       <div class=\"overview_behavior overview\">\
         <div class=\"panel_behavior panel\">\
-          <h3>Behaviors {svg}</h3>\
+          <h3>⚔️ Behaviors {svg}</h3>\
           <p>Attach multiple high-level RPG game behaviors to an Actor (prefab).</p>\
         </div>\
       </div>\
       <div class=\"overview_properties overview\"> \
         <div class=\"panel_properties panel\">\
-          <h3>Properties {svg}</h3>\
+          <h3>⚙️ Properties {svg}</h3>\
           <p>Customize the settings for each Scene element (Tiles, Props, Actors, ...)</p>\
         </div>\
       </div>\
       <div class=\"overview_hierarchy overview\"> \
         <div class=\"panel_hierarchy panel\">\
-          <h3>Hierarchy</h3>\
+          <h3>📂 Hierarchy</h3>\
           <p>Select and reorganize your Scene elements (Tiles, Props, Actors, ...)</p>\
         </div>\
       </div>\
