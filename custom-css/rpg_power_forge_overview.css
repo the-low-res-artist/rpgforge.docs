@@ -8,7 +8,7 @@
   --sidebar-width: 250px;
 }
 /* adapt panel cards */
-h3 {
+h4 {
   margin-top: 5px;
   margin-bottom: -5px;
 }
@@ -16,11 +16,6 @@ h3 {
 /* hide side nav buttons */
 .nav-chapters {
   display: none;
-}
-
-/* margin to the right of each panel card */
-p {
-  margin-inline-end: 10px;
 }
 
 /* ============================================================================ */
@@ -45,9 +40,10 @@ p {
   transition: transform .2s;
 }
 
-/*.panel:hover {
-  transform: scale(1.03);
-}*/
+/* margin to the right of each panel card */
+.panel > p {
+  margin-inline-end: 10px;
+}
 
 /* ============================================================================ */
 /* ANY OVERVIEW */
