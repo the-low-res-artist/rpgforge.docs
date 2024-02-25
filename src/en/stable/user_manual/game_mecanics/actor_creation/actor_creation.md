@@ -47,7 +47,7 @@ Congratulations ! Your new Actor is now ready to be used. This particular one on
 
 ![prefab_view.png](../../../../../../media/user_manual/game_mecanics/actor_creation/prefab_view.png)
 
-The previously selected Animation Collection has been automatically assign to the various slot of the Move Behavior :
+The previously selected Animation Collection has been automatically assign to the Idle, Walk and Run animation slots of the Move Behavior :
 
 ![anim_assign_behavior.png](../../../../../../media/user_manual/game_mecanics/actor_creation/anim_assign_behavior.png)
 
