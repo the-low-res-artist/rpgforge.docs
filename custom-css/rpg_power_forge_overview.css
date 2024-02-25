@@ -18,6 +18,11 @@ h3 {
   display: none;
 }
 
+/* margin to the right of each panel card */
+p {
+  margin-inline-end: 10px;
+}
+
 /* ============================================================================ */
 /* ROOT CONTAINER */
 .overview_container {

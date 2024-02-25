@@ -28,7 +28,7 @@ def set_overview(filename):
       <div class=\"overview_asset_picker overview\"> \
         <div class=\"panel_asset_picker panel\"  onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/assets_management/assets_picker/assets_picker.html';\" style=\"cursor: pointer;\">\
           <h3>🌳 Assets {svg}</h3>\
-          <p>Import, organize, edit, drag and drop all of your assets in the Scene !</p>\
+          <p>Import, organize, edit and drop all of your assets in the Scene !</p>\
         </div>\
       </div>\
       <div class=\"overview_toolbar overview\"> \
@@ -45,13 +45,13 @@ def set_overview(filename):
       </div>\
       <div class=\"overview_behavior overview\">\
         <div class=\"panel_behavior panel\">\
-          <h3>⚔️ Behaviors {svg}</h3>\
+          <h3>⚔️ Behavior {svg}</h3>\
           <p>Attach multiple high-level RPG game behaviors to an Actor (prefab).</p>\
         </div>\
       </div>\
       <div class=\"overview_properties overview\"> \
         <div class=\"panel_properties panel\">\
-          <h3>⚙️ Properties {svg}</h3>\
+          <h3>⚙️ Propertu {svg}</h3>\
           <p>Customize the settings for each Scene element (Tiles, Props, Actors, ...)</p>\
         </div>\
       </div>\
