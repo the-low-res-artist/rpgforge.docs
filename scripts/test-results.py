@@ -126,6 +126,10 @@ This section list each ?requirement? of RPG Power Forge features as well as thei
 {results_summary_text}\n\
 ```\n\
 \n\
+```admonish warning title=\"Verified and validated by Unity\" \n\
+Not yet, working on it ! More context [here](https://docs.unity3d.com/2023.1/Documentation/Manual/verifiedsolutions.html)\n\
+```\n\
+\n\
 ## Summary\n\
 \n\
 ## Requirement definition\n\
