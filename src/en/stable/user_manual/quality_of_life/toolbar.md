@@ -63,11 +63,11 @@ Icon | Title | Functionnality
 Icon | Title | Functionnality
 ---|---|---
 ![marker.png](../../../../../media/user_manual/quality_of_life/toolbar/marker.png) | Markers | Toggle (visible/invisible) + main dropdown menu.
-![collision.png](../../../../../media/user_manual/quality_of_life/toolbar/collision.png) | Collisions | Choose color and opacity for the Collisions markers.
-![trigger.png](../../../../../media/user_manual/quality_of_life/toolbar/trigger.png) | Triggers | Choose color and opacity for the Triggers markers.
-![hitboxes.png](../../../../../media/user_manual/quality_of_life/toolbar/hitboxes.png) | Hit Boxes | Choose color and opacity for the Hit Boxes markers.
-![interaction.png](../../../../../media/user_manual/quality_of_life/toolbar/interaction.png) | Interactions | Choose color and opacity for the Interactions markers.
-![camera_walls.png](../../../../../media/user_manual/quality_of_life/toolbar/camera_walls.png) | Camera Walls | Choose color and opacity for the Camera Walls markers.
+![collision.png](../../../../../media/user_manual/quality_of_life/toolbar/collision.png) | Collisions | Choose color and opacity for the Collision markers.
+![trigger.png](../../../../../media/user_manual/quality_of_life/toolbar/trigger.png) | Triggers | Choose color and opacity for the Trigger markers.
+![hitboxes.png](../../../../../media/user_manual/quality_of_life/toolbar/hitboxes.png) | Hit Boxes | Choose color and opacity for the Hit Box markers.
+![interaction.png](../../../../../media/user_manual/quality_of_life/toolbar/interaction.png) | Interactions | Choose color and opacity for the Interaction markers.
+![camera_walls.png](../../../../../media/user_manual/quality_of_life/toolbar/camera_walls.png) | Camera Walls | Choose color and opacity for the Camera Wall markers.
 
 ### Play and controls
 Icon | Title | Functionnality
