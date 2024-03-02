@@ -89,6 +89,8 @@ python3 -m home.py
 python3 -m dev_team.py
 # update lets make a game page
 python3 -m lets_make_a_game.py
+# update installation page
+python3 -m installation.py
 # update rpg power forge overview page
 python3 -m overview.py
 # update the footer part
