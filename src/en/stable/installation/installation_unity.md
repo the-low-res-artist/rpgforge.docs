@@ -18,7 +18,6 @@ Unity | at least **VAR_UNITY_MIN_VERSION**
 RPG Power Forge is designed to run with Unity version **VAR_UNITY_MIN_VERSION** and above. This is due to Unity fixing bugs and limitations we've raised during RPG Power Forge development. Do not use an older Unity version.
 ```
 
-
 ## Install Unity Hub
 
 ```admonish summary title="Unity Hub"
