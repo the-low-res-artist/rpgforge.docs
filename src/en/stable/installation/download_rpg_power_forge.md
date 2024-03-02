@@ -1,4 +1,4 @@
-# Download RPG Power Forge
+# Install RPG Power Forge
 
 This section covers the download and installation process for the Unity Editor package : RPG Power Forge.
 

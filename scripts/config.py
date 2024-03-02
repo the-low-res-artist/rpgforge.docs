@@ -13,16 +13,16 @@ class config:
     # =============================================================================
     # installation page
     title_install_unity = "Install Unity"
-    title_dl_rpgpowerforge = "Download RPG Power Forge"
+    title_dl_rpgpowerforge = "Install RPG Power Forge"
     title_create_project = "Create a new project"
     
     tags_install_unity = ["Unity Hub", "Unity Editor"]
     tags_dl_rpgpowerforge = ["Unity package", "Unity Assets Store", "itch.io"]
-    tags_create_project = [""]
+    tags_create_project = ["it's easy", "I promise"]
 
-    description_install_unity = "This is a placeholder text"
-    description_dl_rpgpowerforge = "this is a placeholder text"
-    description_create_project = "This is where the fun begins"
+    description_install_unity = "Unity is a cross-platform game engine."
+    description_dl_rpgpowerforge = "RPG Power Forge is our product on top of Unity."
+    description_create_project = "This is where the fun begins."
 
     # =============================================================================
     # =============================================================================

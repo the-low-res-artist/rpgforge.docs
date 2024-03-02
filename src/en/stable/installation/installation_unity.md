@@ -12,7 +12,7 @@ This section is up-to-date with Unity 2022.3 !
 Software | Version |
 --- | --- 
 Unity Hub | at least **3.4**
-Unity | at least **VAR_UNITY_MIN_VERSION**
+Unity Editor | at least **VAR_UNITY_MIN_VERSION**
 
 ```admonish warning title="Follow the above recommendations"
 RPG Power Forge is designed to run with Unity version **VAR_UNITY_MIN_VERSION** and above. This is due to Unity fixing bugs and limitations we've raised during RPG Power Forge development. Do not use an older Unity version.
