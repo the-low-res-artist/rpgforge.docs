@@ -16,13 +16,13 @@ class config:
     title_dl_rpgpowerforge = "Download RPG Power Forge"
     title_create_project = "Create a new project"
     
-    tags_install_unity = ["simple", "accessible"]
-    tags_dl_rpgpowerforge = ["simple", "accessible"]
-    tags_create_project = ["simple", "accessible"]
+    tags_install_unity = ["Unity Hub", "Unity Editor"]
+    tags_dl_rpgpowerforge = ["Unity package", "Unity Assets Store", "itch.io"]
+    tags_create_project = [""]
 
     description_install_unity = "This is a placeholder text"
     description_dl_rpgpowerforge = "this is a placeholder text"
-    description_create_project = "This is a placeholder text"
+    description_create_project = "This is where the fun begins"
 
     # =============================================================================
     # =============================================================================
