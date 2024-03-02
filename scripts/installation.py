@@ -21,7 +21,7 @@ def set_installation(filename):
     # prepare funny tags
     tags_install_unity = ""
     for tag in config.tags_install_unity:
-        tags_install_unity += f"<div class=\"tag\" style=\"background-color:DodgerBlue\">{tag}</div>"
+        tags_install_unity += f"<div class=\"tag\" style=\"background-color:SlateBlue\">{tag}</div>"
     tags_install_unity = f"<div class=\"tags_container\">{tags_install_unity}</div>"
 
     tags_dl_rpgpowerforge = ""
@@ -31,7 +31,7 @@ def set_installation(filename):
 
     tags_create_project = ""
     for tag in config.tags_create_project:
-        tags_create_project += f"<div class=\"tag\" style=\"background-color:SlateBlue\">{tag}</div>"
+        tags_create_project += f"<div class=\"tag\" style=\"background-color:DodgerBlue\">{tag}</div>"
     tags_create_project = f"<div class=\"tags_container\">{tags_create_project}</div>"
 
     # setup cards
