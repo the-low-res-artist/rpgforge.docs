@@ -26,7 +26,7 @@
     * [Game mecanics]()
         * [Scene creation](./user_manual/game_mecanics/scene_creation/scene_creation.md)
         * [Actor creation](./user_manual/game_mecanics/actor_creation/actor_creation.md)
-        * [Behaviors]()
+        * [Behaviors](./user_manual/game_mecanics/behaviors/behavior.md)
         * [Properties]()
     * [Data management]()
         * [Database]()
