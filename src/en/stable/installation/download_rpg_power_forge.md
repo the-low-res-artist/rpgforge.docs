@@ -19,7 +19,7 @@ RPG Power Forge | VAR_RPF_RECOMMENDED_VERSION
 A unitypackage contains features to fit the various needs of your Unity project. In the case of RPG Power Forge, the package provides many tools and features to make RPG games easily !
 ```
 
-*Download will be open early 2024*
+*Download will be open in 2024*
 
 ## Congratulations
 

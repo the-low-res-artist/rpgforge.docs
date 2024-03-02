@@ -32,4 +32,4 @@ Probuilder is a free Unity package which enables the creation of 3D objects in U
 
 [Official documentation](https://docs.unity3d.com/Packages/com.unity.probuilder@4.0/manual/index.html)
 
-[Offical tutorials](https://www.youtube.com/user/Unity3D/search)
+[Offical tutorials](https://www.youtube.com/@unity/search?query=probuilder)
