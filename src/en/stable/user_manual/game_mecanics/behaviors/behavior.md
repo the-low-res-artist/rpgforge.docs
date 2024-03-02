@@ -3,7 +3,7 @@
 This section covers the RPG Power Forge feature : Behaviors !
 
 ```admonish warning title="Working, working ..."
-This section is in wok-in-progress
+This section is in work-in-progress
 ```
 
 ## Summary
@@ -39,6 +39,6 @@ The Tier-list displays all of the Actor attached Behaviors. The list is composed
 
 ### Add a new Behavior
 
-From the Tier-list you can [[Select the Green + button]] to add a new Behavior :
+From the Tier-list you can [[Select one of the Green + button]] to add a new Behavior on the corresponding Tier :
 
 ![behavior_list_add_behavior.png](../../../../../../media/user_manual/game_mecanics/behaviors/behavior_list_add_behavior.png)
