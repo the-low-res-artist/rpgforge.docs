@@ -2,6 +2,11 @@
 
 Welcome to the installation process ! Please take a look a the following steps.
 
+CARDS_GO_HERE
+
+
+
+
 ```admonish success title="Oh yeah"
 This section is up-to-date !
 ```

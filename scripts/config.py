@@ -11,6 +11,21 @@ class config:
 
     # =============================================================================
     # =============================================================================
+    # installation page
+    title_install_unity = "Install Unity"
+    title_dl_rpgpowerforge = "Download RPG Power Forge"
+    title_create_project = "Create a new project"
+    
+    tags_install_unity = ["simple", "accessible"]
+    tags_dl_rpgpowerforge = ["simple", "accessible"]
+    tags_create_project = ["simple", "accessible"]
+
+    description_install_unity = "This is a placeholder text"
+    description_dl_rpgpowerforge = "this is a placeholder text"
+    description_create_project = "This is a placeholder text"
+
+    # =============================================================================
+    # =============================================================================
     # links
     link_x = "https://twitter.com/RPGPowerForge"
     link_discord = "https://onesquareminesweeper.com/"
