@@ -21,7 +21,7 @@ def set_behavior_tags(filename):
 
     # tags container
     str_to_replace = "(&lt;("
-    str_replacement = "<p class=\"behavior_tag_container\"><p class=\"behavior_tag\">"
+    str_replacement = "<p class=\"behavior_tag_container\"><div class=\"behavior_tag\">"
     s = s.replace(str_to_replace, str_replacement)
 
     str_to_replace = ")&gt;)"
@@ -30,7 +30,7 @@ def set_behavior_tags(filename):
 
     # tag
     str_to_replace = ")&gt;&lt;("
-    str_replacement = "</p><p class=\"behavior_tag\">"
+    str_replacement = "</div><div class=\"behavior_tag\">"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
