@@ -41,17 +41,24 @@ Our sample screenshot contains :
 
 The Tier-list is used **to order Behaviors** by priority of activation. A Behavior is activated if its Condition is met (checked every frame).
 
-If a Behavior is in a warm Tier (reddish color) than another one in a cold Tier (blueish color), the warmer one will be checked first for its Condition.
+If a Behavior is in a warmer Tier (reddish color) than another one in a colder Tier (blueish color), the warmer one will be checked first for its Condition.
 
 If 2 Behaviors are in the same Tier, then the left one will be checked first.
 
 ![tier_list_order_check.png](../../../../../../media/user_manual/game_mecanics/behaviors/tier_list_order_check.png)
 
+#### Blocking Behaviors
 
+A **Blocking Behavior** will prevent the activation of the colder ones when it's activated (condition is met) and until it's completed :
 
-#### Blocking and non-Blocking Behaviors
+![behavior_list_tiers.png](../../../../../../media/user_manual/game_mecanics/behaviors/explanation_block_behaviors.gif)
 
-working on it...
+#### Non-Blocking Behaviors
+
+A **non-Blocking Behavior** will allow the activation of the colder ones even when it's activated (condition is met) :
+
+(gif here)
+
 
 ### Add a new Behavior
 
