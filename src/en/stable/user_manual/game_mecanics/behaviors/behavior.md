@@ -41,24 +41,24 @@ Our sample screenshot contains :
 
 The Tier-list is used **to order Behaviors** by priority of activation. A Behavior is activated if its Condition is met (checked every frame).
 
-If a Behavior is in a warmer Tier (reddish color) than another one in a colder Tier (blueish color), the warmer one will be checked first for its Condition.
+If a Behavior is in a **warmer Tier** (reddish color) than another one in a **colder Tier** (blueish color), the warmer one will be checked first for its Condition.
 
 If 2 Behaviors are in the same Tier, then the left one will be checked first.
 
+Therefore, to schematize the ordering :
 ![tier_list_order_check.png](../../../../../../media/user_manual/game_mecanics/behaviors/tier_list_order_check.png)
 
 #### Blocking Behaviors
 
-A **Blocking Behavior** will prevent the activation of the colder ones when it's activated (condition is met) and until it's completed :
+A **Blocking Behavior** will prevent the activation of the colder ones when  activated (condition is met) until completion :
 
 ![behavior_list_tiers.png](../../../../../../media/user_manual/game_mecanics/behaviors/explanation_block_behaviors.gif)
 
 #### Non-Blocking Behaviors
 
-A **non-Blocking Behavior** will allow the activation of the colder ones even when it's activated (condition is met) :
+A **non-Blocking Behavior** will allow the activation of the colder ones even when activated (condition is met) :
 
 ![behavior_list_tiers.png](../../../../../../media/user_manual/game_mecanics/behaviors/explanation_non_block_behaviors.gif)
-
 
 ### Add a new Behavior
 
@@ -69,3 +69,10 @@ From the Tier-list you can [[Select one of the Green + button]] to add a new Beh
 You'll find Behaviors sorted in categories so you can easily find them. You can also use the Search field to filter by name :
 
 ![add_new_behavior.gif](../../../../../../media/user_manual/game_mecanics/behaviors/add_new_behavior.gif)
+
+### Enable / disable a Behavior
+
+### Move and Remove a Behavior
+
+### Move Behaviors / Tiers
+
