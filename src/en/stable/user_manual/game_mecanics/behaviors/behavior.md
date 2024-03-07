@@ -57,7 +57,7 @@ A **Blocking Behavior** will prevent the activation of the colder ones when it's
 
 A **non-Blocking Behavior** will allow the activation of the colder ones even when it's activated (condition is met) :
 
-(gif here)
+![behavior_list_tiers.png](../../../../../../media/user_manual/game_mecanics/behaviors/explanation_non_block_behaviors.gif)
 
 
 ### Add a new Behavior
