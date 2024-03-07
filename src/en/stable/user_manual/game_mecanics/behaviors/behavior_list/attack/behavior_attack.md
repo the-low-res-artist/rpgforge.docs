@@ -1,6 +1,6 @@
 # Attack Behavior
 (<( behavior )><( attack )><( melee )><( weapon )><( sword )><( hammer )><( hit )><( slash )>)
-This section covers the RPG Power Forge feature Behavior : Attack  !
+This section covers the RPG Power Forge feature Behavior : Attack !
 
 ```admonish warning title="Working, working ..."
 This section is in work-in-progress
@@ -13,25 +13,28 @@ This section is in work-in-progress
 The Attack Behavior enable the Actor to use a melee attack.
 ```
 
-## Behavior Categorie
-
-
+## Behavior categorie
 
 ## Behavior overview
 
-![window_overview.png](../../../../../../../../media/user_manual/game_mecanics/behaviors/window_overview.png)
-
-
-## Behavior Sections
+## Behavior sections
 
 ### Condition
 
 ### Parameters
+
 #### Shape
+
 #### Direction
+
 #### Offset
+
 #### Timing
+
 #### Character Stop
+
 ### Animations
+
 #### Prepare
+
 #### Attack
