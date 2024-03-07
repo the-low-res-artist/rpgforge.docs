@@ -1,0 +1,18 @@
+
+/* tags */
+.behavior_tag_container {
+    width: 100%;
+}
+
+.behavior_tag {
+    display: inline-block;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: small;
+    border-radius: 20px;
+    opacity: 0.8;
+    color: white;
+}

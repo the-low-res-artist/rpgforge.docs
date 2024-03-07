@@ -3,6 +3,7 @@ import sys # to return 0
 import os # loop over files
 import shutil # move files
 import time # measure duration
+from config import config
 
 # goal : add the custom-css link in every html output pages
 
@@ -22,8 +23,8 @@ def set_css(filename):
     css_link = ""
     basename = os.path.basename(filename)
 
-    common_list = ["join-community.css", "footer.css", "main.css", "mdbook-admonish.css", "rating.css", "summary.css"]
-    black_list = ["hero.css"]
+    common_list = config.css_common_list
+    black_list = config.css_black_list
 
     for root, dirs, files in os.walk("./../custom-css"):
         for file in files:

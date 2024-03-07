@@ -11,6 +11,19 @@ class config:
 
     # =============================================================================
     # =============================================================================
+    # css files to include
+    css_common_list = ["behavior_tags.css", 
+                    "join-community.css", 
+                    "footer.css", 
+                    "main.css", 
+                    "mdbook-admonish.css", 
+                    "rating.css", 
+                    "summary.css"]
+
+    css_black_list = ["hero.css"]
+
+    # =============================================================================
+    # =============================================================================
     # installation page
     title_install_unity = "Install Unity"
     title_dl_rpgpowerforge = "Install RPG Power Forge"

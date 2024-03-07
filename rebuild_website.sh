@@ -97,6 +97,8 @@ python3 -m overview.py
 python3 -m footer.py
 # update community join button
 python3 -m join-community.py
+# update behavior tags
+python3 -m behavior_tags.py
 
 # HERO PAGE ADDITION HERE
 # add hero page

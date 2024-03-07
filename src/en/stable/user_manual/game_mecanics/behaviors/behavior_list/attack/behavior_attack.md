@@ -1,5 +1,5 @@
 # Attack Behavior
-((behavior, attack, melee, weapon, sword, hammer, hit, slash))
+(<(behavior)><(attack)><(melee)><(weapon)><(sword)><(hammer)><(hit)><(slash)>)
 This section covers the RPG Power Forge feature Behavior : Attack  !
 
 ```admonish warning title="Working, working ..."
