@@ -72,7 +72,9 @@ You'll find Behaviors sorted in categories so you can easily find them. You can 
 
 ### Enable / disable a Behavior
 
-### Move and Remove a Behavior
+### Move / Remove a Behavior
+
+### Customize a Behavior
 
 ### Move Behaviors / Tiers
 
