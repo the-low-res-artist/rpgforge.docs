@@ -60,6 +60,8 @@ A **non-Blocking Behavior** will allow the activation of the colder ones even wh
 
 ![behavior_list_tiers.png](../../../../../../media/user_manual/game_mecanics/behaviors/explanation_non_block_behaviors.gif)
 
+## Customization 
+
 ### Add a new Behavior
 
 From the Tier-list you can [[Select one of the Green + button]] to add a new Behavior on the corresponding Tier :
@@ -70,11 +72,12 @@ You'll find Behaviors sorted in categories so you can easily find them. You can 
 
 ![add_new_behavior.gif](../../../../../../media/user_manual/game_mecanics/behaviors/add_new_behavior.gif)
 
+### Customize a Behavior
+
+You can change the name and main color of a Behavior if needed :
+
+![customize_behavior_name.gif](../../../../../../media/user_manual/game_mecanics/behaviors/customize_behavior_name.gif)
+
 ### Enable / disable a Behavior
 
 ### Move / Remove a Behavior
-
-### Customize a Behavior
-
-### Move Behaviors / Tiers
-
