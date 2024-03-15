@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# TODO xx
+# TODO 
 # attention probleme de git pull, de build (shopt not found)
 # besoin de loop sur tous les book.toml
 # bien faire les ln avec les scripts et les media sur tous les dossiers dans book/
@@ -138,3 +138,10 @@ do
     ln -s ${root_dir}/custom-js/ ${root_dir}/${folder}/custom-js
     ln -s ${root_dir}/custom-css/ ${root_dir}/${folder}/custom-css
 done
+
+# ---------------------------------------------------------------
+# LARGE FILE DOWNLOAD
+echo "[ GIT LFS CHECKOUT PART ] "
+cd ${root_dir}
+git lfs install
+git lfs checkout
