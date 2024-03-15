@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# TODO
+# TODO x
 # attention probleme de git pull, de build (shopt not found)
 # besoin de loop sur tous les book.toml
 # bien faire les ln avec les scripts et les media sur tous les dossiers dans book/
