@@ -1,0 +1,34 @@
+# Hit Behavior
+(<( behavior )><( hit )><( damaged )><( wound )>)
+This section covers the RPG Power Forge feature Behavior : Hit !
+
+```admonish warning title="Working, working ..."
+This section is in work-in-progress
+```
+
+## Summary
+
+## Behavior definition
+```admonish summary title="Hit Behavior"
+The Hit Behavior allow the Actor to be damaged when hit.
+```
+
+## Behavior categorie
+
+## Behavior overview
+
+## Behavior sections
+
+### Condition
+
+### Parameters
+
+#### Type
+
+#### Hit
+
+#### Range
+
+### Animations
+
+#### Hit
