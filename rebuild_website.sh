@@ -143,5 +143,5 @@ done
 # LARGE FILE DOWNLOAD
 echo "[ GIT LFS CHECKOUT PART ] "
 cd ${root_dir}
-git lfs install
+git lfs install --force
 git lfs checkout
