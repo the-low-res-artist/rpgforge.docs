@@ -146,4 +146,5 @@ cd ${root_dir}
 # define $HOME for the user (www-data) 
 export HOME=/home/www-data
 git lfs install --force
+git lfs fetch
 git lfs checkout
