@@ -143,9 +143,7 @@ done
 # LARGE FILE DOWNLOAD
 echo "[ GIT LFS CHECKOUT PART ] "
 cd ${root_dir}
-whoami
-pwd
-env
-echo home is $HOME
+# define $HOME for the user (www-data)
+export HOME=/home/www-data
 git lfs install --force
 git lfs checkout
