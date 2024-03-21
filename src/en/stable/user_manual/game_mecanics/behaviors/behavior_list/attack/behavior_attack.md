@@ -24,8 +24,10 @@ The Attack Behavior is under the Attack Behavior category (no way).
 
 ### Parameters
 {{ #include ./../common/parameter.md }}
+
 #### Type
-{{ #include ./../common/type.md }}
+ 
+
 #### Shape
 Parameter | Type | Dimension | Definition
 ---|---|---|---
