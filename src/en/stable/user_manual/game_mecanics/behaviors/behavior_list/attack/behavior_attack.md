@@ -20,11 +20,12 @@ The Attack Behavior is under the Attack Behavior category (no way).
 ## Behavior sections
 
 ### Condition
-BEHAVIOR_DEFAULT_CONDITION_HERE
+{{ #include ./../common/condition.md }}
+
 ### Parameters
-BEHAVIOR_PARAMETERS_SUMMARY_HERE
+{{ #include ./../common/parameter.md }}
 #### Type
-BEHAVIOR_DEFAULT_TYPE_HERE
+{{ #include ./../common/type.md }}
 #### Shape
 Parameter | Type | Dimension | Definition
 ---|---|---|---
@@ -48,8 +49,8 @@ Repulsion|Number|unit/second²|How much the Actor is pushed backward when attack
 #### Timing
 Parameter | Type | Dimension|Definition
 ---|---|---|---
-Prepare Duration|Number|second|How long the Actor is preparing to attack (linked to [{Prepare Animation}](#{Prepare}))
-Attack Duration|Number|second|How long the Actor is attacking (linked to [{Attack Animation}](#{Attack}))
+Prepare Duration|Number|second|How long the Actor is preparing to attack (linked to [Prepare Animation](#{Prepare}))
+Attack Duration|Number|second|How long the Actor is attacking (linked to [Attack Animation](#{Attack}))
 Stop Duration|Number|second|How long the Actor stops when attacking
 Cooldown Duration|Number|second|How long before the Actor can attack again
 #### Character Stop
