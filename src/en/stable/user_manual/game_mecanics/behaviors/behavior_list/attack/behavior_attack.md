@@ -2,8 +2,8 @@
 (<( behavior )><( attack )><( melee )><( weapon )><( sword )><( hammer )><( hit )><( slash )>)
 This section covers the RPG Power Forge feature Behavior : Attack !
 
-```admonish warning title="Working, working ..."
-This section is in work-in-progress
+```admonish success title="Oh yeah"
+This section is up-to-date !
 ```
 
 ## Summary
