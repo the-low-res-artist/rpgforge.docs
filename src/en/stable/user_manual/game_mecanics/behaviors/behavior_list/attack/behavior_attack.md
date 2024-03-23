@@ -15,7 +15,6 @@ The Attack Behavior enable the Actor to use a melee attack.
 
 ## Behavior categorie
 The Attack Behavior is under the Attack Behavior category (no way).
-## Behavior overview
 
 ## Behavior sections
 
