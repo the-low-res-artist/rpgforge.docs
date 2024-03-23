@@ -68,6 +68,8 @@ Backward Impulse|Number|unit/second²|How much the Actor is pushed backward when
 ### Animations
 {{ #include ./../common/animation.md }}
 
+Here is the list of the available Animations for the current Behavior :
+
 Parameter |Definition
 ---|---
 Prepare|Animation before the actual attack (if any)
