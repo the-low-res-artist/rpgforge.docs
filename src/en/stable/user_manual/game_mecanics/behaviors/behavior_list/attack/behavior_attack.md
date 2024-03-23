@@ -67,6 +67,7 @@ Parameter | Type | Dimension|Definition
 Backward Impulse|Number|unit/second²|How much the Actor is pushed backward when the attack is being blocked
 ### Animations
 {{ #include ./../common/animation.md }}
+
 Parameter |Definition
 ---|---
 Prepare|Animation before the actual attack (if any)
