@@ -43,6 +43,8 @@
         * [Level Linker]()
         * [Project settings]()
         * [Stats]()
+        * [Inputs](./user_manual/data_management/input_management.md)
+        * [Formulas](./user_manual/data_management/formula_management.md)
     * [Export]()
         * [Build]()
         * [Localization]()
