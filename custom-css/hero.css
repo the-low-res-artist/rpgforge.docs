@@ -53,7 +53,7 @@ body {
     background-color: rgba(0,0,0,0.5);
     backdrop-filter: blur(10px);
     border-radius: 100px;
-    border: 3px solid;
+    /*border: 3px solid;*/
     font-size: 18px;
 }
 
@@ -139,13 +139,12 @@ video {
     font-size: 25px;
     color: white;
     border-radius: 100px;
-    border: 3px solid;
+    /*border: 3px solid;*/
     transition: 0.1s;
     z-index: 11;
     background-color: rgba(33, 150, 243, 0.8);
     backdrop-filter: blur(10px);
     border-radius: 100px;
-    border: 3px solid;
     font-weight: bold;
 }
 
@@ -210,20 +209,20 @@ video {
     color: white;
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-weight: bold;
     transition: 0.1s;
     z-index: 11;
     background-color: rgba(0,0,0,0.5);
     backdrop-filter: blur(10px);
     border-radius: 100px;
-    border: 3px solid;
+    /*border: 3px solid;*/
     font-size: 18px;
 }
 
 .hero-documentation:hover {
-    background-color: dodgerblue;
+    background-color: rgba(80, 80, 80, 0.5);
 }
 
 
