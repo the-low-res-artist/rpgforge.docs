@@ -17,7 +17,7 @@
     font-weight: bolder;
     font-size: larger;
     color: white;
-    border-style: solid;
+    /*border-style: solid;*/
     border-color: white;
     transition: 0.2s;
 }
