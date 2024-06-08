@@ -106,10 +106,10 @@ python3 -m behavior_tags.py || true
 # HERO PAGE ADDITION HERE
 # add hero page
 cp ${root_dir}/resources/hero.html ${root_dir}/book/index.html
-# add links for home page to work (assuming we have /en/stable at least)
-ln -s ${root_dir}/book/en/stable/css ${root_dir}/book/css
-ln -s ${root_dir}/book/en/stable/FontAwesome ${root_dir}/book/FontAwesome
-ln -s ${root_dir}/book/en/stable/fonts ${root_dir}/book/fonts
+# add links for home page to work (assuming we have /doc at least)
+ln -s ${root_dir}/book/doc/css ${root_dir}/book/css
+ln -s ${root_dir}/book/doc/FontAwesome ${root_dir}/book/FontAwesome
+ln -s ${root_dir}/book/doc/fonts ${root_dir}/book/fonts
 
 # add link thumbnails
 #python3 -m thumbnail.py
@@ -123,14 +123,6 @@ cd ${root_dir}/media/
 zip -r user_resources.zip user_resources
 
 cd ${root_dir}
-
-# add redirection in every language root folder (book/*/)
-for folder in $(ls -d book/*);
-do
-    if [ -d "${folder}" ]; then
-        cp ${root_dir}/resources/redirect_to_stable.html ${root_dir}/${folder}/index.html
-    fi
-done
 
 # process remaining output folders
 for folder in $(find book -type d);

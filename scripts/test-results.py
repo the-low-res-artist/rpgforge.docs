@@ -163,7 +163,7 @@ Feature|Passed ✔️|Failed ❌|Not tested yet...\n\
 # ================================================================================
 # entry point
 start = time.time()
-output_file="./../src/en/stable/about/requirements.md"
+output_file="./../src/doc/about/requirements.md"
 requirements_file="./../requirements/requirements.csv"
 results_file="./../tests/results.json"
 

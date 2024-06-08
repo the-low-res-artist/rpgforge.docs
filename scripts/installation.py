@@ -37,15 +37,15 @@ def set_installation(filename):
     # setup cards
     str_to_replace = "CARDS_GO_HERE"
     str_replacement = f"<div class=\"cards\">\
-            <div class=\"card card1\" onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/installation/installation_unity.html';\" style=\"cursor: pointer;\">\
+            <div class=\"card card1\" onclick=\"window.location.href = 'https://rpgpowerforge.com/doc/installation/installation_unity.html';\" style=\"cursor: pointer;\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/installation/card_unity.png\"></img></div>\
                 <div class=\"card-text\"><h3>{config.title_install_unity}</h3>{tags_install_unity}<p>{config.description_install_unity}</p></div>\
             </div>\
-            <div class=\"card card2\" onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/installation/download_rpg_power_forge.html';\" style=\"cursor: pointer;\">\
+            <div class=\"card card2\" onclick=\"window.location.href = 'https://rpgpowerforge.com/doc/installation/download_rpg_power_forge.html';\" style=\"cursor: pointer;\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/installation/card_rpf.png\"></img></div>\
                 <div class=\"card-text\"><h3>{config.title_dl_rpgpowerforge}</h3>{tags_dl_rpgpowerforge}<p>{config.description_dl_rpgpowerforge}</p></div>\
             </div>\
-            <div class=\"card card3\" onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/installation/create_new_project.html';\" style=\"cursor: pointer;\">\
+            <div class=\"card card3\" onclick=\"window.location.href = 'https://rpgpowerforge.com/doc/installation/create_new_project.html';\" style=\"cursor: pointer;\">\
                 <div class=\"card-image\"><img src=\"https://rpgpowerforge.com/media/installation/card_new_project.png\"></img></div>\
                 <div class=\"card-text\"><h3>{config.title_create_project}</h3>{tags_create_project}<p>{config.description_create_project}</p></div>\
             </div>\

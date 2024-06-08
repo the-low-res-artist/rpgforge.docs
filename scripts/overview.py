@@ -26,19 +26,19 @@ def set_overview(filename):
     </div>\
     <div class=\"overview_unity_editor\"> \
       <div class=\"overview_asset_picker overview\"> \
-        <div class=\"panel_asset_picker panel\"  onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/assets_management/assets_picker/assets_picker.html';\" style=\"cursor: pointer;\">\
+        <div class=\"panel_asset_picker panel\"  onclick=\"window.location.href = 'https://rpgpowerforge.com/doc/user_manual/assets_management/assets_picker/assets_picker.html';\" style=\"cursor: pointer;\">\
           <h4>🌳 Assets {svg}</h4>\
           <p>Import, organize, edit and drop all of your assets in the Scene !</p>\
         </div>\
       </div>\
       <div class=\"overview_toolbar overview\"> \
-        <div class=\"panel_toolbar panel\" onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/quality_of_life/toolbar.html';\" style=\"cursor: pointer;\">\
+        <div class=\"panel_toolbar panel\" onclick=\"window.location.href = 'https://rpgpowerforge.com/doc/user_manual/quality_of_life/toolbar.html';\" style=\"cursor: pointer;\">\
           <h4>💡 Tool Bar {svg}</h4>\
           <p>Quick access to most RPG Power Forge features. Data, settings, build...</p>\
         </div>\
       </div>\
       <div class=\"overview_scene overview\"> \
-        <div class=\"panel_scene panel\" onclick=\"window.location.href = 'https://rpgpowerforge.com/en/stable/user_manual/game_mecanics/scene_creation/scene_creation.html';\" style=\"cursor: pointer;\">\
+        <div class=\"panel_scene panel\" onclick=\"window.location.href = 'https://rpgpowerforge.com/doc/user_manual/game_mecanics/scene_creation/scene_creation.html';\" style=\"cursor: pointer;\">\
           <h4>🎬 Scene {svg}</h4>\
           <p>This is where everything comes to life ! Create a Scene and play instantly.</p>\
         </div>\
