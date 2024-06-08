@@ -24,7 +24,7 @@
     border-radius: 20px;
     /*box-shadow: 0 0 30px rgba(0,0,0,0.3);*/
     border: white;
-    border-style: solid;
+    /*border-style: solid;*/
     transition: transform .2s;
     /*filter: grayscale(0.5);*/
 }
