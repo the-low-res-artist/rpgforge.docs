@@ -129,15 +129,15 @@ video {
 .hero-subtext {
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 50%;
     width: 100%;
     text-align: center;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 100px;
-    font-weight: bold;
+    font-size: 35px;
     color: white;
-    z-index: 11;
+    opacity: 0.8;
+    z-index: 12;
 }
 
 .hero-community {
