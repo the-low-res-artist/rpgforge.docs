@@ -6,12 +6,12 @@
 
 .join-community-text {
     display: block;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(33, 150, 243, 0.6);
     backdrop-filter: blur(10px);
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 10px;
     border-radius: 50px;
     font-weight: bolder;
