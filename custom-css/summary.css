@@ -36,3 +36,15 @@
 .section {
     padding-bottom: 5px;
 }
+
+.summary-title-container{
+    font-weight: bold;
+}
+
+.summary-title{
+    font-weight: bold;
+}
+
+.summary-subtitle{
+    font-weight: bold;
+}
