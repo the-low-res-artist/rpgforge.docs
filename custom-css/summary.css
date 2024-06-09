@@ -34,11 +34,12 @@
 
 /* section style */
 .section {
-    padding: 10px 0px 10px 0px;
+    padding-bottom: 5px;
 }
 
 .summary-title-container{
     font-weight: bold;
+    padding: 10px 0px 10px 0px;
 }
 
 .summary-title{
