@@ -10,7 +10,7 @@ This section is up-to-date !
 
 ## Feature definition
 ```admonish summary title="Status Bar"
-The Status Bar gives you access to most of the features to make a great RPG game, from importing assets to shipping your game online.
+The Status Bar improves your navigation in our RPG Power Forge windows.
 ```
 
 ## Feature location
