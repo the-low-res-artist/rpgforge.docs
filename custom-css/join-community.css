@@ -2,6 +2,8 @@
 
 .join-community-container {
     display: block;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .join-community-text {

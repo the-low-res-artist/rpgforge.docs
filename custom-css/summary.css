@@ -34,7 +34,7 @@
 
 /* section style */
 .section {
-    padding-bottom: 5px;
+    padding: 10px 0px 10px 0px;
 }
 
 .summary-title-container{
@@ -43,8 +43,10 @@
 
 .summary-title{
     font-weight: bold;
+    font-size: x-large;
 }
 
 .summary-subtitle{
-    font-weight: bold;
+    font-weight: normal;
+    font-style: italic;
 }
