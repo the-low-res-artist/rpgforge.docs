@@ -37,7 +37,7 @@ def set_nav_summary(filename):
     # reformat some chapters
     # Home
     str_to_replace="\">Home</a></li>"
-    str_replacement="\">Home <i class=\"fa fa-home\"></i></a></li>"
+    str_replacement="\"><i class=\"fa fa-home\"> Home</i></a></li>"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
     
     str_to_replace="<ol class=\"chapter\"><li class=\"chapter-item"
