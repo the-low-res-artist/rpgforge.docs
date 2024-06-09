@@ -20,10 +20,10 @@
 
 /* part title style*/
 .button-summary {
-    background-color: var(--bg);
+    background-color: var(--sidebar-bg);
     border: none;
     color: var(--fg);
-    padding: 6px;
+    padding: 10px 0px 0px 0px;
     width: 100%;
     text-align: left;
     text-decoration: none;
