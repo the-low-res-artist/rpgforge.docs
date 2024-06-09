@@ -34,12 +34,7 @@ def set_nav_summary(filename):
     #if (basename == "home.html" or basename == "index.html"):
     #    home_page = True
 
-    # reformat some chapters
-    # Home
-    str_to_replace="\">Home</a></li>"
-    str_replacement="\"><i class=\"fa fa-home\"> Home</i></a></li>"
-    chapters_new = chapters_new.replace(str_to_replace, str_replacement)
-    
+    # reformat some chapters   
     str_to_replace="<ol class=\"chapter\"><li class=\"chapter-item"
     str_replacement="<ol class=\"chapter\"><li class=\"part-title"
     chapters_new = chapters_new.replace(str_to_replace, str_replacement)
