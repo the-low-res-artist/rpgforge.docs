@@ -49,7 +49,7 @@
         * [Build]()
         * [Localization]()
     * [Quality of life]()
-        * [Status Bar]()
+        * [Status Bar](./user_manual/quality_of_life/statusbar.md)
         * [Tool Bar](./user_manual/quality_of_life/toolbar.md)
         * [Project template]()
         * [Markers]()
