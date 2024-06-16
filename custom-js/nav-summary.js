@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('nav').addEventListener('click', function(event) {
         // Check if the clicked element parent is an <li> with the desired classes
         var parent = event.target.parentElement
-        print(event.target)
+        console.log(event.target)
         if (event.target.tagName == 'SVG' && 
             parent.tagName === 'LI' && 
             (parent.classList.contains('chapter-item') || 
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const svgIcon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     svgIcon.setAttribute('class', 'icon');
     svgIcon.setAttribute('viewBox', '0 0 512 512'); // Adjust viewBox as per your SVG icon dimensions
-    svgIcon.setAttribute('width', '26'); // max size
+    svgIcon.setAttribute('width', '26px'); // max size
 
     // Create and append SVG path (replace with your SVG path data)
     const svgPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
