@@ -10,13 +10,13 @@
     height: 100%;
 }
 /* chapters feedback on hover */
-.chapter li:hover {
+.chapter li>a:hover {
     background-color: var(--table-header-bg);
     border-radius: 3px;
     color: white /* text color */
 }
 /* chapters feedback on active */
-.chapter li a.active {
+.chapter li>a.active {
     background-color: var(--table-header-bg);
     border-radius: 3px;
 }
