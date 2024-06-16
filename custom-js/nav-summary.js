@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     svgIcon.setAttribute('class', 'icon');
     svgIcon.setAttribute('viewBox', '0 0 512 512'); // Adjust viewBox as per your SVG icon dimensions
     svgIcon.setAttribute('width', '26px'); // max size
+    svgIcon.setAttribute('height', '26px'); // max size
 
     // Create and append SVG path (replace with your SVG path data)
     const svgPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
