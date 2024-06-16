@@ -1,5 +1,11 @@
 /* ----------------------------------------------------------------*/
 /* space chapter items */
+.chapter li>div {
+    padding: 3px 10px 3px 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 .chapter li>a {
     padding: 3px 10px 3px 10px;
     display: block;
