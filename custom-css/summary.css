@@ -2,7 +2,20 @@
 li.chapter-item:hover {
     background-color: var(--table-header-bg);
     border-radius: 3px;
+    color: white /* text color */
 }
+/* format chapter items */
+.chapter-item {
+    padding: 3px 10px 3px 10px;
+}
+
+/* make hyperlink easy to click on */
+li.a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 /* chapters are closer together */
 /*.chapter li.chapter-item {
     line-height: 1.3em;
