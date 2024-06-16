@@ -6,7 +6,7 @@
     height: 100%;
 }
 .chapter li.chapter-item {
-    margin-top: 0.2em;
+    margin-top: 0.3em;
 }
 /* chapters feedback on hover */
 .chapter li>a:hover {
