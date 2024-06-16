@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Iterate over each <li> element and prepend the SVG icon
     listItems.forEach(li => {
         const clonedIcon = svgIcon.cloneNode(true); // Clone the SVG icon to avoid multiple references
-        li.prepend(clonedIcon); // Prepend icon to the <li> element
+        li.appendChild(clonedIcon); // Prepend icon to the <li> element
     });
 });
 
