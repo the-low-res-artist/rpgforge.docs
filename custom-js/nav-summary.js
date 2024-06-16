@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add a click event listener to the <nav> element
     document.querySelector('nav').addEventListener('click', function(event) {
         // Check if the clicked element is an <li> with the desired classes
+        console.log("click");
+        console.log(event);
+        console.log(event.target.tagName);
         if (event.target.tagName === 'li' && 
             (event.target.classList.contains('chapter-item') || 
              event.target.classList.contains('part-title'))) {
