@@ -21,12 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const svgIcon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     svgIcon.setAttribute('class', 'icon');
     svgIcon.setAttribute('viewBox', '0 0 24 24'); // Adjust viewBox as per your SVG icon dimensions
-    
+    svgIcon.setAttribute('width', '32'); // max size
+
     // Create and append SVG path (replace with your SVG path data)
     const svgPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     svgPath.setAttribute('d', 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm-2 14H8v-2h2v2zm0-4H8v-4h2v4zm4 4h-2v-2h2v2zm0-4h-2v-4h2v4z');
     svgPath.setAttribute('fill', 'currentColor'); // Use current text color as fill
-    svgPath.setAttribute('width', '32'); // max size
     
     // Append path to SVG element
     svgIcon.appendChild(svgPath);
