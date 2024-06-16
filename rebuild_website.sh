@@ -79,7 +79,7 @@ python3 -m custom-css.py || true
 # add css link
 python3 -m custom-js.py || true
 # update the navigation summary
-#python3 -m nav-summary.py || true
+python3 -m nav-summary.py || true
 # update the requirements tests results format for PASS, FAIL and NOT_TESTED cells
 python3 -m test-results-format.py || true
 ## update summary title and subtitle
