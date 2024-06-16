@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log("click");
         console.log(event);
         console.log(event.target.tagName);
-        if (event.target.tagName === 'li' && 
+        console.log(event.target.parent.tagName);
+        if (event.target.tagName === 'LI' && 
             (event.target.classList.contains('chapter-item') || 
              event.target.classList.contains('part-title'))) {
             // Toggle the 'expanded' class on the clicked <li>
