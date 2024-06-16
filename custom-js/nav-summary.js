@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Toggle the 'expanded' class on the clicked <li>
             parent.classList.toggle('expanded');
             // rotate the svg
-            event.target.classList.toggle('nav-svg-rotate');
+            event.target.classList.toggle('nav-svg-rotate-90');
         }
     });
 });
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     // Create an SVG element
     const svgIcon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    svgIcon.setAttribute('class', 'icon');
+    svgIcon.setAttribute('class', 'icon nav-svg-rotate-0');
     svgIcon.setAttribute('viewBox', '0 0 512 512'); // Adjust viewBox as per your SVG icon dimensions
     svgIcon.setAttribute('width', '20px'); // max size
     svgIcon.setAttribute('height', '20px'); // max size
