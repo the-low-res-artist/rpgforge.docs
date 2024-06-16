@@ -1,7 +1,20 @@
 "use strict";
 
+document.addEventListener('DOMContentLoaded', function() {
+    // Add a click event listener to the <nav> element
+    document.querySelector('nav').addEventListener('click', function(event) {
+        // Check if the clicked element is an <li> with the desired classes
+        if (event.target.tagName === 'li' && 
+            (event.target.classList.contains('chapter-item') || 
+             event.target.classList.contains('part-title') {
+            // Toggle the 'expanded' class on the clicked <li>
+            event.target.classList.toggle('expanded');
+        }
+    });
+});
+
 // Fix back button cache problem
-window.onunload = function () { };
+/*window.onunload = function () { };
 
 (function sections() {
     var buttonSectionInstallation = document.getElementById('button-installation');
@@ -87,4 +100,4 @@ window.onunload = function () { };
             hidechapters(chapter, chevron);
         }
     });
-})();
+})();*/
