@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Check if the clicked element is an <li> with the desired classes
         if (event.target.tagName === 'li' && 
             (event.target.classList.contains('chapter-item') || 
-             event.target.classList.contains('part-title') {
+             event.target.classList.contains('part-title'))) {
             // Toggle the 'expanded' class on the clicked <li>
             event.target.classList.toggle('expanded');
         }
