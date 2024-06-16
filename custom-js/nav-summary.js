@@ -47,6 +47,8 @@ document.addEventListener('DOMContentLoaded', function() {
     filteredListItems.forEach(li => {
         const clonedIcon = svgIcon.cloneNode(true); // Clone the SVG icon to avoid multiple references
         li.appendChild(clonedIcon); // Prepend icon to the <li> element
+        // toggle visibility
+        li.classList.toggle('expanded');
     });
 });
 
