@@ -28,6 +28,12 @@
     border-radius: 3px;
 }
 /* ----------------------------------------------------------------*/
+/* chevron rotation on click */
+.nav-svg-rotate {
+    transform: rotate(90deg); /* Rotate the icon 180 degrees */
+    transition: transform 0.3s ease; /* Add a smooth transition */
+}
+/* ----------------------------------------------------------------*/
 /* icon spacing */
 .chapter li>svg {
     padding: 3px 10px 3px 10px;

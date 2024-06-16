@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
             parent.classList.contains('part-title'))) {
             // Toggle the 'expanded' class on the clicked <li>
             parent.classList.toggle('expanded');
+            // rotate the svg
+            event.target.toggle('nav-svg-rotate');
         }
     });
 });
