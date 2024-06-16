@@ -1,6 +1,6 @@
 [Home](./home.md)
 
-* [Installation](./installation/installation.md)
+* [Installation]()
     * [Introduction](./installation/installation.md)
     * [Install Unity](./installation/installation_unity.md)
     * [Download RPG Power Forge](./installation/download_rpg_power_forge.md)
@@ -65,7 +65,7 @@
 
 ------
 
-* [About the project](./about/dev_team.md)
+* [About the project]()
     * [Dev Team](./about/dev_team.md)
     * [Features and tests](./about/requirements.md)
     * [Included assets](./about/included_assets.md)
