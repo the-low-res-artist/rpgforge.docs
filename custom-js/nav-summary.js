@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('nav').addEventListener('click', function(event) {
         // Check if the clicked element parent is an <li> with the desired classes
         var parent = event.target.parentElement
-        if (parent.tagName === 'LI' && 
+        if (event.target.tagName == 'DIV' && 
+            parent.tagName === 'LI' && 
             (parent.classList.contains('chapter-item') || 
             parent.classList.contains('part-title'))) {
             // Toggle the 'expanded' class on the clicked <li>

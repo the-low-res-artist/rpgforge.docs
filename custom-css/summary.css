@@ -1,3 +1,8 @@
+/* chapters feedback on hover */
+.chapter li.chapter-item:hover {
+    background-color:blue;
+}
+
 /* chapters are closer together */
 .chapter li.chapter-item {
     line-height: 1.3em;
