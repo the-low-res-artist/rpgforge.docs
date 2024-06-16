@@ -30,11 +30,11 @@
 /* ----------------------------------------------------------------*/
 /* chevron rotation on click */
 .nav-svg-rotate-0 {
-    transform: rotate(180deg); /* Rotate the icon 180 degrees */
+    transform: rotate(-90deg); /* Rotate the icon 180 degrees */
     transition: transform 0.3s ease; /* Add a smooth transition */
 }
 .nav-svg-rotate-90 {
-    transform: rotate(90deg); /* Rotate the icon 180 degrees */
+    transform: rotate(0deg); /* Rotate the icon 180 degrees */
     transition: transform 0.3s ease; /* Add a smooth transition */
 }
 /* ----------------------------------------------------------------*/
