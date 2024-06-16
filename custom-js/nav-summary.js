@@ -35,8 +35,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Select all <li> elements within <nav>
     const listItems = document.querySelectorAll('nav li.chapter-item');
 
+    // Filter the list items based on the condition (next sibling is also <li> without class)
+    const filteredListItems = Array.from(listItems).filter(li => {
+        const nextSibling = li.nextElementSibling;
+        return nextSibling && nextSibling.tagName === 'LI' && !nextSibling.classList.length;
+    });
+
     // Iterate over each <li> element and prepend the SVG icon
-    listItems.forEach(li => {
+    filteredListItems.forEach(li => {
         const clonedIcon = svgIcon.cloneNode(true); // Clone the SVG icon to avoid multiple references
         li.appendChild(clonedIcon); // Prepend icon to the <li> element
     });
