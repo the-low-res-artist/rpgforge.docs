@@ -1,19 +1,24 @@
-/* chapters feedback on hover */
-li.chapter-item:hover {
-    background-color: var(--table-header-bg);
-    border-radius: 3px;
-    color: white /* text color */
-}
-/* format chapter items */
-.chapter-item {
+/* space chapter items */
+.chapter li a {
     padding: 3px 10px 3px 10px;
 }
 
 /* make hyperlink easy to click on */
-li.a {
+.chapter li a {
     display: block;
     width: 100%;
     height: 100%;
+}
+/* chapters feedback on hover */
+.chapter li:hover {
+    background-color: var(--table-header-bg);
+    border-radius: 3px;
+    color: white /* text color */
+}
+/* chapters feedback on active */
+.chapter li a.active {
+    background-color: var(--table-header-bg);
+    border-radius: 3px;
 }
 
 /* chapters are closer together */
