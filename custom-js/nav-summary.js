@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     svgIcon.appendChild(svgPath);
     
     // Select all <li> elements within <nav>
-    const listItems = document.querySelectorAll('nav li.chapter-item');
+    const listItems = document.querySelectorAll('nav li');
 
     // Filter the list items based on the condition (next sibling is also <li> without class)
     const filteredListItems = Array.from(listItems).filter(li => {
