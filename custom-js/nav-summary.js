@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const svgIcon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     svgIcon.setAttribute('class', 'icon');
     svgIcon.setAttribute('viewBox', '0 0 24 24'); // Adjust viewBox as per your SVG icon dimensions
-    svgIcon.setAttribute('width', '32'); // max size
+    svgIcon.setAttribute('width', '26'); // max size
 
     // Create and append SVG path (replace with your SVG path data)
     const svgPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     svgIcon.appendChild(svgPath);
     
     // Select all <li> elements within <nav>
-    const listItems = document.querySelectorAll('nav li');
+    const listItems = document.querySelectorAll('nav li.chapter-item');
 
     // Iterate over each <li> element and prepend the SVG icon
     listItems.forEach(li => {
