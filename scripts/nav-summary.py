@@ -23,12 +23,14 @@ def set_nav_summary(filename):
 
     # get the chapters in the nav section
     number_chapters = re.findall(NUMBER_CHAPTER_REGEX, s)
+    print(number_chapters)
     # safe exit
     if (len(number_chapters) == 0):
         return
 
     # remove numbers in chapter title
     for number in number_chapters:
+        print(number)
         str_to_replace = number
         str_replacement = ""
         s = s.replace(str_to_replace, str_replacement) 
