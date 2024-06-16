@@ -1,13 +1,12 @@
 /* space chapter items */
 .chapter li>a {
     padding: 3px 10px 3px 10px;
-}
-
-/* make hyperlink easy to click on */
-.chapter li>a {
     display: block;
     width: 100%;
     height: 100%;
+}
+.chapter li.chapter-item {
+    margin-top: 0.2em;
 }
 /* chapters feedback on hover */
 .chapter li>a:hover {
