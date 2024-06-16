@@ -65,8 +65,8 @@
 
 ------
 
-* [About the project]()
+* [About the project](./about/about.md)
     * [Dev Team](./about/dev_team.md)
     * [Features and tests](./about/requirements.md)
-    * [Included assets](./about/included_assets.md)
+    * [Included assets]()
     * [Packages dependencies](./about/package_dependencies.md)
