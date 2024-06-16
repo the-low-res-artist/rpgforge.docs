@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Toggle the 'expanded' class on the clicked <li>
             parent.classList.toggle('expanded');
             // rotate the svg
-            event.target.toggle('nav-svg-rotate');
+            event.target.classList.toggle('nav-svg-rotate');
         }
     });
 });
