@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('nav').addEventListener('click', function(event) {
         // Check if the clicked element parent is an <li> with the desired classes
         var parent = event.target.parentElement
+        print(event.target)
         if (event.target.tagName == 'SVG' && 
             parent.tagName === 'LI' && 
             (parent.classList.contains('chapter-item') || 
