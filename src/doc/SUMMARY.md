@@ -62,7 +62,9 @@
     * [link_x]()
     * [link_trello]()
     * [link_youtube]()
+
 ------
+
 * [About the project](./about/dev_team.md)
     * [Dev Team](./about/dev_team.md)
     * [Features and tests](./about/requirements.md)
