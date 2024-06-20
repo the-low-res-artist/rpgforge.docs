@@ -1,0 +1,14 @@
+.last-update-page-container {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.last-update-page {
+    /* text */
+    font-style: italic;
+    font-size: small;
+    opacity: 50%;
+    /* box */
+    padding-top: 10px;
+}
