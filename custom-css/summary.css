@@ -35,6 +35,35 @@
     border-radius: 3px;
     color: white;
 }
+
+/* ----------------------------------------------------------------*/
+/* section open / close */
+/* section collapse cancel */
+.chapter li:not(.expanded) + li > ol {
+    display: block !important;
+}
+/* on open sections */
+.chapter li:not(.expanded) + li > ol {
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation: openAnimation 2s forwards;
+}
+@keyframes openAnimation {
+    0% { max-height: 0px !important; }
+    100% { max-height: 200px !important; }
+}
+/* on close sections */
+.chapter li.expanded + li > ol {
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation: closeAnimation 2s forwards;
+}
+@keyframes closeAnimation {
+    0% { max-height: 200px !important; }
+    100% { max-height: 0px !important; }
+    
+}
+
 /* ----------------------------------------------------------------*/
 /* icon spacing */
 /*.chapter li>svg {
