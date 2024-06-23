@@ -19,20 +19,19 @@
 /* ----------------------------------------------------------------*/
 /* chapters feedback */
 .chapter li.chapter-item {
-    color: white /* text color */
+    color: var(--sidebar-fg); /* text color */
 }
 /* chapters feedback on hover */
 .chapter li.chapter-item:hover {
     background-color: var(--table-header-bg);
     border-radius: 3px;
-    color: white /* text color */
+    color: var(--sidebar-fg); /* text color */
 }
 /* chapters feedback on active */
 .chapter li>a.active {
     background-color: var(--table-header-bg);
     border-radius: 3px;
     color: white;
-    font-weight: bold;
 }
 /* ----------------------------------------------------------------*/
 /* icon spacing */
