@@ -68,7 +68,7 @@ li.chapter-item.expanded + li:not([class]) {
 li.chapter-item:not(.expanded) + li:not([class]) {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation: closeAnimation 0.5s forwards;
+    animation: closeAnimation 2s forwards;
 }
 @keyframes closeAnimation {
     0% { height: 200px !important; }
