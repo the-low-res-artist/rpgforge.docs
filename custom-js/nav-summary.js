@@ -4,19 +4,22 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add a click event listener to the <nav> element
     document.querySelector('nav').addEventListener('click', function(event) {
         // Check if the clicked element parent is an <li> with the desired classes
-        var parent = event.target.parentElement
-        console.log("click the chevron")
-        if (event.target.tagName == 'svg' && 
+        var parent = event.target.parentElement;
+        console.log("click the chapter");
+        if ((event.target.tagName == 'svg' ||event.target.tagName == 'DIV') && 
             parent.tagName === 'LI' && 
-            (parent.classList.contains('chapter-item') || 
-            parent.classList.contains('part-title'))) {
-            console.log("toggle")
+            parent.classList.contains('chapter-item')) {
+            console.log("toggle section + chevron")
             // Toggle the 'expanded' class on the clicked <li>
             parent.classList.toggle('expanded');
             // rotate the svg
             event.target.classList.toggle('nav-svg-rotate-90');
             // trigger animation for the "section" block ?
-            
+        } else {
+            console.log("no toggle");
+            console.log(event.target.tagName);
+            console.log(parent.tagName);
+            console.log(parent.classList)
         }
     });
 });
