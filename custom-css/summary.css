@@ -17,8 +17,12 @@
 }
 
 /* ----------------------------------------------------------------*/
+/* chapters feedback */
+.chapter li.chapter-item {
+    color: white /* text color */
+}
 /* chapters feedback on hover */
-.chapter li>a:hover {
+.chapter li.chapter-item:hover {
     background-color: var(--table-header-bg);
     border-radius: 3px;
     color: white /* text color */
@@ -27,7 +31,20 @@
 .chapter li>a.active {
     background-color: var(--table-header-bg);
     border-radius: 3px;
+    color: white;
+    font-weight: bold;
 }
+/* ----------------------------------------------------------------*/
+/* icon spacing */
+/*.chapter li>svg {
+    padding: 3px 5px 3px 5px;;
+}*/
+/* icon feedback on hover */
+/*.chapter li>svg:hover {
+    background-color: var(--table-header-bg);
+    border-radius: 3px;
+    color: white 
+}*/
 /* ----------------------------------------------------------------*/
 /* chevron rotation on click */
 .nav-svg-rotate-0 {
@@ -37,43 +54,6 @@
 .nav-svg-rotate-90 {
     transform: rotate(0deg); /* Rotate the icon 180 degrees */
     transition: transform 0.3s ease; /* Add a smooth transition */
-}
-/* ----------------------------------------------------------------*/
-/* icon spacing */
-.chapter li>svg {
-    padding: 3px 5px 3px 5px;;
-    /*display: block;
-    width: 100%;
-    height: 100%;*/
-}
-/* icon feedback on hover */
-.chapter li>svg:hover {
-    background-color: var(--table-header-bg);
-    border-radius: 3px;
-    color: white /* text color */
-}
-/* ----------------------------------------------------------------*/
-/* on open sections */
-li.chapter-item.expanded + li:not([class]) > ol.section {
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation: openAnimation 2s forwards;
-}
-@keyframes openAnimation {
-    0% { height: 0%; }
-    100% { height: 100%; }
-}
-/* ----------------------------------------------------------------*/
-/* on close sections */
-li.chapter-item:not(.expanded) + li:not([class]) > ol.section {
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation: closeAnimation 2s forwards;
-}
-@keyframes closeAnimation {
-    0% { height: 100%; }
-    100% { height: 0%; }
-    
 }
 /* ----------------------------------------------------------------*/
 /* title and subtitle */
