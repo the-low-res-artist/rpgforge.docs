@@ -18,7 +18,7 @@
             * [Import Props](./user_manual/assets_management/assets_importer/import_props.md)
             * [Import Tilesets](./user_manual/assets_management/assets_importer/import_tiles.md)
         * [Assets Picker](./user_manual/assets_management/assets_picker/assets_picker.md)
-        * [Collections]
+        * [Collections]()
             * [Introduction](./user_manual/assets_management/collections/collections.md)
             * [Animations Collection](./user_manual/assets_management/collections/animations_collection.md)
             * [Props Collection](./user_manual/assets_management/collections/props_collection.md)
