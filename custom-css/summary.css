@@ -27,7 +27,7 @@
     background-color: var(--table-header-bg);
     border-radius: 3px;
     cursor: pointer;
-    padding-right: 5px; /* make sure the chevron is correctly covered
+    padding-right: 5px; /* make sure the chevron is correctly covered */
 }
 /* chapters feedback on active */
 .chapter li>a.active {
