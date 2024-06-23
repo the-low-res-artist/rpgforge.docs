@@ -57,17 +57,11 @@
 li.chapter-item.expanded + li:not([class]) {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation: openAnimation 0.5s forwards;
+    animation: openAnimation 2s forwards;
 }
 @keyframes openAnimation {
-    0% {
-        height: 0;
-        opacity: 0;
-    }
-    100% {
-        height: auto;
-        opacity: 1;
-    }
+    0% { height: 0px !important; }
+    100% { height: 200px !important; }
 }
 /* ----------------------------------------------------------------*/
 /* on close sections */
@@ -77,14 +71,9 @@ li.chapter-item:not(.expanded) + li:not([class]) {
     animation: closeAnimation 0.5s forwards;
 }
 @keyframes closeAnimation {
-    0% {
-        height: auto;
-        opacity: 1;
-    }
-    100% {
-        height: 0;
-        opacity: 0;
-    }
+    0% { height: 200px !important; }
+    100% { height: 0px !important; }
+    
 }
 /* ----------------------------------------------------------------*/
 /* title and subtitle */
