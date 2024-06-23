@@ -5,15 +5,18 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('nav').addEventListener('click', function(event) {
         // Check if the clicked element parent is an <li> with the desired classes
         var parent = event.target.parentElement
+        console.log("click the chevron")
         if (event.target.tagName == 'svg' && 
             parent.tagName === 'LI' && 
             (parent.classList.contains('chapter-item') || 
             parent.classList.contains('part-title'))) {
+            console.log("toggle")
             // Toggle the 'expanded' class on the clicked <li>
             parent.classList.toggle('expanded');
             // rotate the svg
             event.target.classList.toggle('nav-svg-rotate-90');
             // trigger animation for the "section" block ?
+            
         }
     });
 });
