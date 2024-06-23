@@ -28,6 +28,10 @@ document.addEventListener('DOMContentLoaded', function() {
             var svgElement = liElement.querySelector('svg');
             svgElement.classList.toggle('nav-svg-rotate-90');
             // trigger animation for the "section" block ?
+        } else {
+            console.log("fail to expand");
+            console.log("event target :");
+            console.log(event.target.tagName);
         }
     });
 });

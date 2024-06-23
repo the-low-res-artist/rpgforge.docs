@@ -5,7 +5,8 @@
     * [Install Unity](./installation/installation_unity.md)
     * [Download RPG Power Forge](./installation/download_rpg_power_forge.md)
     * [Create a new project](./installation/create_new_project.md)
-* [Getting started](./getting_started/lets_make_a_game.md)
+* [Getting started]()
+    * [Let's make a game](./getting_started/lets_make_a_game.md)
     * [2D top-down game]()
     * [2D sidescroller game]()
     * [3D game]()
@@ -17,7 +18,8 @@
             * [Import Props](./user_manual/assets_management/assets_importer/import_props.md)
             * [Import Tilesets](./user_manual/assets_management/assets_importer/import_tiles.md)
         * [Assets Picker](./user_manual/assets_management/assets_picker/assets_picker.md)
-        * [Collections](./user_manual/assets_management/collections/collections.md)
+        * [Collections]
+            * [Introduction](./user_manual/assets_management/collections/collections.md)
             * [Animations Collection](./user_manual/assets_management/collections/animations_collection.md)
             * [Props Collection](./user_manual/assets_management/collections/props_collection.md)
             * [Tiles Collection](./user_manual/assets_management/collections/tiles_collection.md)
@@ -62,10 +64,7 @@
     * [link_x]()
     * [link_trello]()
     * [link_youtube]()
-
-------
-
-* [About the project](./about/about.md)
+* [About the project]()
     * [Dev Team](./about/dev_team.md)
     * [Features and tests](./about/requirements.md)
     * [Included assets]()
