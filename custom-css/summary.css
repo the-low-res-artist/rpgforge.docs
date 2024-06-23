@@ -54,7 +54,7 @@
 }
 /* ----------------------------------------------------------------*/
 /* on open sections */
-li.chapter-item.expanded + li:not([class]) {
+li.chapter-item.expanded + li:not([class]) > ol.section {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation: openAnimation 2s forwards;
@@ -65,7 +65,7 @@ li.chapter-item.expanded + li:not([class]) {
 }
 /* ----------------------------------------------------------------*/
 /* on close sections */
-li.chapter-item:not(.expanded) + li:not([class]) {
+li.chapter-item:not(.expanded) + li:not([class]) > ol.section {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation: closeAnimation 2s forwards;
