@@ -6,20 +6,28 @@ document.addEventListener('DOMContentLoaded', function() {
         // Check if the clicked element parent is an <li> with the desired classes
         var parent = event.target.parentElement;
         console.log("click the chapter");
-        if ((event.target.tagName == 'svg' ||event.target.tagName == 'DIV') && 
+        if (((event.target.tagName == 'svg' ||event.target.tagName == 'DIV') && 
             parent.tagName === 'LI' && 
-            parent.classList.contains('chapter-item')) {
+            parent.classList.contains('chapter-item')) ||
+            (event.target.tagName === 'LI' && 
+            event.target.classList.contains('chapter-item'))) {
             console.log("toggle section + chevron")
+            var liElement = null;
+            // click li itself
+            if (event.target.tagName == 'LI') {
+                console.log("click LI itself")
+                liElement = event.target;
+            // click li children
+            } else {
+                console.log("click LI children")
+                liElement = parent;
+            }
             // Toggle the 'expanded' class on the clicked <li>
-            parent.classList.toggle('expanded');
+            liElement.classList.toggle('expanded');
             // rotate the svg
-            event.target.classList.toggle('nav-svg-rotate-90');
+            var svgElement = liElement.querySelector('svg');
+            svgElement.classList.toggle('nav-svg-rotate-90');
             // trigger animation for the "section" block ?
-        } else {
-            console.log("no toggle");
-            console.log(event.target.tagName);
-            console.log(parent.tagName);
-            console.log(parent.classList)
         }
     });
 });
