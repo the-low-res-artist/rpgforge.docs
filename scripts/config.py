@@ -11,6 +11,7 @@ class config:
     # =============================================================================
     # variables to replace in md files
     md_variables = {
+        "VAR_UNITY_HUB_MIN_VERSION" : "3.8",
         "VAR_UNITY_MIN_VERSION" : "2022.3.34",
         "VAR_RPF_RECOMMENDED_VERSION" : "0.3.0",
     }

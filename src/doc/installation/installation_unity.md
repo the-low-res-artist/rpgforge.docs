@@ -11,7 +11,7 @@ This section is up-to-date with Unity 2022.3 !
 ## Recommendations
 Software | Version |
 --- | --- 
-Unity Hub | at least **3.4**
+Unity Hub | at least **VAR_UNITY_HUB_MIN_VERSION**
 Unity Editor | at least **VAR_UNITY_MIN_VERSION**
 
 ```admonish warning title="Follow the above recommendations"
