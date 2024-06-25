@@ -8,8 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
         var grandparent = parent.parentElement;
         console.log("click the chapter");
         if (((event.target.tagName == 'path' || event.target.tagName == 'svg' || event.target.tagName == 'DIV') && 
-            parent.tagName === 'LI' && 
-            parent.classList.contains('chapter-item')) ||
+            ((parent.tagName === 'LI' && 
+            parent.classList.contains('chapter-item')) || 
+            (grandparent.tagName === 'LI' && 
+            grandparent.classList.contains('chapter-item')))) ||
             (event.target.tagName === 'LI' && 
             event.target.classList.contains('chapter-item'))) {
             console.log("toggle section + chevron")
