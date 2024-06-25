@@ -5,8 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('nav').addEventListener('click', function(event) {
         // Check if the clicked element parent is an <li> with the desired classes
         var parent = event.target.parentElement;
+        var grandparent = parent.parentElement;
         console.log("click the chapter");
-        if (((event.target.tagName == 'svg' ||event.target.tagName == 'DIV') && 
+        if (((event.target.tagName == 'path' || event.target.tagName == 'svg' || event.target.tagName == 'DIV') && 
             parent.tagName === 'LI' && 
             parent.classList.contains('chapter-item')) ||
             (event.target.tagName === 'LI' && 
@@ -17,6 +18,10 @@ document.addEventListener('DOMContentLoaded', function() {
             if (event.target.tagName == 'LI') {
                 console.log("click LI itself")
                 liElement = event.target;
+            // click li grand children
+            } else if (event.target.tagName == 'path') {
+                console.log("click LI grand children")
+                liElement = grandparent;
             // click li children
             } else {
                 console.log("click LI children")
