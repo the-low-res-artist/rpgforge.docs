@@ -39,24 +39,24 @@
 /* ----------------------------------------------------------------*/
 /* section open / close */
 /* section collapse cancel */
-.chapter li:not(.expanded) + li > ol {
+/*.chapter li:not(.expanded) + li > ol {
     display: block !important;
     pointer-events: none;
-}
+}*/
 /* on open sections */
-.chapter li.expanded + li > ol {
+/*.chapter li.expanded + li > ol {
     max-height: 500px;
     transition: max-height 0.4s ease-in;
     opacity: 255;
     transition: opacity 0.4s ease-in;
-}
+}*/
 /* on close sections */
-.chapter li:not(.expanded) + li > ol {
+/*.chapter li:not(.expanded) + li > ol {
     max-height: 0px;
     transition: max-height 0.4s ease-in;
     opacity: 0;
     transition: opacity 0.4s ease-in;
-}
+}*/
 
 /* ----------------------------------------------------------------*/
 /* icon spacing */
