@@ -49,11 +49,11 @@ def set_nav_summary(filename):
             li['class'] = li_classes
         # Filter the list items based on the condition (next sibling is also <li> without class)
         sigling_li = li.find_next_sibling('li')
-        if sigling_li:
-            if len(sigling_li.get('class', [])) == 0:
-                filtered_li.append(li)
+        if sigling_li and len(sigling_li.get('class', [])) == 0:
+            filtered_li.append(li)
     # Iterate over each <li> element and prepend the SVG icon
     for li in filtered_li:
+        print("append svg")
         li.append(svg_tag)
 
 
@@ -62,25 +62,20 @@ def set_nav_summary(filename):
 
     # iterate over parents (li elements) and add the class "expanded" to open them
     if a_element:
-        print(f"a_element : {a_element}")
         # Traverse up to all parent <li> elements and add the 'expanded' class
         parent_li = a_element.find_parent('li')
         while parent_li:
             existing_classes = parent_li.get('class', [])
-            print(f"parent_li : {parent_li}")
-            print(f"existing_classes : {existing_classes}")
             # found ("no class" li = current section)
             if existing_classes is None:
                 # get above sibling => li which hold the chevron element (svg)
                 # force section open ("expanded" class to li)
                 sigling_li = parent_li.find_previous_sibling('li')
                 if sigling_li:
-                    print(f"sigling_li : {sigling_li}")
                     sigling_li['class'].append('expanded')
                     # force chevron open
                     chevron_svg = sigling_li.find('svg', recursive=False)
                     if chevron_svg:
-                        print(f"chevron_svg : {chevron_svg}")
                         chevron_svg['class'].append('nav-svg-rotate-90')
             # find next parent
             parent_li = parent_li.find_parent('li')
