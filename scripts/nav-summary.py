@@ -44,7 +44,6 @@ def set_nav_summary(filename):
     for li in all_li:
         # (for all li) remove the expanded class if any
         li_classes = li.get('class', [])
-        print(li_classes)
         if 'expanded' in li_classes:
             li_classes.remove('expanded')
             li['class'] = li_classes
@@ -53,7 +52,6 @@ def set_nav_summary(filename):
         if sigling_li:
             if len(sigling_li.get('class', [])) == 0:
                 filtered_li.append(li)
-    exit
     # Iterate over each <li> element and prepend the SVG icon
     for li in filtered_li:
         li.append(svg_tag)
