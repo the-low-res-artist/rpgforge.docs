@@ -39,6 +39,10 @@ def set_nav_summary(filename):
     svg_tag = BeautifulSoup(string_svg, 'html.parser').svg
 
     all_li = soup.find('nav').find_all('li')
+
+    print(all_li)
+    os.exit(1)
+
     filtered_li = []
     for li in all_li:
         # (for all li) remove the expanded class if any
