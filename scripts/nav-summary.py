@@ -3,6 +3,7 @@ import sys # to return 0
 import os # loop over files
 import shutil # move files
 import time # measure duration
+from bs4 import BeautifulSoup # manage html file to add/remove classes to elements
 
 # goal : update the navigation summary on each html page
 
@@ -23,15 +24,29 @@ def set_nav_summary(filename):
 
     # get the chapters in the nav section
     number_chapters = re.findall(NUMBER_CHAPTER_REGEX, s)
-    # safe exit
-    if (len(number_chapters) == 0):
-        return
-
     # remove numbers in chapter title
     for number in number_chapters:
         str_to_replace = number[0] # first element of the regex tuple
         str_replacement = ""
-        s = s.replace(str_to_replace, str_replacement) 
+        s = s.replace(str_to_replace, str_replacement)
+
+    # open the nav for the current page 
+    # convert the string to a xml structure
+    soup = BeautifulSoup(s, 'lxml')
+
+    # find the <a> element (current page active in nav bar)
+    a_element = soup.find('a', class_="active")
+
+    # iterate over parents (li elements)
+    if a_element:
+        # Traverse up to all parent <li> elements and add the 'expanded' class
+        parent_li = a_element.find_parent('li', class_="chapter-item")
+        while parent_li:
+            parent_li['class'].append('expanded')
+            parent_li = parent_li.find_parent('li', class_="chapter-item")
+
+    # convert the html back to a string
+    s = str(soup)
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
