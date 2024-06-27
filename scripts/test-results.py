@@ -146,13 +146,13 @@ Host OS|{get_result(results_data, 'host_OS')}\n\
 Host spec|{get_result(results_data, 'host_spec')}\n\
 Date|{get_result(results_data, 'date')}\n\
 \n\
-## Tests results\n\
+## Tests results (per feature)\n\
 \n\
 Feature|Passed ✔️|Failed ❌|Not tested yet...\n\
 ---|---|---|---\n\
 {results_by_feature}\n\
 \n\
-## Requirements details\n\
+## Tests results (per requirement)\n\
 \n\
 {results_details}\n"
 

@@ -20,7 +20,7 @@ def set_last_update(filename):
 
     # update the nav section (chapters)
     str_to_replace = "</main>"
-    str_replacement = "<div class=\"last-update-page-container\"><div class=\"last-update-page\">Last update : Monday 20th December 2024</div></div></main>"
+    str_replacement = "</main><div class=\"last-update-page-container\"><div class=\"last-update-page\">Last update : Monday 20th December 2024</div></div>"
     s = s.replace(str_to_replace, str_replacement) 
 
     # Safely write the changed content

@@ -104,7 +104,8 @@ python3 -m footer.py || true
 python3 -m join-community.py || true
 # update behavior tags
 python3 -m behavior_tags.py || true
-
+# udate last date at the bottom of each page
+python3 -m last-update-page.py || true
 # HERO PAGE ADDITION HERE
 # add hero page
 cp ${root_dir}/resources/hero.html ${root_dir}/book/index.html
