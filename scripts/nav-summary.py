@@ -36,7 +36,6 @@ def set_nav_summary(filename):
 
     # iterate over the xml and add chevron (svg element)
     string_svg = '<svg class="icon nav-svg-rotate-0" viewBox="0 0 512 512" width="20px" height="20px"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" fill="currentColor"></path></svg>'
-    svg_tag = BeautifulSoup(string_svg, 'html.parser').svg
 
     all_li = soup.find('nav').find_all('li')
     for li in all_li:
@@ -48,16 +47,18 @@ def set_nav_summary(filename):
         # Filter the list items based on the condition (next sibling is also <li> without class)
         sigling_li = li.find_next_sibling('li')
         if sigling_li and len(sigling_li.get('class', [])) == 0:
+            # instanciate the svg each tiem to create a deep copy
             li.append(BeautifulSoup(string_svg, 'html.parser').svg)
 
     # find the <a> element (current page active in nav bar)
     a_element = soup.find('a', class_="active")
-
+    print(f"a element : {a_element}")
     # iterate over parents (li elements) and add the class "expanded" to open them
     if a_element:
         # Traverse up to all parent <li> elements and add the 'expanded' class
         parent_li = a_element.find_parent('li')
         while parent_li:
+            print(f"parent_li : {parent_li}")
             existing_classes = parent_li.get('class', [])
             # found ("no class" li = current section)
             if existing_classes is None:
@@ -65,10 +66,12 @@ def set_nav_summary(filename):
                 # force section open ("expanded" class to li)
                 sigling_li = parent_li.find_previous_sibling('li')
                 if sigling_li:
+                    print(f"sigling_li : {sigling_li}")
                     sigling_li['class'].append('expanded')
                     # force chevron open
                     chevron_svg = sigling_li.find('svg', recursive=False)
                     if chevron_svg:
+                        print(f"chevron_svg : {chevron_svg}")
                         chevron_svg['class'].append('nav-svg-rotate-90')
             # find next parent
             parent_li = parent_li.find_parent('li')
