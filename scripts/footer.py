@@ -28,7 +28,7 @@ def set_footer(filename):
     <p>Copyright © {datetime.now().year} RPG Power Forge<br>\
     \"RPG Power Forge\" is a trademark.<br>\
     Other names or brands are trademarks of their respective owners.</p>\
-    <p>Last update : {datetime.strftime(f'%A %d %B %Y')}</p>"
+    <p>Last update : {datetime.now().strftime(f'%A %d %B %Y')}</p>"
 
     str_to_replace="<nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
     str_replacement=f"<div class=\"footer-container\"><div class=\"footer-text\">{footer}</div></div><nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
