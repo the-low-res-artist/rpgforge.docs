@@ -40,13 +40,11 @@ def set_nav_summary(filename):
 
     all_li = soup.find('nav').find_all('li')
 
-    print(all_li)
-    return
-
     filtered_li = []
     for li in all_li:
         # (for all li) remove the expanded class if any
         li_classes = li.get('class', [])
+        print(li_classes)
         if 'expanded' in li_classes:
             li['class'] = li_classes.remove('expanded')
         # Filter the list items based on the condition (next sibling is also <li> without class)
@@ -54,7 +52,7 @@ def set_nav_summary(filename):
         if sigling_li:
             if len(sigling_li.get('class', [])) == 0:
                 filtered_li.append(li)
-    
+    exit
     # Iterate over each <li> element and prepend the SVG icon
     for li in filtered_li:
         li.append(svg_tag)
