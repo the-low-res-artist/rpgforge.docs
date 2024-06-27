@@ -47,8 +47,8 @@ def set_nav_summary(filename):
             li['class'] = li_classes
         # Filter the list items based on the condition (next sibling is also <li> without class)
         sigling_li = li.find_next_sibling('li')
-        #if sigling_li and len(sigling_li.get('class', [])) == 0:
-        #    li.append(svg_tag)
+        if sigling_li and len(sigling_li.get('class', [])) == 0:
+            li.append(BeautifulSoup(string_svg, 'html.parser').svg)
 
     # find the <a> element (current page active in nav bar)
     a_element = soup.find('a', class_="active")
