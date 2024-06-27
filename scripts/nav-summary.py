@@ -3,6 +3,7 @@ import sys # to return 0
 import os # loop over files
 import shutil # move files
 import time # measure duration
+from bs4 import BeautifulSoup # manage html file to add/remove classes to elements
 
 # goal : update the navigation summary on each html page
 
@@ -28,6 +29,60 @@ def set_nav_summary(filename):
         str_to_replace = number[0] # first element of the regex tuple
         str_replacement = ""
         s = s.replace(str_to_replace, str_replacement)
+
+    # open the nav for the current page 
+    # convert the string to a xml structure
+    soup = BeautifulSoup(s, 'lxml')
+
+    # iterate over the xml and add chevron (svg element)
+    string_svg = '<svg class="icon nav-svg-rotate-0" viewBox="0 0 512 512" width="20px" height="20px"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" fill="currentColor"></path></svg>'
+    svg_tag = BeautifulSoup(string_svg, 'html.parser').svg
+
+    all_li = soup.find('nav').find_all('li')
+    filtered_li = []
+    for li in all_li:
+        # (for all li) remove the expanded class if any
+        li['class'] = li.get('class', []).remove('expanded')
+        # Filter the list items based on the condition (next sibling is also <li> without class)
+        sigling_li = li.find_next_sibling('li')
+        if sigling_li and len(sigling_li['class']) == 0:
+            filtered_li(li)
+    
+    # Iterate over each <li> element and prepend the SVG icon
+    for li in filtered_li:
+        li.append(svg_tag)
+
+
+    # find the <a> element (current page active in nav bar)
+    a_element = soup.find('a', class_="active")
+
+    # iterate over parents (li elements) and add the class "expanded" to open them
+    if a_element:
+        print(f"a_element : {a_element}")
+        # Traverse up to all parent <li> elements and add the 'expanded' class
+        parent_li = a_element.find_parent('li')
+        while parent_li:
+            existing_classes = parent_li.get('class', [])
+            print(f"parent_li : {parent_li}")
+            print(f"existing_classes : {existing_classes}")
+            # found ("no class" li = current section)
+            if len(existing_classes) == 0:
+                # get above sibling => li which hold the chevron element (svg)
+                # force section open ("expanded" class to li)
+                sigling_li = parent_li.find_previous_sibling('li')
+                if sigling_li:
+                    print(f"sigling_li : {sigling_li}")
+                    sigling_li['class'].append('expanded')
+                    # force chevron open
+                    chevron_svg = sigling_li.find('svg', recursive=False)
+                    if chevron_svg:
+                        print(f"chevron_svg : {chevron_svg}")
+                        chevron_svg['class'].append('nav-svg-rotate-90')
+            # find next parent
+            parent_li = parent_li.find_parent('li')
+
+    # convert the html back to a string
+    s = str(soup)
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
