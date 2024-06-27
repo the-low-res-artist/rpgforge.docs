@@ -8,9 +8,6 @@
 # build depuis la machine ubuntu pour faire des build test en local
 # créer la version francaise et tester la redirection de langue (la page doit exister, obligatoire)
 
-#installation des packages requis
-python3 -m pip install beautifulsoup4 lxml --no-input
-
 # ---------------------------------------------------------------
 # variables declaration
 root_dir=${PWD}
