@@ -40,11 +40,21 @@ def set_nav_summary(filename):
     # iterate over parents (li elements)
     if a_element:
         # Traverse up to all parent <li> elements and add the 'expanded' class
-        parent_li = a_element.find_parent('li', class_="chapter-item")
+        parent_li = a_element.find_parent('li')
         while parent_li:
-            parent_li['class'].append('expanded')
-            parent_li = parent_li.find_parent('li', class_="chapter-item")
-
+            existing_classes = parent_li.get('class', [])
+            # found (no class li = current root section)
+            if len(existing_classes) == 0:
+                # get above sibling = li which hold the chevron element (svg)
+                # force section open
+                sigling_li = parent_li.find_previous_sibling('li')
+                sigling_li['class'].append('expanded')
+                # force chevron open
+                chevron_svg = sigling_li.find('svg', recursive=False)
+                chevron_svg['class'].append('nav-svg-rotate-90')
+            # find next parent
+            parent_li = parent_li.find_parent('li')
+            
     # convert the html back to a string
     s = str(soup)
 
