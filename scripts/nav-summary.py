@@ -45,8 +45,9 @@ def set_nav_summary(filename):
         li['class'] = li.get('class', []).remove('expanded')
         # Filter the list items based on the condition (next sibling is also <li> without class)
         sigling_li = li.find_next_sibling('li')
-        if sigling_li and len(sigling_li['class']) == 0:
-            filtered_li(li)
+        if sigling_li:
+            if len(sigling_li.get('class', [])) == 0:
+                filtered_li.append(li)
     
     # Iterate over each <li> element and prepend the SVG icon
     for li in filtered_li:
