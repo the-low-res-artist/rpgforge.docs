@@ -77,8 +77,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Iterate over each <li> element and remove expanded class
     listItems.forEach(li => {
-        const clonedIcon = svgIcon.cloneNode(true); // Clone the SVG icon to avoid multiple references
-        li.appendChild(clonedIcon); // Prepend icon to the <li> element
         // toggle visibility
         li.classList.remove('expanded');
     });
@@ -86,10 +84,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // expand only the correct li (parents of current page)
     // Find <a> element with class 'active' descendant of <nav>
     var a_active = document.querySelector('nav a.active');
+    // get the li section (grand grand parent)
     var li_section = a_active.parentElement.parentElement.parentElement;
-    var li_sibling = li_section.previousElementSibling;
-    li_sibling.classList.add("expanded")
-    // open chevron
-    var svg = li_sibling.querySelector('svg');
-    svg.classList.add('nav-svg-rotate-90');
+    // iterate until there is no more li grand parent section to open
+    while (li_section && li_section.tagName === 'LI') {    
+        var li_sibling = li_section.previousElementSibling;
+        li_sibling.classList.add("expanded")
+        // open chevron
+        var svg = li_sibling.querySelector('svg');
+        svg.classList.add('nav-svg-rotate-90');
+        // next li grand parent
+        li_section = li_section.parentElement.parentElement;
+    }
 });
