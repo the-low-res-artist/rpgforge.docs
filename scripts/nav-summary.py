@@ -48,13 +48,15 @@ def set_nav_summary(filename):
                 # get above sibling = li which hold the chevron element (svg)
                 # force section open
                 sigling_li = parent_li.find_previous_sibling('li')
-                sigling_li['class'].append('expanded')
-                # force chevron open
-                chevron_svg = sigling_li.find('svg', recursive=False)
-                chevron_svg['class'].append('nav-svg-rotate-90')
+                if sigling_li:
+                    sigling_li['class'].append('expanded')
+                    # force chevron open
+                    chevron_svg = sigling_li.find('svg', recursive=False)
+                    if chevron_svg:
+                        chevron_svg['class'].append('nav-svg-rotate-90')
             # find next parent
             parent_li = parent_li.find_parent('li')
-            
+
     # convert the html back to a string
     s = str(soup)
 
