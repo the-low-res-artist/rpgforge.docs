@@ -22,7 +22,7 @@ def set_js(filename):
     js_link = ""
     for root, dirs, files in os.walk("./../custom-js"):
         for file in files:
-            js_link += f"<script src=\"custom-js/{file}\" type=\"text/javascript\" charset=\"utf-8\"></script>"
+            js_link += f"<script src=\"custom-js/{file}\" type=\"text/javascript\" charset=\"utf-8\" defer></script>"
     
     str_to_replace = "<!-- Custom JS scripts -->"
     str_replacement = f"<!-- Custom JS scripts -->{js_link}"
