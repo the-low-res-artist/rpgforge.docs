@@ -73,10 +73,23 @@ document.addEventListener('DOMContentLoaded', function() {
     filteredListItems.forEach(li => {
         const clonedIcon = svgIcon.cloneNode(true); // Clone the SVG icon to avoid multiple references
         li.appendChild(clonedIcon); // Prepend icon to the <li> element
-        // toggle visibility
-        li.classList.toggle('expanded');
     });
-});
 
-// Fix back button cache problem
-/*window.onunload = function () { };*/
+    // Iterate over each <li> element and remove expanded class
+    listItems.forEach(li => {
+        const clonedIcon = svgIcon.cloneNode(true); // Clone the SVG icon to avoid multiple references
+        li.appendChild(clonedIcon); // Prepend icon to the <li> element
+        // toggle visibility
+        li.classList.remove('expanded');
+    });
+
+    // expand only the correct li (parents of current page)
+    // Find <a> element with class 'active' descendant of <nav>
+    var a_active = document.querySelector('nav a.active');
+    var li_section = a_active.parentElement.parentElement.parentElement;
+    var li_sibling = li_section.previousElementSibling;
+    li_sibling.classList.add("expanded")
+    // open chevron
+    var svg = li_sibling.querySelector('svg');
+    svg.classList.add('nav-svg-rotate-90');
+});
