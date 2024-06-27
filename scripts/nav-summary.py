@@ -46,7 +46,8 @@ def set_nav_summary(filename):
         li_classes = li.get('class', [])
         print(li_classes)
         if 'expanded' in li_classes:
-            li['class'] = li_classes.remove('expanded')
+            li_classes.remove('expanded')
+            li['class'] = li_classes
         # Filter the list items based on the condition (next sibling is also <li> without class)
         sigling_li = li.find_next_sibling('li')
         if sigling_li:
