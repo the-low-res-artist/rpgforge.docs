@@ -27,7 +27,7 @@ def set_footer(filename):
     footer=f"<p>{discord_link} {x_link} {trello_link} {youtube_link}</p>\
     <p>Copyright © {datetime.now().year} RPG Power Forge<br>\
     \"RPG Power Forge\" is a trademark.<br>\
-    Other names or brands are trademarks of their respective owners.</p>
+    Other names or brands are trademarks of their respective owners.</p>\
     <p>Last update : {datetime.now()}</p>"
 
     str_to_replace="<nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
