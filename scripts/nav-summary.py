@@ -41,7 +41,7 @@ def set_nav_summary(filename):
     all_li = soup.find('nav').find_all('li')
 
     print(all_li)
-    os.exit(1)
+    return
 
     filtered_li = []
     for li in all_li:
