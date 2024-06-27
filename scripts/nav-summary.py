@@ -61,7 +61,7 @@ def set_nav_summary(filename):
             print(f"parent_li : {parent_li}")
             existing_classes = parent_li.get('class', [])
             # found ("no class" li = current section)
-            if existing_classes is None:
+            if len(existing_classes) == 0:
                 # get above sibling => li which hold the chevron element (svg)
                 # force section open ("expanded" class to li)
                 sigling_li = parent_li.find_previous_sibling('li')
