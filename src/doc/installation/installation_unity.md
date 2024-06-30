@@ -40,7 +40,7 @@ Then [[select "Install Editor"]] :
 
 ![install_editor_button.png](./../../../../media/download/install_editor_button.png)
 
-[[Select Unity VAR_UNITY_SHORT_MIN_VERSION]] (recommended version). In this example, this is the version 2022.3.15f1 :
+[[Select Unity VAR_UNITY_SHORT_MIN_VERSION]] (recommended version) :
 
 ![install_unity_version.png](./../../../../media/download/install_unity_version.png)
 

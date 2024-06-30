@@ -3,7 +3,7 @@
 This section covers the download and installation process for the Unity Editor package : RPG Power Forge.
 
 ```admonish warning title="Working on it..."
-RPG Power Forge download will be open early 2024 !
+RPG Power Forge download will be open in 2024 !
 ```
 
 ## Summary

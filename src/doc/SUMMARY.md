@@ -45,7 +45,7 @@
                 * [Idle](./user_manual/game_mecanics/behaviors/behavior_list/move/behavior_idle.md)
     * [Data management]()
         * [Database]()
-        * [Scene Linker](./user_manual/data_management/scene_linker.md)
+        * [Scene Connection](./user_manual/data_management/scene_connection.md)
         * [Project settings]()
         * [Properties](./user_manual/data_management/properties.md)
         * [Stats](./user_manual/data_management/stats_management.md)
