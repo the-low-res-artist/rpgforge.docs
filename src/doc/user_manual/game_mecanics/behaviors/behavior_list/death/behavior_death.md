@@ -1,26 +1,31 @@
-# Death Behavior
+# ![behavior_icon.png](../../../../../../../media/user_manual/game_mecanics/behaviors/icons/Death.png) Death Behavior
 (<( behavior )><( death )><( dead )><( hit )><( killed )><( end )><( game over )>)
-This section covers the RPG Power Forge feature Behavior : Attack  !
+This section covers the RPG Power Forge feature Behavior : Death !
 
-```admonish warning title="Working, working ..."
-This section is in work-in-progress
+```admonish success title="Oh yeah"
+This section is up-to-date !
 ```
 
 ## Summary
 
 ## Behavior definition
 ```admonish summary title="Death Behavior"
-The Death Behavior enable the Actor to die.
+The Death Behavior allows the Actor to die (bye-bye).
 ```
 
 ## Behavior categorie
-
-## Behavior overview
+The Death Behavior is under the Death Behavior category (surprisingly).
 
 ## Behavior sections
 
 ### Condition
+{{ #include ./../common/condition.md }}
 
 ### Animations
+{{ #include ./../common/animation.md }}
 
-#### Death
+Here is the list of the available Animations for the current Behavior :
+
+Parameter |Definition
+---|---
+Death|Animation played when the Actor dies

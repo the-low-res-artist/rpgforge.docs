@@ -1,9 +1,9 @@
-# Projectile Behavior
+# ![behavior_icon.png](../../../../../../../media/user_manual/game_mecanics/behaviors/icons/Projectile.png) Projectile Behavior
 (<( behavior )><( projectile )><( ranged )><( ammo )><( throw )><( yeet )>)
 This section covers the RPG Power Forge feature Behavior : Projectile !
 
-```admonish warning title="Working, working ..."
-This section is in work-in-progress
+```admonish success title="Oh yeah"
+This section is up-to-date !
 ```
 
 ## Summary
@@ -14,19 +14,26 @@ The Projectile Behavior transform the Actor into a Projectile to be launched wit
 ```
 
 ## Behavior categorie
+The Projectile Behavior is under the Projectile Behavior category.
+
+```admonish question title="Why don't I see this category in the Behavior list ?"
+The Projectile behavior is attached to a Projectile Actor, which can be created with the [Create Actor](./../../../actor_creation/actor_creation.md) feature !
+```
 
 ## Behavior overview
-
+The Projectile behavior allows an Actor to be used as a projectile by the [Shoot behavior](./../ranged/behavior_shoot.md).
 ## Behavior sections
 
 ### Condition
-
+{{ #include ./../common/condition.md }}
 ### Animations
+{{ #include ./../common/animation.md }}
 
-#### Move
+Here is the list of the available Animations for the current Behavior :
 
-#### Hit
-
-#### Block
-
-#### Recycle
+Parameter |Definition
+---|---
+Move|Animation played while the projectile is alive
+Hit|Animation played when the projectile hit a target
+Block|Animation played when the projectile is blocked by a target
+Recycle|Animation played when the projectile dies

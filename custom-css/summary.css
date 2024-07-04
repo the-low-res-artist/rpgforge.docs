@@ -34,6 +34,7 @@
     background-color: var(--table-header-bg);
     border-radius: 3px;
     color: white;
+    margin-right: -4px; /* fix small gap with the container */
 }
 /* section feedback */
 .section {
