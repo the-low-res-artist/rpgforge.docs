@@ -66,6 +66,15 @@ RPG Power Forge package is installing ! Unity will restart upon completion.
 
 ![import_loading_2.png](./../../../../media/new_project/import_loading_2.png)
 
+## Unity Editor recommendations
+
+For an optimal gamedev experience (especially on laptops), we recommend the following settings for the Unity Editor :
+
+ * Edit > Preferences > General > Interation Mode : **Monitor Refresh Rate**
+
+![import_loading_2.png](./../../../media/new_project/unity_ref_settings.png)
+
+
 ## Congratulations
 
 Well done, Unity Editor now has RPG Power Forge installed !

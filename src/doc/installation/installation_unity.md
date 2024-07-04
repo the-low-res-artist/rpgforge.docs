@@ -59,31 +59,21 @@ This package allows Unity to build WebGL projects, which is used to publish game
 
 ![install_webgl.png](./../../../../media/download/install_webgl.png)
 
+#### Visual Studio Community (optional)
+
+Visual Studio Community Edition serves as an integrated development environment (IDE) for writing and editing code when working on Unity projects. [[Select the package "Microsoft Visual Studio Community"]] :
+
+![install_webgl.png](./../../../media/download/install_visual_studio.png)
+
 ### Start the Unity installation
 
 Once you have chosen your packages, [[select "Install"]] :
 
 ![install_progress.png](./../../../../media/download/install_unity_with_packages.png)
 
-If asked, please accept the Visual Studio 2022 Community Licence Terms. [[Check the box]] and [[select "Install"]]:
-
-![licence_accept.png](./../../../../media/download/licence_accept.png)
-
 You can now see the download and installation progress in the Unity Hub left panel.
 
 ![install_progress.png](./../../../../media/download/install_progress.png)
-
-### Install Visual Studio Community (optional)
-
-During the installation process, Visual Studio Community will install automatically.
-
-```admonish summary title="Visual Studio Community"
-Visual Studio Community is a powerful developer tool that you can use to write, edit, debug, and build code in your Unity projects. The installation is not mandatory but recommended for a better gamedev experience.
-```
-
-The installation will happend in a dedicated window. You may be asked to restart your computer at the end of the process.
-
-![visual_install.png](./../../../../media/download/visual_install.png)
 
 ## Congratulations
 
