@@ -13,11 +13,7 @@ The Projectile Behavior transform the Actor into a Projectile to be launched wit
 ```
 
 ## Behavior categorie
-The Projectile Behavior is under the Projectile Behavior category.
-
-```admonish question title="Why don't I see this category in the Behavior list ?"
-The Projectile behavior is attached to a Projectile Actor, which can be created with the [Create Actor](./../../../actor_creation/actor_creation.md) feature !
-```
+The Projectile Behavior is under the Attack Behavior category.
 
 ## Behavior overview
 The Projectile behavior allows an Actor to be used as a projectile by the [Shoot behavior](./../ranged/behavior_shoot.md).
