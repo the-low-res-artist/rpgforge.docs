@@ -1,5 +1,4 @@
 # Shoot Behavior
-(<( behavior )><( shoot )><( ranged )><( projectile )><( bow )><( gun )><( hit )><( shot )>)
 This section covers the RPG Power Forge feature Behavior : Shoot !
 
 ```admonish warning title="Working, working ..."

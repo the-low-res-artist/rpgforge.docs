@@ -1,5 +1,4 @@
 # ![behavior_icon.png](../../../../../../../media/user_manual/game_mecanics/behaviors/icons/Recycle.png) Recycle Behavior
-(<( behavior )><( death )><( recycle )><( economy )><( optimisation )>)
 This section covers the RPG Power Forge feature Behavior : Recycle !
 
 ```admonish success title="Oh yeah"

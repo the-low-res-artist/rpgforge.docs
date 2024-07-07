@@ -1,5 +1,4 @@
 # ![behavior_icon.png](../../../../../../../media/user_manual/game_mecanics/behaviors/icons/Block.png) Block Behavior
-(<( behavior )><( block )><( shield )><( counter )><( defense )>)
 This section covers the RPG Power Forge feature Behavior : Block !
 
 ```admonish success title="Oh yeah"

@@ -1,5 +1,4 @@
 # ![behavior_icon.png](../../../../../../../../media/user_manual/game_mecanics/behaviors/icons/Attack.png) Attack Behavior
-(<( behavior )><( attack )><( melee )><( weapon )><( sword )><( hammer )><( hit )><( slash )>)
 This section covers the RPG Power Forge feature Behavior : Attack !
 
 ```admonish success title="Oh yeah"

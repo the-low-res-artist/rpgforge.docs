@@ -1,5 +1,4 @@
 # Player Move Behavior
-(<( behavior )><( player )><( move )><( direction )><( step )>)
 This section covers the RPG Power Forge feature Behavior : Player Move !
 
 ```admonish warning title="Working, working ..."

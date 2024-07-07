@@ -1,5 +1,4 @@
 # ![behavior_icon.png](../../../../../../../media/user_manual/game_mecanics/behaviors/icons/Projectile.png) Projectile Behavior
-(<( behavior )><( projectile )><( ranged )><( ammo )><( throw )><( yeet )>)
 This section covers the RPG Power Forge feature Behavior : Projectile !
 
 ```admonish success title="Oh yeah"

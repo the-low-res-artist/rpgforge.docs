@@ -1,5 +1,4 @@
 # ![behavior_icon.png](../../../../../../../media/user_manual/game_mecanics/behaviors/icons/Hit.png) Hit Behavior
-(<( behavior )><( hit )><( damaged )><( wound )>)
 This section covers the RPG Power Forge feature Behavior : Hit !
 
 ```admonish warning title="Working, working ..."

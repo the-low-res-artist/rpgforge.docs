@@ -1,5 +1,4 @@
 # ![behavior_icon.png](../../../../../../../media/user_manual/game_mecanics/behaviors/icons/Death.png) Death Behavior
-(<( behavior )><( death )><( dead )><( hit )><( killed )><( end )><( game over )>)
 This section covers the RPG Power Forge feature Behavior : Death !
 
 ```admonish success title="Oh yeah"

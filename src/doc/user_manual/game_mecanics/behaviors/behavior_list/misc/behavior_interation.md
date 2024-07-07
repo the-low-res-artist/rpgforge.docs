@@ -1,5 +1,4 @@
 # Invulnerability Frames Behavior
-(<( behavior )><( invulnerability )><( blink )><( invincibility )>)
 This section covers the RPG Power Forge feature Behavior : Invulnerability Frames !
 
 ```admonish warning title="Working, working ..."

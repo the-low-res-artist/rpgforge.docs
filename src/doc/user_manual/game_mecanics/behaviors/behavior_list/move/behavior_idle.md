@@ -1,5 +1,4 @@
 # Idle Behavior
-(<( behavior )><( NPC )><( immobile )>)
 This section covers the RPG Power Forge feature Behavior : Idle !
 
 ```admonish warning title="Working, working ..."
