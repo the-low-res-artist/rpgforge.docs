@@ -30,8 +30,8 @@ def set_footer(filename):
     Other names or brands are trademarks of their respective owners.</p>\
     <p>Last update : {datetime.now().strftime(f'%A %d %B %Y')}</p>"
 
-    str_to_replace="<nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
-    str_replacement=f"<div class=\"footer-container\"><div class=\"footer-text\">{footer}</div></div><nav class=\"nav-wide-wrapper\" aria-label=\"Page navigation\">"
+    str_to_replace="</main>"
+    str_replacement=f"</main><div class=\"footer-container\"><div class=\"footer-text\">{footer}</div></div>"
     s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
