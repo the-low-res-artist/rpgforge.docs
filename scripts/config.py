@@ -51,6 +51,7 @@ class config:
     # links for the nav bar
     link_x = "https://twitter.com/RPGPowerForge"
     link_discord = "https://onesquareminesweeper.com/"
+    link_trello = "https://trello.com/b/PIzgsYov/road-map"
     link_youtube = "https://www.youtube.com/watch?v=mQaAw5KtXTY"
     # =============================================================================
     # =============================================================================
