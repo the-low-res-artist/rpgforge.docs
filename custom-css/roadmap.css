@@ -12,7 +12,9 @@
 
 /* Tags */
 .tag_container {
-	display: inline;
+  display: inline-flex;
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
 }
 
 .tag_container>div {
@@ -118,6 +120,11 @@
 .title {
   color: #c8c9db;
   position: relative;
+}
+
+h3 {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 /* Timeline dot  */
