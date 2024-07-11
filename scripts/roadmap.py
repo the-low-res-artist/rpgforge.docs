@@ -34,9 +34,10 @@ def set_roadmap(filename):
             version = "<div class=\"card\"><div class=\"info\">"
             version += "<h3 class=\"title title_done\">Version " + str(index)
             version += "<div class=\"tag_container\">"
-            version += "<div class=\"tag_done\">done</div>"
+            for tag in data["tags"]:
+                version += "<div class=\"tag_" + tag["color"] + "\">" + tag["text"] + "</div>"
             version += "</div></h3>"
-            version += "<p> - Behaviors UI</br> - Actor Creation UI</br> - Website documentation</p>"
+            version += "<p> - " + "</br> - ".join(data["features"]) + "</p>"
             version += "</div></div>"
             versions.append(version)
     str_to_replace = "ROADMAP_GO_HERE"

@@ -25,19 +25,19 @@
 	font-size: small;
 	text-align:center;
 }
-.tag_done {
+.tag_green {
 	background-color: limegreen;
 	color: white;
 }
-.tag_doing {
+.tag_orange {
 	background-color: orange;
 	color: white;
 }
-.tag_target {
+.tag_blue {
 	background-color: dodgerblue;
 	color: white;
 }
-.tag_attention {
+.tag_red {
 	background-color: orangered;
 	color: white;
 }

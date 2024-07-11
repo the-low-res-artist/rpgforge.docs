@@ -3,7 +3,9 @@
     [
         {
             "index": "0.2.0",
-            "tags" : ["done"],
+            "tags" : [
+                { "text": "done", "color": "green" }
+            ],
             "features":
             [
                 "Behaviors UI",
@@ -13,7 +15,9 @@
         },
         {
             "index": "0.3.0",
-            "tags" : ["now testing"],
+            "tags" : [
+                { "text": "now testing", "color": "orange" }
+            ],
             "features":
             [
                 "Scene Connection UI",
@@ -33,7 +37,9 @@
         },
         {
             "index": "0.5.0",
-            "tags" : ["Patreon"],
+            "tags" : [
+                { "text": "Patreon", "color": "red" }
+            ],
             "features":
             [
                 "More behaviors",
