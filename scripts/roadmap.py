@@ -38,7 +38,7 @@ def set_roadmap(filename):
             version += "</div></h3>"
             version += "<p> - Behaviors UI</br> - Actor Creation UI</br> - Website documentation</p>"
             version += "</div></div>"
-            version.append(version)
+            versions.append(version)
     str_to_replace = "ROADMAP_GO_HERE"
     str_replacement = "<div class=\"timeline\">\
                            <div class=\"outer\">\
