@@ -30,11 +30,6 @@ def set_link(filename):
     str_replacement = f"<a href=\"{config.link_x}\" target=\"_blank\"> News (X/Twitter)</a>"
     s = s.replace(str_to_replace, str_replacement)
 
-    # Trello
-    str_to_replace = "<div> link_trello</div>"
-    str_replacement = f"<a href=\"{config.link_trello}\" target=\"_blank\"> Roadmap (Trello)</a>"
-    s = s.replace(str_to_replace, str_replacement)
-
     # Youtube
     str_to_replace = "<div> link_youtube</div>"
     str_replacement = f"<a href=\"{config.link_youtube}\" target=\"_blank\"> Videos (Youtube)</a>"

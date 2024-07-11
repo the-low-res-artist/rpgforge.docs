@@ -15,6 +15,7 @@ class config:
         "VAR_UNITY_SHORT_MIN_VERSION" : "2022.3",
         "VAR_UNITY_MIN_VERSION" : "2022.3.34f1",
         "VAR_RPF_RECOMMENDED_VERSION" : "0.3.0",
+        "TRELLO_WEBSITE_LINK", "https://trello.com/b/PIzgsYov/road-map"
     }
 
     # =============================================================================
@@ -47,10 +48,9 @@ class config:
 
     # =============================================================================
     # =============================================================================
-    # links
+    # links for the nav bar
     link_x = "https://twitter.com/RPGPowerForge"
     link_discord = "https://onesquareminesweeper.com/"
-    link_trello = "https://trello.com/b/PIzgsYov/road-map"
     link_youtube = "https://www.youtube.com/watch?v=mQaAw5KtXTY"
     # =============================================================================
     # =============================================================================

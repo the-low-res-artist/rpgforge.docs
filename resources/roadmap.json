@@ -1,0 +1,45 @@
+{
+    "versions":
+    [
+        {
+            "index": "0.2.0",
+            "tags" : ["done"],
+            "features":
+            [
+                "Behaviors UI",
+                "Actor Creation UI",
+                "Website documentation"
+            ]
+        },
+        {
+            "index": "0.3.0",
+            "tags" : ["now testing"],
+            "features":
+            [
+                "Scene Connection UI",
+                "Transition effect UI",
+                "Various improvements & bugfixes"
+            ]
+        },
+        {
+            "index": "0.4.0",
+            "tags" : [],
+            "features":
+            [
+                "Tile palette UI",
+                "Assets integration",
+                "Various improvements & bugfixes"
+            ]
+        },
+        {
+            "index": "0.5.0",
+            "tags" : ["Patreon"],
+            "features":
+            [
+                "More behaviors",
+                "Patreon & Discord",
+                "Various improvements & bugfixes"
+            ]
+        }
+    ]
+}
