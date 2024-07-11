@@ -2,6 +2,7 @@
     "versions":
     [
         {
+            "state": "done",
             "index": "0.2.0",
             "tags" : [
                 { "text": "done", "color": "green" }
@@ -14,6 +15,7 @@
             ]
         },
         {
+            "state": "doing",
             "index": "0.3.0",
             "tags" : [
                 { "text": "now testing", "color": "orange" }
@@ -26,6 +28,7 @@
             ]
         },
         {
+            "state": "todo",
             "index": "0.4.0",
             "tags" : [],
             "features":
@@ -36,6 +39,7 @@
             ]
         },
         {
+            "state": "todo",
             "index": "0.5.0",
             "tags" : [
                 { "text": "Patreon", "color": "red" }

@@ -32,7 +32,7 @@ def set_roadmap(filename):
         for data in json_data["versions"]:
             index = data["index"]
             version = "<div class=\"card\"><div class=\"info\">"
-            version += "<h3 class=\"title title_done\">Version " + str(index)
+            version += "<h3 class=\"title title_" + data["state"] + "\">Version " + str(index)
             version += "<div class=\"tag_container\">"
             for tag in data["tags"]:
                 version += "<div class=\"tag_" + tag["color"] + "\">" + tag["text"] + "</div>"
