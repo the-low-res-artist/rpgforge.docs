@@ -57,7 +57,7 @@ src_root = "./../book/"
 nb_files=0
 for root, dirs, files in os.walk(src_root, topdown=False):
    for filename in files:
-        if filename.endswith(".htlm"):
+        if filename.endswith(".html"):
             basename = os.path.basename(filename)
             if (basename == "roadmap.html"):
                 set_roadmap(os.path.join(root, filename))
