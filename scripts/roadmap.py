@@ -4,8 +4,9 @@ import sys # to return 0
 import os # loop over files
 from config import config
 import time # measure duration
+import json
 
-# goal : ???
+# goal : update the roadmap of the project
 
 # replace in a file
 def set_roadmap(filename):
