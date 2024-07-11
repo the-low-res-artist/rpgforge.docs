@@ -28,7 +28,7 @@ def set_roadmap(filename):
 
     # create all versions
     versions = []
-    if "version" in json_data:
+    if "versions" in json_data:
         for data in json_data["versions"]:
             index = data["index"]
             version = "<div class=\"card\"><div class=\"info\">"
@@ -62,7 +62,7 @@ for root, dirs, files in os.walk(src_root, topdown=False):
             basename = os.path.basename(filename)
             if (basename == "roadmap.html"):
                 set_roadmap(os.path.join(root, filename))
-            nb_files+=1
+                nb_files+=1
 
 end = time.time()
 print(f"[{str(round(end - start, 1))} sec] ROADMAP UPDATE : {nb_files} updated")
