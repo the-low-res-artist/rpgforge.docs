@@ -20,7 +20,13 @@ def set_summary_title(filename):
         return
 
     str_to_replace = "<ol class=\"chapter\">"
-    str_replacement = f"<div class=\"summary-title-container\"><div class=\"summary-title\">{config.doc_website_title}</div><div class=\"summary-subtitle\">{config.doc_website_subtitle}</div></div><ol class=\"chapter\">"
+    str_replacement = f"\
+    <div class=\"summary-title-container\">\
+      <img src=\"https://rpgpowerforge.com/media/logo/nav-logo.png\" alt=\"product logo\" class=\"nav-logo\">
+      <div class=\"summary-title\">{config.doc_website_title}</div>\
+      <div class=\"summary-subtitle\">{config.doc_website_subtitle}</div>\
+    </div>\
+    <ol class=\"chapter\">"
     s = s.replace(str_to_replace, str_replacement)
 
 
