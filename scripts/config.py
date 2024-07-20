@@ -52,7 +52,9 @@ class config:
     link_x = "https://twitter.com/RPGPowerForge"
     link_discord = "https://onesquareminesweeper.com/"
     link_trello = "https://trello.com/b/PIzgsYov/road-map"
-    link_youtube = "https://www.youtube.com/watch?v=mQaAw5KtXTY"
+    link_youtube = "https://www.youtube.com/@rpgpowerforge"
+    link_patreon = "https://www.patreon.com/rpgpowerforge/membership"
+    link_kofi = "https://ko-fi.com/rpgpowerforge/tiers"
     # =============================================================================
     # =============================================================================
     # favicon

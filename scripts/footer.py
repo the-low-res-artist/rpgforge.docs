@@ -19,12 +19,43 @@ def set_footer(filename):
     if (s == ""):
         return
 
-    discord_link=f"<div class=\"footer-link\"><a href=\"{config.link_discord}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/discord.png\" alt=\"Discord link\" /></a></div>"
-    x_link=f"<div class=\"footer-link\"><a href=\"{config.link_x}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/x.png\" alt=\"X/Twitter link\" /></a></div>"
-    trello_link=f"<div class=\"footer-link\"><a href=\"{config.link_trello}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/trello.png\" alt=\"Trello link\" /></a></div>"
-    youtube_link=f"<div class=\"footer-link\"><a href=\"{config.link_youtube}\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/footer/youtube.png\" alt=\"Youtube link\" /></a></div>"
+    links=[
+        {
+            "href":config.link_x,
+            "img":"footer/x.png",
+            "alt":"X/Twitter link"
+        },
+        {
+            "href":config.link_patreon,
+            "img":"footer/patreon.png",
+            "alt":"Patreon link"
+        },
+        {
+            "href":config.link_kofi,
+            "img":"footer/kofi.png",
+            "alt":"Ko-fi link"
+        },
+        {
+            "href":config.link_youtube,
+            "img":"footer/youtube.png",
+            "alt":"Youtube link"
+        },
+        {
+            "href":config.link_trello,
+            "img":"footer/trello.png",
+            "alt":"Trello link"
+        },
+    ]
 
-    footer=f"<p>{discord_link} {x_link} {trello_link} {youtube_link}</p>\
+    list_links = []
+    for link in links:
+        l = f"<div class=\"footer-link\">\
+          <a href=\"" + link["href"] + "\" target=\"_blank\"><img src=\"https://rpgpowerforge.com/media/" + link["img"] + "\" alt=\"" + link["alt"] + "\" /></a>\
+        </div>"
+        list_links.append(l)
+    html_links = ' '.join(list_links)
+
+    footer=f"<p>{html_links}</p>\
     <p>Copyright © {datetime.now().year} RPG Power Forge<br>\
     \"RPG Power Forge\" is a trademark.<br>\
     Other names or brands are trademarks of their respective owners.</p>\
