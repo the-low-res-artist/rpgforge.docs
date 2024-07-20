@@ -22,10 +22,11 @@ def set_favicon(filename):
     # replace the favicon
     for i in range(10):
         depth = i * '../'
+        # svg icon
         str_to_replace = f"href=\"{depth}favicon.svg\">"
         str_replacement = f"href=\"{config.img_favicon}\">"
         s = s.replace(str_to_replace, str_replacement)
-
+        # jpg icon
         str_to_replace = f"href=\"{depth}favicon.png\">"
         str_replacement = f"href=\"{config.img_favicon}\">"
         s = s.replace(str_to_replace, str_replacement)
