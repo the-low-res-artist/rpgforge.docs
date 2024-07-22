@@ -22,7 +22,7 @@ def set_link(filename):
 
     # Patreon
     str_to_replace = "<div> link_patreon</div>"
-    str_replacement = f"<a href=\"{config.link_patreon}\" target=\"_blank\"> Support us (Patreon)</a>"
+    str_replacement = f"<a href=\"{config.link_patreon}\" target=\"_blank\"> Donation (Patreon)</a>"
     s = s.replace(str_to_replace, str_replacement)
 
     # Twitter / X
