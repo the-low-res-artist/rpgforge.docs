@@ -21,29 +21,19 @@ def set_footer(filename):
 
     links=[
         {
-            "href":config.link_x,
-            "img":"footer/x.png",
-            "alt":"X/Twitter link"
-        },
-        {
             "href":config.link_patreon,
             "img":"footer/patreon.png",
             "alt":"Patreon link"
         },
         {
-            "href":config.link_kofi,
-            "img":"footer/kofi.png",
-            "alt":"Ko-fi link"
+            "href":config.link_x,
+            "img":"footer/x.png",
+            "alt":"X/Twitter link"
         },
         {
             "href":config.link_youtube,
             "img":"footer/youtube.png",
             "alt":"Youtube link"
-        },
-        {
-            "href":config.link_trello,
-            "img":"footer/trello.png",
-            "alt":"Trello link"
         },
     ]
 

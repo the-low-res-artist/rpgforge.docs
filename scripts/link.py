@@ -20,19 +20,19 @@ def set_link(filename):
     
     # I add 'target=\"_blank\"' to make the click open a new tab
 
-    # Discord
-    str_to_replace = "<div> link_discord</div>"
-    str_replacement = f"<a href=\"{config.link_discord}\" target=\"_blank\"> Community (Discord)</a>"
+    # Patreon
+    str_to_replace = "<div> link_patreon</div>"
+    str_replacement = f"<a href=\"{config.link_patreon}\" target=\"_blank\"> Support us (Patreon)</a>"
     s = s.replace(str_to_replace, str_replacement)
 
     # Twitter / X
     str_to_replace = "<div> link_x</div>"
-    str_replacement = f"<a href=\"{config.link_x}\" target=\"_blank\"> News (X/Twitter)</a>"
+    str_replacement = f"<a href=\"{config.link_x}\" target=\"_blank\"> Latest news (X/Twitter)</a>"
     s = s.replace(str_to_replace, str_replacement)
 
     # Youtube
     str_to_replace = "<div> link_youtube</div>"
-    str_replacement = f"<a href=\"{config.link_youtube}\" target=\"_blank\"> Videos (Youtube)</a>"
+    str_replacement = f"<a href=\"{config.link_youtube}\" target=\"_blank\"> Our videos (Youtube)</a>"
     s = s.replace(str_to_replace, str_replacement)
 
     # back to intro
