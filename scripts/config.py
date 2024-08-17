@@ -119,6 +119,16 @@ class config:
 
     # =============================================================================
     # =============================================================================
+    #youtube devlogs embedded
+    devlogs = [
+        {"title":"RPG Power Forge 0.5","iframe":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YTC75cKzuNk?si=5Y4fy-XKQSW9rrd3\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"},
+        {"title":"RPG Power Forge 0.6","iframe":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YTC75cKzuNk?si=5Y4fy-XKQSW9rrd3\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"},
+        {"title":"RPG Power Forge 0.7","iframe":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YTC75cKzuNk?si=5Y4fy-XKQSW9rrd3\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"}
+    ]   
+       
+
+    # =============================================================================
+    # =============================================================================
     # awesome supporters
     supporters = [
         {"name":"YouFulca","link":"https://x.com/YouFulca"},

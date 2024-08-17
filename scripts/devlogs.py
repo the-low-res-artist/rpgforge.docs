@@ -8,7 +8,7 @@ import time # measure duration
 # goal : ???
 
 # replace in a file
-def set_hall_of_fame(filename):
+def set_devlogs(filename):
 
     # Safely read the input filename using 'with'
     s= ""
@@ -19,20 +19,16 @@ def set_hall_of_fame(filename):
     if (s == ""):
         return
 
-    str_to_replace = "SUPPORTER_LIST_GOES_HERE"
+    str_to_replace = "DEVLOGS_GO_HERE"
     str_replacement = ""
 
-    supporters = sorted(config.supporters, key=lambda d: d['name'])
-
-    for sup in supporters:
-        name = sup["name"]
-        sub_str = f"* **{name}**"
-        if "link" in sup:
-            link = sup["link"]
-            link_text = link.replace("http://", "")
-            link_text = link.replace("https://", "")
-            sub_str = f"{sub_str} : [{link_text}]({link})"
-        str_replacement = f"{str_replacement}\n{sub_str}"
+    devlog_id = 1
+    for dev in config.devlogs:
+        title = dev["title"]
+        iframe = dev["iframe"]
+        devlog_str = f"## Devlog #{devlog_id} : {title}\n{iframe}\n"       
+        str_replacement = f"{str_replacement}\n{devlog_str}"
+        devlog_id += 1
 
     s = s.replace(str_to_replace, str_replacement)
 
@@ -43,16 +39,16 @@ def set_hall_of_fame(filename):
 
 # entry point
 start = time.time()
-src_root = "./../src/"
+src_root = "./../book/"
 nb_files=0
 for root, dirs, files in os.walk(src_root, topdown=False):
    for filename in files:
-        if filename.endswith("hall_of_fame.md"):
-            set_hall_of_fame(os.path.join(root, filename))
+        if filename.endswith("devlogs.html"):
+            set_devlogs(os.path.join(root, filename))
             nb_files+=1
 
 end = time.time()
-print(f"[{str(round(end - start, 1))} sec] HALL OF FAME UPDATE : {nb_files} updated")
+print(f"[{str(round(end - start, 1))} sec] DEVLOGS UPDATE : {nb_files} updated")
 
 # safe return
 sys.exit(0)
