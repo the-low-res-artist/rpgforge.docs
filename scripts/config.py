@@ -121,9 +121,9 @@ class config:
     # =============================================================================
     # awesome supporters
     supporters = [
-        {"name":"YouFulca","link":"x.com/YouFulca"},
-        {"name":"Kashdan Music","link":"x.com/KashdanMusic"},
-        {"name":"Sunny Valley Studio","link":"x.com/SunnyVStudio"},
-        {"name":"Zaebucca","link":"x.com/zaebucca"}
+        {"name":"YouFulca","link":"https://x.com/YouFulca"},
+        {"name":"Kashdan Music","link":"https://x.com/KashdanMusic"},
+        {"name":"Sunny Valley Studio","link":"https://x.com/SunnyVStudio"},
+        {"name":"Zaebucca","link":"https://x.com/zaebucca"}
     ]   
         
