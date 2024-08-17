@@ -4,6 +4,8 @@ Your generous support is the backbone of our journey. It allows us to continue c
 
 Thank you for being a part of our story !
 
+[![support_us_on_patreon](./../../../media/buttons/support_us_on_patreon.png)](link_patreon)
+
 ## Our supporters !
 
 SUPPORTER_LIST_GOES_HERE
