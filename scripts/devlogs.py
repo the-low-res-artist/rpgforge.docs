@@ -26,7 +26,7 @@ def set_devlogs(filename):
     for dev in config.devlogs:
         title = dev["title"]
         iframe = dev["iframe"]
-        devlog_str = f"## Devlog #{devlog_id} : {title}\n{iframe}\n"       
+        devlog_str = f"<h3>Devlog #{devlog_id} : {title}</h3>\n{iframe}\n"       
         str_replacement = f"{str_replacement}\n{devlog_str}"
         devlog_id += 1
 
