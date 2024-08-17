@@ -32,7 +32,7 @@ def set_png_to_jpg(filename):
             continue
 
         # skip buttons
-        if "buttons" in png_image_path:
+        if "clickable_buttons" in png_image_path:
             continue
 
         input_path = f"./../{png_image_path}"
