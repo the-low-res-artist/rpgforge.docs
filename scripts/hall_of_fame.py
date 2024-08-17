@@ -23,8 +23,6 @@ def set_hall_of_fame(filename):
     str_replacement = ""
 
     for sup in config.supporters:
-        if not "name" in sup:
-            continue
         name = sup["name"]
         sub_str = f"* **{name}**"
         if "link" in sup:
