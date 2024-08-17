@@ -74,6 +74,6 @@
     * [Packages dependencies](./about/package_dependencies.md)
 * [Support us !]()
     * [link_patreon]()
-    * [link_x]()
-    * [link_youtube]()
+    * [Supporters Hall of Fame](./support/hall_of_fame.md)
+
 

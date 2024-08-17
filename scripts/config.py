@@ -116,5 +116,14 @@ class config:
         'Tile',
         'Collection'
     ]
-        
+
+    # =============================================================================
+    # =============================================================================
+    # awesome supporters
+    supporters = [
+        {"name":"YouFulca","link":"x.com/YouFulca"},
+        {"name":"Kashdan Music","link":"x.com/KashdanMusic"},
+        {"name":"Sunny Valley Studio","link":"x.com/SunnyVStudio"},
+        {"name":"Zaebucca","link":"x.com/zaebucca"}
+    ]   
         

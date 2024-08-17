@@ -21,6 +21,8 @@ echo "[ PRE-BUILD PART ]"
 # python pre process scripts
 cd ${root_dir}/scripts
 
+# set the hall of fame in .mb
+python3 -m hall_of_fame.py || true
 # build the requirement tests result md page
 python3 -m test-results.py || true
 # update the glossary to each src/**/*.md page
