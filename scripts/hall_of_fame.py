@@ -28,7 +28,8 @@ def set_hall_of_fame(filename):
         sub_str = f"* **{name}**"
         if "link" in sup:
             link = sup["link"]
-            sub_str = f"{sub_str} : [{link}]({link})"
+            link_text = link.replace("http://", "")
+            sub_str = f"{sub_str} : [{link_text}]({link})"
         str_replacement = f"{str_replacement}\n{sub_str}"
 
     s = s.replace(str_to_replace, str_replacement)
