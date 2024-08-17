@@ -6,7 +6,4 @@ Thank you for being a part of our story !
 
 ## Our supporters !
 
-* **YouFulca** : [x.com/YouFulca](https://x.com/YouFulca)
-* **Kashdan Music** : [x.com/KashdanMusic](https://x.com/KashdanMusic)
-* **Sunny Valley Studio** : [x.com/SunnyVStudio](https://x.com/SunnyVStudio)
-* **Zaebucca** : [x.com/zaebucca](https://x.com/zaebucca)
+SUPPORTER_LIST_GOES_HERE
