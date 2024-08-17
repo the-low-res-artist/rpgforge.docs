@@ -23,12 +23,15 @@ def set_hall_of_fame(filename):
     str_replacement = ""
 
     for sup in config.supporters:
+        print(f"Next supporter : {sup}")
         name = sup["name"]
         sub_str = f"* **{name}**"
         if "link" in sup:
             link = sup["link"]
             sub_str = f"{sub_str} : [{link}]({link})"
         str_replacement = f"{str_replacement}\n{sub_str}"
+
+    s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
