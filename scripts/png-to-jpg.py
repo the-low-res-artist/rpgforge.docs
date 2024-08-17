@@ -31,6 +31,10 @@ def set_png_to_jpg(filename):
         if "user_resources" in png_image_path:
             continue
 
+        # skip buttons
+        if "buttons" in png_image_path:
+            continue
+
         input_path = f"./../{png_image_path}"
         # open png and save a jpg
         with Image.open(input_path) as image:
