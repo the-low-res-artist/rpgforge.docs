@@ -25,8 +25,8 @@ def set_devlogs(filename):
     devlog_id = 1
     for dev in config.devlogs:
         title = dev["title"]
-        iframe = dev["iframe"]
-        devlog_str = f"<h3>Devlog #{devlog_id} : {title}</h3>\n{iframe}\n"       
+        src = dev["iframe_src"]
+        devlog_str = f"<h3>Devlog #{devlog_id} : {title}</h3>\n<iframe width=\"100%\" height=\"400\" src=\"{src}\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n"       
         str_replacement = f"{str_replacement}\n{devlog_str}"
         devlog_id += 1
 
