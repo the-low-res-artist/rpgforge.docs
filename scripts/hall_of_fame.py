@@ -22,13 +22,16 @@ def set_hall_of_fame(filename):
     str_to_replace = "SUPPORTER_LIST_GOES_HERE"
     str_replacement = ""
 
-    for sup in config.supporters:
+    supporters = sorted(config.supporters, key=lambda d: d['name'])
+
+    for sup in supporters:
         print(f"Next supporter : {sup}")
         name = sup["name"]
         sub_str = f"* **{name}**"
         if "link" in sup:
             link = sup["link"]
             link_text = link.replace("http://", "")
+            link_text = link.replace("https://", "")
             sub_str = f"{sub_str} : [{link_text}]({link})"
         str_replacement = f"{str_replacement}\n{sub_str}"
 
