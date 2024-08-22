@@ -28,7 +28,7 @@
             ]
         },
         {
-            "state": "doin",
+            "state": "doing",
             "index": "0.4",
             "tags" : [
                 { "text": "in development", "color": "orange" }
@@ -48,7 +48,7 @@
             ],
             "features":
             [
-                "More behaviors",
+                "More Behaviors",
                 "Patreon & Discord",
                 "Polishing"
             ]
