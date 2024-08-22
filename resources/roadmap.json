@@ -15,7 +15,7 @@
             ]
         },
         {
-            "state": "doing",
+            "state": "done",
             "index": "0.3",
             "tags" : [
                 { "text": "done", "color": "green" }
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "state": "todo",
+            "state": "doin",
             "index": "0.4",
             "tags" : [
                 { "text": "in development", "color": "orange" }
