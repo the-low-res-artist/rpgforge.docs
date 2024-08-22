@@ -18,7 +18,7 @@
             "state": "doing",
             "index": "0.3",
             "tags" : [
-                { "text": "now testing", "color": "orange" }
+                { "text": "done", "color": "green" }
             ],
             "features":
             [
@@ -30,10 +30,12 @@
         {
             "state": "todo",
             "index": "0.4",
-            "tags" : [],
+            "tags" : [
+                { "text": "in development", "color": "orange" }
+            ],
             "features":
             [
-                "Tile palette UI",
+                "Tile Palette UI",
                 "Assets integration",
                 "Various improvements & bugfixes"
             ]
