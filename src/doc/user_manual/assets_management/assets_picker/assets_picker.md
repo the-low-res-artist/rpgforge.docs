@@ -26,7 +26,7 @@ Actors are the living assets of your game : Playable or non-playable characters,
 
 ### Pick 2D Props
 Props are all of the assets that populate your Scene : Trees, houses, barrels, etc.
-![props.png](../../../../../media/user_manual/assets_management/asset_picker/props.png)
+![props.png](../../../../../media/user_manual/assets_management/asset_picker/props.PNG)
 
 ### Pick Tiles
 
