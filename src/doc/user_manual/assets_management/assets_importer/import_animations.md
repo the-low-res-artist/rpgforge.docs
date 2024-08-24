@@ -2,8 +2,8 @@
 
 This section covers the import of Animations with RPG Power Forge !
 
-```admonish warning title="🛠️"
-Working on it !
+```admonish success title="Oh yeah"
+This section is up-to-date !
 ```
 
 ## Summary
@@ -111,9 +111,7 @@ Once Imported, [[Use the feature "Template > One Animation per line"]] to create
 
 ### Aseprite File (additional import method)
 
-```admonish warning title="🛠️"
-Working on it !
-```
+It is possible to also import and Aseprite file (.aseprite or .ase). The animations will be extracted automatically and you will be redirected to the create Animations Collection window.
 
 
 ## Congratulation

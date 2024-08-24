@@ -2,8 +2,8 @@
 
 This section covers the import of Props with RPG Power Forge !
 
-```admonish warning title="🛠️"
-Working on it !
+```admonish success title="Oh yeah"
+This section is up-to-date !
 ```
 
 ## Summary
@@ -70,7 +70,7 @@ Delete method|Description
 Automatic|[[Select the "Delete Empty Sprites" button]] to remove all of the empty Sprites at once. To undo, [[press CTRL + Z]].
 Manual|[[Select the Sprite, right-click > Delete]]. Additionnally, you can select multiple Sprites with the SHIFT key. To undo, [[press CTRL + Z]].
 
-![import_props_delete.gif](../../../../../../media/user_manual/assets_management/import_props/import_props_delete.gif)
+![import_props_delete.gif](../../../../../media/user_manual/assets_management/import_props/import_props_delete.gif)
 
 #### Transparency colors (optional)
 
@@ -81,33 +81,16 @@ Transparency method|Description
 Full Transparent Color| Useful if you want to remove a background color from your Sprite Sheet. The selected color will be completely transparent.
 Semi Transparent Color| Useful for shadow, glass, tall-grass, etc. The selected color will be half-transparent.
 
-In both cases, we recommend to use the **Color Picker** to select the desired color precisely :
-
+In both cases, we recommend to use the **Color Picker** to select the desired color precisely. You can find [an example here](./import_animations.md).
 
 ### Validate the Sprite Sheet
 
-You are now ready to go ! [[Select the "Apply" button]] in the bottom-right corner to go to the Animation creation !
-
-![import_animation_general_view_apply.png](../../../../../../media/user_manual/assets_management/import_animation/import_animation_general_view_apply.png)
+You are now ready to go ! [[Select the "Apply" button]] in the bottom-right corner to go to the Props edition !
 
 
 ### Sprites Directory (additional import method)
 
-Instead of a Sprite Sheet, you can import a directory full of individual Sprites. Here is an example :
-
-![import_animation_sprite_directory_hierarchy.png](../../../../../../media/user_manual/assets_management/import_animation/import_animation_sprite_directory_hierarchy.pn)
-
-```admonish tip title="User manual resources"
-You can download all of our tutorial resources here : [download user_resources.zip file](https://rpgpowerforge.com/media/user_resources.zip)
-```
-
-When importing "import_sprites_directory", RPG Power Forge will automatically :
-* Browse your directory and sub-directories.
-* Find all of the Sprites (images files).
-* Name each Sprite according to its location ("idle/up/0.png" will be named "IdleUp0")
-* Import each Sprite in the Animation Collection (1 line per sub-directory).
-
-![import_animation_sprite_directory_process.gif](../../../../../../media/user_manual/assets_management/import_animation/import_animation_sprite_directory_process.gf)
+Instead of a Sprite Sheet, you can import a directory full of individual Sprite files. Please refer to [this example here](./import_animations.md).
 
 
 ## Congratulation
