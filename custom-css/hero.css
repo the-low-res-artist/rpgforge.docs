@@ -115,7 +115,7 @@ video {
 .hero-text {
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 30%;
     width: 100%;
     text-align: center;
     -webkit-transform: translate(-50%, -50%);
@@ -325,7 +325,7 @@ video {
     flex-wrap: wrap;
     justify-content: center;
     background: rgba(0,0,0,0.5);
-    padding: 5px;
+    padding: 10px;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     z-index: 9;
@@ -335,8 +335,8 @@ video {
     font-size: 8vw;
     color: white;
     opacity:0.9;
-    height: 50px;
-    line-height: 50px;
+    /*height: 50px;
+    line-height: 50px;*/
     z-index: 9;
 }
 
