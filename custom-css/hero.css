@@ -120,7 +120,7 @@ video {
     text-align: center;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: bold;
     color: white;
     z-index: 11;
@@ -290,13 +290,12 @@ video {
     font-size: 25px;
     color: white;
     border-radius: 100px;
-    border: 3px solid;
+    /*border: 3px solid;*/
     transition: 0.1s;
     z-index: 11;
     background-color: rgba(33, 150, 243, 0.8);
     backdrop-filter: blur(10px);
     border-radius: 100px;
-    /*border: 3px solid;*/
     font-weight: bold;
 }
 
