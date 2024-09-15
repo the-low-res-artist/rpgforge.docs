@@ -266,12 +266,12 @@ video {
 .hero-text-phone {
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 30%;
     width: 100%;
     text-align: center;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 6vw;
+    font-size: 9vw;
     font-weight: bold;
     color: white;
     z-index: 11;
@@ -281,16 +281,15 @@ video {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 60%;
+    width: 75%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     padding-left: 35px;
-    padding-right: 35px;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 25px;
+    font-size: 6.3vw;
     color: white;
-    /*border-radius: 100px;*/
+    border-radius: 100px;
     /*border: 3px solid;*/
     transition: 0.1s;
     z-index: 11;
@@ -311,7 +310,7 @@ video {
 
 .hero-values-phone {
     position: fixed;
-    bottom: 30px;
+    bottom: 20px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -322,20 +321,20 @@ video {
 .hero-value-phone {
     width: 80%;
     display: flex;
-    margin: 10px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
     flex-wrap: wrap;
     justify-content: center;
     background: rgba(0,0,0,0.5);
-    padding: 10px;
+    padding: 5px;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     z-index: 9;
 }
 
 .hero-value-number-phone {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 8vw;
     color: white;
+    opacity:0.9;
     height: 50px;
     line-height: 50px;
     z-index: 9;
