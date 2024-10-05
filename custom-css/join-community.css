@@ -8,7 +8,7 @@
 
 .join-community-text {
     display: block;
-    background-color: rgba(33, 150, 243, 0.6);
+    background-color: #2196f3;
     backdrop-filter: blur(10px);
     padding-left: 15px;
     padding-right: 15px;
@@ -19,16 +19,26 @@
     font-weight: bolder;
     font-size: large;
     color: white;
-    /* border-style: solid; */
-    border-color: white;
+   
+    overflow: hidden;
     transition: 0.2s;
 }
 
 .join-community-text:hover {
-    background-color: dodgerblue;
+    background-color: #0e67f5;
 }
 
 .join-community-text>a {
     all: unset;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    z-index: 11;
+    white-space: nowrap;
+    transform: translateX(-10%);
+    transition: transform 0.3s ease;
+}
+
+.join-community-text:hover a {
+    transform: translateX(10%);
 }
