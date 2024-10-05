@@ -234,9 +234,7 @@ video {
     transition: 0.1s;
     z-index: 11;
     background-color: rgba(0,0,0,0.5);
-    backdrop-filter: blur(10px);
     border-radius: 100px;
-    /*border: 3px solid;*/
     font-size: 18px;
 }
 
@@ -294,24 +292,34 @@ video {
     padding-bottom: 15px;
     font-size: 6.3vw;
     color: white;
-    border-radius: 100px;
-    /*border: 3px solid;*/
     transition: 0.1s;
     z-index: 11;
-    background-color: rgba(33, 150, 243, 0.8);
-    backdrop-filter: blur(10px);
+    background-color: #2196f3;
+    border-radius: 100px;
     font-weight: bold;
+    overflow: hidden;
 }
+
+.hero-community-phone:hover {
+    background-color: #0e67f5;
+}
+
+/*.hero-community-phone:hover div {
+    transform: translateX(10%);
+}*/
+
+
 
 .hero-community-text-phone {
     display: flex;
     align-items: center;
     z-index: 11;
+    white-space: nowrap;
+    /*transform: translateX(-10%);
+    transition: transform 0.3s ease;*/
 }
 
-.hero-community-phone:hover {
-    background-color: dodgerblue;
-}
+
 
 .hero-values-phone {
     position: fixed;
