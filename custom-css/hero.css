@@ -146,30 +146,35 @@ video {
     top: 60%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 25px;
     color: white;
-    border-radius: 100px;
-    /*border: 3px solid;*/
     transition: 0.1s;
     z-index: 11;
-    background-color: rgba(33, 150, 243, 0.8);
-    backdrop-filter: blur(10px);
+    background-color: #2196f3;
     border-radius: 100px;
     font-weight: bold;
+    overflow: hidden;
+}
+
+.hero-community:hover {
+    background-color: dodgerblue;
 }
 
 .hero-community-text {
     display: flex;
     align-items: center;
     z-index: 11;
+    white-space: nowrap;
+    transform: translateX(-10%);
+    transition: transform 0.3s ease;
 }
 
-.hero-community:hover {
-    background-color: dodgerblue;
+.hero-community-text:hover {
+    transform: translateX(10%);
 }
 
 .hero-values {
