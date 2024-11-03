@@ -21,6 +21,15 @@ The Assets Picker is one of the main feature of RPG Power Forge. With it, you ca
 
 ## Feature details
 
+The Assets Picker has a few sections :
+
+![overview.png](../../../../../media/user_manual/assets_management/asset_picker/overview.png)
+
+ 1. **Tool bar** : context-sensitive tools, quick search and import.
+ 1. **Assets Categories** : Asssets are arranged in categories (Actors, Tiles, Scenes, ...)
+ 1. **Category hierarchy** : Assets of the same category can be arranged into collections or folders.
+ 1. **Preview** : available Assets in the selected collection / folder.
+
 ### Quick import
 You can import more assets from the dedicated drop-down menu :
 
