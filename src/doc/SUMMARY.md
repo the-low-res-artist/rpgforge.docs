@@ -11,7 +11,6 @@
     * [2D sidescroller game]()
     * [3D game]()
 * [User manual]()
-    * [RPG Power Forge overview](./user_manual/overview/rpg_power_forge_overview.md)
     * [Assets management]()
         * [Assets Importer]()
             * [Introduction](./user_manual/assets_management/assets_importer/assets_importer.md)

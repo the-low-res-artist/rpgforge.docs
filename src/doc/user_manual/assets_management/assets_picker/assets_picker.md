@@ -2,9 +2,10 @@
 
 This section covers the RPG Power Forge feature : Assets Picker !
 
-```admonish warning title="🛠️"
-Working on it !
+```admonish success title="Oh yeah"
+This section is up-to-date !
 ```
+
 
 ## Summary
 
@@ -20,18 +21,36 @@ The Assets Picker is one of the main feature of RPG Power Forge. With it, you ca
 
 ## Feature details
 
-### Pick Actors
+### Quick import
+You can import more assets from the dedicated drop-down menu :
+
+![import.png](../../../../../media/user_manual/assets_management/asset_picker/import.png)
+
+### Actors
 Actors are the living assets of your game : Playable or non-playable characters, elements to interact with, enemies, etc.
+
 ![actors.png](../../../../../media/user_manual/assets_management/asset_picker/actors.png)
 
-### Pick 2D Props
-Props are all of the assets that populate your Scene : Trees, houses, barrels, etc.
+### Animations
+Animations are the animated spritesheets you have imported in your project. They are the building blocks to create Actors.
+
+![animation.png](../../../../../media/user_manual/assets_management/asset_picker/animations.png)
+
+### Props
+Props are all of the assets (animated or not) that populate your Scene : Trees, houses, barrels, etc. They have a collider attached.
+
 ![props.png](../../../../../media/user_manual/assets_management/asset_picker/props.PNG)
 
-### Pick Tiles
+### Tiles
+Tiles are all of the terrain textures (animated or not) you can place on the grid. They have a collider attached.
 
-### Pick Built-in prefabs
+![tile.png](../../../../../media/user_manual/assets_management/asset_picker/tiles.png)
 
-### Pick Animations
+### Built-in
+Built-in are all of the elements we have crafted so you can make you Scene easier : stairs to change height, doors to be transported to another Scene, custom colliders, ...
 
-### Pick Scenes
+![builtin.png](../../../../../media/user_manual/assets_management/asset_picker/builtin.png)
+
+### Scenes
+All of the Scenes of your project you can go to, edit or remove.
+![level.png](../../../../../media/user_manual/assets_management/asset_picker/level.png)

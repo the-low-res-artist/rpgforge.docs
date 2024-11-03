@@ -2,8 +2,8 @@
 
 This section covers the download and installation process for the Unity Editor package : RPG Power Forge.
 
-```admonish warning title="Working on it..."
-RPG Power Forge download will be open in 2024 !
+```admonish success title="Oh yeah"
+RPG Power Forge is available for early access !
 ```
 
 ## Summary
@@ -13,14 +13,10 @@ Software | Version |
 --- | --- 
 RPG Power Forge | VAR_RPF_RECOMMENDED_VERSION
 
-## Download RPG Power Forge (.unitypackage)
+## Download RPG Power Forge
 
-```admonish summary title=".unitypackage file"
-A unitypackage contains features to fit the various needs of your Unity project. In the case of RPG Power Forge, the package provides many tools and features to make RPG games easily !
-```
-
-*Download will be open in 2024*
+Get RPG Power Forge in early access here :  [Patreon link](link_patreon)
 
 ## Congratulations
 
-Now you have download RPG Power Forge on your computer. You can now [Create a new project here](./create_new_project.md) to start your gamedev journey !
+You can now [Create a new project here](./create_new_project.md) to start your gamedev journey !

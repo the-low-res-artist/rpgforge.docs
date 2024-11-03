@@ -79,4 +79,4 @@ For an optimal gamedev experience (especially on laptops), we recommend the foll
 
 Well done, Unity Editor now has RPG Power Forge installed !
 
-You can now [start making games here]() !
+You can now [start making games here](../getting_started/lets_make_a_game.md) !
