@@ -6,10 +6,13 @@ import time # measure duration
 
 # goal : add an html dropdown menu on each page to select the doc language
 
-# replace in a file
-def set_language(filename, lang_list, current_lang):
+# helper
+def get_glag(lang):
+    if lang == "doc": return 🇫🇷
+    return ""
 
-    TOP_BUTTON_REGEX = r"(<div class=\"left-buttons\">)"
+# replace in a file
+def set_language(filename, lang_list):
 
     # Safely read the input filename using 'with'
     s= ""
@@ -20,30 +23,22 @@ def set_language(filename, lang_list, current_lang):
     if (s == ""):
         return
 
-    # find all matches
-    matches = re.findall(TOP_BUTTON_REGEX, s)
-
-    # safe exit
-    if (len(matches) == 0):
-        return
-
     # build language selection
     # button class
     objects_html =  "<button style=\"display:none\" id=\"language-toggle\" class=\"icon-button\" type=\"button\" title=\"Change language\" aria-label=\"Change language\""
     objects_html += "aria-haspopup=\"true\" aria-expanded=\"false\" aria-controls=\"language-list\">"
-    objects_html += "<i class=\"fa fa-globe\"></i>"
-    objects_html += f"{current_lang}</button>"
+    objects_html += "<i class=\"fa fa-globe\"></i></button>"
     # dropdown class
     objects_html += "<ul id=\"language-list\" class=\"theme-popup\" aria-label=\"languages\" role=\"menu\" style=\"display: none;\">"
     # dropdown items
     for lang in lang_list:
-        objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{lang}\"><a href='https://rpgpowerforge.com/{lang}'>{lang}</a></button></li>"
+        flag = get_flag(lang)
+        objects_html += f"<li role=\"none\"><button role=\"menuitem\" class=\"theme\" id=\"{lang}\">{flag} {lang}</button></li>"
     objects_html += "</ul>"
 
-    for match in matches:
-        str_to_replace = match
-        str_replacement = match + objects_html
-        s = s.replace(str_to_replace, str_replacement)
+    str_to_replace = "<div class=\"left-buttons\">"
+    str_replacement = str_to_replace + objects_html
+    s = s.replace(str_to_replace, str_replacement)
 
     # Safely write the changed content
     with open(filename, 'w', encoding="utf8") as f:
@@ -63,9 +58,8 @@ for root, dirs, files in os.walk(book_root, topdown=False):
     current_lang=""
     for filename in files:
         # get current language
-        current_lang=root.replace(book_root,'').split('\\')[0].split('/')[0]
         if filename.endswith(".html"):
-            set_language(os.path.join(root, filename), lang_list, current_lang)
+            set_language(os.path.join(root, filename), lang_list)
             nb_files+=1
 
 end = time.time()
