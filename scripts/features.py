@@ -48,7 +48,7 @@ def set_features(filename):
 
                 features_html += f"<div class=\"feature_container\">\
                         <div class=\"feature_name\">{name}</div>\
-                        <div class=\"tag_{color}\">{state}</div>\
+                        <div class=\"tag tag_{color}\">{state}</div>\
                     </div>"
 
             section_html += f"<div class=\"features_container\">{features_html}</div>"

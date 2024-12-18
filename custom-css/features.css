@@ -1,21 +1,47 @@
+/* global container for each section */
+.features_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* a feature container */
+.feature_container {
+    display: flex;
+    flex-direction: column;
+    background: var(--sidebar-bg);
+    color: #c8c9db;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 /* Tags */
-  .tag_green {
-      background-color: limegreen;
-      color: white;
-  }
-  .tag_orange {
-      background-color: orange;
-      color: white;
-  }
-  .tag_blue {
-      background-color: dodgerblue;
-      color: white;
-  }
-  .tag_red {
-      background-color: orangered;
-      color: white;
-  }
-  .tag_gray {
+.tag {
+	display: inline;
+	margin: 0 0 0 10px;
+	padding: 2px 10px 2px 10px;
+	border-radius: 4px;
+	font-size: small;
+	text-align:center;
+}
+
+.tag_green {
+    background-color: limegreen;
+    color: white;
+}
+.tag_orange {
+    background-color: orange;
+    color: white;
+}
+.tag_blue {
+    background-color: dodgerblue;
+    color: white;
+}
+.tag_red {
+    background-color: orangered;
+    color: white;
+}
+.tag_gray {
     background-color: gray;
     color: white;
 }
