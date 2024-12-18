@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    padding-top: 20px;
 }
 
 /* a feature container */
@@ -14,15 +15,22 @@
     border-radius: 10px;
     padding: 10px;
 }
+ 
+.feature_name {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: large;
+}
 
 /* Tags */
 .tag {
 	display: inline;
-	margin: 0 0 0 10px;
 	padding: 2px 10px 2px 10px;
 	border-radius: 4px;
 	font-size: small;
 	text-align:center;
+    font-weight: bold;
 }
 
 .tag_green {
