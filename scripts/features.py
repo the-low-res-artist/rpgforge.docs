@@ -51,7 +51,7 @@ def set_features(filename):
                         <div class=\"tag_{color}\">{state}</div>\
                     </div>"
 
-            section_html += f"<div class=\"features_container\">{feature_html}</div>"
+            section_html += f"<div class=\"features_container\">{features_html}</div>"
             sections.append(section_html)
 
     str_to_replace = "<p>FEATURES_GO_HERE</p>"
