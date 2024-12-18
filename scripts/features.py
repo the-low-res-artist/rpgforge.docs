@@ -53,7 +53,7 @@ def set_features(filename):
             section_html += f"<div class=\"features_container\">{feature_html}</div>"
             sections.append(section_html)
 
-    str_to_replace = " "
+    str_to_replace = "FEATURES_GO_HERE"
     str_replacement = ''.join(sections) 
     s = s.replace(str_to_replace, str_replacement)
 
