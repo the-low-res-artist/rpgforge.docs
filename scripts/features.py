@@ -43,9 +43,11 @@ def set_features(filename):
                 state = feature["state"]
                 
                 color = "gray"
-                if "color" in feature:
-                    color = feature["color"]
-
+                if state == "done":
+                    color = "green"
+                elif state == "doing":
+                    color = "orange"
+                
                 features_html += f"<div class=\"feature_container\">\
                         <div class=\"feature_name\">{name}</div>\
                         <div class=\"tag tag_{color}\">{state}</div>\

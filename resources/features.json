@@ -2,42 +2,59 @@
     "sections":
     [
         {
-            "title": "TITLE_SECTION 1",
-            "description": "This is the section 1 description",
+            "title": "Import / Create Assets",
+            "description": "All of the features we are developping to facilitate Assets creation and import into RPG Power Forge",
             "features":
             [
-                {"name": "Feature 1", "state": "done", "color": "orange" },
-                {"name": "Feature 2", "state": "doing", "color": "green"  },
-                {"name": "Feature 3", "state": "todo", "color": "red"  },
-                {"name": "Feature 4", "state": "todo", "color": "orange"  }
+                {"name": "2D Props", "state": "done"},
+                {"name": "2D Animations", "state": "done"},
+                {"name": "Tiles", "state": "done"},
+                {"name": "Autotiles", "state": "done"}
             ]
         },
         {
-            "title": "TITLE_SECTION 2",
-            "description": "This is the section 2 description",
+            "title": "Create Behaviors",
+            "description": "Various features to bring life to your characters and environments.",
             "features":
             [
-                {"name": "Feature 1", "state": "done", "color": "red"  },
-                {"name": "Feature 2", "state": "doing", "color": "red"  },
-                {"name": "Feature 3", "state": "todo", "color": "red"  },
-                {"name": "Feature 4", "state": "todo" }
+                {"name": "Properties", "state": "doing"},
+                {"name": "Behaviors", "state": "doing"},
+                {"name": "Actor Creation", "state": "doing"},
+                {"name": "Stats", "state": "todo" }
             ]
         },
         {
-            "title": "TITLE_SECTION 3",
-            "description": "This is the section 3 description",
+            "title": "Make your Game",
+            "description": "Everything from placing Assets to testing your Scenes.",
             "features":
             [
-                {"name": "Feature 1", "state": "done" },
-                {"name": "Feature 2", "state": "doing" },
-                {"name": "Feature 3", "state": "todo" },
-                {"name": "Feature 4", "state": "todo", "color": "red"  },
-                {"name": "Feature 5", "state": "done" },
-                {"name": "Feature 6", "state": "doing", "color": "red"  },
-                {"name": "Feature 7", "state": "todo", "color": "red"  },
-                {"name": "Feature 8", "state": "todo" },
-                {"name": "Feature 9", "state": "done" },
-                {"name": "Feature 10", "state": "doing" }
+                {"name": "Asset Picker", "state": "done"},
+                {"name": "Debug Markers", "state": "done" },
+                {"name": "Scene Connection", "state": "done"},
+                {"name": "Scene Creation", "state": "doing"},
+                {"name": "Project settings", "state": "doing"},
+                {"name": "Database", "state": "todo" }
+            ]
+        },
+        {
+            "title": "Export your Game",
+            "description": "Building your game for more platforms.",
+            "features":
+            [
+                {"name": "PC Build", "state": "done"},
+                {"name": "WEB Build", "state": "done"},
+                {"name": "Itchio Integration", "state": "done"}
+            ]
+        },
+        {
+            "title": "Quality of life",
+            "description": "It's all about improving your workflow.",
+            "features":
+            [
+                {"name": "Documentation", "state": "doing"},
+                {"name": "Localization", "state": "doing"},
+                {"name": "Editor Layouts", "state": "todo"}
+
             ]
         }
     ]
