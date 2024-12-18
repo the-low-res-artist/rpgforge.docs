@@ -37,7 +37,7 @@ def set_features(filename):
             section_html += f"<div class=\"feature_description\">{description}</div>" 
 
             # features
-            features = ""
+            features_html = ""
             for feature in section["features"]:
                 name = feature["name"]
                 state = feature["state"]
