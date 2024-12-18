@@ -53,7 +53,7 @@ def set_features(filename):
             section_html += f"<div class=\"features_container\">{feature_html}</div>"
             sections.append(section_html)
 
-    str_to_replace = "FEATURES_GO_HERE"
+    str_to_replace = "<p>FEATURES_GO_HERE</p>"
     str_replacement = ''.join(sections) 
     s = s.replace(str_to_replace, str_replacement)
 
@@ -61,16 +61,17 @@ def set_features(filename):
     with open(filename, 'w', encoding="utf8") as f:
         f.write(s)
 
-
 # entry point
 start = time.time()
 src_root = "./../book/"
 nb_files=0
 for root, dirs, files in os.walk(src_root, topdown=False):
    for filename in files:
-        if filename.endswith("features.html"):
-            set_features(os.path.join(root, filename))
-            nb_files+=1
+        if filename.endswith(".html"):
+            basename = os.path.basename(filename)
+            if (basename == "features.html"):
+                set_features(os.path.join(root, filename))
+                nb_files+=1
 
 end = time.time()
 print(f"[{str(round(end - start, 1))} sec] FEATURES UPDATE : {nb_files} updated")

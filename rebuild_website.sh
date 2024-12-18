@@ -98,7 +98,7 @@ python3 -m link.py  || true # must be after rating to prevent the top title to h
 # update the home page
 python3 -m home.py || true
 # update the dev team page
-python3 -m dev_team.py || true
+python3 -m devteam.py || true
 # update the roadmap page
 python3 -m roadmap.py || true
 # update lets make a game page
