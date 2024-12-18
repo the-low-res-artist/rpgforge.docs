@@ -1,0 +1,21 @@
+/* Tags */
+  .tag_green {
+      background-color: limegreen;
+      color: white;
+  }
+  .tag_orange {
+      background-color: orange;
+      color: white;
+  }
+  .tag_blue {
+      background-color: dodgerblue;
+      color: white;
+  }
+  .tag_red {
+      background-color: orangered;
+      color: white;
+  }
+  .tag_gray {
+    background-color: gray;
+    color: white;
+}

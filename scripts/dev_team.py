@@ -71,7 +71,7 @@ for root, dirs, files in os.walk(book_root, topdown=False):
    for filename in files:
         if filename.endswith(".html"):
             basename = os.path.basename(filename)
-            if (basename == "dev_team.html"):
+            if (basename == "devteam.html"):
                 set_dev_team(os.path.join(root, filename))
             nb_files+=1
 

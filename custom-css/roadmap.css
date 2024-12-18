@@ -4,6 +4,11 @@
   padding: 20px;
 }
 
+/* overwrite h2, h3 style */
+h2, h3 {
+  margin-top: 0em !important;
+}
+
 /* Card container */
 .card {
   position: relative;

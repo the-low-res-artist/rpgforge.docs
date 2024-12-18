@@ -113,6 +113,8 @@ python3 -m footer.py || true
 python3 -m join-community.py || true
 # update devlog embedded videos
 python3 -m devlogs.py || true
+# update features progress
+python3 -m features.py || true
 
 # HERO PAGE ADDITION HERE
 # add hero page
