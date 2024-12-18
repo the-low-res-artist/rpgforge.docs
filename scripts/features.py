@@ -41,10 +41,10 @@ def set_features(filename):
             for feature in section["features"]:
                 name = feature["name"]
                 state = feature["state"]
-                color = "gray"
                 
+                color = "gray"
                 if "color" in feature:
-                    color = section["color"]
+                    color = feature["color"]
 
                 features_html += f"<div class=\"feature_container\">\
                         <div class=\"feature_name\">{name}</div>\
