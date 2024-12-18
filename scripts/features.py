@@ -4,6 +4,7 @@ import sys # to return 0
 import os # loop over files
 from config import config
 import time # measure duration
+import json
 
 # goal : update the features
 

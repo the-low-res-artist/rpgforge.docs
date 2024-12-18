@@ -6,7 +6,7 @@
 
 /* overwrite h2, h3 style */
 h2, h3 {
-  margin-top: 0em !important;
+  margin-top: 0.1em !important;
 }
 
 /* Card container */
