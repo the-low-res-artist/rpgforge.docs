@@ -138,6 +138,6 @@ class config:
         {"name":"OneLonelyDev"},
         {"name":"Jefferson Wolfe"},
         {"name":"Danny Nanni"},
-        {"Team Abarth"}
+        {"name": "Team Abarth"}
     ]   
         
