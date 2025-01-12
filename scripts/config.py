@@ -134,6 +134,10 @@ class config:
         {"name":"YouFulca","link":"https://x.com/YouFulca"},
         {"name":"Kashdan Music","link":"https://x.com/KashdanMusic"},
         {"name":"Sunny Valley Studio","link":"https://x.com/SunnyVStudio"},
-        {"name":"Zaebucca","link":"https://x.com/zaebucca"}
+        {"name":"Zaebucca","link":"https://x.com/zaebucca"},
+        {"name":"OneLonelyDev"},
+        {"name":"Jefferson Wolfe"},
+        {"name":"Danny Nanni"},
+        {"Team Abarth"}
     ]   
         
