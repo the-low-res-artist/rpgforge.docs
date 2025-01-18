@@ -6,6 +6,8 @@ This section covers the download and installation process for Unity Hub and Unit
 This section is up-to-date with Unity 2022.3 !
 ```
 
+![youtube video](https://www.youtube.com/watch?v=D4BC1pBMXn0)
+
 ## Summary
 
 ## Recommendations
