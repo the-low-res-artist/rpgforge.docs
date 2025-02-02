@@ -1,9 +1,9 @@
 # Presentation 
 
-![slide.png](./../../../media/about/presentation/Diapositive1.png)
+![slide.png](./../../../media/about/presentation/slides/Diapositive1.PNG)
 
-![slide.png](./../../../media/about/presentation/Diapositive2.png)
+![slide.png](./../../../media/about/presentation/slides/Diapositive2.PNG)
 
-![slide.png](./../../../media/about/presentation/Diapositive3.png)
+![slide.png](./../../../media/about/presentation/slides/Diapositive3.PNG)
 
-![slide.png](./../../../media/about/presentation/Diapositive4.png)
+![slide.png](./../../../media/about/presentation/slides/Diapositive4.PNG)
