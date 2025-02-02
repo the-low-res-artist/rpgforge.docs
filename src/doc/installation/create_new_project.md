@@ -39,7 +39,7 @@ Once loaded, the project will open. Congratulation, you now have a new Unity pro
 ## Import RPG Power Forge
 
 ```admonish summary title=".unitypackage file"
-RPG Power Forge is a Unity package ().unitypackage file). A Unity package contains features to fit the various needs of your Unity project. In the case of RPG Power Forge, the package provides many tools and features to make RPG games easily !
+RPG Power Forge is a Unity package ().unitypackage file. A Unity package contains features to fit the various needs of your Unity project. In the case of RPG Power Forge, the package provides many tools and features to make RPG games easily !
 ```
 
 To import RPG Power Forge, [[choose Assets > Import Package > Custom Package]]. A file browser appears, prompting you to locate the .unitypackage file.
