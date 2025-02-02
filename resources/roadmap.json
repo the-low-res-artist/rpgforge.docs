@@ -28,10 +28,10 @@
             ]
         },
         {
-            "state": "doing",
+            "state": "done",
             "index": "0.4",
             "tags" : [
-                { "text": "in development", "color": "orange" }
+                { "text": "done", "color": "green" }
             ],
             "features":
             [
@@ -41,15 +41,16 @@
             ]
         },
         {
-            "state": "todo",
+            "state": "doing",
             "index": "0.5",
             "tags" : [
+                { "text": "in development", "color": "orange" },
                 { "text": "Patreon", "color": "red" }
             ],
             "features":
             [
-                "More Behaviors",
-                "Patreon & Discord",
+                "Dialogue Behavior",
+                "Unity 6",
                 "Polishing"
             ]
         }

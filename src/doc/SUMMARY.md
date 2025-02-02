@@ -70,6 +70,7 @@
     * [Dev Team](./about/devteam.md)
     * [Dev Roadmap](./about/roadmap.md)
     * [Dev Features](./about/features.md)
+    * [Presentation](./about/presentation.md)
 * [Support us !]()
     * [link_patreon]()
     * [Supporters Hall of Fame](./support/hall_of_fame.md)
