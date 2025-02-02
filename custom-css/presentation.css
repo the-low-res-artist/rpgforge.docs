@@ -1,0 +1,4 @@
+/* larger main frame */
+:root {
+    --content-max-width: 1000px;
+}
