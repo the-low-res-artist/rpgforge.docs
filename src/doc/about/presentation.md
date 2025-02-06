@@ -1,5 +1,3 @@
-# Presentation 
-
 ![slide.png](./../../../media/about/presentation/slides/Diapositive1.PNG)
 
 ![slide.png](./../../../media/about/presentation/slides/Diapositive2.PNG)
