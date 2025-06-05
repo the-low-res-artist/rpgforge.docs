@@ -60,7 +60,7 @@
     * [Quality of life]()
         * [Status Bar](./user_manual/quality_of_life/statusbar.md)
         * [Tool Bar](./user_manual/quality_of_life/toolbar.md)
-        * [Project template]()
+        * [Project template](./user_manual/quality_of_life/project_template.md)
         * [Markers]()
         * [Controllers]()
         * [Unity Editor layouts]()
