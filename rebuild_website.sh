@@ -148,6 +148,14 @@ do
 done
 
 # ---------------------------------------------------------------
+# WHATS NEW MARKDOWN
+input_md=${root_dir}/src/doc/whatsnew.md
+output_md=${root_dir}/book/doc/whatsnew.md
+output_hash=${output_md}.sha256
+cp ${input_md} ${output_md}
+sha256sum ${output_md} > ${output_hash}
+
+# ---------------------------------------------------------------
 # WEBSITE METADATA
 # Now the website is built, we can add metadata files
 # robots.txt
