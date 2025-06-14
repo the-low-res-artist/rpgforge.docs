@@ -149,8 +149,8 @@ done
 
 # ---------------------------------------------------------------
 # WHATS NEW MARKDOWN
-input_md=${root_dir}/src/doc/whatsnew.md
-output_md=${root_dir}/book/doc/whatsnew.md
+input_md=${root_dir}/src/doc/latest_news.md
+output_md=${root_dir}/book/doc/latest_news.md
 output_hash=${output_md}.sha256
 cp ${input_md} ${output_md}
 sha256sum ${output_md} | awk '{print $1}' > ${output_hash}
