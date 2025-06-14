@@ -5,4 +5,4 @@ text
 ## subtitle
 text
 ## subtitle
-![image.png](./../../media/home/card_community.jpg)
+![image.png](https://www.rpgpowerforge.com/media/home/card_community.jpg)
